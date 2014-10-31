@@ -1,0 +1,5 @@
+collection = user||,este es el dato de tipo,este es el dato de sernder,Este es el mensaje,este es el requerimiento,esta es la respuesta
+collection = user||,este es el dato de tipo,este es el dato de sernder,Este es el mensaje,este es el requerimiento,esta es la respuesta
+collection = user||,este es el dato de tipo,este es el dato de sernder,Este es el mensaje,este es el requerimiento,esta es la respuesta
+collection = user||,este es el dato de tipo,este es el dato de sernder,Este es el mensaje,este es el requerimiento,esta es la respuesta
+collection = user||,este es el dato de tipo,este es el dato de sernder,Este es el mensaje,este es el requerimiento,esta es la respuesta
