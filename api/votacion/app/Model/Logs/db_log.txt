@@ -1,0 +1,995 @@
+collection = db||20141117181624,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141117181624,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141117181624,Mensaje,tokens_log,20141117181624,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhISYo4zYHE9IqYEG32zop1U8h1kqkuKkjC/3A1pDYk9HUA==,null,Insertar documento,
+collection = db||20141117181624,Mensaje,tokens_log,,,546a81c836b894082100005b
+collection = db||20141117181624,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141117181624,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141117181624,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141117181624,Mensaje,tokens_log,20141117181624,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhISYo4zYHE9IqYEG32zop1U8h1kqkuKkjC/3A1pDYk9HUA==,True,Insertar documento,
+collection = db||20141117181624,Mensaje,tokens_log,,,546a81c836b894082100005c
+collection = db||20141117181624,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141117181624,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141117181624,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141117181624,Mensaje,task,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item,Insertar documento,
+collection = db||20141117181624,Mensaje,task,,,546a81c836b894082100005d
+collection = db||20141117181624,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141117181625,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141117181625,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141117181625,Mensaje,tokens_log,20141117181625,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhISYo4zYHE9IqYEG32zop1U8h1kqkuKkjC/3A1pDYk9HUA==,null,Insertar documento,
+collection = db||20141117181625,Mensaje,tokens_log,,,546a81c936b894082100005e
+collection = db||20141117181625,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141117181625,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141117181625,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141117181625,Mensaje,tokens_log,20141117181625,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhISYo4zYHE9IqYEG32zop1U8h1kqkuKkjC/3A1pDYk9HUA==,True,Insertar documento,
+collection = db||20141117181625,Mensaje,tokens_log,,,546a81c936b894082100005f
+collection = db||20141117181625,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141117181625,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141117181625,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141117181625,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141117181625,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141117181625,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141117181743,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141117181743,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141117181743,Mensaje,tokens_log,20141117181743,Message,remote sender,Solicitud de token,GetToken850231629,jgil@teleinte.com,null,Insertar documento,
+collection = db||20141117181743,Mensaje,tokens_log,,,546a821736b8940c2800005f
+collection = db||20141117181743,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141117181743,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141117181743,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141117181743,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141117181743,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141117181743,Mensaje,tokens_log,20141117181743,Message,,Token Entregado,Solicitud de token,JLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhITLgCrtPE0mRcoeMmB7f02l0s/qDxGsmkcbnrZ6KG8ecQ==,Insertar documento,
+collection = db||20141117181743,Mensaje,tokens_log,20141117181743,Message,remote sender,Validacion de token,SetToken,null,Insertar documento,
+collection = db||20141117181743,Mensaje,tokens_log,,,546a821736b8940c28000060
+collection = db||20141117181743,Mensaje,tokens_log,,,546a821736b8940821000060
+collection = db||20141117181743,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141117181743,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141117181743,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141117181743,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141117181743,Mensaje,tokens_log,20141117181743,Message,remote sender,Error Validando el token token vencido,SetToken,False,Insertar documento,
+collection = db||20141117181743,Mensaje,tokens_log,,,546a821736b8940821000061
+collection = db||20141117181743,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141117181744,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141117181744,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141117181744,Mensaje,tokens_log,20141117181744,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhITLgCrtPE0mRcoeMmB7f02l0s/qDxGsmkcbnrZ6KG8ecQ==,null,Insertar documento,
+collection = db||20141117181744,Mensaje,tokens_log,,,546a821836b8940c28000061
+collection = db||20141117181744,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141117181744,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141117181744,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141117181744,Mensaje,tokens_log,20141117181744,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhITLgCrtPE0mRcoeMmB7f02l0s/qDxGsmkcbnrZ6KG8ecQ==,True,Insertar documento,
+collection = db||20141117181744,Mensaje,tokens_log,,,546a821836b8940c28000062
+collection = db||20141117181744,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141117181744,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141117181744,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141117181744,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141117181744,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141117181744,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118083744,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118083744,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118083744,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118083744,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118083744,Mensaje,tokens_log,20141118083744,Message,remote sender,Solicitud de token,GetToken850231629,jgil@teleinte.com,null,Insertar documento,
+collection = db||20141118083744,Mensaje,tokens_log,20141118083744,Message,remote sender,Validacion de token,SetToken,null,Insertar documento,
+collection = db||20141118083744,Mensaje,tokens_log,,,546b4ba83ebbbcb421000029
+collection = db||20141118083744,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118083744,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118083744,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118083744,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118083744,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118083744,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118083744,Mensaje,tokens_log,20141118083744,Message,,Token Entregado,Solicitud de token,JLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQ3tC5zKUb67UDzKr6VwszYR5z4OzNDEfsSHFSW1Z1q1A==,Insertar documento,
+collection = db||20141118083744,Mensaje,tokens_log,20141118083744,Message,remote sender,Error Validando el token token vencido,SetToken,False,Insertar documento,
+collection = db||20141118083744,Mensaje,tokens_log,,,546b4ba83ebbbcb42100002a
+collection = db||20141118083744,Mensaje,tokens_log,,,546b4ba83ebbbc942000002a
+collection = db||20141118083744,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118083744,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118083745,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118083745,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118083745,Mensaje,tokens_log,20141118083745,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQ3tC5zKUb67UDzKr6VwszYR5z4OzNDEfsSHFSW1Z1q1A==,null,Insertar documento,
+collection = db||20141118083745,Mensaje,tokens_log,,,546b4ba93ebbbcb42100002b
+collection = db||20141118083745,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118083745,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118083745,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118083745,Mensaje,tokens_log,20141118083745,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQ3tC5zKUb67UDzKr6VwszYR5z4OzNDEfsSHFSW1Z1q1A==,True,Insertar documento,
+collection = db||20141118083745,Mensaje,tokens_log,,,546b4ba93ebbbcb42100002c
+collection = db||20141118083745,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118083745,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118083745,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118083745,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118083745,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118083745,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118083807,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118083807,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118083807,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118083807,Mensaje,tokens_log,20141118083807,Message,remote sender,Validacion de token,SetToken,null,Insertar documento,
+collection = db||20141118083807,Mensaje,tokens_log,,,546b4bbf3ebbbc3419000029
+collection = db||20141118083807,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118083807,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118083807,Mensaje,tokens_log,20141118083807,Message,remote sender,Solicitud de token,GetToken850231629,jgil@teleinte.com,null,Insertar documento,
+collection = db||20141118083807,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118083807,Mensaje,tokens_log,,,546b4bbf3ebbbcfc1e000029
+collection = db||20141118083807,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118083807,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118083807,Mensaje,tokens_log,20141118083807,Message,remote sender,Error Validando el token token vencido,SetToken,False,Insertar documento,
+collection = db||20141118083807,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118083807,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118083807,Mensaje,tokens_log,,,546b4bbf3ebbbc341900002a
+collection = db||20141118083807,Mensaje,tokens_log,20141118083807,Message,,Token Entregado,Solicitud de token,JLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQOra/Azlso0WbErP2uxDTBpZYrHvW/Je4gMVEhK2FwtA==,Insertar documento,
+collection = db||20141118083807,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118083807,Mensaje,tokens_log,,,546b4bbf3ebbbcfc1e00002a
+collection = db||20141118083807,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118083807,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118083807,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118083807,Mensaje,tokens_log,20141118083807,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQOra/Azlso0WbErP2uxDTBpZYrHvW/Je4gMVEhK2FwtA==,null,Insertar documento,
+collection = db||20141118083807,Mensaje,tokens_log,,,546b4bbf3ebbbcb42100002d
+collection = db||20141118083807,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118083807,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118083807,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118083807,Mensaje,tokens_log,20141118083807,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQOra/Azlso0WbErP2uxDTBpZYrHvW/Je4gMVEhK2FwtA==,True,Insertar documento,
+collection = db||20141118083807,Mensaje,tokens_log,,,546b4bbf3ebbbcb42100002e
+collection = db||20141118083807,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118083807,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118083807,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118083807,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118083807,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118083807,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118083917,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118083917,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118083917,Mensaje,tokens_log,20141118083917,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQOra/Azlso0WbErP2uxDTBpZYrHvW/Je4gMVEhK2FwtA==,null,Insertar documento,
+collection = db||20141118083917,Mensaje,tokens_log,,,546b4c053ebbbc942000002b
+collection = db||20141118083917,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118083917,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118083917,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118083917,Mensaje,tokens_log,20141118083917,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQOra/Azlso0WbErP2uxDTBpZYrHvW/Je4gMVEhK2FwtA==,True,Insertar documento,
+collection = db||20141118083917,Mensaje,tokens_log,,,546b4c053ebbbc942000002c
+collection = db||20141118083917,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118083917,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118083917,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118083917,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118083917,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118083917,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084001,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084001,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084001,Mensaje,tokens_log,20141118084001,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQOra/Azlso0WbErP2uxDTBpZYrHvW/Je4gMVEhK2FwtA==,null,Insertar documento,
+collection = db||20141118084001,Mensaje,tokens_log,,,546b4c313ebbbc942000002d
+collection = db||20141118084001,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084001,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084001,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084001,Mensaje,tokens_log,20141118084001,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQOra/Azlso0WbErP2uxDTBpZYrHvW/Je4gMVEhK2FwtA==,True,Insertar documento,
+collection = db||20141118084001,Mensaje,tokens_log,,,546b4c313ebbbc942000002e
+collection = db||20141118084001,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084001,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118084001,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118084001,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118084001,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118084001,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084004,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084004,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084004,Mensaje,tokens_log,20141118084004,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQOra/Azlso0WbErP2uxDTBpZYrHvW/Je4gMVEhK2FwtA==,null,Insertar documento,
+collection = db||20141118084004,Mensaje,tokens_log,,,546b4c343ebbbc942000002f
+collection = db||20141118084004,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084004,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084004,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084004,Mensaje,tokens_log,20141118084004,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQOra/Azlso0WbErP2uxDTBpZYrHvW/Je4gMVEhK2FwtA==,True,Insertar documento,
+collection = db||20141118084004,Mensaje,tokens_log,,,546b4c343ebbbc9420000030
+collection = db||20141118084004,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084004,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118084004,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118084004,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118084004,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118084004,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084011,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084011,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084011,Mensaje,tokens_log,20141118084011,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQOra/Azlso0WbErP2uxDTBpZYrHvW/Je4gMVEhK2FwtA==,null,Insertar documento,
+collection = db||20141118084011,Mensaje,tokens_log,,,546b4c3b3ebbbc9420000031
+collection = db||20141118084011,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084011,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084011,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084011,Mensaje,tokens_log,20141118084011,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQOra/Azlso0WbErP2uxDTBpZYrHvW/Je4gMVEhK2FwtA==,True,Insertar documento,
+collection = db||20141118084011,Mensaje,tokens_log,,,546b4c3b3ebbbc9420000032
+collection = db||20141118084011,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084011,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118084011,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118084011,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118084011,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118084011,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084232,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084232,Mensaje,tokens_log,Cargando Controlador,Consultas,
+B,Con,
+collection = db||20141118084232,Mensaje,tokens_log,20141118084232,Message,remote sender,Solicitud de token,GetToken850231629,jgil@teleinte.com,null,Insertar documento,
+collection = db||20141118084232,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084232,Mensaje,tokens_log,,,546b4cc83ebbbc341900002b
+collection = db||20141118084232,Mensaje,tokens_log,20141118084232,Message,remote sender,Validacion de token,SetToken,null,Insertar documento,
+collection = db||20141118084232,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084232,Mensaje,tokens_log,,,546b4cc83ebbbcfc1e00002b
+collection = db||20141118084232,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084232,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084232,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084232,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084232,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084232,Mensaje,tokens_log,20141118084232,Message,,Token Entregado,Solicitud de token,JLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQoYzLaLKHcs8GzD0tiJ8EdgfXjhjW8jWRY6WCeEHYDzQ==,Insertar documento,
+collection = db||20141118084232,Mensaje,tokens_log,20141118084232,Message,remote sender,Error Validando el token token vencido,SetToken,False,Insertar documento,
+collection = db||20141118084232,Mensaje,tokens_log,,,546b4cc83ebbbc341900002c
+collection = db||20141118084232,Mensaje,tokens_log,,,546b4cc83ebbbcfc1e00002c
+collection = db||20141118084232,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084232,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084232,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084232,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084232,Mensaje,tokens_log,20141118084232,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQoYzLaLKHcs8GzD0tiJ8EdgfXjhjW8jWRY6WCeEHYDzQ==,null,Insertar documento,
+collection = db||20141118084232,Mensaje,tokens_log,,,546b4cc83ebbbc9420000033
+collection = db||20141118084232,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084232,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084232,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084232,Mensaje,tokens_log,20141118084232,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQoYzLaLKHcs8GzD0tiJ8EdgfXjhjW8jWRY6WCeEHYDzQ==,True,Insertar documento,
+collection = db||20141118084232,Mensaje,tokens_log,,,546b4cc83ebbbc9420000034
+collection = db||20141118084232,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084232,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118084232,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118084232,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118084232,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118084232,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084245,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084245,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084245,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084245,Mensaje,tokens_log,20141118084245,Message,remote sender,Validacion de token,SetToken,null,Insertar documento,
+collection = db||20141118084245,Mensaje,tokens_log,20141118084245,Message,remote sender,Solicitud de token,GetToken850231629,jgil@teleinte.com,null,Insertar documento,
+collection = db||20141118084245,Mensaje,tokens_log,,,546b4cd53ebbbcb420000029
+collection = db||20141118084245,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084245,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084245,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084245,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084245,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084245,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084245,Mensaje,tokens_log,20141118084245,Message,remote sender,Error Validando el token token vencido,SetToken,False,Insertar documento,
+collection = db||20141118084245,Mensaje,tokens_log,20141118084245,Message,,Token Entregado,Solicitud de token,JLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIS9IK59EakdQYKKsZuNMmuRU8p4YmzBF8K8tT6cmn/EJA==,Insertar documento,
+collection = db||20141118084245,Mensaje,tokens_log,,,546b4cd53ebbbcc82100002a
+collection = db||20141118084245,Mensaje,tokens_log,,,546b4cd53ebbbcb42000002a
+collection = db||20141118084245,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084245,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084246,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084246,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084246,Mensaje,tokens_log,20141118084246,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIS9IK59EakdQYKKsZuNMmuRU8p4YmzBF8K8tT6cmn/EJA==,null,Insertar documento,
+collection = db||20141118084246,Mensaje,tokens_log,,,546b4cd63ebbbcfc1e00002d
+collection = db||20141118084246,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084246,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084246,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084246,Mensaje,tokens_log,20141118084246,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIS9IK59EakdQYKKsZuNMmuRU8p4YmzBF8K8tT6cmn/EJA==,True,Insertar documento,
+collection = db||20141118084246,Mensaje,tokens_log,,,546b4cd63ebbbcfc1e00002e
+collection = db||20141118084246,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084246,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118084246,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118084246,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118084246,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118084246,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084251,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084251,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084251,Mensaje,tokens_log,20141118084251,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIS9IK59EakdQYKKsZuNMmuRU8p4YmzBF8K8tT6cmn/EJA==,null,Insertar documento,
+collection = db||20141118084251,Mensaje,tokens_log,,,546b4cdb3ebbbcfc1e00002f
+collection = db||20141118084251,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084251,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084251,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084251,Mensaje,tokens_log,20141118084251,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIS9IK59EakdQYKKsZuNMmuRU8p4YmzBF8K8tT6cmn/EJA==,True,Insertar documento,
+collection = db||20141118084251,Mensaje,tokens_log,,,546b4cdb3ebbbcfc1e000030
+collection = db||20141118084251,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084251,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118084251,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118084251,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118084251,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118084251,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084259,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084259,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084259,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084259,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084259,Mensaje,tokens_log,20141118084259,Message,remote sender,Solicitud de token,GetToken850231629,jgil@teleinte.com,null,Insertar documento,
+collection = db||20141118084259,Mensaje,tokens_log,20141118084259,Message,remote sender,Validacion de token,SetToken,null,Insertar documento,
+collection = db||20141118084259,Mensaje,tokens_log,,,546b4ce33ebbbcc82100002b
+collection = db||20141118084259,Mensaje,tokens_log,,,546b4ce33ebbbc9420000035
+collection = db||20141118084259,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084259,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084259,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084259,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084259,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084259,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084259,Mensaje,tokens_log,20141118084259,Message,,Token Entregado,Solicitud de token,JLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhISR473pHIpejjUmdKZomiaCigZVltmVg3q8ekqyezmWhw==,Insertar documento,
+collection = db||20141118084259,Mensaje,tokens_log,20141118084259,Message,remote sender,Error Validando el token token vencido,SetToken,False,Insertar documento,
+collection = db||20141118084259,Mensaje,tokens_log,,,546b4ce33ebbbc9420000036
+collection = db||20141118084259,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084259,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084259,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084259,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084259,Mensaje,tokens_log,20141118084259,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhISR473pHIpejjUmdKZomiaCigZVltmVg3q8ekqyezmWhw==,null,Insertar documento,
+collection = db||20141118084259,Mensaje,tokens_log,,,546b4ce33ebbbcb42100002f
+collection = db||20141118084259,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084259,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084259,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084259,Mensaje,tokens_log,20141118084259,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhISR473pHIpejjUmdKZomiaCigZVltmVg3q8ekqyezmWhw==,True,Insertar documento,
+collection = db||20141118084259,Mensaje,tokens_log,,,546b4ce33ebbbcb421000030
+collection = db||20141118084259,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084259,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118084259,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118084259,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118084259,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118084259,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084345,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084345,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084345,Mensaje,tokens_log,20141118084345,Message,remote sender,Solicitud de token,GetToken850231629,jgil@teleinte.com,null,Insertar documento,
+collection = db||20141118084345,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084345,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084345,Mensaje,tokens_log,,,546b4d113ebbbc341900002d
+collection = db||20141118084345,Mensaje,tokens_log,20141118084345,Message,remote sender,Validacion de token,SetToken,null,Insertar documento,
+collection = db||20141118084345,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084345,Mensaje,tokens_log,,,546b4d113ebbbcfc1e000031
+collection = db||20141118084345,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084345,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084345,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084345,Mensaje,tokens_log,20141118084345,Message,,Token Entregado,Solicitud de token,JLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIS2YUFnNTUEzjNvnm8ifncM5qJzslJNOps9CjIXTPRkKA==,Insertar documento,
+collection = db||20141118084345,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084345,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084345,Mensaje,tokens_log,,,546b4d113ebbbc341900002e
+collection = db||20141118084345,Mensaje,tokens_log,20141118084345,Message,remote sender,Error Validando el token token vencido,SetToken,False,Insertar documento,
+collection = db||20141118084345,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084345,Mensaje,tokens_log,,,546b4d113ebbbcfc1e000032
+collection = db||20141118084345,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084346,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084346,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084346,Mensaje,tokens_log,20141118084346,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIS2YUFnNTUEzjNvnm8ifncM5qJzslJNOps9CjIXTPRkKA==,null,Insertar documento,
+collection = db||20141118084346,Mensaje,tokens_log,,,546b4d123ebbbcb42000002b
+collection = db||20141118084346,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084346,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084346,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084346,Mensaje,tokens_log,20141118084346,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIS2YUFnNTUEzjNvnm8ifncM5qJzslJNOps9CjIXTPRkKA==,True,Insertar documento,
+collection = db||20141118084346,Mensaje,tokens_log,,,546b4d123ebbbcb42000002c
+collection = db||20141118084346,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084346,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118084346,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118084346,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118084346,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118084346,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084718,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084718,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084718,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084718,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084718,Mensaje,tokens_log,20141118084718,Message,remote sender,Validacion de token,SetToken,null,Insertar documento,
+collection = db||20141118084718,Mensaje,tokens_log,20141118084718,Message,remote sender,Solicitud de token,GetToken850231629,jgil@teleinte.com,null,Insertar documento,
+collection = db||20141118084718,Mensaje,tokens_log,,,546b4de63ebbbc341900002f
+collection = db||20141118084718,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084718,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084718,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084718,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084718,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084718,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084718,Mensaje,tokens_log,20141118084718,Message,,Token Entregado,Solicitud de token,JLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhITqgIcicrnWAAUUlP+KCOTSbS6T5Fgu2JtQR4RdQ3dy3A==,Insertar documento,
+collection = db||20141118084718,Mensaje,tokens_log,20141118084718,Message,remote sender,Error Validando el token token vencido,SetToken,False,Insertar documento,
+collection = db||20141118084718,Mensaje,tokens_log,,,546b4de63ebbbc3419000030
+collection = db||20141118084718,Mensaje,tokens_log,,,546b4de63ebbbcb421000032
+collection = db||20141118084718,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084718,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084719,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084719,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084719,Mensaje,tokens_log,20141118084719,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhITqgIcicrnWAAUUlP+KCOTSbS6T5Fgu2JtQR4RdQ3dy3A==,null,Insertar documento,
+collection = db||20141118084719,Mensaje,tokens_log,,,546b4de73ebbbcc82100002d
+collection = db||20141118084719,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084719,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084719,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084719,Mensaje,tokens_log,20141118084719,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhITqgIcicrnWAAUUlP+KCOTSbS6T5Fgu2JtQR4RdQ3dy3A==,True,Insertar documento,
+collection = db||20141118084719,Mensaje,tokens_log,,,546b4de73ebbbcc82100002e
+collection = db||20141118084719,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084719,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118084719,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118084719,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118084719,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118084719,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084733,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084733,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084733,Mensaje,tokens_log,20141118084733,Message,remote sender,Validacion de token,SetToken,null,Insertar documento,
+collection = db||20141118084733,Mensaje,tokens_log,,,546b4df53ebbbcfc1e000033
+collection = db||20141118084733,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084733,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084733,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084733,Mensaje,tokens_log,20141118084733,Message,remote sender,Error Validando el token token vencido,SetToken,False,Insertar documento,
+collection = db||20141118084733,Mensaje,tokens_log,,,546b4df53ebbbcfc1e000034
+collection = db||20141118084733,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084854,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084854,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084854,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084854,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084854,Mensaje,tokens_log,20141118084854,Message,remote sender,Solicitud de token,GetToken850231629,jgil@teleinte.com,null,Insertar documento,
+collection = db||20141118084854,Mensaje,tokens_log,20141118084854,Message,remote sender,Validacion de token,SetToken,null,Insertar documento,
+collection = db||20141118084854,Mensaje,tokens_log,,,546b4e463ebbbcb421000033
+collection = db||20141118084854,Mensaje,tokens_log,,,546b4e463ebbbc3419000031
+collection = db||20141118084854,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084854,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084854,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084854,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084854,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084854,Mensaje,tokens_log,20141118084854,Message,,Token Entregado,Solicitud de token,JLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQkLKKwTOLccQsXg1XSwSt63VNQrL8MUzoxEvmv91zLrQ==,Insertar documento,
+collection = db||20141118084854,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084854,Mensaje,tokens_log,,,546b4e463ebbbcb421000034
+collection = db||20141118084854,Mensaje,tokens_log,20141118084854,Message,remote sender,Error Validando el token token vencido,SetToken,False,Insertar documento,
+collection = db||20141118084854,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084854,Mensaje,tokens_log,,,546b4e463ebbbc3419000032
+collection = db||20141118084854,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084854,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084854,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084854,Mensaje,tokens_log,20141118084854,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQkLKKwTOLccQsXg1XSwSt63VNQrL8MUzoxEvmv91zLrQ==,null,Insertar documento,
+collection = db||20141118084854,Mensaje,tokens_log,,,546b4e463ebbbcfc1e000035
+collection = db||20141118084854,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084854,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118084854,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118084854,Mensaje,tokens_log,20141118084854,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQkLKKwTOLccQsXg1XSwSt63VNQrL8MUzoxEvmv91zLrQ==,True,Insertar documento,
+collection = db||20141118084854,Mensaje,tokens_log,,,546b4e463ebbbcfc1e000036
+collection = db||20141118084854,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118084854,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118084854,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118084854,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118084854,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118084855,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118085456,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118085456,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118085456,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118085456,Mensaje,tokens_log,20141118085456,Message,remote sender,Validacion de token,SetToken,null,Insertar documento,
+collection = db||20141118085456,Mensaje,tokens_log,20141118085456,Message,remote sender,Solicitud de token,GetToken34534ert342,jgil@teleinte,null,Insertar documento,
+collection = db||20141118085456,Mensaje,tokens_log,,,546b4fb03ebbbc3419000033
+collection = db||20141118085456,Mensaje,tokens_log,,,546b4fb03ebbbcc82100002f
+collection = db||20141118085456,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118085456,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118085456,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118085456,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118085456,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118085456,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118085456,Mensaje,tokens_log,20141118085456,Message,remote sender,Error Validando el token token vencido,SetToken,False,Insertar documento,
+collection = db||20141118085456,Mensaje,tokens_log,20141118085456,Message,,Token Entregado,Solicitud de token,quhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,Insertar documento,
+collection = db||20141118085456,Mensaje,tokens_log,,,546b4fb03ebbbcc821000030
+collection = db||20141118085456,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118085456,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118085457,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118085457,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118085457,Mensaje,tokens_log,20141118085457,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,null,Insertar documento,
+collection = db||20141118085457,Mensaje,tokens_log,,,546b4fb13ebbbc9420000037
+collection = db||20141118085457,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118085457,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118085457,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118085457,Mensaje,tokens_log,20141118085457,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,True,Insertar documento,
+collection = db||20141118085457,Mensaje,tokens_log,,,546b4fb13ebbbc9420000038
+collection = db||20141118085457,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118085457,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118085457,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118085457,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118085457,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118085457,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118085605,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118085605,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118085605,Mensaje,tokens_log,20141118085605,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,null,Insertar documento,
+collection = db||20141118085605,Mensaje,tokens_log,,,546b4ff53ebbbc9420000039
+collection = db||20141118085605,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118085605,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118085605,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118085605,Mensaje,tokens_log,20141118085605,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,True,Insertar documento,
+collection = db||20141118085605,Mensaje,tokens_log,,,546b4ff53ebbbc942000003a
+collection = db||20141118085605,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118085605,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118085605,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118085605,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118085605,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118085605,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118085610,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118085610,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118085610,Mensaje,tokens_log,20141118085610,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,null,Insertar documento,
+collection = db||20141118085610,Mensaje,tokens_log,,,546b4ffa3ebbbc942000003b
+collection = db||20141118085610,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118085610,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118085610,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118085610,Mensaje,tokens_log,20141118085610,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,True,Insertar documento,
+collection = db||20141118085610,Mensaje,tokens_log,,,546b4ffa3ebbbc942000003c
+collection = db||20141118085610,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118085610,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118085610,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118085610,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118085610,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118085610,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118085907,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118085907,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118085907,Mensaje,tokens_log,20141118085907,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,null,Insertar documento,
+collection = db||20141118085907,Mensaje,tokens_log,,,546b50ab3ebbbcc821000031
+collection = db||20141118085907,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118085907,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118085907,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118085907,Mensaje,tokens_log,20141118085907,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,True,Insertar documento,
+collection = db||20141118085907,Mensaje,tokens_log,,,546b50ab3ebbbcc821000032
+collection = db||20141118085907,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118085907,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118085907,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118085907,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118085907,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118085907,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118085917,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118085917,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118085917,Mensaje,tokens_log,20141118085917,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,null,Insertar documento,
+collection = db||20141118085917,Mensaje,tokens_log,,,546b50b53ebbbcc821000033
+collection = db||20141118085917,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118085917,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118085917,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118085917,Mensaje,tokens_log,20141118085917,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,True,Insertar documento,
+collection = db||20141118085917,Mensaje,tokens_log,,,546b50b53ebbbcc821000034
+collection = db||20141118085917,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118085917,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118085917,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118085917,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118085917,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118085917,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118090123,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118090123,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118090123,Mensaje,tokens_log,20141118090123,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,null,Insertar documento,
+collection = db||20141118090123,Mensaje,tokens_log,,,546b51333ebbbcb42000002d
+collection = db||20141118090123,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118090123,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118090123,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118090123,Mensaje,tokens_log,20141118090123,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,True,Insertar documento,
+collection = db||20141118090123,Mensaje,tokens_log,,,546b51333ebbbcb42000002e
+collection = db||20141118090123,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118090123,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118090123,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118090123,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118090123,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118090123,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118090128,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118090128,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118090128,Mensaje,tokens_log,20141118090128,Message,remote sender,Validacion de token,SetToken,null,Insertar documento,
+collection = db||20141118090128,Mensaje,tokens_log,,,546b51383ebbbc942000003d
+collection = db||20141118090128,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118090128,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118090128,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118090128,Mensaje,tokens_log,20141118090128,Message,remote sender,Error Validando el token token vencido,SetToken,False,Insertar documento,
+collection = db||20141118090128,Mensaje,tokens_log,,,546b51383ebbbc942000003e
+collection = db||20141118090128,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118090134,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118090134,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118090134,Mensaje,tokens_log,20141118090134,Message,remote sender,Validacion de token,SetToken,null,Insertar documento,
+collection = db||20141118090134,Mensaje,tokens_log,,,546b513e3ebbbcb421000035
+collection = db||20141118090134,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118090134,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118090134,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118090134,Mensaje,tokens_log,20141118090134,Message,remote sender,Error Validando el token token vencido,SetToken,False,Insertar documento,
+collection = db||20141118090134,Mensaje,tokens_log,,,546b513e3ebbbcb421000036
+collection = db||20141118090134,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118090357,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118090357,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118090357,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118090357,Mensaje,tokens_log,20141118090357,Message,remote sender,Solicitud de token,GetToken34534ert342,jgil@teleinte,null,Insertar documento,
+collection = db||20141118090357,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118090357,Mensaje,tokens_log,20141118090357,Message,remote sender,Validacion de token,SetToken,null,Insertar documento,
+collection = db||20141118090357,Mensaje,tokens_log,,,546b51cd3ebbbcb421000037
+collection = db||20141118090357,Mensaje,tokens_log,,,546b51cd3ebbbc942000003f
+collection = db||20141118090357,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118090357,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118090357,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118090357,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118090357,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118090357,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118090357,Mensaje,tokens_log,20141118090357,Message,,Token Entregado,Solicitud de token,quhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDpK4kzXGnoET2Dl8gA1TT92n6PRJShcr3ZUdnoQ495MQ==,Insertar documento,
+collection = db||20141118090357,Mensaje,tokens_log,20141118090357,Message,remote sender,Error Validando el token token vencido,SetToken,False,Insertar documento,
+collection = db||20141118090357,Mensaje,tokens_log,,,546b51cd3ebbbcb421000038
+collection = db||20141118090357,Mensaje,tokens_log,,,546b51cd3ebbbc9420000040
+collection = db||20141118090357,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118090357,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118090358,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118090358,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118090358,Mensaje,tokens_log,20141118090358,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDpK4kzXGnoET2Dl8gA1TT92n6PRJShcr3ZUdnoQ495MQ==,null,Insertar documento,
+collection = db||20141118090358,Mensaje,tokens_log,,,546b51ce3ebbbcb42000002f
+collection = db||20141118090358,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118090358,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118090358,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118090358,Mensaje,tokens_log,20141118090358,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDpK4kzXGnoET2Dl8gA1TT92n6PRJShcr3ZUdnoQ495MQ==,True,Insertar documento,
+collection = db||20141118090358,Mensaje,tokens_log,,,546b51ce3ebbbcb420000030
+collection = db||20141118090358,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118090358,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118090358,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118090358,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118090358,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118090358,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118090408,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118090408,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118090408,Mensaje,tokens_log,20141118090408,Message,remote sender,Solicitud de token,GetTokeniawuefyi,jgil@teleinte,null,Insertar documento,
+collection = db||20141118090408,Mensaje,tokens_log,,,546b51d83ebbbc9420000041
+collection = db||20141118090408,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118090408,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118090408,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118090408,Mensaje,tokens_log,20141118090408,Message,,Token Entregado,Solicitud de token,D+Ssn8ADzI9OEuwWevDYY3Jd9tr7ozQLNS8nXAn/VtojYx3LVfFb+wQcimgiJuk5TAA19O7RYV6+TL84Pt4jmg==,Insertar documento,
+collection = db||20141118090408,Mensaje,tokens_log,,,546b51d83ebbbc9420000042
+collection = db||20141118090408,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118101618,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118101618,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118101618,Mensaje,tokens_log,20141118101618,Message,remote sender,Validacion de token,SetToken,null,Insertar documento,
+collection = db||20141118101618,Mensaje,tokens_log,,,546b62c23ebbbcc821000035
+collection = db||20141118101618,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118101618,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118101618,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118101618,Mensaje,tokens_log,20141118101618,Message,remote sender,Error Validando el token token vencido,SetToken,False,Insertar documento,
+collection = db||20141118101618,Mensaje,tokens_log,,,546b62c23ebbbcc821000036
+collection = db||20141118101618,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118101619,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118101619,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118101619,Mensaje,tokens_log,20141118101619,Message,remote sender,Solicitud de token,GetTokeniawuefyi,jgil@teleinte,null,Insertar documento,
+collection = db||20141118101619,Mensaje,tokens_log,,,546b62c33ebbbcc821000037
+collection = db||20141118101619,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118101619,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118101619,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118101619,Mensaje,tokens_log,20141118101619,Message,,Token Entregado,Solicitud de token,wGwhQYjy+2nfE7to0uy2pyCDTumQvGsdlTsw9F2zMb+yGvADTTr8SZA/N9r/Ii55wcqxTp9IrNSviWZgJCi8ig==,Insertar documento,
+collection = db||20141118101619,Mensaje,tokens_log,,,546b62c33ebbbcc821000038
+collection = db||20141118101619,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118101805,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118101805,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118101805,Mensaje,tokens_log,20141118101805,Message,remote sender,Validacion de token,SetTokenwGwhQYjy+2nfE7to0uy2pyCDTumQvGsdlTsw9F2zMb+yGvADTTr8SZA/N9r/Ii55wcqxTp9IrNSviWZgJCi8ig==,null,Insertar documento,
+collection = db||20141118101805,Mensaje,tokens_log,,,546b632d3ebbbcfc1e000037
+collection = db||20141118101805,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118101805,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118101805,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118101805,Mensaje,tokens_log,20141118101805,Message,remote sender,Token validado con exito,SetTokenwGwhQYjy+2nfE7to0uy2pyCDTumQvGsdlTsw9F2zMb+yGvADTTr8SZA/N9r/Ii55wcqxTp9IrNSviWZgJCi8ig==,True,Insertar documento,
+collection = db||20141118101805,Mensaje,tokens_log,,,546b632d3ebbbcfc1e000038
+collection = db||20141118101805,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118101805,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118101805,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118101805,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118101805,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118101805,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118101825,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118101825,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118101825,Mensaje,tokens_log,20141118101825,Message,remote sender,Validacion de token,SetToken,null,Insertar documento,
+collection = db||20141118101825,Mensaje,tokens_log,,,546b63413ebbbcfc1e000039
+collection = db||20141118101825,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118101825,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118101825,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118101825,Mensaje,tokens_log,20141118101825,Message,remote sender,Error Validando el token token vencido,SetToken,False,Insertar documento,
+collection = db||20141118101825,Mensaje,tokens_log,,,546b63413ebbbcfc1e00003a
+collection = db||20141118101825,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118101825,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118101825,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118101825,Mensaje,tokens_log,20141118101825,Message,remote sender,Solicitud de token,GetTokeniawuefyi,jgil@teleinte,null,Insertar documento,
+collection = db||20141118101825,Mensaje,tokens_log,,,546b63413ebbbcfc1e00003b
+collection = db||20141118101825,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118101825,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118101825,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118101825,Mensaje,tokens_log,20141118101825,Message,,Token Entregado,Solicitud de token,wGwhQYjy+2nfE7to0uy2pyCDTumQvGsdlTsw9F2zMb/xsLHHGhYOJ/8Qe2CpZD6URbzyAN77xA0NEdiVmkmqTQ==,Insertar documento,
+collection = db||20141118101825,Mensaje,tokens_log,,,546b63413ebbbcfc1e00003c
+collection = db||20141118101825,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102245,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102245,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102245,Mensaje,tokens_log,20141118102245,Message,remote sender,Validacion de token,SetTokenwGwhQYjy+2nfE7to0uy2pyCDTumQvGsdlTsw9F2zMb/xsLHHGhYOJ/8Qe2CpZD6URbzyAN77xA0NEdiVmkmqTQ==,null,Insertar documento,
+collection = db||20141118102245,Mensaje,tokens_log,,,546b64453ebbbc9420000043
+collection = db||20141118102245,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102245,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102245,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102245,Mensaje,tokens_log,20141118102245,Message,remote sender,Token validado con exito,SetTokenwGwhQYjy+2nfE7to0uy2pyCDTumQvGsdlTsw9F2zMb/xsLHHGhYOJ/8Qe2CpZD6URbzyAN77xA0NEdiVmkmqTQ==,True,Insertar documento,
+collection = db||20141118102245,Mensaje,tokens_log,,,546b64453ebbbc9420000044
+collection = db||20141118102245,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102245,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118102245,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118102245,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118102245,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118102245,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102304,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102304,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102304,Mensaje,tokens_log,20141118102304,Message,remote sender,Validacion de token,SetTokenwGwhQYjy+2nfE7to0uy2pyCDTumQvGsdlTsw9F2zMb/xsLHHGhYOJ/8Qe2CpZD6URbzyAN77xA0NEdiVmkmqTQ==,null,Insertar documento,
+collection = db||20141118102304,Mensaje,tokens_log,,,546b64583ebbbc9420000045
+collection = db||20141118102304,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102304,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102304,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102304,Mensaje,tokens_log,20141118102304,Message,remote sender,Token validado con exito,SetTokenwGwhQYjy+2nfE7to0uy2pyCDTumQvGsdlTsw9F2zMb/xsLHHGhYOJ/8Qe2CpZD6URbzyAN77xA0NEdiVmkmqTQ==,True,Insertar documento,
+collection = db||20141118102304,Mensaje,tokens_log,,,546b64583ebbbc9420000046
+collection = db||20141118102304,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102304,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118102304,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118102304,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118102304,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118102304,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102308,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102308,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102308,Mensaje,tokens_log,20141118102308,Message,remote sender,Solicitud de token,GetToken85021031629,jgil@teleinte.com,null,Insertar documento,
+collection = db||20141118102308,Mensaje,tokens_log,,,546b645c3ebbbc9420000047
+collection = db||20141118102308,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102308,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102308,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102308,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102308,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102308,Mensaje,tokens_log,20141118102308,Message,,Token Entregado,Solicitud de token,hWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5Dckd9NeRh7Y2DZym6tFCYCAy/FwlMs9bhLSJIPMQDB+Q==,Insertar documento,
+collection = db||20141118102308,Mensaje,tokens_log,20141118102308,Message,remote sender,Validacion de token,SetToken,null,Insertar documento,
+collection = db||20141118102308,Mensaje,tokens_log,,,546b645c3ebbbcb421000039
+collection = db||20141118102308,Mensaje,tokens_log,,,546b645c3ebbbc9420000048
+collection = db||20141118102308,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102308,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102308,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102308,Mensaje,tokens_log,20141118102308,Message,remote sender,Error Validando el token token vencido,SetToken,False,Insertar documento,
+collection = db||20141118102308,Mensaje,tokens_log,,,546b645c3ebbbcb42100003a
+collection = db||20141118102308,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102309,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102309,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102309,Mensaje,tokens_log,20141118102309,Message,remote sender,Validacion de token,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5Dckd9NeRh7Y2DZym6tFCYCAy/FwlMs9bhLSJIPMQDB+Q==,null,Insertar documento,
+collection = db||20141118102309,Mensaje,tokens_log,,,546b645d3ebbbcc821000039
+collection = db||20141118102309,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102309,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102309,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102309,Mensaje,tokens_log,20141118102309,Message,remote sender,Token validado con exito,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5Dckd9NeRh7Y2DZym6tFCYCAy/FwlMs9bhLSJIPMQDB+Q==,True,Insertar documento,
+collection = db||20141118102309,Mensaje,tokens_log,,,546b645d3ebbbcc82100003a
+collection = db||20141118102309,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102309,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118102309,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118102309,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118102309,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118102309,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102314,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102314,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102314,Mensaje,tokens_log,20141118102314,Message,remote sender,Validacion de token,SetToken,null,Insertar documento,
+collection = db||20141118102314,Mensaje,tokens_log,,,546b64623ebbbcc82100003b
+collection = db||20141118102314,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102314,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102314,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102314,Mensaje,tokens_log,20141118102314,Message,remote sender,Error Validando el token token vencido,SetToken,False,Insertar documento,
+collection = db||20141118102314,Mensaje,tokens_log,,,546b64623ebbbcc82100003c
+collection = db||20141118102314,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102314,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102314,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102314,Mensaje,tokens_log,20141118102314,Message,remote sender,Solicitud de token,GetToken85021031629,jgil@teleinte.com,null,Insertar documento,
+collection = db||20141118102314,Mensaje,tokens_log,,,546b64623ebbbcc82100003d
+collection = db||20141118102314,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102314,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102314,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102314,Mensaje,tokens_log,20141118102314,Message,,Token Entregado,Solicitud de token,hWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5DYFyeeZMqabtchO+m2g2V+ljhJnG7bTAy4S5xky2jWoQ==,Insertar documento,
+collection = db||20141118102314,Mensaje,tokens_log,,,546b64623ebbbcc82100003e
+collection = db||20141118102314,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102314,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102314,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102314,Mensaje,tokens_log,20141118102314,Message,remote sender,Validacion de token,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5DYFyeeZMqabtchO+m2g2V+ljhJnG7bTAy4S5xky2jWoQ==,null,Insertar documento,
+collection = db||20141118102314,Mensaje,tokens_log,,,546b64623ebbbcfc1e00003d
+collection = db||20141118102314,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102314,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102314,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102314,Mensaje,tokens_log,20141118102314,Message,remote sender,Token validado con exito,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5DYFyeeZMqabtchO+m2g2V+ljhJnG7bTAy4S5xky2jWoQ==,True,Insertar documento,
+collection = db||20141118102314,Mensaje,tokens_log,,,546b64623ebbbcfc1e00003e
+collection = db||20141118102314,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102314,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118102314,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118102314,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118102314,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,rgaergaergaerg,2014-10-17 18:3:5,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118102314,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102324,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102324,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102324,Mensaje,tokens_log,20141118102324,Message,remote sender,Validacion de token,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5DYFyeeZMqabtchO+m2g2V+ljhJnG7bTAy4S5xky2jWoQ==,null,Insertar documento,
+collection = db||20141118102324,Mensaje,tokens_log,,,546b646c3ebbbcfc1e00003f
+collection = db||20141118102324,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102324,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102324,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102324,Mensaje,tokens_log,20141118102324,Message,remote sender,Token validado con exito,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5DYFyeeZMqabtchO+m2g2V+ljhJnG7bTAy4S5xky2jWoQ==,True,Insertar documento,
+collection = db||20141118102324,Mensaje,tokens_log,,,546b646c3ebbbcfc1e000040
+collection = db||20141118102324,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102324,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118102324,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118102324,Mensaje - UPDATE,task,54666ac93ebbbca02700007e,,
+collection = db||20141118102324,Mensaje - UPDATE,task,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,esfagaergae,2014-10-18 10:23:24,task_item,,Okay
+collection = db||20141118102324,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102325,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102325,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102325,Mensaje,tokens_log,20141118102325,Message,remote sender,Validacion de token,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5DYFyeeZMqabtchO+m2g2V+ljhJnG7bTAy4S5xky2jWoQ==,null,Insertar documento,
+collection = db||20141118102325,Mensaje,tokens_log,,,546b646d3ebbbcfc1e000041
+collection = db||20141118102325,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102325,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102325,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102325,Mensaje,tokens_log,20141118102325,Message,remote sender,Token validado con exito,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5DYFyeeZMqabtchO+m2g2V+ljhJnG7bTAy4S5xky2jWoQ==,True,Insertar documento,
+collection = db||20141118102325,Mensaje,tokens_log,,,546b646d3ebbbcfc1e000042
+collection = db||20141118102325,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102325,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118102325,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118102325,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118102325,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,esfagaergae,2014-10-18 10:23:24,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118102325,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102653,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102653,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102653,Mensaje,tokens_log,20141118102653,Message,remote sender,Validacion de token,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5DYFyeeZMqabtchO+m2g2V+ljhJnG7bTAy4S5xky2jWoQ==,null,Insertar documento,
+collection = db||20141118102653,Mensaje,tokens_log,,,546b653d3ebbbcb42100003b
+collection = db||20141118102653,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102653,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102653,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102653,Mensaje,tokens_log,20141118102653,Message,remote sender,Token validado con exito,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5DYFyeeZMqabtchO+m2g2V+ljhJnG7bTAy4S5xky2jWoQ==,True,Insertar documento,
+collection = db||20141118102653,Mensaje,tokens_log,,,546b653d3ebbbcb42100003c
+collection = db||20141118102653,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102653,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118102653,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118102653,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118102653,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,esfagaergae,2014-10-18 10:23:24,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118102653,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102700,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102700,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102700,Mensaje,tokens_log,20141118102700,Message,remote sender,Validacion de token,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5DYFyeeZMqabtchO+m2g2V+ljhJnG7bTAy4S5xky2jWoQ==,null,Insertar documento,
+collection = db||20141118102700,Mensaje,tokens_log,,,546b65443ebbbcb42100003d
+collection = db||20141118102700,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102700,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102700,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102700,Mensaje,tokens_log,20141118102700,Message,remote sender,Token validado con exito,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5DYFyeeZMqabtchO+m2g2V+ljhJnG7bTAy4S5xky2jWoQ==,True,Insertar documento,
+collection = db||20141118102700,Mensaje,tokens_log,,,546b65443ebbbcb42100003e
+collection = db||20141118102700,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102700,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118102700,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118102700,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118102700,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,esfagaergae,2014-10-18 10:23:24,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118102700,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102707,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102707,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102707,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102707,Mensaje,tokens_log,20141118102707,Message,remote sender,Solicitud de token,GetToken85021031629,jgil@teleinte,null,Insertar documento,
+collection = db||20141118102707,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102707,Mensaje,tokens_log,20141118102707,Message,remote sender,Validacion de token,SetToken,null,Insertar documento,
+collection = db||20141118102707,Mensaje,tokens_log,,,546b654b3ebbbcfc1e000043
+collection = db||20141118102707,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102707,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102707,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102707,Mensaje,tokens_log,20141118102707,Message,remote sender,Error Validando el token token vencido,SetToken,False,Insertar documento,
+collection = db||20141118102707,Mensaje,tokens_log,20141118102707,Message,,Token Entregado,Solicitud de token,Ue+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv2yXRC1iaw6okwYR2VvX/YUEtXbfkhy2m1R6ZAV1rpoTQ==,Insertar documento,
+collection = db||20141118102707,Mensaje,tokens_log,,,546b654b3ebbbcfc1e000044
+collection = db||20141118102707,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102707,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102707,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102707,Mensaje,tokens_log,20141118102707,Message,remote sender,Solicitud de token,GetToken85021031629,jgil@teleinte,null,Insertar documento,
+collection = db||20141118102707,Mensaje,tokens_log,,,546b654b3ebbbc942000004b
+collection = db||20141118102707,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102707,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102707,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102707,Mensaje,tokens_log,20141118102707,Message,,Token Entregado,Solicitud de token,Ue+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv2yXRC1iaw6okwYR2VvX/YUEtXbfkhy2m1R6ZAV1rpoTQ==,Insertar documento,
+collection = db||20141118102707,Mensaje,tokens_log,,,546b654b3ebbbc942000004c
+collection = db||20141118102707,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102707,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102707,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102707,Mensaje,tokens_log,20141118102707,Message,remote sender,Validacion de token,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv2yXRC1iaw6okwYR2VvX/YUEtXbfkhy2m1R6ZAV1rpoTQ==,null,Insertar documento,
+collection = db||20141118102707,Mensaje,tokens_log,,,546b654b3ebbbcb42100003f
+collection = db||20141118102707,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102707,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102707,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102707,Mensaje,tokens_log,20141118102707,Message,remote sender,Token validado con exito,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv2yXRC1iaw6okwYR2VvX/YUEtXbfkhy2m1R6ZAV1rpoTQ==,True,Insertar documento,
+collection = db||20141118102707,Mensaje,tokens_log,,,546b654b3ebbbcb421000040
+collection = db||20141118102707,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102707,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118102707,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118102707,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118102707,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,esfagaergae,2014-10-18 10:23:24,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118102707,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102714,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102714,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102714,Mensaje,tokens_log,20141118102714,Message,remote sender,Validacion de token,SetToken,null,Insertar documento,
+collection = db||20141118102714,Mensaje,tokens_log,,,546b65523ebbbc942000004d
+collection = db||20141118102714,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102714,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102714,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102714,Mensaje,tokens_log,20141118102714,Message,remote sender,Error Validando el token token vencido,SetToken,False,Insertar documento,
+collection = db||20141118102714,Mensaje,tokens_log,,,546b65523ebbbc942000004e
+collection = db||20141118102714,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102717,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102717,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102717,Mensaje,tokens_log,20141118102717,Message,remote sender,Solicitud de token,GetToken85021031629,jgil@teleinte,null,Insertar documento,
+collection = db||20141118102717,Mensaje,tokens_log,,,546b65553ebbbc942000004f
+collection = db||20141118102717,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102717,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102717,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102717,Mensaje,tokens_log,20141118102717,Message,,Token Entregado,Solicitud de token,Ue+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv0vXS6Tsu42jgB3o8JM1J8105hX84AIS8ESKYccLbtVHQ==,Insertar documento,
+collection = db||20141118102717,Mensaje,tokens_log,,,546b65553ebbbc9420000050
+collection = db||20141118102717,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102717,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102717,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102717,Mensaje,tokens_log,20141118102717,Message,remote sender,Validacion de token,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv0vXS6Tsu42jgB3o8JM1J8105hX84AIS8ESKYccLbtVHQ==,null,Insertar documento,
+collection = db||20141118102717,Mensaje,tokens_log,,,546b65553ebbbc3419000035
+collection = db||20141118102717,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102717,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102717,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102717,Mensaje,tokens_log,20141118102717,Message,remote sender,Token validado con exito,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv0vXS6Tsu42jgB3o8JM1J8105hX84AIS8ESKYccLbtVHQ==,True,Insertar documento,
+collection = db||20141118102717,Mensaje,tokens_log,,,546b65553ebbbc3419000036
+collection = db||20141118102717,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102717,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118102717,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118102717,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118102717,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,esfagaergae,2014-10-18 10:23:24,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118102717,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102813,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102813,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102813,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102813,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102813,Mensaje,tokens_log,20141118102813,Message,remote sender,Solicitud de token,GetToken85021031629,jgil@teleinte,null,Insertar documento,
+collection = db||20141118102813,Mensaje,tokens_log,20141118102813,Message,remote sender,Validacion de token,SetToken,null,Insertar documento,
+collection = db||20141118102813,Mensaje,tokens_log,,,546b658d3ebbbcfc1e000045
+collection = db||20141118102813,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102813,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102813,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102813,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102813,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102813,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102813,Mensaje,tokens_log,20141118102813,Message,,Token Entregado,Solicitud de token,Ue+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv0tzZ9r54NLFkkqDPvlm6bPGU0mWkUK+kTON/YssK4EWQ==,Insertar documento,
+collection = db||20141118102813,Mensaje,tokens_log,20141118102813,Message,remote sender,Error Validando el token token vencido,SetToken,False,Insertar documento,
+collection = db||20141118102813,Mensaje,tokens_log,,,546b658d3ebbbcfc1e000046
+collection = db||20141118102813,Mensaje,tokens_log,,,546b658d3ebbbcb421000042
+collection = db||20141118102813,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102813,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102813,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102813,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102813,Mensaje,tokens_log,20141118102813,Message,remote sender,Solicitud de token,GetToken85021031629,jgil@teleinte,null,Insertar documento,
+collection = db||20141118102813,Mensaje,tokens_log,,,546b658d3ebbbcb421000043
+collection = db||20141118102813,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102813,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102813,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102813,Mensaje,tokens_log,20141118102813,Message,,Token Entregado,Solicitud de token,Ue+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv0tzZ9r54NLFkkqDPvlm6bPGU0mWkUK+kTON/YssK4EWQ==,Insertar documento,
+collection = db||20141118102813,Mensaje,tokens_log,,,546b658d3ebbbcb421000044
+collection = db||20141118102813,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102814,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102814,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102814,Mensaje,tokens_log,20141118102814,Message,remote sender,Validacion de token,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv0tzZ9r54NLFkkqDPvlm6bPGU0mWkUK+kTON/YssK4EWQ==,null,Insertar documento,
+collection = db||20141118102814,Mensaje,tokens_log,,,546b658e3ebbbc9420000051
+collection = db||20141118102814,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102814,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102814,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102814,Mensaje,tokens_log,20141118102814,Message,remote sender,Token validado con exito,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv0tzZ9r54NLFkkqDPvlm6bPGU0mWkUK+kTON/YssK4EWQ==,True,Insertar documento,
+collection = db||20141118102814,Mensaje,tokens_log,,,546b658e3ebbbc9420000052
+collection = db||20141118102814,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102814,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118102814,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118102814,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118102814,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,esfagaergae,2014-10-18 10:23:24,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118102814,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102819,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102819,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102819,Mensaje,tokens_log,20141118102819,Message,remote sender,Validacion de token,SetToken,null,Insertar documento,
+collection = db||20141118102819,Mensaje,tokens_log,,,546b65933ebbbc9420000053
+collection = db||20141118102819,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102819,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102819,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102819,Mensaje,tokens_log,20141118102819,Message,remote sender,Error Validando el token token vencido,SetToken,False,Insertar documento,
+collection = db||20141118102819,Mensaje,tokens_log,,,546b65933ebbbc9420000054
+collection = db||20141118102819,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102819,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102819,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102819,Mensaje,tokens_log,20141118102819,Message,remote sender,Solicitud de token,GetToken85021031629,jgil@teleinte,null,Insertar documento,
+collection = db||20141118102819,Mensaje,tokens_log,,,546b65933ebbbc9420000055
+collection = db||20141118102819,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102819,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102819,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102819,Mensaje,tokens_log,20141118102819,Message,,Token Entregado,Solicitud de token,Ue+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv3IlMrx31FlV48u1RHH4VEhXIAQ1dXlPd9cxCZsjRB47w==,Insertar documento,
+collection = db||20141118102819,Mensaje,tokens_log,,,546b65933ebbbc9420000056
+collection = db||20141118102819,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102819,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102819,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102819,Mensaje,tokens_log,20141118102819,Message,remote sender,Validacion de token,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv3IlMrx31FlV48u1RHH4VEhXIAQ1dXlPd9cxCZsjRB47w==,null,Insertar documento,
+collection = db||20141118102819,Mensaje,tokens_log,,,546b65933ebbbcb421000045
+collection = db||20141118102819,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102819,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102819,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102819,Mensaje,tokens_log,20141118102819,Message,remote sender,Token validado con exito,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv3IlMrx31FlV48u1RHH4VEhXIAQ1dXlPd9cxCZsjRB47w==,True,Insertar documento,
+collection = db||20141118102819,Mensaje,tokens_log,,,546b65933ebbbcb421000046
+collection = db||20141118102819,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102819,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118102819,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118102819,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118102819,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,esfagaergae,2014-10-18 10:23:24,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118102819,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102822,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102822,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102822,Mensaje,tokens_log,20141118102822,Message,remote sender,Validacion de token,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv3IlMrx31FlV48u1RHH4VEhXIAQ1dXlPd9cxCZsjRB47w==,null,Insertar documento,
+collection = db||20141118102822,Mensaje,tokens_log,,,546b65963ebbbcb421000047
+collection = db||20141118102822,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102822,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102822,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102822,Mensaje,tokens_log,20141118102822,Message,remote sender,Token validado con exito,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv3IlMrx31FlV48u1RHH4VEhXIAQ1dXlPd9cxCZsjRB47w==,True,Insertar documento,
+collection = db||20141118102822,Mensaje,tokens_log,,,546b65963ebbbcb421000048
+collection = db||20141118102822,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102822,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118102822,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118102822,Mensaje - UPDATE,task,54666ac93ebbbca02700007e,,
+collection = db||20141118102822,Mensaje - UPDATE,task,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,esfagaergae,2014-10-18 10:28:22,task_item,,Okay
+collection = db||20141118102822,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102822,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102822,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102822,Mensaje,tokens_log,20141118102822,Message,remote sender,Validacion de token,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv3IlMrx31FlV48u1RHH4VEhXIAQ1dXlPd9cxCZsjRB47w==,null,Insertar documento,
+collection = db||20141118102822,Mensaje,tokens_log,,,546b65963ebbbcb421000049
+collection = db||20141118102822,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102822,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141118102822,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141118102822,Mensaje,tokens_log,20141118102822,Message,remote sender,Token validado con exito,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv3IlMrx31FlV48u1RHH4VEhXIAQ1dXlPd9cxCZsjRB47w==,True,Insertar documento,
+collection = db||20141118102822,Mensaje,tokens_log,,,546b65963ebbbcb42100004a
+collection = db||20141118102822,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141118102822,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141118102822,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141118102822,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141118102822,Mensaje,task,123412341234,1,,54666ac93ebbbca02700007e,list_item,123412341234,1,jgil@teleinte.com,esfagaergae,esfagaergae,2014-10-18 10:28:22,task_item,54666ad33ebbbca027000083,list_item,123412341234,1,jgil@teleinte.com,gagaegaergaergaerga,ergdfgsdfgsdfgsdfgsdfgd,2014-10-17 18:3:17,task_item,546a81c836b894082100005d,list_item,123412341234,1,username,esta es una nueva tarea ,esta es la nueva tarea terminada,2014-10-17 18:16:24,task_item
+collection = db||20141118102822,Mensaje,task,Cerrando coneccion,Terminando,Terminando

@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+nav#mainmenu .fondoclaro {display: none !important}
+nav ul.menu li {letter-spacing: normal !important;}
+section#homecentral figure {z-index: -1 !important; position:relative!important;}
+nav ul.menu li ul {
+left:55px;
+z-index: 100!important;
+position:absolute;
+}
+

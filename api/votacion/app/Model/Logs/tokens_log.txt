@@ -1,0 +1,164 @@
+collection = tokens||20141117181624,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhISYo4zYHE9IqYEG32zop1U8h1kqkuKkjC/3A1pDYk9HUA==,null
+collection = tokens||20141117181624,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhISYo4zYHE9IqYEG32zop1U8h1kqkuKkjC/3A1pDYk9HUA==,True
+collection = tokens||20141117181625,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhISYo4zYHE9IqYEG32zop1U8h1kqkuKkjC/3A1pDYk9HUA==,null
+collection = tokens||20141117181625,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhISYo4zYHE9IqYEG32zop1U8h1kqkuKkjC/3A1pDYk9HUA==,True
+collection = tokens||20141117181743,Message,remote sender,Solicitud de token,GetToken850231629,jgil@teleinte.com,null
+collection = tokens||20141117181743,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141117181743,Message,,Token Entregado,Solicitud de token,JLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhITLgCrtPE0mRcoeMmB7f02l0s/qDxGsmkcbnrZ6KG8ecQ==
+collection = tokens||20141117181743,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141117181744,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhITLgCrtPE0mRcoeMmB7f02l0s/qDxGsmkcbnrZ6KG8ecQ==,null
+collection = tokens||20141117181744,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhITLgCrtPE0mRcoeMmB7f02l0s/qDxGsmkcbnrZ6KG8ecQ==,True
+collection = tokens||20141118083744,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141118083744,Message,remote sender,Solicitud de token,GetToken850231629,jgil@teleinte.com,null
+collection = tokens||20141118083744,Message,,Token Entregado,Solicitud de token,JLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQ3tC5zKUb67UDzKr6VwszYR5z4OzNDEfsSHFSW1Z1q1A==
+collection = tokens||20141118083744,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141118083745,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQ3tC5zKUb67UDzKr6VwszYR5z4OzNDEfsSHFSW1Z1q1A==,null
+collection = tokens||20141118083745,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQ3tC5zKUb67UDzKr6VwszYR5z4OzNDEfsSHFSW1Z1q1A==,True
+collection = tokens||20141118083807,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141118083807,Message,remote sender,Solicitud de token,GetToken850231629,jgil@teleinte.com,null
+collection = tokens||20141118083807,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141118083807,Message,,Token Entregado,Solicitud de token,JLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQOra/Azlso0WbErP2uxDTBpZYrHvW/Je4gMVEhK2FwtA==
+collection = tokens||20141118083807,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQOra/Azlso0WbErP2uxDTBpZYrHvW/Je4gMVEhK2FwtA==,null
+collection = tokens||20141118083807,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQOra/Azlso0WbErP2uxDTBpZYrHvW/Je4gMVEhK2FwtA==,True
+collection = tokens||20141118083917,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQOra/Azlso0WbErP2uxDTBpZYrHvW/Je4gMVEhK2FwtA==,null
+collection = tokens||20141118083917,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQOra/Azlso0WbErP2uxDTBpZYrHvW/Je4gMVEhK2FwtA==,True
+collection = tokens||20141118084001,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQOra/Azlso0WbErP2uxDTBpZYrHvW/Je4gMVEhK2FwtA==,null
+collection = tokens||20141118084001,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQOra/Azlso0WbErP2uxDTBpZYrHvW/Je4gMVEhK2FwtA==,True
+collection = tokens||20141118084004,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQOra/Azlso0WbErP2uxDTBpZYrHvW/Je4gMVEhK2FwtA==,null
+collection = tokens||20141118084004,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQOra/Azlso0WbErP2uxDTBpZYrHvW/Je4gMVEhK2FwtA==,True
+collection = tokens||20141118084011,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQOra/Azlso0WbErP2uxDTBpZYrHvW/Je4gMVEhK2FwtA==,null
+collection = tokens||20141118084011,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQOra/Azlso0WbErP2uxDTBpZYrHvW/Je4gMVEhK2FwtA==,True
+collection = tokens||20141118084232,Message,remote sender,Solicitud de token,GetToken850231629,jgil@teleinte.com,null
+collection = tokens||20141118084232,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141118084232,Message,,Token Entregado,Solicitud de token,JLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQoYzLaLKHcs8GzD0tiJ8EdgfXjhjW8jWRY6WCeEHYDzQ==
+collection = tokens||20141118084232,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141118084232,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQoYzLaLKHcs8GzD0tiJ8EdgfXjhjW8jWRY6WCeEHYDzQ==,null
+collection = tokens||20141118084232,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQoYzLaLKHcs8GzD0tiJ8EdgfXjhjW8jWRY6WCeEHYDzQ==,True
+collection = tokens||20141118084245,Message,remote sender,Solicitud de token,GetToken850231629,jgil@teleinte.com,null
+collection = tokens||20141118084245,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141118084245,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141118084245,Message,,Token Entregado,Solicitud de token,JLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIS9IK59EakdQYKKsZuNMmuRU8p4YmzBF8K8tT6cmn/EJA==
+collection = tokens||20141118084246,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIS9IK59EakdQYKKsZuNMmuRU8p4YmzBF8K8tT6cmn/EJA==,null
+collection = tokens||20141118084246,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIS9IK59EakdQYKKsZuNMmuRU8p4YmzBF8K8tT6cmn/EJA==,True
+collection = tokens||20141118084251,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIS9IK59EakdQYKKsZuNMmuRU8p4YmzBF8K8tT6cmn/EJA==,null
+collection = tokens||20141118084251,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIS9IK59EakdQYKKsZuNMmuRU8p4YmzBF8K8tT6cmn/EJA==,True
+collection = tokens||20141118084259,Message,remote sender,Solicitud de token,GetToken850231629,jgil@teleinte.com,null
+collection = tokens||20141118084259,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141118084259,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141118084259,Message,,Token Entregado,Solicitud de token,JLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhISR473pHIpejjUmdKZomiaCigZVltmVg3q8ekqyezmWhw==
+collection = tokens||20141118084259,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhISR473pHIpejjUmdKZomiaCigZVltmVg3q8ekqyezmWhw==,null
+collection = tokens||20141118084259,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhISR473pHIpejjUmdKZomiaCigZVltmVg3q8ekqyezmWhw==,True
+collection = tokens||20141118084345,Message,remote sender,Solicitud de token,GetToken850231629,jgil@teleinte.com,null
+collection = tokens||20141118084345,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141118084345,Message,,Token Entregado,Solicitud de token,JLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIS2YUFnNTUEzjNvnm8ifncM5qJzslJNOps9CjIXTPRkKA==
+collection = tokens||20141118084345,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141118084346,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIS2YUFnNTUEzjNvnm8ifncM5qJzslJNOps9CjIXTPRkKA==,null
+collection = tokens||20141118084346,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIS2YUFnNTUEzjNvnm8ifncM5qJzslJNOps9CjIXTPRkKA==,True
+collection = tokens||20141118084718,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141118084718,Message,remote sender,Solicitud de token,GetToken850231629,jgil@teleinte.com,null
+collection = tokens||20141118084718,Message,,Token Entregado,Solicitud de token,JLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhITqgIcicrnWAAUUlP+KCOTSbS6T5Fgu2JtQR4RdQ3dy3A==
+collection = tokens||20141118084718,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141118084719,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhITqgIcicrnWAAUUlP+KCOTSbS6T5Fgu2JtQR4RdQ3dy3A==,null
+collection = tokens||20141118084719,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhITqgIcicrnWAAUUlP+KCOTSbS6T5Fgu2JtQR4RdQ3dy3A==,True
+collection = tokens||20141118084733,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141118084733,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141118084854,Message,remote sender,Solicitud de token,GetToken850231629,jgil@teleinte.com,null
+collection = tokens||20141118084854,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141118084854,Message,,Token Entregado,Solicitud de token,JLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQkLKKwTOLccQsXg1XSwSt63VNQrL8MUzoxEvmv91zLrQ==
+collection = tokens||20141118084854,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141118084854,Message,remote sender,Validacion de token,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQkLKKwTOLccQsXg1XSwSt63VNQrL8MUzoxEvmv91zLrQ==,null
+collection = tokens||20141118084854,Message,remote sender,Token validado con exito,SetTokenJLpTawhMwirPNlTOual1TIzWCzs38vocpTatQg5MhIQkLKKwTOLccQsXg1XSwSt63VNQrL8MUzoxEvmv91zLrQ==,True
+collection = tokens||20141118085456,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141118085456,Message,remote sender,Solicitud de token,GetToken34534ert342,jgil@teleinte,null
+collection = tokens||20141118085456,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141118085456,Message,,Token Entregado,Solicitud de token,quhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==
+collection = tokens||20141118085457,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,null
+collection = tokens||20141118085457,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,True
+collection = tokens||20141118085605,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,null
+collection = tokens||20141118085605,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,True
+collection = tokens||20141118085610,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,null
+collection = tokens||20141118085610,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,True
+collection = tokens||20141118085907,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,null
+collection = tokens||20141118085907,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,True
+collection = tokens||20141118085917,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,null
+collection = tokens||20141118085917,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,True
+collection = tokens||20141118090123,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,null
+collection = tokens||20141118090123,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCJ02f6YslaxMWn5ZphD3yqdiL2gpixoQ0QAAPFsVEf9Q==,True
+collection = tokens||20141118090128,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141118090128,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141118090134,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141118090134,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141118090357,Message,remote sender,Solicitud de token,GetToken34534ert342,jgil@teleinte,null
+collection = tokens||20141118090357,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141118090357,Message,,Token Entregado,Solicitud de token,quhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDpK4kzXGnoET2Dl8gA1TT92n6PRJShcr3ZUdnoQ495MQ==
+collection = tokens||20141118090357,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141118090358,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDpK4kzXGnoET2Dl8gA1TT92n6PRJShcr3ZUdnoQ495MQ==,null
+collection = tokens||20141118090358,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDpK4kzXGnoET2Dl8gA1TT92n6PRJShcr3ZUdnoQ495MQ==,True
+collection = tokens||20141118090408,Message,remote sender,Solicitud de token,GetTokeniawuefyi,jgil@teleinte,null
+collection = tokens||20141118090408,Message,,Token Entregado,Solicitud de token,D+Ssn8ADzI9OEuwWevDYY3Jd9tr7ozQLNS8nXAn/VtojYx3LVfFb+wQcimgiJuk5TAA19O7RYV6+TL84Pt4jmg==
+collection = tokens||20141118101618,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141118101618,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141118101619,Message,remote sender,Solicitud de token,GetTokeniawuefyi,jgil@teleinte,null
+collection = tokens||20141118101619,Message,,Token Entregado,Solicitud de token,wGwhQYjy+2nfE7to0uy2pyCDTumQvGsdlTsw9F2zMb+yGvADTTr8SZA/N9r/Ii55wcqxTp9IrNSviWZgJCi8ig==
+collection = tokens||20141118101805,Message,remote sender,Validacion de token,SetTokenwGwhQYjy+2nfE7to0uy2pyCDTumQvGsdlTsw9F2zMb+yGvADTTr8SZA/N9r/Ii55wcqxTp9IrNSviWZgJCi8ig==,null
+collection = tokens||20141118101805,Message,remote sender,Token validado con exito,SetTokenwGwhQYjy+2nfE7to0uy2pyCDTumQvGsdlTsw9F2zMb+yGvADTTr8SZA/N9r/Ii55wcqxTp9IrNSviWZgJCi8ig==,True
+collection = tokens||20141118101825,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141118101825,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141118101825,Message,remote sender,Solicitud de token,GetTokeniawuefyi,jgil@teleinte,null
+collection = tokens||20141118101825,Message,,Token Entregado,Solicitud de token,wGwhQYjy+2nfE7to0uy2pyCDTumQvGsdlTsw9F2zMb/xsLHHGhYOJ/8Qe2CpZD6URbzyAN77xA0NEdiVmkmqTQ==
+collection = tokens||20141118102245,Message,remote sender,Validacion de token,SetTokenwGwhQYjy+2nfE7to0uy2pyCDTumQvGsdlTsw9F2zMb/xsLHHGhYOJ/8Qe2CpZD6URbzyAN77xA0NEdiVmkmqTQ==,null
+collection = tokens||20141118102245,Message,remote sender,Token validado con exito,SetTokenwGwhQYjy+2nfE7to0uy2pyCDTumQvGsdlTsw9F2zMb/xsLHHGhYOJ/8Qe2CpZD6URbzyAN77xA0NEdiVmkmqTQ==,True
+collection = tokens||20141118102304,Message,remote sender,Validacion de token,SetTokenwGwhQYjy+2nfE7to0uy2pyCDTumQvGsdlTsw9F2zMb/xsLHHGhYOJ/8Qe2CpZD6URbzyAN77xA0NEdiVmkmqTQ==,null
+collection = tokens||20141118102304,Message,remote sender,Token validado con exito,SetTokenwGwhQYjy+2nfE7to0uy2pyCDTumQvGsdlTsw9F2zMb/xsLHHGhYOJ/8Qe2CpZD6URbzyAN77xA0NEdiVmkmqTQ==,True
+collection = tokens||20141118102308,Message,remote sender,Solicitud de token,GetToken85021031629,jgil@teleinte.com,null
+collection = tokens||20141118102308,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141118102308,Message,,Token Entregado,Solicitud de token,hWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5Dckd9NeRh7Y2DZym6tFCYCAy/FwlMs9bhLSJIPMQDB+Q==
+collection = tokens||20141118102308,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141118102309,Message,remote sender,Validacion de token,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5Dckd9NeRh7Y2DZym6tFCYCAy/FwlMs9bhLSJIPMQDB+Q==,null
+collection = tokens||20141118102309,Message,remote sender,Token validado con exito,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5Dckd9NeRh7Y2DZym6tFCYCAy/FwlMs9bhLSJIPMQDB+Q==,True
+collection = tokens||20141118102314,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141118102314,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141118102314,Message,remote sender,Solicitud de token,GetToken85021031629,jgil@teleinte.com,null
+collection = tokens||20141118102314,Message,,Token Entregado,Solicitud de token,hWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5DYFyeeZMqabtchO+m2g2V+ljhJnG7bTAy4S5xky2jWoQ==
+collection = tokens||20141118102314,Message,remote sender,Validacion de token,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5DYFyeeZMqabtchO+m2g2V+ljhJnG7bTAy4S5xky2jWoQ==,null
+collection = tokens||20141118102314,Message,remote sender,Token validado con exito,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5DYFyeeZMqabtchO+m2g2V+ljhJnG7bTAy4S5xky2jWoQ==,True
+collection = tokens||20141118102324,Message,remote sender,Validacion de token,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5DYFyeeZMqabtchO+m2g2V+ljhJnG7bTAy4S5xky2jWoQ==,null
+collection = tokens||20141118102324,Message,remote sender,Token validado con exito,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5DYFyeeZMqabtchO+m2g2V+ljhJnG7bTAy4S5xky2jWoQ==,True
+collection = tokens||20141118102325,Message,remote sender,Validacion de token,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5DYFyeeZMqabtchO+m2g2V+ljhJnG7bTAy4S5xky2jWoQ==,null
+collection = tokens||20141118102325,Message,remote sender,Token validado con exito,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5DYFyeeZMqabtchO+m2g2V+ljhJnG7bTAy4S5xky2jWoQ==,True
+collection = tokens||20141118102653,Message,remote sender,Validacion de token,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5DYFyeeZMqabtchO+m2g2V+ljhJnG7bTAy4S5xky2jWoQ==,null
+collection = tokens||20141118102653,Message,remote sender,Token validado con exito,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5DYFyeeZMqabtchO+m2g2V+ljhJnG7bTAy4S5xky2jWoQ==,True
+collection = tokens||20141118102700,Message,remote sender,Validacion de token,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5DYFyeeZMqabtchO+m2g2V+ljhJnG7bTAy4S5xky2jWoQ==,null
+collection = tokens||20141118102700,Message,remote sender,Token validado con exito,SetTokenhWu75tcl3OzlSHEpXSanXTRSZwAcBwFTDiVjX1rOj5DYFyeeZMqabtchO+m2g2V+ljhJnG7bTAy4S5xky2jWoQ==,True
+collection = tokens||20141118102707,Message,remote sender,Solicitud de token,GetToken85021031629,jgil@teleinte,null
+collection = tokens||20141118102707,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141118102707,Message,remote sender,Error Validando el token token vencido,SetToken,False
+Ax7MdCcBv2yXRC1iaw6okwYR2VvX/YUEtXbfkhy2m1R6ZAV1rpoTQ==
+collection = tokens||20141118102707,Message,remote sender,Solicitud de token,GetToken85021031629,jgil@teleinte,null
+collection = tokens||20141118102707,Message,,Token Entregado,Solicitud de token,Ue+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv2yXRC1iaw6okwYR2VvX/YUEtXbfkhy2m1R6ZAV1rpoTQ==
+collection = tokens||20141118102707,Message,remote sender,Validacion de token,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv2yXRC1iaw6okwYR2VvX/YUEtXbfkhy2m1R6ZAV1rpoTQ==,null
+collection = tokens||20141118102707,Message,remote sender,Token validado con exito,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv2yXRC1iaw6okwYR2VvX/YUEtXbfkhy2m1R6ZAV1rpoTQ==,True
+collection = tokens||20141118102714,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141118102714,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141118102717,Message,remote sender,Solicitud de token,GetToken85021031629,jgil@teleinte,null
+collection = tokens||20141118102717,Message,,Token Entregado,Solicitud de token,Ue+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv0vXS6Tsu42jgB3o8JM1J8105hX84AIS8ESKYccLbtVHQ==
+collection = tokens||20141118102717,Message,remote sender,Validacion de token,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv0vXS6Tsu42jgB3o8JM1J8105hX84AIS8ESKYccLbtVHQ==,null
+collection = tokens||20141118102717,Message,remote sender,Token validado con exito,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv0vXS6Tsu42jgB3o8JM1J8105hX84AIS8ESKYccLbtVHQ==,True
+collection = tokens||20141118102813,Message,remote sender,Solicitud de token,GetToken85021031629,jgil@teleinte,null
+collection = tokens||20141118102813,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141118102813,Message,,Token Entregado,Solicitud de token,Ue+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv0tzZ9r54NLFkkqDPvlm6bPGU0mWkUK+kTON/YssK4EWQ==
+collection = tokens||20141118102813,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141118102813,Message,remote sender,Solicitud de token,GetToken85021031629,jgil@teleinte,null
+collection = tokens||20141118102813,Message,,Token Entregado,Solicitud de token,Ue+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv0tzZ9r54NLFkkqDPvlm6bPGU0mWkUK+kTON/YssK4EWQ==
+collection = tokens||20141118102814,Message,remote sender,Validacion de token,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv0tzZ9r54NLFkkqDPvlm6bPGU0mWkUK+kTON/YssK4EWQ==,null
+collection = tokens||20141118102814,Message,remote sender,Token validado con exito,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv0tzZ9r54NLFkkqDPvlm6bPGU0mWkUK+kTON/YssK4EWQ==,True
+collection = tokens||20141118102819,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141118102819,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141118102819,Message,remote sender,Solicitud de token,GetToken85021031629,jgil@teleinte,null
+collection = tokens||20141118102819,Message,,Token Entregado,Solicitud de token,Ue+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv3IlMrx31FlV48u1RHH4VEhXIAQ1dXlPd9cxCZsjRB47w==
+collection = tokens||20141118102819,Message,remote sender,Validacion de token,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv3IlMrx31FlV48u1RHH4VEhXIAQ1dXlPd9cxCZsjRB47w==,null
+collection = tokens||20141118102819,Message,remote sender,Token validado con exito,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv3IlMrx31FlV48u1RHH4VEhXIAQ1dXlPd9cxCZsjRB47w==,True
+collection = tokens||20141118102822,Message,remote sender,Validacion de token,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv3IlMrx31FlV48u1RHH4VEhXIAQ1dXlPd9cxCZsjRB47w==,null
+collection = tokens||20141118102822,Message,remote sender,Token validado con exito,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv3IlMrx31FlV48u1RHH4VEhXIAQ1dXlPd9cxCZsjRB47w==,True
+collection = tokens||20141118102822,Message,remote sender,Validacion de token,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv3IlMrx31FlV48u1RHH4VEhXIAQ1dXlPd9cxCZsjRB47w==,null
+collection = tokens||20141118102822,Message,remote sender,Token validado con exito,SetTokenUe+HjZKmiKo94qEW9WptVQVwinyWRpLphAx7MdCcBv3IlMrx31FlV48u1RHH4VEhXIAQ1dXlPd9cxCZsjRB47w==,True

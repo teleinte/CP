@@ -1,0 +1,240 @@
+collection = tokens||20141120144943,Message,remote sender,Solicitud de token,GetToken987654,jgil@teleinte.com,null
+collection = tokens||20141120144943,Message,,Token Entregado,Solicitud de token,s8k9aDihO40MCjtz54aK0erE7cl2SgKJmiwLOKmoPeA+/aK8yU4PaQuTOU9yIKF7bydPHAnSoyAiKNmlm+tgVg==
+collection = tokens||20141120145012,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120145012,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120145249,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120145249,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120145407,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120145407,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120145420,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120145420,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120145807,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120145807,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120150136,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120150136,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120151259,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120151259,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120151346,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120151346,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120152544,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120152545,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120152547,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120152547,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120152628,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120152628,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120153537,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120153537,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120153630,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120153630,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120154000,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120154000,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120154009,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120154009,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120154521,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120154521,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120154615,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120154615,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120154639,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120154639,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120154641,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120154641,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120154645,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120154645,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120154837,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120154837,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120154852,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120154852,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120154855,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120154855,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120154902,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120154902,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120154906,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120154906,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120154908,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120154908,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120155348,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120155348,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120155621,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120155621,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120155644,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120155644,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120155647,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120155647,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120155716,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120155716,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120160052,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120160052,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120160058,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120160058,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120160102,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120160102,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120160107,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120160107,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120160155,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120160155,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120160201,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120160201,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120160209,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120160209,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120160214,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120160214,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120160218,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120160218,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120160235,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120160235,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120160240,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120160240,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120160308,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120160308,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120160824,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120160824,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120161221,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120161221,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120161352,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120161352,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120161354,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120161354,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120161356,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120161356,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120161402,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120161402,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120161408,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120161408,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120161410,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120161410,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120161423,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120161423,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120161426,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120161426,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120161429,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120161429,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120161510,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120161510,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120161513,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120161513,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120161515,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141120161515,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141120172720,Message,remote sender,Solicitud de token,GetToken34534ert342,jgil@teleinte,null
+collection = tokens||20141120172720,Message,,Token Entregado,Solicitud de token,quhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oC8AkNj1h9oy6QukMk6Lr02Ky0MulO9NUOidtqT4aMWmA==
+collection = tokens||20141120172720,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141120172720,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141120172721,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oC8AkNj1h9oy6QukMk6Lr02Ky0MulO9NUOidtqT4aMWmA==,null
+collection = tokens||20141120172721,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oC8AkNj1h9oy6QukMk6Lr02Ky0MulO9NUOidtqT4aMWmA==,True
+collection = tokens||20141120172726,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oC8AkNj1h9oy6QukMk6Lr02Ky0MulO9NUOidtqT4aMWmA==,null
+collection = tokens||20141120172726,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oC8AkNj1h9oy6QukMk6Lr02Ky0MulO9NUOidtqT4aMWmA==,True
+collection = tokens||20141120172728,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oC8AkNj1h9oy6QukMk6Lr02Ky0MulO9NUOidtqT4aMWmA==,null
+collection = tokens||20141120172728,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oC8AkNj1h9oy6QukMk6Lr02Ky0MulO9NUOidtqT4aMWmA==,True
+collection = tokens||20141120172729,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oC8AkNj1h9oy6QukMk6Lr02Ky0MulO9NUOidtqT4aMWmA==,null
+collection = tokens||20141120172729,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oC8AkNj1h9oy6QukMk6Lr02Ky0MulO9NUOidtqT4aMWmA==,True
+collection = tokens||20141120172733,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oC8AkNj1h9oy6QukMk6Lr02Ky0MulO9NUOidtqT4aMWmA==,null
+collection = tokens||20141120172733,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oC8AkNj1h9oy6QukMk6Lr02Ky0MulO9NUOidtqT4aMWmA==,True
+collection = tokens||20141120172733,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oC8AkNj1h9oy6QukMk6Lr02Ky0MulO9NUOidtqT4aMWmA==,null
+collection = tokens||20141120172733,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oC8AkNj1h9oy6QukMk6Lr02Ky0MulO9NUOidtqT4aMWmA==,True
+collection = tokens||20141120172739,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oC8AkNj1h9oy6QukMk6Lr02Ky0MulO9NUOidtqT4aMWmA==,null
+collection = tokens||20141120172739,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oC8AkNj1h9oy6QukMk6Lr02Ky0MulO9NUOidtqT4aMWmA==,True
+collection = tokens||20141121082926,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121082926,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121084143,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121084143,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121084514,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121084514,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121084516,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121084516,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121084542,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121084542,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121084901,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121084901,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121084938,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121084938,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121084941,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121084941,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121084950,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121084950,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121085302,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121085302,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121085308,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121085308,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121085310,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121085310,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121085317,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121085317,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121085320,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121085320,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121085322,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121085322,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121115500,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121115500,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121135044,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121135044,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121135108,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121135108,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121135110,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121135110,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121135149,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121135149,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121135151,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121135151,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121135216,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121135216,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121135218,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121135218,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121135252,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121135252,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121135254,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121135254,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121135314,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121135314,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121135316,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,null
+collection = tokens||20141121135316,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oCVf7wtvq6/O+XdWhFQqNqbcWuBzVKBnvguohCtcw1YPw==,True
+collection = tokens||20141121142531,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oC8AkNj1h9oy6QukMk6Lr02Ky0MulO9NUOidtqT4aMWmA==,null
+collection = tokens||20141121142531,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oC8AkNj1h9oy6QukMk6Lr02Ky0MulO9NUOidtqT4aMWmA==,True
+collection = tokens||20141121142848,Message,remote sender,Validacion de token,SetTokenRS6870OfAODUpZKlUdob5T0gtf8PVZt8l8mCJ52EtspwN1/+b3H9qcwh8UACbZFIQUhOp9xdma528xzno3wk1w==,null
+collection = tokens||20141121142848,Message,remote sender,Token validado con exito,SetTokenRS6870OfAODUpZKlUdob5T0gtf8PVZt8l8mCJ52EtspwN1/+b3H9qcwh8UACbZFIQUhOp9xdma528xzno3wk1w==,True
+collection = tokens||20141121142858,Message,remote sender,Validacion de token,SetTokenRS6870OfAODUpZKlUdob5T0gtf8PVZt8l8mCJ52EtspwN1/+b3H9qcwh8UACbZFIQUhOp9xdma528xzno3wk1w==,null
+collection = tokens||20141121142858,Message,remote sender,Token validado con exito,SetTokenRS6870OfAODUpZKlUdob5T0gtf8PVZt8l8mCJ52EtspwN1/+b3H9qcwh8UACbZFIQUhOp9xdma528xzno3wk1w==,True
+collection = tokens||20141121143003,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDFuFSFnpJC5L39H2vr7QfjHsTJun6QdbAdJx7OfgHfxA==,null
+collection = tokens||20141121143003,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDFuFSFnpJC5L39H2vr7QfjHsTJun6QdbAdJx7OfgHfxA==,True
+collection = tokens||20141121143012,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDFuFSFnpJC5L39H2vr7QfjHsTJun6QdbAdJx7OfgHfxA==,null
+collection = tokens||20141121143012,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDFuFSFnpJC5L39H2vr7QfjHsTJun6QdbAdJx7OfgHfxA==,True
+collection = tokens||20141121143012,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDFuFSFnpJC5L39H2vr7QfjHsTJun6QdbAdJx7OfgHfxA==,null
+collection = tokens||20141121143012,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDFuFSFnpJC5L39H2vr7QfjHsTJun6QdbAdJx7OfgHfxA==,True
+collection = tokens||20141121143016,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDFuFSFnpJC5L39H2vr7QfjHsTJun6QdbAdJx7OfgHfxA==,null
+collection = tokens||20141121143016,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDFuFSFnpJC5L39H2vr7QfjHsTJun6QdbAdJx7OfgHfxA==,True
+collection = tokens||20141121143019,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDFuFSFnpJC5L39H2vr7QfjHsTJun6QdbAdJx7OfgHfxA==,null
+collection = tokens||20141121143019,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDFuFSFnpJC5L39H2vr7QfjHsTJun6QdbAdJx7OfgHfxA==,True
+collection = tokens||20141121143051,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDFuFSFnpJC5L39H2vr7QfjHsTJun6QdbAdJx7OfgHfxA==,null
+collection = tokens||20141121143051,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDFuFSFnpJC5L39H2vr7QfjHsTJun6QdbAdJx7OfgHfxA==,True
+collection = tokens||20141121143313,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oAam6KmPsgqfWaaL7zpma+vEUp1BqowRcA1AlToQf+Zjg==,null
+collection = tokens||20141121143313,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oAam6KmPsgqfWaaL7zpma+vEUp1BqowRcA1AlToQf+Zjg==,True
+collection = tokens||20141121143315,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oBK/S13Ff2ppX6uPXaEou7wrzndIghiWamvm0btuZGx1g==,null
+collection = tokens||20141121143315,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oBK/S13Ff2ppX6uPXaEou7wrzndIghiWamvm0btuZGx1g==,True
+collection = tokens||20141121143323,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oBK/S13Ff2ppX6uPXaEou7wrzndIghiWamvm0btuZGx1g==,null
+collection = tokens||20141121143323,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oBK/S13Ff2ppX6uPXaEou7wrzndIghiWamvm0btuZGx1g==,True
+collection = tokens||20141121143325,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oBK/S13Ff2ppX6uPXaEou7wrzndIghiWamvm0btuZGx1g==,null
+collection = tokens||20141121143325,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oBK/S13Ff2ppX6uPXaEou7wrzndIghiWamvm0btuZGx1g==,True
+collection = tokens||20141121143358,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDrWZHG++8t4scGTCiO/K/PCAgXy6AXyYK4t/nRAhesaA==,null
+collection = tokens||20141121143358,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDrWZHG++8t4scGTCiO/K/PCAgXy6AXyYK4t/nRAhesaA==,True
+collection = tokens||20141121143450,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDFuFSFnpJC5L39H2vr7QfjHsTJun6QdbAdJx7OfgHfxA==,null
+collection = tokens||20141121143450,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDFuFSFnpJC5L39H2vr7QfjHsTJun6QdbAdJx7OfgHfxA==,True
+collection = tokens||20141121143500,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDTuCBMqsMUl+84+4z/tVMNDfb1aMOKs4ORqV1+UTYyow==,null
+collection = tokens||20141121143500,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDTuCBMqsMUl+84+4z/tVMNDfb1aMOKs4ORqV1+UTYyow==,True
+collection = tokens||20141121143559,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDFuFSFnpJC5L39H2vr7QfjHsTJun6QdbAdJx7OfgHfxA==,null
+collection = tokens||20141121143559,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDFuFSFnpJC5L39H2vr7QfjHsTJun6QdbAdJx7OfgHfxA==,True
+collection = tokens||20141121143600,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDFuFSFnpJC5L39H2vr7QfjHsTJun6QdbAdJx7OfgHfxA==,null
+collection = tokens||20141121143600,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDFuFSFnpJC5L39H2vr7QfjHsTJun6QdbAdJx7OfgHfxA==,True
+collection = tokens||20141121143635,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDFuFSFnpJC5L39H2vr7QfjHsTJun6QdbAdJx7OfgHfxA==,null
+collection = tokens||20141121143635,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDFuFSFnpJC5L39H2vr7QfjHsTJun6QdbAdJx7OfgHfxA==,True
+collection = tokens||20141121143659,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDTuCBMqsMUl+84+4z/tVMNDfb1aMOKs4ORqV1+UTYyow==,null
+collection = tokens||20141121143659,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDTuCBMqsMUl+84+4z/tVMNDfb1aMOKs4ORqV1+UTYyow==,True
+collection = tokens||20141121144526,Message,remote sender,Validacion de token,SetToken,null
+collection = tokens||20141121144526,Message,remote sender,Error Validando el token token vencido,SetToken,False
+collection = tokens||20141121144527,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oAv2J9XtmXSOTPxF8YpCeI69Q3FgyQ9od5kQDMUKkhlZQ==,null
+collection = tokens||20141121144527,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oAv2J9XtmXSOTPxF8YpCeI69Q3FgyQ9od5kQDMUKkhlZQ==,True
+collection = tokens||20141121144537,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oAv2J9XtmXSOTPxF8YpCeI69Q3FgyQ9od5kQDMUKkhlZQ==,null
+collection = tokens||20141121144537,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oAv2J9XtmXSOTPxF8YpCeI69Q3FgyQ9od5kQDMUKkhlZQ==,True
+collection = tokens||20141121144701,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oAv2J9XtmXSOTPxF8YpCeI69Q3FgyQ9od5kQDMUKkhlZQ==,null
+collection = tokens||20141121144701,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oAv2J9XtmXSOTPxF8YpCeI69Q3FgyQ9od5kQDMUKkhlZQ==,True
+collection = tokens||20141121144942,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDBC9bTnmexImBhkNymh6afXZiZ5D+cqrgL+VwwiyrbWQ==,null
+collection = tokens||20141121144942,Message,remote sender,Token validado con exito,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oDBC9bTnmexImBhkNymh6afXZiZ5D+cqrgL+VwwiyrbWQ==,True
+collection = tokens||20141124082015,Message,remote sender,Validacion de token,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oC8AkNj1h9oy6QukMk6Lr02Ky0MulO9NUOidtqT4aMWmA==,null
+collection = tokens||20141124082015,Message,remote sender,Error Validando el token token vencido,SetTokenquhJQeUOV1GV+U2SR7HjaVFcNzgtRJ900pIRFvol8oC8AkNj1h9oy6QukMk6Lr02Ky0MulO9NUOidtqT4aMWmA==,False

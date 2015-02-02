@@ -1,0 +1,16 @@
+@charset "utf-8";
+/*
+Theme Name: Copropiedad 2014
+Author: Laura González Zuluaga
+Author URI: http://pixelpro.com.co
+*/
+/* #Links, header y botones
+================================================== */
+body header h1  {background:url(../images/logo-copropiedad.png) no-repeat;}
+a {color: #C0392B;}	
+header {background: #C0392B;}	
+input[type="submit"]:hover, .btn:hover, button:hover, .gray:hover {background-color: #C0392B!important;}
+.ui-tabs-panel {border-bottom: 3px solid #C0392B!important;}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {border-top: 3px solid #C0392B!important;}
+#central .aplicaciones .app .absoluto:hover {background: #C0392B;}
+a.trigger:hover, a.active.trigger {background: #C0392B;}

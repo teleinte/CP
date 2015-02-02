@@ -1,0 +1,427 @@
+collection = db||20141108192159,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108192159,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108192159,Message,task,123412341234,SelectDocument,
+collection = db||20141108192159,Message,task,123412341234,,
+collection = db||20141108192159,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108192605,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108192605,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108192605,Message,task,123412341234,SelectDocument,
+collection = db||20141108192803,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108192803,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108192803,Message,task,123412341234,SelectDocument,
+collection = db||20141108192803,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108192935,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108192935,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108192935,Message,task,123412341234,SelectDocument,
+collection = db||20141108192935,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108193200,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108193200,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108193200,Message,task,123412341234,SelectDocument,
+collection = db||20141108193200,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108193329,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108193329,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108193329,Message,task,123412341234,SelectDocument,
+collection = db||20141108204854,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108204854,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108204854,Message,task,123412341234,SelectDocument,
+collection = db||20141108204854,Message,task,123412341234,,
+collection = db||20141108204854,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108205034,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108205034,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108205034,Message,task,123412341234,SelectDocument,
+collection = db||20141108205034,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108205348,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108205348,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108205348,Message,task,123412341234,SelectDocument,
+collection = db||20141108205348,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108205457,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108205457,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108205457,Message,task,123412341234,SelectDocument,
+collection = db||20141108205457,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108205521,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108205521,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108205521,Message,task,123412341234,SelectDocument,
+collection = db||20141108205521,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108205630,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108205630,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108205630,Message,task,123412341234,SelectDocument,
+collection = db||20141108205630,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108210311,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108210311,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108210311,Message,task,123412341234,SelectDocument,
+collection = db||20141108210311,Message,task,123412341234,,545e6ea836b8942c20000032,list_item,123412341234,1,username,JAJAJAAJ LO LOGRE,MODIFICADO MODIFICADO,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,JAJAAJAJ CAMBIO DE PRECIO,545e88ad36b8942c2000005f,list_item,123412341234,1,username,TITULO DE LA ENTRADA,DESCRIPCION DE LA ENTRADA,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,222
+collection = db||20141108210311,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108210640,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108210640,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108210640,Message,task,123412341234,SelectDocument,
+collection = db||20141108210640,Message,task,123412341234,,545e6ea836b8942c20000032,list_item,123412341234,1,username,JAJAJAAJ LO LOGRE,MODIFICADO MODIFICADO,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,JAJAAJAJ CAMBIO DE PRECIO,545e88ad36b8942c2000005f,list_item,123412341234,1,username,TITULO DE LA ENTRADA,DESCRIPCION DE LA ENTRADA,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,222
+collection = db||20141108210640,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108210656,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108210656,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108210656,Message,task,123412341234,SelectDocument,
+collection = db||20141108210656,Message,task,123412341234,,545e6ea836b8942c20000032,list_item,123412341234,1,username,JAJAJAAJ LO LOGRE,MODIFICADO MODIFICADO,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,JAJAAJAJ CAMBIO DE PRECIO,545e88ad36b8942c2000005f,list_item,123412341234,1,username,TITULO DE LA ENTRADA,DESCRIPCION DE LA ENTRADA,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,222
+collection = db||20141108210656,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108210828,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108210828,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108210828,Message,task,123412341234,1,SelectDocument,
+collection = db||20141108210828,Message,task,123412341234,1,,545e6ea836b8942c20000032,list_item,123412341234,1,username,JAJAJAAJ LO LOGRE,MODIFICADO MODIFICADO,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,JAJAAJAJ CAMBIO DE PRECIO,545e88ad36b8942c2000005f,list_item,123412341234,1,username,TITULO DE LA ENTRADA,DESCRIPCION DE LA ENTRADA,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,222
+collection = db||20141108210828,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108210846,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108210846,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108210846,Message,task,123412341234,2,SelectDocument,
+collection = db||20141108210846,Message,task,123412341234,2,,
+collection = db||20141108210846,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108211651,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108211651,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108211651,Message,tokens_log,20141108211651,Message,remote sender,Validacion de token,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,null,InsertDocument,
+collection = db||20141108211651,Message,tokens_log,,,545ece9336b8942c20000074
+collection = db||20141108211651,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108211651,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108211651,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108211651,Message,tokens_log,20141108211651,Message,remote sender,Token validado con exito,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,True,InsertDocument,
+collection = db||20141108211651,Message,tokens_log,,,545ece9336b8942c20000075
+collection = db||20141108211651,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108211651,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108211651,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108211651,Message - UPDATE,task,545e6ea836b8942c20000032,,
+collection = db||20141108211651,Message - UPDATE,task,list_item,123412341234,2,username,JAJAJAAJ LO LOGRE,MODIFICADO MODIFICADO,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,JAJAAJAJ CAMBIO DE PRECIO,,Okay
+collection = db||20141108211651,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108211735,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108211735,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108211735,Message,task,123412341234,1,SelectDocument,
+collection = db||20141108211735,Message,task,123412341234,1,,545e88ad36b8942c2000005f,list_item,123412341234,1,username,TITULO DE LA ENTRADA,DESCRIPCION DE LA ENTRADA,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,222
+collection = db||20141108211735,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108212049,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108212049,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108212049,Message,tokens_log,20141108212049,Message,remote sender,Validacion de token,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,null,InsertDocument,
+collection = db||20141108212049,Message,tokens_log,,,545ecf8136b8942c20000076
+collection = db||20141108212049,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108212049,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108212049,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108212049,Message,tokens_log,20141108212049,Message,remote sender,Token validado con exito,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,True,InsertDocument,
+collection = db||20141108212049,Message,tokens_log,,,545ecf8136b8942c20000077
+collection = db||20141108212049,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108212832,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108212832,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108212832,Message,tokens_log,20141108212832,Message,remote sender,Validacion de token,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,null,InsertDocument,
+collection = db||20141108212832,Message,tokens_log,,,545ed15036b8942c20000078
+collection = db||20141108212832,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108212832,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108212832,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108212832,Message,tokens_log,20141108212832,Message,remote sender,Token validado con exito,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,True,InsertDocument,
+collection = db||20141108212832,Message,tokens_log,,,545ed15036b8942c20000079
+collection = db||20141108212832,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108213133,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108213133,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108213133,Message,tokens_log,20141108213133,Message,remote sender,Validacion de token,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,null,InsertDocument,
+collection = db||20141108213133,Message,tokens_log,,,545ed20536b8942c2000007a
+collection = db||20141108213133,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108213133,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108213133,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108213133,Message,tokens_log,20141108213133,Message,remote sender,Token validado con exito,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,True,InsertDocument,
+collection = db||20141108213133,Message,tokens_log,,,545ed20536b8942c2000007b
+collection = db||20141108213133,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108213133,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108213133,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108213133,Message - UPDATE,task,545e6ea836b8942c20000032,,
+collection = db||20141108213133,Message - UPDATE,task,2,task_item,,Okay
+collection = db||20141108213133,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108213400,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108213400,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108213400,Message,tokens_log,20141108213400,Message,remote sender,Validacion de token,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,null,InsertDocument,
+collection = db||20141108213400,Message,tokens_log,,,545ed29836b8942c2000007c
+collection = db||20141108213400,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108213400,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108213400,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108213400,Message,tokens_log,20141108213400,Message,remote sender,Token validado con exito,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,True,InsertDocument,
+collection = db||20141108213400,Message,tokens_log,,,545ed29836b8942c2000007d
+collection = db||20141108213400,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108213400,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108213400,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108213400,Message - UPDATE,task,545e6ea836b8942c20000032,,
+collection = db||20141108213400,Message - UPDATE,task,list_item,123412341234,2,username,JAJAJAAJ LO LOGRE,MODIFICADO MODIFICADO,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,JAJAAJAJ CAMBIO DE PRECIO,,Okay
+collection = db||20141108213400,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108213439,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108213439,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108213439,Message,tokens_log,20141108213439,Message,remote sender,Validacion de token,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,null,InsertDocument,
+collection = db||20141108213439,Message,tokens_log,,,545ed2bf36b8942c2000007e
+collection = db||20141108213439,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108213439,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108213439,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108213439,Message,tokens_log,20141108213439,Message,remote sender,Token validado con exito,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,True,InsertDocument,
+collection = db||20141108213439,Message,tokens_log,,,545ed2bf36b8942c2000007f
+collection = db||20141108213439,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108213439,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108213439,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108213439,Message - UPDATE,task,545e6ea836b8942c20000032,,
+collection = db||20141108213439,Message - UPDATE,task,list_item,123412341234,1,username,JAJAJAAJ LO LOGRE,MODIFICADO MODIFICADO,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,JAJAAJAJ CAMBIO DE PRECIO,,Okay
+collection = db||20141108213439,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108214332,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108214332,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108214332,Message,tokens_log,20141108214332,Message,remote sender,Validacion de token,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,null,InsertDocument,
+collection = db||20141108214332,Message,tokens_log,,,545ed4d436b8942c20000080
+collection = db||20141108214332,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108214332,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108214332,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108214332,Message,tokens_log,20141108214332,Message,remote sender,Token validado con exito,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,True,InsertDocument,
+collection = db||20141108214332,Message,tokens_log,,,545ed4d436b8942c20000081
+collection = db||20141108214332,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108214644,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108214644,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108214644,Message,tokens_log,20141108214644,Message,remote sender,Validacion de token,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,null,InsertDocument,
+collection = db||20141108214644,Message,tokens_log,,,545ed59436b8942c20000082
+collection = db||20141108214644,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108214644,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108214644,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108214644,Message,tokens_log,20141108214644,Message,remote sender,Token validado con exito,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,True,InsertDocument,
+collection = db||20141108214644,Message,tokens_log,,,545ed59436b8942c20000083
+collection = db||20141108214644,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108214745,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108214745,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108214745,Message,tokens_log,20141108214745,Message,remote sender,Validacion de token,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,null,InsertDocument,
+collection = db||20141108214745,Message,tokens_log,,,545ed5d136b8942c20000084
+collection = db||20141108214745,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108214745,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108214745,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108214745,Message,tokens_log,20141108214745,Message,remote sender,Token validado con exito,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,True,InsertDocument,
+collection = db||20141108214745,Message,tokens_log,,,545ed5d136b8942c20000085
+collection = db||20141108214745,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108214816,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108214816,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108214816,Message,tokens_log,20141108214816,Message,remote sender,Validacion de token,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,null,InsertDocument,
+collection = db||20141108214816,Message,tokens_log,,,545ed5f036b8942c20000086
+collection = db||20141108214816,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108214816,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108214816,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108214816,Message,tokens_log,20141108214816,Message,remote sender,Token validado con exito,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,True,InsertDocument,
+collection = db||20141108214816,Message,tokens_log,,,545ed5f036b8942c20000087
+collection = db||20141108214816,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108214922,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108214922,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108214922,Message,tokens_log,20141108214922,Message,remote sender,Validacion de token,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,null,InsertDocument,
+collection = db||20141108214922,Message,tokens_log,,,545ed63236b8942c20000088
+collection = db||20141108214922,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108214922,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108214922,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108214922,Message,tokens_log,20141108214922,Message,remote sender,Token validado con exito,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,True,InsertDocument,
+collection = db||20141108214922,Message,tokens_log,,,545ed63236b8942c20000089
+collection = db||20141108214922,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108214955,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108214955,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108214955,Message,tokens_log,20141108214955,Message,remote sender,Validacion de token,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,null,InsertDocument,
+collection = db||20141108214955,Message,tokens_log,,,545ed65336b8942c2000008a
+collection = db||20141108214955,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108214955,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108214955,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108214955,Message,tokens_log,20141108214955,Message,remote sender,Token validado con exito,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,True,InsertDocument,
+collection = db||20141108214955,Message,tokens_log,,,545ed65336b8942c2000008b
+collection = db||20141108214955,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108215043,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108215043,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108215043,Message,tokens_log,20141108215043,Message,remote sender,Validacion de token,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,null,InsertDocument,
+collection = db||20141108215043,Message,tokens_log,,,545ed68336b8942c2000008c
+collection = db||20141108215043,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108215043,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108215043,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108215043,Message,tokens_log,20141108215043,Message,remote sender,Token validado con exito,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,True,InsertDocument,
+collection = db||20141108215043,Message,tokens_log,,,545ed68336b8942c2000008d
+collection = db||20141108215043,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108215043,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108215043,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108215043,Message,task,list_item,123412341234,1,username,TITULO DE LA ENTRADA,DESCRIPCION DE LA ENTRADA,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,222,InsertDocument,
+collection = db||20141108215043,Message,task,,,545ed68336b8942c2000008e
+collection = db||20141108215043,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108215211,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108215211,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108215211,Message,tokens_log,20141108215211,Message,remote sender,Validacion de token,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,null,InsertDocument,
+collection = db||20141108215211,Message,tokens_log,,,545ed6db36b8942c2000008f
+collection = db||20141108215211,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108215211,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108215211,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108215211,Message,tokens_log,20141108215211,Message,remote sender,Token validado con exito,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,True,InsertDocument,
+collection = db||20141108215211,Message,tokens_log,,,545ed6db36b8942c20000090
+collection = db||20141108215211,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108215245,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108215245,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108215245,Message,tokens_log,20141108215245,Message,remote sender,Validacion de token,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,null,InsertDocument,
+collection = db||20141108215245,Message,tokens_log,,,545ed6fd36b8942c20000091
+collection = db||20141108215245,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108215245,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108215245,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108215245,Message,tokens_log,20141108215245,Message,remote sender,Token validado con exito,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,True,InsertDocument,
+collection = db||20141108215245,Message,tokens_log,,,545ed6fd36b8942c20000092
+collection = db||20141108215245,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108215245,Message,parking,Cargando Controlador,Consultas,
+collection = db||20141108215245,Message,parking,Connecting to MongoDB server,Con,
+collection = db||20141108215245,Message,parking,list_item,123412341234,1,username,TITULO DE LA ENTRADA,DESCRIPCION DE LA ENTRADA,28/10/2014T16:45:01,parking_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,222,InsertDocument,
+collection = db||20141108215245,Message,parking,,,545ed6fd36b8942c20000093
+collection = db||20141108215245,Message,parking,Close Conection db,Terminate,Terminate
+collection = db||20141108215638,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108215638,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108215638,Message,task,123412341234,1,SelectDocument,
+collection = db||20141108215638,Message,task,123412341234,1,,545e6ea836b8942c20000032,list_item,123412341234,1,username,JAJAJAAJ LO LOGRE,MODIFICADO MODIFICADO,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,JAJAAJAJ CAMBIO DE PRECIO,545e88ad36b8942c2000005f,list_item,123412341234,1,username,TITULO DE LA ENTRADA,DESCRIPCION DE LA ENTRADA,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,222,545ed68336b8942c2000008e,list_item,123412341234,1,username,TITULO DE LA ENTRADA,DESCRIPCION DE LA ENTRADA,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,222
+collection = db||20141108220027,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108220027,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108220027,Message,task,123412341234,1,SelectDocument,
+collection = db||20141108220027,Message,task,123412341234,1,,545e6ea836b8942c20000032,list_item,123412341234,1,username,JAJAJAAJ LO LOGRE,MODIFICADO MODIFICADO,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,JAJAAJAJ CAMBIO DE PRECIO,545e88ad36b8942c2000005f,list_item,123412341234,1,username,TITULO DE LA ENTRADA,DESCRIPCION DE LA ENTRADA,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,222,545ed68336b8942c2000008e,list_item,123412341234,1,username,TITULO DE LA ENTRADA,DESCRIPCION DE LA ENTRADA,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,222
+collection = db||20141108220106,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108220106,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108220106,Message,task,123412341234,1,SelectDocument,
+collection = db||20141108220106,Message,task,123412341234,1,,545e6ea836b8942c20000032,list_item,123412341234,1,username,JAJAJAAJ LO LOGRE,MODIFICADO MODIFICADO,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,JAJAAJAJ CAMBIO DE PRECIO,545e88ad36b8942c2000005f,list_item,123412341234,1,username,TITULO DE LA ENTRADA,DESCRIPCION DE LA ENTRADA,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,222,545ed68336b8942c2000008e,list_item,123412341234,1,username,TITULO DE LA ENTRADA,DESCRIPCION DE LA ENTRADA,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,222
+collection = db||20141108220106,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108220540,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108220540,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108220540,Message,tokens_log,20141108220540,Message,remote sender,Validacion de token,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,null,InsertDocument,
+collection = db||20141108220540,Message,tokens_log,,,545eda0436b8942c20000094
+collection = db||20141108220540,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108220540,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108220540,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108220540,Message,tokens_log,20141108220540,Message,remote sender,Token validado con exito,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,True,InsertDocument,
+collection = db||20141108220540,Message,tokens_log,,,545eda0436b8942c20000095
+collection = db||20141108220540,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108220540,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108220540,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108220540,Message - UPDATE,task,545e6ea836b8942c20000032,,
+collection = db||20141108220540,Message - UPDATE,task,list_item,123412341234,1,username,JAJAJAAJ LO LOGRE,MODIFICADO MODIFICADO,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,JAJAAJAJ CAMBIO DE PRECIO,,Okay
+collection = db||20141108220540,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141108222011,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108222011,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108222011,Message,tokens_log,20141108222011,Message,remote sender,Validacion de token,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,null,InsertDocument,
+collection = db||20141108222011,Message,tokens_log,,,545edd6b36b8942c20000096
+collection = db||20141108222011,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108222011,Message,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141108222011,Message,tokens_log,Connecting to MongoDB server,Con,
+collection = db||20141108222011,Message,tokens_log,20141108222011,Message,remote sender,Token validado con exito,SetTokenJmvKRkL2iHkcmDA7QCKg5Dcr4U97XCcRcKWXk15MIoDF8OymeK9z75k7fRqWtokUGb85d6kQksAS0lQ/3usrvQ==,True,InsertDocument,
+collection = db||20141108222011,Message,tokens_log,,,545edd6b36b8942c20000097
+collection = db||20141108222011,Message,tokens_log,Close Conection db,Terminate,Terminate
+collection = db||20141108222011,Message,task,Cargando Controlador,Consultas,
+collection = db||20141108222011,Message,task,Connecting to MongoDB server,Con,
+collection = db||20141108222011,Message - UPDATE,task,545e6ea836b8942c20000032,,
+collection = db||20141108222011,Message - UPDATE,task,list_item,123412341234,1,username,JAJAJAAJ LO LOGRE,MODIFICADO MODIFICADO,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,JAJAAJAJ CAMBIO DE PRECIO,,Okay
+collection = db||20141108222011,Message,task,Close Conection db,Terminate,Terminate
+collection = db||20141110085809,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141110085810,ERROR,task,Error conectando con el servidor MongoDB,DBConnect,Error conectando con el servidor MongoDB
+collection = db||20141110085810,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110085835,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141110085836,ERROR,task,Error conectando con el servidor MongoDB,DBConnect,Error conectando con el servidor MongoDB
+collection = db||20141110085836,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110090452,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141110090452,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141110090452,Mensaje,task,987456,1,Listar Documentos,
+collection = db||20141110090452,Mensaje,task,987456,1,,
+collection = db||20141110090452,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110091809,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141110091809,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141110091809,Mensaje,tokens_log,20141110091809,Message,remote sender,Solicitud de token,GetToken987654,jgil@teleinte.com,null,Insertar documento,
+collection = db||20141110091809,Mensaje,tokens_log,,,5460c9213ebbbc5425000029
+collection = db||20141110091809,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110091809,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141110091809,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141110091809,Mensaje,tokens_log,20141110091809,Message,,Token Entregado,Solicitud de token,16eEPZ9rcA/p4FFbwp1v9Ob0/+ScV8P0QZjaeRNZzojRLSQm7mOkH+1i0Hen1CUnpyJqRQsk+NAuxGkta7KUEQ==,Insertar documento,
+collection = db||20141110091809,Mensaje,tokens_log,,,5460c9213ebbbc542500002a
+collection = db||20141110091809,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110091842,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141110091842,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141110091842,Mensaje,tokens_log,20141110091842,Message,remote sender,Validacion de token,SetToken16eEPZ9rcA/p4FFbwp1v9Ob0/+ScV8P0QZjaeRNZzojRLSQm7mOkH+1i0Hen1CUnpyJqRQsk+NAuxGkta7KUEQ==,null,Insertar documento,
+collection = db||20141110091842,Mensaje,tokens_log,,,5460c9423ebbbc542500002b
+collection = db||20141110091842,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110091842,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141110091842,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141110091842,Mensaje,tokens_log,20141110091842,Message,remote sender,Token validado con exito,SetToken16eEPZ9rcA/p4FFbwp1v9Ob0/+ScV8P0QZjaeRNZzojRLSQm7mOkH+1i0Hen1CUnpyJqRQsk+NAuxGkta7KUEQ==,True,Insertar documento,
+collection = db||20141110091842,Mensaje,tokens_log,,,5460c9423ebbbc542500002c
+collection = db||20141110091842,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110091842,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141110091842,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141110091842,Mensaje,task,list_item,123412341234,1,username,TITULO DE LA ENTRADA,DESCRIPCION DE LA ENTRADA,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,222,Insertar documento,
+collection = db||20141110091842,Mensaje,task,,,5460c9423ebbbc542500002d
+collection = db||20141110091842,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110092319,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141110092319,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141110092319,Mensaje,task,987456,1,Listar Documentos,
+collection = db||20141110092319,Mensaje,task,987456,1,,
+collection = db||20141110092319,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110092403,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141110092403,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141110092403,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141110092403,Mensaje,task,123412341234,1,,5460c9423ebbbc542500002d,list_item,123412341234,1,username,TITULO DE LA ENTRADA,DESCRIPCION DE LA ENTRADA,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,222
+collection = db||20141110092403,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110092519,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141110092519,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141110092519,Mensaje,tokens_log,20141110092519,Message,remote sender,Validacion de token,SetToken16eEPZ9rcA/p4FFbwp1v9Ob0/+ScV8P0QZjaeRNZzojRLSQm7mOkH+1i0Hen1CUnpyJqRQsk+NAuxGkta7KUEQ==,null,Insertar documento,
+collection = db||20141110092519,Mensaje,tokens_log,,,5460cacf3ebbbc542500002e
+collection = db||20141110092519,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110092519,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141110092519,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141110092519,Mensaje,tokens_log,20141110092519,Message,remote sender,Token validado con exito,SetToken16eEPZ9rcA/p4FFbwp1v9Ob0/+ScV8P0QZjaeRNZzojRLSQm7mOkH+1i0Hen1CUnpyJqRQsk+NAuxGkta7KUEQ==,True,Insertar documento,
+collection = db||20141110092519,Mensaje,tokens_log,,,5460cacf3ebbbc542500002f
+collection = db||20141110092519,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110092733,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141110092733,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141110092733,Mensaje,tokens_log,20141110092733,Message,remote sender,Validacion de token,SetToken16eEPZ9rcA/p4FFbwp1v9Ob0/+ScV8P0QZjaeRNZzojRLSQm7mOkH+1i0Hen1CUnpyJqRQsk+NAuxGkta7KUEQ==,null,Insertar documento,
+collection = db||20141110092733,Mensaje,tokens_log,,,5460cb553ebbbc5425000030
+collection = db||20141110092733,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110092733,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141110092733,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141110092733,Mensaje,tokens_log,20141110092733,Message,remote sender,Token validado con exito,SetToken16eEPZ9rcA/p4FFbwp1v9Ob0/+ScV8P0QZjaeRNZzojRLSQm7mOkH+1i0Hen1CUnpyJqRQsk+NAuxGkta7KUEQ==,True,Insertar documento,
+collection = db||20141110092733,Mensaje,tokens_log,,,5460cb553ebbbc5425000031
+collection = db||20141110092733,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110092733,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141110092733,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141110092733,Mensaje - UPDATE,task,5460c9423ebbbc542500002d,,
+collection = db||20141110092733,Mensaje - UPDATE,task,list_item,123412341234,1,username,DATO MODIFICACO COMPLETO,DESCRIPCION DE LA ENTRADA,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,222,,Okay
+collection = db||20141110092733,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110093400,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141110093400,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141110093400,Mensaje,tokens_log,20141110093400,Message,remote sender,Validacion de token,SetToken16eEPZ9rcA/p4FFbwp1v9Ob0/+ScV8P0QZjaeRNZzojRLSQm7mOkH+1i0Hen1CUnpyJqRQsk+NAuxGkta7KUEQ==,null,Insertar documento,
+collection = db||20141110093400,Mensaje,tokens_log,,,5460ccd83ebbbc5425000032
+collection = db||20141110093400,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110093400,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141110093400,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141110093400,Mensaje,tokens_log,20141110093400,Message,remote sender,Token validado con exito,SetToken16eEPZ9rcA/p4FFbwp1v9Ob0/+ScV8P0QZjaeRNZzojRLSQm7mOkH+1i0Hen1CUnpyJqRQsk+NAuxGkta7KUEQ==,True,Insertar documento,
+collection = db||20141110093400,Mensaje,tokens_log,,,5460ccd83ebbbc5425000033
+collection = db||20141110093400,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110093400,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141110093400,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141110093400,Mensaje,task,list_item,123412341234,1,username,DATO MODIFICACO COMPLETO,DESCRIPCION DE LA ENTRADA,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,222,Insertar documento,
+collection = db||20141110093400,Mensaje,task,,,5460ccd83ebbbc5425000034
+collection = db||20141110093400,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110093500,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141110093500,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141110093500,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141110093500,Mensaje,task,123412341234,1,,5460ccd83ebbbc5425000034,list_item,123412341234,1,username,DATO MODIFICACO COMPLETO,DESCRIPCION DE LA ENTRADA,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,222
+collection = db||20141110093500,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110093534,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141110093534,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141110093534,Mensaje,tokens_log,20141110093534,Message,remote sender,Validacion de token,SetToken16eEPZ9rcA/p4FFbwp1v9Ob0/+ScV8P0QZjaeRNZzojRLSQm7mOkH+1i0Hen1CUnpyJqRQsk+NAuxGkta7KUEQ==,null,Insertar documento,
+collection = db||20141110093534,Mensaje,tokens_log,,,5460cd363ebbbc5425000035
+collection = db||20141110093534,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110093534,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141110093534,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141110093534,Mensaje,tokens_log,20141110093534,Message,remote sender,Token validado con exito,SetToken16eEPZ9rcA/p4FFbwp1v9Ob0/+ScV8P0QZjaeRNZzojRLSQm7mOkH+1i0Hen1CUnpyJqRQsk+NAuxGkta7KUEQ==,True,Insertar documento,
+collection = db||20141110093534,Mensaje,tokens_log,,,5460cd363ebbbc5425000036
+collection = db||20141110093534,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110093534,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141110093534,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141110093534,Mensaje - UPDATE,task,5460ccd83ebbbc5425000034,,
+collection = db||20141110093534,Mensaje - UPDATE,task,list_item,123412341234,1,username,DATO MODIFICACO COMPLETO,DESCRIPCION DE LA ENTRADA,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,222,,Okay
+collection = db||20141110093534,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110093839,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141110093839,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141110093839,Mensaje,tokens_log,20141110093839,Message,remote sender,Validacion de token,SetToken16eEPZ9rcA/p4FFbwp1v9Ob0/+ScV8P0QZjaeRNZzojRLSQm7mOkH+1i0Hen1CUnpyJqRQsk+NAuxGkta7KUEQ==,null,Insertar documento,
+collection = db||20141110093839,Mensaje,tokens_log,,,5460cdef3ebbbc5425000037
+collection = db||20141110093839,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110093839,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20141110093839,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20141110093839,Mensaje,tokens_log,20141110093839,Message,remote sender,Token validado con exito,SetToken16eEPZ9rcA/p4FFbwp1v9Ob0/+ScV8P0QZjaeRNZzojRLSQm7mOkH+1i0Hen1CUnpyJqRQsk+NAuxGkta7KUEQ==,True,Insertar documento,
+collection = db||20141110093839,Mensaje,tokens_log,,,5460cdef3ebbbc5425000038
+collection = db||20141110093839,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110093839,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141110093839,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141110093839,Mensaje - UPDATE,task,5460ccd83ebbbc5425000034,,
+collection = db||20141110093839,Mensaje - UPDATE,task,list_item,123412341234,2,username,DATO MODIFICACO COMPLETO,DESCRIPCION DE LA ENTRADA,28/10/2014T16:45:01,task_item,true,username,28/10/2014T20:08:20,adsfasdfasdfasf,1239471293412934,USPS,fox terrier,2,291,222,,Okay
+collection = db||20141110093839,Mensaje,task,Cerrando coneccion,Terminando,Terminando
+collection = db||20141110093844,Mensaje,task,Cargando Controlador,Consultas,
+collection = db||20141110093844,Mensaje,task,conectando con el servidor MongoDB,Con,
+collection = db||20141110093844,Mensaje,task,123412341234,1,Listar Documentos,
+collection = db||20141110093844,Mensaje,task,123412341234,1,,
+collection = db||20141110093844,Mensaje,task,Cerrando coneccion,Terminando,Terminando

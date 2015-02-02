@@ -1,0 +1,27 @@
+<!doctype html>
+<header>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$( document ).ready(function() {  
+    alert('vida hijueputa');
+    /*$.ajax({
+        url:'http://auth.teleinte.com/auth/login',
+        type:'POST',
+        data: '{"token":"no-token","body":{"email":"cp-test@teleinte.com","password":"123456"}}',
+        dataType: 'json',
+        contentType: "application/json; charset=utf-8",
+        success:function(res){
+        alert(res);
+        },
+        error:function(res){
+            alert("Bad thing happend! " + res.statusText);
+        }
+    });*/
+    $.post( "http://auth.teleinte.com/auth/login", '{"token":"no-token","body":{"email":"cp-test@teleinte.com","password":"123456"}}')
+      .done(function( data ) {
+        alert( "Data Loaded: " + data );
+      });
+});
+</script>
+<body></body>
+</html>
