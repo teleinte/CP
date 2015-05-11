@@ -31,7 +31,12 @@
 <script src="../js/jquery-dd.js"></script>
 <script>
 $(document).ready(function(e) {  
-
+    var params={};window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(str,key,value){params[key] = value;})
+    if(params['idr']==1){$('#alertas').html('<div class="alert alert-success" style="height:10px;">Proceso finalizado con exito.</div>')    
+    }
+    if(params['idr']==2){{$('#alertas').html('<div class="alert alert-success" style="height:10px;">Proceso finalizado con exito. No hay errores.</div>')}}
+    if(params['idr']==3){{$('#alertas').html('<div class="alert alert-error" style="height:10px;">No fue posible obtener el token de activacion.</div>')}}
+    if(params['idr']==4){{$('#alertas').html('<div class="alert alert-error" style="height:10px;">El archivo no contiene lineas</div>')}}
     $(document).ready(function(){
     $("#nuevos").click(function(){
        $("#new-panel").toggle("fast");
@@ -132,24 +137,8 @@ $(document).ready(function(e) {
                   <div class="floatleft"></div>
                   <div class="floatright" style="display:inline-block; margin-bottom:5px;">
                       <a href="../admin/" class="btn" id ="open-creartarea" style="margin-right:5px;">Regresar</a>
-                      <a href="descarga.php" class="btn" id ="open-creartarea" style="margin-right:5px;color: #F51E7C">Descargar la plantilla</a>
-                  </div>
-                  <table style="width:500px!important; margin: auto;">
-                      <tr><td></br></td></tr>
-                      <tr><td></br></td></tr>                      
-                      <tr>
-                        <td>
-                          <form id="form" action="subir.php" method="POST" enctype="multipart/form-data">
-                              <input type="file" name="pic" id="pic" class="btn" required="true"/>
-                              <input type="hidden" name="id_copropiedad" id="id_copropiedad" />
-                              <input type="hidden" name="ncp" id="ncp" />
-                              <input type="hidden" name="id_crm" id="id_crm" />
-                              <input type="hidden" name="token" id="token" />
-                              <input type="submit" value="Enviar" class="btn"/>
-                          </form> 
-                        </td>
-                      </tr>
-                  </table>
+                      <!-- <a href="descarga.php" class="btn" id ="open-creartarea" style="margin-right:5px;color: #F51E7C">Descargar la plantilla</a> -->
+                  </div>                  
                     <div data-alerts="alerts" id ="alertas"></div>
                 </div>
               </div>
