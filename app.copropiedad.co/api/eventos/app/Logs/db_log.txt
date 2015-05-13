@@ -10941,3 +10941,558 @@ collection = db||20150507090051,Mensaje,evento,conectando con el servidor MongoD
 collection = db||20150507090051,Mensaje,evento,Listar Documentos,
 collection = db||20150507090051,Mensaje,evento,5511995bbbc118d03fbd2191,Finalizado,Cancelado,SI,1,,553e571ebbc118323b222e7f,5511995bbbc118d03fbd2191,24,2015-04-27T15:33:21.982Z,evento,evento de prueba,Por Iniciar,2015-04-28T07:30:00,2015-04-28T22:00:00,,Ninguna,1,2015-04-28,SI,SI,estas son las notas del evento
 collection = db||20150507090051,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511164911,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150511164911,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150511164911,Mensaje,tokens_log,20150511164911,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150511164911,Mensaje,tokens_log,,,555123d7bbc118d5104bc186
+collection = db||20150511164911,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511164911,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150511164911,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150511164911,Mensaje,tokens_log,20150511164911,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150511164911,Mensaje,tokens_log,,,555123d7bbc118d5104bc187
+collection = db||20150511164911,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511164911,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150511164911,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150511164911,Mensaje,evento,Listar Documentos,
+collection = db||20150511164911,Mensaje,evento,5511995bbbc118d03fbd2191,Finalizado,Cancelado,SI,1,,553e571ebbc118323b222e7f,5511995bbbc118d03fbd2191,24,2015-04-27T15:33:21.982Z,evento,evento de prueba,Por Iniciar,2015-04-28T07:30:00,2015-04-28T22:00:00,,Ninguna,1,2015-04-28,SI,SI,estas son las notas del evento
+collection = db||20150511164911,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512070235,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512070235,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512070235,Mensaje,tokens_log,20150512070235,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512070235,Mensaje,tokens_log,,,5551ebdbbbc118657c4bc1a5
+collection = db||20150512070235,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512070235,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512070235,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512070235,Mensaje,tokens_log,20150512070235,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512070235,Mensaje,tokens_log,,,5551ebdbbbc118657c4bc1a6
+collection = db||20150512070235,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512070235,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512070235,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512070235,Mensaje,evento,Listar Documentos,
+collection = db||20150512070235,Mensaje,evento,5511995bbbc118d03fbd2191,Finalizado,Cancelado,SI,1,,553e571ebbc118323b222e7f,5511995bbbc118d03fbd2191,24,2015-04-27T15:33:21.982Z,evento,evento de prueba,Por Iniciar,2015-04-28T07:30:00,2015-04-28T22:00:00,,Ninguna,1,2015-04-28,SI,SI,estas son las notas del evento
+collection = db||20150512070235,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512122855,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512122855,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512122855,Mensaje,tokens_log,20150512122855,Message,remote sender,Validacion de token,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,null,Insertar documento,
+collection = db||20150512122855,Mensaje,tokens_log,,,55523857bbc118617c4bc1cf
+collection = db||20150512122855,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512122855,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512122855,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512122855,Mensaje,tokens_log,20150512122855,Message,remote sender,Token validado con exito,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,True,Insertar documento,
+collection = db||20150512122855,Mensaje,tokens_log,,,55523857bbc118617c4bc1d0
+collection = db||20150512122855,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512122855,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512122855,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512122855,Mensaje,evento,Listar Documentos,
+collection = db||20150512122855,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,,
+collection = db||20150512122855,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512122855,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512122855,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512122855,Mensaje,tokens_log,20150512122855,Message,remote sender,Validacion de token,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,null,Insertar documento,
+collection = db||20150512122855,Mensaje,tokens_log,,,55523857bbc1186a7c4bc1c7
+collection = db||20150512122855,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512122855,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512122855,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512122855,Mensaje,tokens_log,20150512122855,Message,remote sender,Token validado con exito,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,True,Insertar documento,
+collection = db||20150512122855,Mensaje,tokens_log,,,55523857bbc1186a7c4bc1c8
+collection = db||20150512122855,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512122855,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512122855,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512122855,Mensaje,evento,Listar Documentos,
+collection = db||20150512122855,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,SI,1,,
+collection = db||20150512122855,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512122937,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512122937,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512122937,Mensaje,tokens_log,20150512122937,Message,remote sender,Validacion de token,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,null,Insertar documento,
+collection = db||20150512122937,Mensaje,tokens_log,,,55523881bbc118647c4bc1e2
+collection = db||20150512122937,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512122937,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512122937,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512122937,Mensaje,tokens_log,20150512122937,Message,remote sender,Token validado con exito,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,True,Insertar documento,
+collection = db||20150512122937,Mensaje,tokens_log,,,55523881bbc118647c4bc1e3
+collection = db||20150512122937,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512122937,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512122937,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512122937,Mensaje,evento,Listar Documentos,
+collection = db||20150512122937,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,,
+collection = db||20150512122937,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512122937,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512122937,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512122937,Mensaje,tokens_log,20150512122937,Message,remote sender,Validacion de token,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,null,Insertar documento,
+collection = db||20150512122937,Mensaje,tokens_log,,,55523881bbc11823124bc1d3
+collection = db||20150512122937,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512122937,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512122937,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512122937,Mensaje,tokens_log,20150512122937,Message,remote sender,Token validado con exito,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,True,Insertar documento,
+collection = db||20150512122937,Mensaje,tokens_log,,,55523881bbc11823124bc1d4
+collection = db||20150512122937,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512122937,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512122937,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512122937,Mensaje,evento,Listar Documentos,
+collection = db||20150512122937,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,SI,1,,
+collection = db||20150512122937,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512123041,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512123041,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512123041,Mensaje,tokens_log,20150512123041,Message,remote sender,Validacion de token,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,null,Insertar documento,
+collection = db||20150512123041,Mensaje,tokens_log,,,555238c1bbc118d5104bc1df
+collection = db||20150512123041,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512123041,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512123041,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512123041,Mensaje,tokens_log,20150512123041,Message,remote sender,Token validado con exito,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,True,Insertar documento,
+collection = db||20150512123041,Mensaje,tokens_log,,,555238c1bbc118d5104bc1e0
+collection = db||20150512123041,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512123041,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512123041,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512123041,Mensaje,evento,Listar Documentos,
+collection = db||20150512123041,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,,
+collection = db||20150512123041,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512123041,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512123041,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512123041,Mensaje,tokens_log,20150512123041,Message,remote sender,Validacion de token,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,null,Insertar documento,
+collection = db||20150512123041,Mensaje,tokens_log,,,555238c1bbc118dc104bc1d1
+collection = db||20150512123041,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512123041,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512123041,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512123041,Mensaje,tokens_log,20150512123041,Message,remote sender,Token validado con exito,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,True,Insertar documento,
+collection = db||20150512123041,Mensaje,tokens_log,,,555238c1bbc118dc104bc1d2
+collection = db||20150512123041,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512123041,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512123041,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512123041,Mensaje,evento,Listar Documentos,
+collection = db||20150512123041,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,SI,1,,
+collection = db||20150512123041,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512140116,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512140116,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512140116,Mensaje,tokens_log,20150512140116,Message,remote sender,Validacion de token,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,null,Insertar documento,
+collection = db||20150512140116,Mensaje,tokens_log,,,55524dfcbbc1181a5b4bc1a6
+collection = db||20150512140116,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512140116,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512140116,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512140116,Mensaje,tokens_log,20150512140116,Message,remote sender,Token validado con exito,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,True,Insertar documento,
+collection = db||20150512140116,Mensaje,tokens_log,,,55524dfcbbc1181a5b4bc1a7
+collection = db||20150512140116,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512140116,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512140116,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512140116,Mensaje,evento,Listar Documentos,
+collection = db||20150512140116,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,,
+collection = db||20150512140116,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512140117,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512140117,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512140117,Mensaje,tokens_log,20150512140117,Message,remote sender,Validacion de token,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,null,Insertar documento,
+collection = db||20150512140117,Mensaje,tokens_log,,,55524dfdbbc118d5104bc1e1
+collection = db||20150512140117,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512140117,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512140117,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512140117,Mensaje,tokens_log,20150512140117,Message,remote sender,Token validado con exito,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,True,Insertar documento,
+collection = db||20150512140117,Mensaje,tokens_log,,,55524dfdbbc118d5104bc1e2
+collection = db||20150512140117,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512140117,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512140117,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512140117,Mensaje,evento,Listar Documentos,
+collection = db||20150512140117,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,SI,1,,
+collection = db||20150512140117,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512141329,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512141329,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512141329,Mensaje,tokens_log,20150512141329,Message,remote sender,Validacion de token,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,null,Insertar documento,
+collection = db||20150512141329,Mensaje,tokens_log,,,555250d9bbc118667c4bc1c7
+collection = db||20150512141329,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512141329,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512141329,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512141329,Mensaje,tokens_log,20150512141329,Message,remote sender,Token validado con exito,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,True,Insertar documento,
+collection = db||20150512141329,Mensaje,tokens_log,,,555250d9bbc118667c4bc1c8
+collection = db||20150512141329,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512141329,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512141329,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512141329,Mensaje,evento,Listar Documentos,
+collection = db||20150512141329,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,,
+collection = db||20150512141329,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512141329,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512141329,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512141329,Mensaje,tokens_log,20150512141329,Message,remote sender,Validacion de token,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,null,Insertar documento,
+collection = db||20150512141329,Mensaje,tokens_log,,,555250d9bbc118d5104bc1e3
+collection = db||20150512141329,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512141329,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512141329,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512141329,Mensaje,tokens_log,20150512141329,Message,remote sender,Token validado con exito,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,True,Insertar documento,
+collection = db||20150512141329,Mensaje,tokens_log,,,555250d9bbc118d5104bc1e4
+collection = db||20150512141329,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512141329,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512141329,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512141329,Mensaje,evento,Listar Documentos,
+collection = db||20150512141329,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,SI,1,,
+collection = db||20150512141329,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512141924,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512141924,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512141924,Mensaje,tokens_log,20150512141924,Message,remote sender,Validacion de token,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,null,Insertar documento,
+collection = db||20150512141924,Mensaje,tokens_log,,,5552523cbbc118d5104bc1e5
+collection = db||20150512141924,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512141924,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512141924,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512141924,Mensaje,tokens_log,20150512141924,Message,remote sender,Token validado con exito,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,True,Insertar documento,
+collection = db||20150512141924,Mensaje,tokens_log,,,5552523cbbc118d5104bc1e6
+collection = db||20150512141924,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512141924,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512141924,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512141924,Mensaje,evento,Listar Documentos,
+collection = db||20150512141924,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,,
+collection = db||20150512141924,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512141924,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512141924,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512141924,Mensaje,tokens_log,20150512141924,Message,remote sender,Validacion de token,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,null,Insertar documento,
+collection = db||20150512141924,Mensaje,tokens_log,,,5552523cbbc118dc104bc1d5
+collection = db||20150512141924,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512141924,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512141924,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512141924,Mensaje,tokens_log,20150512141924,Message,remote sender,Token validado con exito,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,True,Insertar documento,
+collection = db||20150512141924,Mensaje,tokens_log,,,5552523cbbc118dc104bc1d6
+collection = db||20150512141924,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512141924,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512141924,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512141924,Mensaje,evento,Listar Documentos,
+collection = db||20150512141924,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,SI,1,,
+collection = db||20150512141924,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512142031,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512142031,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512142031,Mensaje,tokens_log,20150512142031,Message,remote sender,Validacion de token,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,null,Insertar documento,
+collection = db||20150512142031,Mensaje,tokens_log,,,5552527fbbc1181a5b4bc1aa
+collection = db||20150512142031,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512142031,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512142031,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512142031,Mensaje,tokens_log,20150512142031,Message,remote sender,Token validado con exito,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,True,Insertar documento,
+collection = db||20150512142031,Mensaje,tokens_log,,,5552527fbbc1181a5b4bc1ab
+collection = db||20150512142031,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512142031,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512142031,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512142031,Mensaje,evento,Listar Documentos,
+collection = db||20150512142031,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,,
+collection = db||20150512142031,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512142031,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512142031,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512142031,Mensaje,tokens_log,20150512142031,Message,remote sender,Validacion de token,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,null,Insertar documento,
+collection = db||20150512142031,Mensaje,tokens_log,,,5552527fbbc118697c4bc1e4
+collection = db||20150512142031,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512142031,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512142031,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512142031,Mensaje,tokens_log,20150512142031,Message,remote sender,Token validado con exito,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,True,Insertar documento,
+collection = db||20150512142031,Mensaje,tokens_log,,,5552527fbbc118697c4bc1e5
+collection = db||20150512142031,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512142031,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512142031,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512142031,Mensaje,evento,Listar Documentos,
+collection = db||20150512142031,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,SI,1,,
+collection = db||20150512142031,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512142049,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512142049,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512142049,Mensaje,tokens_log,20150512142049,Message,remote sender,Validacion de token,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,null,Insertar documento,
+collection = db||20150512142049,Mensaje,tokens_log,,,55525291bbc1186a7c4bc1d3
+collection = db||20150512142049,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512142049,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512142049,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512142049,Mensaje,tokens_log,20150512142049,Message,remote sender,Token validado con exito,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,True,Insertar documento,
+collection = db||20150512142049,Mensaje,tokens_log,,,55525291bbc1186a7c4bc1d4
+collection = db||20150512142049,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512142049,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512142049,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512142049,Mensaje,evento,Listar Documentos,
+collection = db||20150512142049,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,,
+collection = db||20150512142049,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512142049,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512142049,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512142049,Mensaje,tokens_log,20150512142049,Message,remote sender,Validacion de token,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,null,Insertar documento,
+collection = db||20150512142049,Mensaje,tokens_log,,,55525291bbc11878454bc1c8
+collection = db||20150512142049,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512142049,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512142049,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512142049,Mensaje,tokens_log,20150512142049,Message,remote sender,Token validado con exito,SetTokenlWP1cQz7hEv7QhYzR+lfLLdtLbA6wH/4F+1VRUTJpxFvBFw9GG2oKUVbjFLCzTSfUcQSleqW5jL7NBtSP6GyQw==,True,Insertar documento,
+collection = db||20150512142049,Mensaje,tokens_log,,,55525291bbc11878454bc1c9
+collection = db||20150512142049,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512142049,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512142049,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512142049,Mensaje,evento,Listar Documentos,
+collection = db||20150512142049,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,SI,1,,
+collection = db||20150512142049,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512151421,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512151421,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512151421,Mensaje,tokens_log,20150512151421,Message,remote sender,Validacion de token,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,null,Insertar documento,
+collection = db||20150512151421,Mensaje,tokens_log,,,55525f1dbbc1186a7c4bc1eb
+collection = db||20150512151421,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512151421,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512151421,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512151421,Mensaje,tokens_log,20150512151421,Message,remote sender,Token validado con exito,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,True,Insertar documento,
+collection = db||20150512151421,Mensaje,tokens_log,,,55525f1dbbc1186a7c4bc1ec
+collection = db||20150512151421,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512151421,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512151421,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512151421,Mensaje,evento,Listar Documentos,
+collection = db||20150512151421,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,,
+collection = db||20150512151421,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512151421,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512151421,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512151421,Mensaje,tokens_log,20150512151421,Message,remote sender,Validacion de token,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,null,Insertar documento,
+collection = db||20150512151421,Mensaje,tokens_log,,,55525f1dbbc1181a5b4bc1d2
+collection = db||20150512151421,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512151421,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512151421,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512151421,Mensaje,tokens_log,20150512151421,Message,remote sender,Token validado con exito,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,True,Insertar documento,
+collection = db||20150512151421,Mensaje,tokens_log,,,55525f1dbbc1181a5b4bc1d3
+collection = db||20150512151421,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512151421,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512151421,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512151421,Mensaje,evento,Listar Documentos,
+collection = db||20150512151421,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,SI,1,,
+collection = db||20150512151421,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512151500,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512151500,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512151500,Mensaje,tokens_log,20150512151500,Message,remote sender,Validacion de token,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,null,Insertar documento,
+collection = db||20150512151500,Mensaje,tokens_log,,,55525f44bbc118dc104bc1f8
+collection = db||20150512151500,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512151500,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512151500,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512151500,Mensaje,tokens_log,20150512151500,Message,remote sender,Token validado con exito,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,True,Insertar documento,
+collection = db||20150512151500,Mensaje,tokens_log,,,55525f44bbc118dc104bc1f9
+collection = db||20150512151500,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512151500,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512151500,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512151500,Mensaje,evento,Listar Documentos,
+collection = db||20150512151500,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,,
+collection = db||20150512151500,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512151500,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512151500,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512151500,Mensaje,tokens_log,20150512151500,Message,remote sender,Validacion de token,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,null,Insertar documento,
+collection = db||20150512151500,Mensaje,tokens_log,,,55525f44bbc1181a5b4bc1d6
+collection = db||20150512151500,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512151500,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512151500,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512151500,Mensaje,tokens_log,20150512151500,Message,remote sender,Token validado con exito,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,True,Insertar documento,
+collection = db||20150512151500,Mensaje,tokens_log,,,55525f44bbc1181a5b4bc1d7
+collection = db||20150512151500,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512151500,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512151500,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512151500,Mensaje,evento,Listar Documentos,
+collection = db||20150512151500,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,SI,1,,
+collection = db||20150512151500,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152239,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512152239,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512152239,Mensaje,tokens_log,20150512152239,Message,remote sender,Validacion de token,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,null,Insertar documento,
+collection = db||20150512152239,Mensaje,tokens_log,,,5552610fbbc118d5104bc203
+collection = db||20150512152239,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152239,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512152239,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512152239,Mensaje,tokens_log,20150512152239,Message,remote sender,Token validado con exito,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,True,Insertar documento,
+collection = db||20150512152239,Mensaje,tokens_log,,,5552610fbbc118d5104bc204
+collection = db||20150512152239,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152239,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512152239,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512152239,Mensaje,evento,Listar Documentos,
+collection = db||20150512152239,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,,
+collection = db||20150512152239,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152239,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512152239,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512152239,Mensaje,tokens_log,20150512152239,Message,remote sender,Validacion de token,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,null,Insertar documento,
+collection = db||20150512152239,Mensaje,tokens_log,,,5552610fbbc11823124bc208
+collection = db||20150512152239,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152239,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512152239,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512152239,Mensaje,tokens_log,20150512152239,Message,remote sender,Token validado con exito,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,True,Insertar documento,
+collection = db||20150512152239,Mensaje,tokens_log,,,5552610fbbc11823124bc209
+collection = db||20150512152239,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152239,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512152239,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512152239,Mensaje,evento,Listar Documentos,
+collection = db||20150512152239,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,SI,1,,
+collection = db||20150512152239,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152327,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512152327,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512152327,Mensaje,tokens_log,20150512152327,Message,remote sender,Validacion de token,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,null,Insertar documento,
+collection = db||20150512152327,Mensaje,tokens_log,,,5552613fbbc118697c4bc20c
+collection = db||20150512152327,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152327,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512152327,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512152327,Mensaje,tokens_log,20150512152327,Message,remote sender,Token validado con exito,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,True,Insertar documento,
+collection = db||20150512152327,Mensaje,tokens_log,,,5552613fbbc118697c4bc20d
+collection = db||20150512152327,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152327,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512152327,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512152327,Mensaje,evento,Listar Documentos,
+collection = db||20150512152327,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,,
+collection = db||20150512152327,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152327,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512152327,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512152327,Mensaje,tokens_log,20150512152327,Message,remote sender,Validacion de token,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,null,Insertar documento,
+collection = db||20150512152327,Mensaje,tokens_log,,,5552613fbbc118647c4bc218
+collection = db||20150512152327,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152327,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512152327,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512152327,Mensaje,tokens_log,20150512152327,Message,remote sender,Token validado con exito,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,True,Insertar documento,
+collection = db||20150512152327,Mensaje,tokens_log,,,5552613fbbc118647c4bc219
+collection = db||20150512152327,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152327,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512152327,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512152327,Mensaje,evento,Listar Documentos,
+collection = db||20150512152327,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,SI,1,,
+collection = db||20150512152327,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152937,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512152937,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512152937,Mensaje,tokens_log,20150512152937,Message,remote sender,Validacion de token,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,null,Insertar documento,
+collection = db||20150512152937,Mensaje,tokens_log,,,555262b1bbc11878454bc1f0
+collection = db||20150512152937,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152937,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512152937,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512152937,Mensaje,tokens_log,20150512152937,Message,remote sender,Token validado con exito,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,True,Insertar documento,
+collection = db||20150512152937,Mensaje,tokens_log,,,555262b1bbc11878454bc1f1
+collection = db||20150512152937,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152937,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512152937,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512152937,Mensaje,evento,5552376ebbc118637c4bc1bd,353900,2015-05-12T20:27:32.654Z,evento,fawefwefawef awef awef awef aewf ,Por Iniciar,2015-05-12T08:00:00+00:00,2015-05-12T16:00:00+00:00,manual,jgilviillamarin@gmail.com,Ninguna,true,2015-05-26,true,true,awe awef awef awe awef awef afawef aweifj hsoiufhg iogudfh oiugfh ,Insertar documento,
+collection = db||20150512152937,Mensaje,evento,,,555262b1bbc11878454bc1f2
+collection = db||20150512152937,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152952,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512152952,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512152952,Mensaje,tokens_log,20150512152952,Message,remote sender,Validacion de token,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,null,Insertar documento,
+collection = db||20150512152952,Mensaje,tokens_log,,,555262c0bbc11878454bc1f3
+collection = db||20150512152952,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152952,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512152952,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512152952,Mensaje,tokens_log,20150512152952,Message,remote sender,Token validado con exito,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,True,Insertar documento,
+collection = db||20150512152952,Mensaje,tokens_log,,,555262c0bbc11878454bc1f4
+collection = db||20150512152952,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152952,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512152952,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512152952,Mensaje,evento,Listar Documentos,
+collection = db||20150512152952,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,,555262b1bbc11878454bc1f2,5552376ebbc118637c4bc1bd,353900,2015-05-12T20:27:32.654Z,evento,fawefwefawef awef awef awef aewf ,Por Iniciar,2015-05-12T08:00:00+00:00,2015-05-12T16:00:00+00:00,manual,jgilviillamarin@gmail.com,Ninguna,true,2015-05-26,true,true,awe awef awef awe awef awef afawef aweifj hsoiufhg iogudfh oiugfh 
+collection = db||20150512152952,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152952,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512152952,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512152952,Mensaje,tokens_log,20150512152952,Message,remote sender,Validacion de token,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,null,Insertar documento,
+collection = db||20150512152952,Mensaje,tokens_log,,,555262c0bbc118677c4bc209
+collection = db||20150512152952,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152952,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512152952,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512152952,Mensaje,tokens_log,20150512152952,Message,remote sender,Token validado con exito,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,True,Insertar documento,
+collection = db||20150512152952,Mensaje,tokens_log,,,555262c0bbc118677c4bc20a
+collection = db||20150512152952,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152952,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512152952,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512152952,Mensaje,evento,Listar Documentos,
+collection = db||20150512152952,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,SI,1,,
+collection = db||20150512152952,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512153115,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512153115,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512153115,Mensaje,tokens_log,20150512153115,Message,remote sender,Validacion de token,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,null,Insertar documento,
+collection = db||20150512153115,Mensaje,tokens_log,,,55526313bbc118d5104bc20b
+collection = db||20150512153115,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512153115,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512153115,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512153115,Mensaje,tokens_log,20150512153115,Message,remote sender,Token validado con exito,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,True,Insertar documento,
+collection = db||20150512153115,Mensaje,tokens_log,,,55526313bbc118d5104bc20c
+collection = db||20150512153115,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512153115,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512153115,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512153115,Mensaje,evento,Listar Documentos,
+collection = db||20150512153115,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,,555262b1bbc11878454bc1f2,5552376ebbc118637c4bc1bd,353900,2015-05-12T20:27:32.654Z,evento,fawefwefawef awef awef awef aewf ,Por Iniciar,2015-05-12T08:00:00+00:00,2015-05-12T16:00:00+00:00,manual,jgilviillamarin@gmail.com,Ninguna,true,2015-05-26,true,true,awe awef awef awe awef awef afawef aweifj hsoiufhg iogudfh oiugfh 
+collection = db||20150512153115,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512153116,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512153116,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512153116,Mensaje,tokens_log,20150512153116,Message,remote sender,Validacion de token,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,null,Insertar documento,
+collection = db||20150512153116,Mensaje,tokens_log,,,55526314bbc118697c4bc20e
+collection = db||20150512153116,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512153116,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512153116,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512153116,Mensaje,tokens_log,20150512153116,Message,remote sender,Token validado con exito,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,True,Insertar documento,
+collection = db||20150512153116,Mensaje,tokens_log,,,55526314bbc118697c4bc20f
+collection = db||20150512153116,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512153116,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512153116,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512153116,Mensaje,evento,Listar Documentos,
+collection = db||20150512153116,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,SI,1,,
+collection = db||20150512153116,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512153221,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512153221,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512153221,Mensaje,tokens_log,20150512153221,Message,remote sender,Validacion de token,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,null,Insertar documento,
+collection = db||20150512153221,Mensaje,tokens_log,,,55526355bbc118dc104bc206
+collection = db||20150512153221,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512153221,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512153221,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512153221,Mensaje,tokens_log,20150512153221,Message,remote sender,Token validado con exito,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,True,Insertar documento,
+collection = db||20150512153221,Mensaje,tokens_log,,,55526355bbc118dc104bc207
+collection = db||20150512153221,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512153221,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512153221,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512153221,Mensaje,evento,5552376ebbc118637c4bc1bd,353900,2015-05-12T20:30:16.837Z,evento,fawef awef awef awef awef awef awef,Por Iniciar,2015-05-14T13:00:00+00:00,2015-05-14T15:30:00+00:00,manual,jgilvillamarin@gmail.com,Ninguna,true,2015-05-31,true,true,dfghdfghdfgh dfghdfghdfgh dfghdfghdfgh dfghdfghdfgh dfghdfghdfgh dgfhdfghdfgh,Insertar documento,
+collection = db||20150512153221,Mensaje,evento,,,55526355bbc118dc104bc208
+collection = db||20150512153221,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512153232,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512153232,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512153232,Mensaje,tokens_log,20150512153232,Message,remote sender,Validacion de token,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,null,Insertar documento,
+collection = db||20150512153232,Mensaje,tokens_log,,,55526360bbc1181a5b4bc1ec
+collection = db||20150512153232,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512153232,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512153232,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512153232,Mensaje,tokens_log,20150512153232,Message,remote sender,Token validado con exito,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,True,Insertar documento,
+collection = db||20150512153232,Mensaje,tokens_log,,,55526360bbc1181a5b4bc1ed
+collection = db||20150512153232,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512153232,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512153232,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512153232,Mensaje,evento,Listar Documentos,
+collection = db||20150512153232,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,SI,1,,
+collection = db||20150512153232,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512153232,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512153232,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512153232,Mensaje,tokens_log,20150512153232,Message,remote sender,Validacion de token,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,null,Insertar documento,
+collection = db||20150512153232,Mensaje,tokens_log,,,55526360bbc118697c4bc212
+collection = db||20150512153232,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512153232,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512153232,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512153232,Mensaje,tokens_log,20150512153232,Message,remote sender,Token validado con exito,SetTokenGfz7UkJJaDfD+MxWzXfnV+f3JKr1kzAoJWeZsZljn6g5wb42J7r0TmLhLp8uOdGl15Es8Ax8mnYJGmVcmey68g==,True,Insertar documento,
+collection = db||20150512153232,Mensaje,tokens_log,,,55526360bbc118697c4bc213
+collection = db||20150512153232,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512153232,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150512153232,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150512153232,Mensaje,evento,Listar Documentos,
+collection = db||20150512153232,Mensaje,evento,5552376ebbc118637c4bc1bd,Finalizado,Cancelado,,555262b1bbc11878454bc1f2,5552376ebbc118637c4bc1bd,353900,2015-05-12T20:27:32.654Z,evento,fawefwefawef awef awef awef aewf ,Por Iniciar,2015-05-12T08:00:00+00:00,2015-05-12T16:00:00+00:00,manual,jgilviillamarin@gmail.com,Ninguna,true,2015-05-26,true,true,awe awef awef awe awef awef afawef aweifj hsoiufhg iogudfh oiugfh ,55526355bbc118dc104bc208,5552376ebbc118637c4bc1bd,353900,2015-05-12T20:30:16.837Z,evento,fawef awef awef awef awef awef awef,Por Iniciar,2015-05-14T13:00:00+00:00,2015-05-14T15:30:00+00:00,manual,jgilvillamarin@gmail.com,Ninguna,true,2015-05-31,true,true,dfghdfghdfgh dfghdfghdfgh dfghdfghdfgh dfghdfghdfgh dfghdfghdfgh dgfhdfghdfgh
+collection = db||20150512153232,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513085916,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513085916,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513085916,Mensaje,tokens_log,20150513085916,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null,Insertar documento,
+collection = db||20150513085916,Mensaje,tokens_log,,,555358b4bbc118667c4bc21c
+collection = db||20150513085916,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513085916,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513085916,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513085916,Mensaje,tokens_log,20150513085916,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True,Insertar documento,
+collection = db||20150513085916,Mensaje,tokens_log,,,555358b4bbc118667c4bc21d
+collection = db||20150513085916,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513085916,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150513085916,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150513085916,Mensaje,evento,Listar Documentos,
+collection = db||20150513085916,Mensaje,evento,5511995bbbc118d03fbd2191,Finalizado,Cancelado,,553e571ebbc118323b222e7f,5511995bbbc118d03fbd2191,24,2015-04-27T15:33:21.982Z,evento,evento de prueba,Por Iniciar,2015-04-28T07:30:00,2015-04-28T22:00:00,,Ninguna,1,2015-04-28,SI,SI,estas son las notas del evento,554621f1bbc1182178352523,5511995bbbc118d03fbd2191,24,2015-05-03T13:24:37.945Z,evento,Desayuno de trabajo,Por Iniciar,2015-05-04T07:30:00+00:00,2015-05-04T08:00:00+00:00,asamblea,,true,2015-05-03,true,true,,Ninguna,5546237abbc118e477352527,5511995bbbc118d03fbd2191,24,2015-05-03T13:31:10.830Z,evento,Desayuno 2,Por Iniciar,2015-05-05T08:00:00+00:00,2015-05-05T08:30:00+00:00,asamblea,,true,2015-05-04,true,true,,Ninguna,554623fcbbc118ec77352525,5511995bbbc118d03fbd2191,24,2015-05-03T13:33:21.190Z,evento,Desayuno 3,Por Iniciar,2015-05-06T08:00:00+00:00,2015-05-06T08:30:00+00:00,asamblea,,true,2015-05-05,true,true,,Ninguna,55462626bbc118a96e352533,5511995bbbc118d03fbd2191,24,2015-05-03T13:42:34.962Z,evento,Desayuno 4,Por Iniciar,2015-05-07T08:00:00+00:00,2015-05-07T08:30:00+00:00,gvelasquez85@gmail.com,asamblea,Ninguna,,2015-05-06,1,,,5547db2bbbc11821783525aa,5511995bbbc118d03fbd2191,24,2015-05-04T20:46:56.260Z,evento,Desayuno 5,Por Iniciar,2015-05-08T08:00:00+00:00,2015-05-08T08:30:00+00:00,manual,gvelasquez@teleinte.com,gvelasquez85@teleinte.com,Ninguna,false,2015-05-07,true,true,Desayuno TEST,5547dd13bbc118e47735259e,5511995bbbc118d03fbd2191,24,2015-05-04T20:55:03.679Z,evento,Evento TEST,Por Iniciar,2015-05-07T10:30:00+00:00,2015-05-07T11:00:00+00:00,gvelasquez85@gmail.com,sandrita.go@hotmail.com,Ninguna,,2015-05-06,,1,TEST
+collection = db||20150513085916,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513085916,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513085916,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513085916,Mensaje,tokens_log,20150513085916,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null,Insertar documento,
+collection = db||20150513085916,Mensaje,tokens_log,,,555358b4bbc1186a7c4bc23e
+collection = db||20150513085916,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513085916,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513085916,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513085916,Mensaje,tokens_log,20150513085916,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True,Insertar documento,
+collection = db||20150513085916,Mensaje,tokens_log,,,555358b4bbc1186a7c4bc23f
+collection = db||20150513085916,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513085916,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150513085916,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150513085916,Mensaje,evento,Listar Documentos,
+collection = db||20150513085916,Mensaje,evento,5511995bbbc118d03fbd2191,Finalizado,Cancelado,SI,1,,553e571ebbc118323b222e7f,5511995bbbc118d03fbd2191,24,2015-04-27T15:33:21.982Z,evento,evento de prueba,Por Iniciar,2015-04-28T07:30:00,2015-04-28T22:00:00,,Ninguna,1,2015-04-28,SI,SI,estas son las notas del evento
+collection = db||20150513085916,Mensaje,evento,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513091515,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513091515,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513091515,Mensaje,tokens_log,20150513091515,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null,Insertar documento,
+collection = db||20150513091515,Mensaje,tokens_log,,,55535c73bbc118677c4bc255
+collection = db||20150513091515,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513091515,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513091515,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513091515,Mensaje,tokens_log,20150513091515,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True,Insertar documento,
+collection = db||20150513091515,Mensaje,tokens_log,,,55535c73bbc118677c4bc256
+collection = db||20150513091515,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513091515,Mensaje,evento,Cargando Controlador,Consultas,
+collection = db||20150513091515,Mensaje,evento,conectando con el servidor MongoDB,Con,
+collection = db||20150513091515,Mensaje,evento,Listar Documentos,
+collection = db||20150513091515,Mensaje,evento,5511995bbbc118d03fbd2191,Finalizado,Cancelado,,553e571ebbc118323b222e7f,5511995bbbc118d03fbd2191,24,2015-04-27T15:33:21.982Z,evento,evento de prueba,Por Iniciar,2015-04-28T07:30:00,2015-04-28T22:00:00,,Ninguna,1,2015-04-28,SI,SI,estas son las notas del evento,554621f1bbc1182178352523,5511995bbbc118d03fbd2191,24,2015-05-03T13:24:37.945Z,evento,Desayuno de trabajo,Por Iniciar,2015-05-04T07:30:00+00:00,2015-05-04T08:00:00+00:00,asamblea,,true,2015-05-03,true,true,,Ninguna,5546237abbc118e477352527,5511995bbbc118d03fbd2191,24,2015-05-03T13:31:10.830Z,evento,Desayuno 2,Por Iniciar,2015-05-05T08:00:00+00:00,2015-05-05T08:30:00+00:00,asamblea,,true,2015-05-04,true,true,,Ninguna,554623fcbbc118ec77352525,5511995bbbc118d03fbd2191,24,2015-05-03T13:33:21.190Z,evento,Desayuno 3,Por Iniciar,2015-05-06T08:00:00+00:00,2015-05-06T08:30:00+00:00,asamblea,,true,2015-05-05,true,true,,Ninguna,55462626bbc118a96e352533,5511995bbbc118d03fbd2191,24,2015-05-03T13:42:34.962Z,evento,Desayuno 4,Por Iniciar,2015-05-07T08:00:00+00:00,2015-05-07T08:30:00+00:00,gvelasquez85@gmail.com,asamblea,Ninguna,,2015-05-06,1,,,5547db2bbbc11821783525aa,5511995bbbc118d03fbd2191,24,2015-05-04T20:46:56.260Z,evento,Desayuno 5,Por Iniciar,2015-05-08T08:00:00+00:00,2015-05-08T08:30:00+00:00,manual,gvelasquez@teleinte.com,gvelasquez85@teleinte.com,Ninguna,false,2015-05-07,true,true,Desayuno TEST,5547dd13bbc118e47735259e,5511995bbbc118d03fbd2191,24,2015-05-04T20:55:03.679Z,evento,Evento TEST,Por Iniciar,2015-05-07T10:30:00+00:00,2015-05-07T11:00:00+00:00,gvelasquez85@gmail.com,sandrita.go@hotmail.com,Ninguna,,2015-05-06,,1,TEST
+collection = db||20150513091515,Mensaje,evento,Cerrando coneccion,Terminando,Terminando

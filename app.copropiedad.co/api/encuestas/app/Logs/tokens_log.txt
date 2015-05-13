@@ -891,3 +891,47 @@ collection = tokens||20150505153213,Message,remote sender,Validacion de token,Se
 collection = tokens||20150505153213,Message,remote sender,Token validado con exito,SetTokenSFyCTCadIx2+eiEmdKDg+e6FSR3XPaQmi9omvgf5NSw=,True
 collection = tokens||20150507152652,Message,remote sender,Validacion de token,SetTokentBADfGldMsuU6WyRLB/a846HAbJGtfFCkEoXo3Q7B0s=,null
 collection = tokens||20150507152652,Message,remote sender,Token validado con exito,SetTokentBADfGldMsuU6WyRLB/a846HAbJGtfFCkEoXo3Q7B0s=,True
+collection = tokens||20150512160950,Message,remote sender,Validacion de token,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,null
+collection = tokens||20150512160950,Message,remote sender,Token validado con exito,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,True
+collection = tokens||20150512161143,Message,remote sender,Validacion de token,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,null
+collection = tokens||20150512161143,Message,remote sender,Token validado con exito,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,True
+collection = tokens||20150512161249,Message,remote sender,Validacion de token,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,null
+collection = tokens||20150512161249,Message,remote sender,Token validado con exito,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,True
+collection = tokens||20150512161254,Message,remote sender,Validacion de token,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,null
+collection = tokens||20150512161254,Message,remote sender,Token validado con exito,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,True
+collection = tokens||20150512163853,Message,remote sender,Validacion de token,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,null
+collection = tokens||20150512163853,Message,remote sender,Token validado con exito,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,True
+collection = tokens||20150512163901,Message,remote sender,Validacion de token,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,null
+collection = tokens||20150512163901,Message,remote sender,Token validado con exito,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,True
+collection = tokens||20150513085957,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null
+collection = tokens||20150513085957,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True
+collection = tokens||20150513090008,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null
+collection = tokens||20150513090008,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True
+collection = tokens||20150513090008,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null
+collection = tokens||20150513090008,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True
+collection = tokens||20150513090008,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null
+collection = tokens||20150513090008,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True
+collection = tokens||20150513090008,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null
+collection = tokens||20150513090008,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True
+collection = tokens||20150513090009,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null
+collection = tokens||20150513090009,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True
+collection = tokens||20150513090009,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null
+collection = tokens||20150513090009,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True
+collection = tokens||20150513090009,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null
+collection = tokens||20150513090009,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True
+collection = tokens||20150513090009,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null
+collection = tokens||20150513090009,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True
+collection = tokens||20150513090009,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null
+collection = tokens||20150513090009,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True
+collection = tokens||20150513090010,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null
+collection = tokens||20150513090010,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True
+collection = tokens||20150513090010,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null
+collection = tokens||20150513090010,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True
+collection = tokens||20150513090023,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null
+collection = tokens||20150513090023,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True
+collection = tokens||20150513102023,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null
+collection = tokens||20150513102023,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True
+collection = tokens||20150513102040,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null
+collection = tokens||20150513102040,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True
+collection = tokens||20150513102304,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null
+collection = tokens||20150513102304,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True

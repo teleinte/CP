@@ -131,7 +131,7 @@ if(!defined("SPECIALCONSTANT")) die("Acceso denegado");
 //TRAE DATOS COPROPIEDAD- PAYU
 // Función para visualizar datos de una copropiedad cliente de PayU en el formulario
 // Metodo Options para validacion de navegadores
-	$app->options("/consulta/copropiedad/pagosonline", function() use($app)
+	$app->options("/consulta/copropiedad/pagosonline/", function() use($app)
 	{
 		enviarRespuesta($app, true, "ok", "ok");
 	});
@@ -142,7 +142,7 @@ if(!defined("SPECIALCONSTANT")) die("Acceso denegado");
 // token = Token creado para ser validado
 // body = cuerpo del objeto, ver documentación de arquitectura para definir los campos
 // id_copropiedad = Campo obligatorio para identificar la copropiedad consultada, esta en el body
-	$app->post("/consulta/copropiedad/pagosonline", function() use($app)
+	$app->post("/consulta/copropiedad/pagosonline/", function() use($app)
 	{
 		try
 		{
@@ -357,42 +357,42 @@ if(!defined("SPECIALCONSTANT")) die("Acceso denegado");
   {
     try
     {
-      //$tst = file_get_contents("/datos/app.copropiedad.co/api/cartera/log.txt");
+      //$tst = file_get_contents("/datos/app.copropiedad.co/api/payu/log.txt");
       $requerimiento = $app::getInstance()->request();
       $rtapayu = $requerimiento->params();
       $today = date("c");
       $rtapayu["tipo_documento"] = "respuestapayu";
       $rtapayu["timestamprecibido"] = $today;
       $rta = guardarDato("pagosonline",$rtapayu,$app);
-      //$tst = file_get_contents("/datos/app.copropiedad.co/api/cartera/log.txt");
+      //$tst = file_get_contents("/datos/app.copropiedad.co/api/payu/log.txt");
       //$log = "-----------RTAPAYU----------------\n" . json_encode($rtapayu). "-----------\n";
-      //file_put_contents("/datos/app.copropiedad.co/api/cartera/log.txt", $tst . $log);
-      //$tst = file_get_contents("/datos/app.copropiedad.co/api/cartera/log.txt");
+      //file_put_contents("/datos/app.copropiedad.co/api/payu/log.txt", $tst . $log);
+      //$tst = file_get_contents("/datos/app.copropiedad.co/api/payu/log.txt");
       //$log = "-----------RTASAVEPAYU----------------\n" . json_encode($rta). "-----------\n";
-      //file_put_contents("/datos/app.copropiedad.co/api/cartera/log.txt", $tst . $log);
-      //$tst = file_get_contents("/datos/app.copropiedad.co/api/cartera/log.txt");
+      //file_put_contents("/datos/app.copropiedad.co/api/payu/log.txt", $tst . $log);
+      //$tst = file_get_contents("/datos/app.copropiedad.co/api/payu/log.txt");
 
       $muestreo = array("referenceCode"=>$rtapayu["reference_sale"]);
       $pago = objectToArray(consultaColeccionRespuesta($app, "pagosonline", $muestreo))[0];
       //$log = "-----------PAGO----------------\n" . json_encode($pago). "-----------\n";
-      //file_put_contents("/datos/app.copropiedad.co/api/cartera/log.txt", $tst . $log);
-      //$tst = file_get_contents("/datos/app.copropiedad.co/api/cartera/log.txt");
+      //file_put_contents("/datos/app.copropiedad.co/api/payu/log.txt", $tst . $log);
+      //$tst = file_get_contents("/datos/app.copropiedad.co/api/payu/log.txt");
 
       $muestreocont = array("tipo_documento"=>"cartera", "doc"=>$pago['doc']);
       $cartera = objectToArray(consultaColeccionRespuesta($app, 'cont_'.$pago['id_copropiedad'], $muestreocont))[0];
       //$log = "-----------CARTERA----------------\n" . json_encode($cartera). "-----------\n";
-      //file_put_contents("/datos/app.copropiedad.co/api/cartera/log.txt", $tst . $log);
-      //$tst = file_get_contents("/datos/app.copropiedad.co/api/cartera/log.txt");
+      //file_put_contents("/datos/app.copropiedad.co/api/payu/log.txt", $tst . $log);
+      //$tst = file_get_contents("/datos/app.copropiedad.co/api/payu/log.txt");
 
       $modificador=array('$set'=>array("estado"=>$rtapayu['response_code_pol']));
       $dbdata = new DBNosql('pagosonline');
       $resultpagos = $dbdata->updateDocument($muestreo,$modificador);
       //$log = "-----------MODIFICADOR----------------\n" . json_encode($modificador). "-----------\n";
-      //file_put_contents("/datos/app.copropiedad.co/api/cartera/log.txt", $tst . $log);
-      //$tst = file_get_contents("/datos/app.copropiedad.co/api/cartera/log.txt");
+      //file_put_contents("/datos/app.copropiedad.co/api/payu/log.txt", $tst . $log);
+      //$tst = file_get_contents("/datos/app.copropiedad.co/api/payu/log.txt");
       //$log = "-----------RESULTPAGOS----------------\n" . json_encode($resultpagos). "-----------\n";
-      //file_put_contents("/datos/app.copropiedad.co/api/cartera/log.txt", $tst . $log);
-      //$tst = file_get_contents("/datos/app.copropiedad.co/api/cartera/log.txt");
+      //file_put_contents("/datos/app.copropiedad.co/api/payu/log.txt", $tst . $log);
+      //$tst = file_get_contents("/datos/app.copropiedad.co/api/payu/log.txt");
 
       if($rtapayu["response_code_pol"] == 1 || $rtapayu["response_code_pol"] == "1" )
       {
@@ -406,14 +406,15 @@ if(!defined("SPECIALCONSTANT")) die("Acceso denegado");
         //$log = $log . "-----------modificador----------------\n" . json_encode($modificador). "-----------\n";
         //$log = $log . "-----------resultcartera----------------\n" . json_encode($resultcartera). "-----------\n";
       }
-      //file_put_contents("/datos/app.copropiedad.co/api/cartera/log.txt", $tst . $log);
+      //file_put_contents("/datos/app.copropiedad.co/api/payu/log.txt", $tst . $log);
 
       enviarRespuesta($app, true, null, null);
     }
     catch(Exception $e)
     {
-      //$tst = file_get_contents("/datos/app.copropiedad.co/api/cartera/log.txt");
-      //file_put_contents("/datos/app.copropiedad.co/api/cartera/log.txt", $tst . "ERR: \n" . $e->getMessage() . "-----------\n\n");
+      $tst = file_get_contents("/datos/app.copropiedad.co/api/payu/log.txt");
+      file_put_contents("/datos/app.copropiedad.co/api/payu/log.txt", $tst . "ERR: \n" . $e->getMessage() . "-----------\n\n");
+    	enviarRespuesta($app, false, null, null);
     }
   });
 
@@ -453,8 +454,9 @@ if(!defined("SPECIALCONSTANT")) die("Acceso denegado");
     }
     catch(Exception $e)
     {
-      //$tst = file_get_contents("/datos/app.copropiedad.co/api/cartera/log.txt");
-      //file_put_contents("/datos/app.copropiedad.co/api/cartera/log.txt", $tst . "ERR: \n" . $e->getMessage() . "-----------\n\n");
+      $tst = file_get_contents("/datos/app.copropiedad.co/api/cartera/log.txt");
+      file_put_contents("/datos/app.copropiedad.co/api/cartera/log.txt", $tst . "ERR: \n" . $e->getMessage() . "-----------\n\n");
+      enviarRespuesta($app, false, null, null);
     }
   });
 
@@ -509,4 +511,39 @@ if(!defined("SPECIALCONSTANT")) die("Acceso denegado");
 		$recurso->response->header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
 		$recurso->response->status(200);
 		$recurso->response->body(json_encode($envio));
+	}
+
+	function objectToArray($d) 
+	{
+	  if (is_object($d)) 
+	  {    
+	      $d = get_object_vars($d);
+	  }
+	  if (is_array($d)) 
+	  {    
+	      return array_map(__FUNCTION__, $d);
+	  }
+	  else 
+	  {
+	      // Return array
+	      return $d;
+	  }
+	}
+
+	function guardarDato($lista,$data,$app)
+	{
+	  $dbdata=new DBNosql($lista);
+	  $arreglo = json_decode(json_encode($data), true);
+	  $resultado=$dbdata->insertDocument($arreglo);
+	  $validador=get_object_vars($resultado);
+	  $validador=implode(",", $validador);
+	  return $validador;
+	}
+
+	function consultaColeccionRespuesta($app, $coleccion, $arreglo)
+	{
+	  $dbdata = new DBNosql($coleccion);  
+	  $resultado = $dbdata->selectDocument($arreglo); 
+	  if ($resultado){return $resultado;}
+	  else {enviarRespuesta($app, true, null, null);}
 	}

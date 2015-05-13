@@ -141,6 +141,10 @@
                                         <input type="text" id="telefono1" name="telefono1">
                                       </td>
                                       <td>
+                                        <label for="celular">Celular:</label>
+                                        <input type="text" id="celular" name="celular">
+                                      </td>
+                                      <td>
                                         <label for = "email1">Correo Electronico:</label>
                                         <input type = "text" id="email1" name="email1">
                                       </td> 

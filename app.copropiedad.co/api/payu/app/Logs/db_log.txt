@@ -7630,3 +7630,1223 @@ collection = db||20150508101238,Mensaje,pagosonline,conectando con el servidor M
 collection = db||20150508101238,Mensaje,pagosonline,5-8-2015  10:10:41,5511995bbbc118d03fbd2191,24,777,500238,6u39nqhq8ftd0hlvnjfs66eh8c,500538,52000.00,gvelasquez85@gmail.com,039dcaa3a8fae14b83863a3c32020015,Pago Administracion Abril 2015,0,c8283dd16f3e5b9c0cfc401880bc627a,COP,1,es,https://app.copropiedad.co/pagos/100001/respuesta.php,CC988,https://app.copropiedad.co/api/cartera/pagarpol/,Insertar documento,
 collection = db||20150508101238,Mensaje,pagosonline,,,554cd266bbc118e4773526e8
 collection = db||20150508101238,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511115348,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150511115348,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150511115348,Mensaje,tokens_log,20150511115348,Message,remote sender,Validacion de token,SetTokenjyn3VJnukKH7jZgWsd530E/b5zJHXd3r+tfVAakyoVE=,null,Insertar documento,
+collection = db||20150511115348,Mensaje,tokens_log,,,5550de9cbbc118657c4bc14f
+collection = db||20150511115348,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511115348,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150511115348,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150511115348,Mensaje,tokens_log,20150511115348,Message,remote sender,Error Validando el token token vencido,SetTokenjyn3VJnukKH7jZgWsd530E/b5zJHXd3r+tfVAakyoVE=,False,Insertar documento,
+collection = db||20150511115348,Mensaje,tokens_log,,,5550de9cbbc118657c4bc150
+collection = db||20150511115348,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511115419,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150511115419,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150511115419,Mensaje,tokens_log,20150511115419,Message,remote sender,Validacion de token,SetTokenLaGmCiGYHi9VGv8L+ox5wGY6YEPGtvLKYdg0frow10Y=,null,Insertar documento,
+collection = db||20150511115419,Mensaje,tokens_log,,,5550debbbbc118657c4bc155
+collection = db||20150511115419,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511115419,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150511115419,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150511115419,Mensaje,tokens_log,20150511115419,Message,remote sender,Token validado con exito,SetTokenLaGmCiGYHi9VGv8L+ox5wGY6YEPGtvLKYdg0frow10Y=,True,Insertar documento,
+collection = db||20150511115419,Mensaje,tokens_log,,,5550debbbbc118657c4bc156
+collection = db||20150511115419,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511115419,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150511115419,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150511115419,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150511115419,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150511115419,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511145848,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150511145848,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150511145848,Mensaje,tokens_log,20150511145848,Message,remote sender,Validacion de token,SetTokenMpR5cQjBXlTX2y7sa6G3rLkfKxydHfaSfXYeg/w5PDW4QtQq2qMR/N8926H9NaF7BCZ5AXZi7lz0ErP7oStZHA==,null,Insertar documento,
+collection = db||20150511145848,Mensaje,tokens_log,,,555109f8bbc118637c4bc151
+collection = db||20150511145848,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511145848,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150511145848,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150511145848,Mensaje,tokens_log,20150511145848,Message,remote sender,Token validado con exito,SetTokenMpR5cQjBXlTX2y7sa6G3rLkfKxydHfaSfXYeg/w5PDW4QtQq2qMR/N8926H9NaF7BCZ5AXZi7lz0ErP7oStZHA==,True,Insertar documento,
+collection = db||20150511145848,Mensaje,tokens_log,,,555109f8bbc118637c4bc152
+collection = db||20150511145848,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511145848,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150511145848,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150511145848,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150511145848,Mensaje,copropiedad_payu_admin,,,
+collection = db||20150511145848,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511150253,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150511150253,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150511150253,Mensaje,tokens_log,20150511150253,Message,remote sender,Validacion de token,SetToken89fPaV1DWLt8wcWmNEMpNXqidQApHDtKCd+BjC+qL+U=,null,Insertar documento,
+collection = db||20150511150253,Mensaje,tokens_log,,,55510aedbbc118697c4bc14d
+collection = db||20150511150253,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511150253,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150511150253,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150511150253,Mensaje,tokens_log,20150511150253,Message,remote sender,Token validado con exito,SetToken89fPaV1DWLt8wcWmNEMpNXqidQApHDtKCd+BjC+qL+U=,True,Insertar documento,
+collection = db||20150511150253,Mensaje,tokens_log,,,55510aedbbc118697c4bc14e
+collection = db||20150511150253,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511150253,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150511150253,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150511150253,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150511150253,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150511150253,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511150339,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150511150339,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150511150339,Mensaje,tokens_log,20150511150339,Message,remote sender,Validacion de token,SetToken89fPaV1DWLt8wcWmNEMpNXqidQApHDtKCd+BjC+qL+U=,null,Insertar documento,
+collection = db||20150511150339,Mensaje,tokens_log,,,55510b1bbbc118dc104bc14f
+collection = db||20150511150339,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511150339,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150511150339,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150511150339,Mensaje,tokens_log,20150511150339,Message,remote sender,Token validado con exito,SetToken89fPaV1DWLt8wcWmNEMpNXqidQApHDtKCd+BjC+qL+U=,True,Insertar documento,
+collection = db||20150511150339,Mensaje,tokens_log,,,55510b1bbbc118dc104bc150
+collection = db||20150511150339,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511150339,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150511150339,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150511150339,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150511150339,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150511150339,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511150422,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150511150422,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150511150422,Mensaje,tokens_log,20150511150422,Message,remote sender,Validacion de token,SetToken89fPaV1DWLt8wcWmNEMpNXqidQApHDtKCd+BjC+qL+U=,null,Insertar documento,
+collection = db||20150511150422,Mensaje,tokens_log,,,55510b46bbc1186a7c4bc14f
+collection = db||20150511150422,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511150422,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150511150422,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150511150422,Mensaje,tokens_log,20150511150422,Message,remote sender,Token validado con exito,SetToken89fPaV1DWLt8wcWmNEMpNXqidQApHDtKCd+BjC+qL+U=,True,Insertar documento,
+collection = db||20150511150422,Mensaje,tokens_log,,,55510b46bbc1186a7c4bc150
+collection = db||20150511150422,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511150422,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150511150422,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150511150422,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150511150422,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150511150422,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511150802,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150511150802,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150511150802,Mensaje,tokens_log,20150511150802,Message,remote sender,Validacion de token,SetToken89fPaV1DWLt8wcWmNEMpNXqidQApHDtKCd+BjC+qL+U=,null,Insertar documento,
+collection = db||20150511150802,Mensaje,tokens_log,,,55510c22bbc118647c4bc157
+collection = db||20150511150802,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511150802,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150511150802,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150511150802,Mensaje,tokens_log,20150511150802,Message,remote sender,Token validado con exito,SetToken89fPaV1DWLt8wcWmNEMpNXqidQApHDtKCd+BjC+qL+U=,True,Insertar documento,
+collection = db||20150511150802,Mensaje,tokens_log,,,55510c22bbc118647c4bc158
+collection = db||20150511150802,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511150802,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150511150802,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150511150802,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150511150802,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150511150802,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511150902,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150511150902,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150511150902,Mensaje,tokens_log,20150511150902,Message,remote sender,Validacion de token,SetToken89fPaV1DWLt8wcWmNEMpNXqidQApHDtKCd+BjC+qL+U=,null,Insertar documento,
+collection = db||20150511150902,Mensaje,tokens_log,,,55510c5ebbc118667c4bc155
+collection = db||20150511150902,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511150902,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150511150902,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150511150902,Mensaje,tokens_log,20150511150902,Message,remote sender,Token validado con exito,SetToken89fPaV1DWLt8wcWmNEMpNXqidQApHDtKCd+BjC+qL+U=,True,Insertar documento,
+collection = db||20150511150902,Mensaje,tokens_log,,,55510c5ebbc118667c4bc156
+collection = db||20150511150902,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150511150902,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150511150902,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150511150902,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150511150902,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150511150902,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143123,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143123,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143123,Mensaje,tokens_log,20150512143123,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512143123,Mensaje,tokens_log,,,5552550bbbc11823124bc1de
+collection = db||20150512143123,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143123,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143123,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143123,Mensaje,tokens_log,20150512143123,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512143123,Mensaje,tokens_log,,,5552550bbbc11823124bc1df
+collection = db||20150512143123,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143123,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512143123,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512143123,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512143123,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512143123,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143205,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143205,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143205,Mensaje,tokens_log,20150512143205,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512143205,Mensaje,tokens_log,,,55525535bbc118697c4bc1ea
+collection = db||20150512143205,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143205,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143205,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143205,Mensaje,tokens_log,20150512143205,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512143205,Mensaje,tokens_log,,,55525535bbc118697c4bc1eb
+collection = db||20150512143205,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143205,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512143205,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512143205,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512143205,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512143205,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143310,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143310,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143310,Mensaje,tokens_log,20150512143310,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512143310,Mensaje,tokens_log,,,55525576bbc118667c4bc1cf
+collection = db||20150512143310,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143310,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143310,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143310,Mensaje,tokens_log,20150512143310,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512143310,Mensaje,tokens_log,,,55525576bbc118667c4bc1d0
+collection = db||20150512143310,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143310,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512143310,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512143310,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512143310,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512143310,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143344,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143344,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143344,Mensaje,tokens_log,20150512143344,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512143344,Mensaje,tokens_log,,,55525598bbc118637c4bc1d5
+collection = db||20150512143344,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143344,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143344,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143344,Mensaje,tokens_log,20150512143344,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512143344,Mensaje,tokens_log,,,55525598bbc118637c4bc1d6
+collection = db||20150512143344,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143344,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512143344,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512143344,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512143344,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512143344,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143409,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143409,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143409,Mensaje,tokens_log,20150512143409,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512143409,Mensaje,tokens_log,,,555255b1bbc118637c4bc1d7
+collection = db||20150512143409,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143409,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143409,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143409,Mensaje,tokens_log,20150512143409,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512143409,Mensaje,tokens_log,,,555255b1bbc118637c4bc1d8
+collection = db||20150512143409,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143409,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512143409,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512143409,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512143409,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512143409,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143429,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143429,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143429,Mensaje,tokens_log,20150512143429,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512143429,Mensaje,tokens_log,,,555255c5bbc118677c4bc1eb
+collection = db||20150512143429,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143429,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143429,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143429,Mensaje,tokens_log,20150512143429,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512143429,Mensaje,tokens_log,,,555255c5bbc118677c4bc1ec
+collection = db||20150512143429,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143429,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512143429,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512143429,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512143429,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512143429,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143455,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143455,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143455,Mensaje,tokens_log,20150512143455,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512143455,Mensaje,tokens_log,,,555255dfbbc118697c4bc1ee
+collection = db||20150512143455,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143455,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143455,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143455,Mensaje,tokens_log,20150512143455,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512143455,Mensaje,tokens_log,,,555255dfbbc118697c4bc1ef
+collection = db||20150512143455,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143455,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512143455,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512143455,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512143455,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512143455,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143511,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143511,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143511,Mensaje,tokens_log,20150512143511,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512143511,Mensaje,tokens_log,,,555255efbbc118dc104bc1df
+collection = db||20150512143511,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143511,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143511,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143511,Mensaje,tokens_log,20150512143511,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512143511,Mensaje,tokens_log,,,555255efbbc118dc104bc1e0
+collection = db||20150512143511,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143511,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512143511,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512143511,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512143511,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512143511,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143527,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143527,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143527,Mensaje,tokens_log,20150512143527,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512143527,Mensaje,tokens_log,,,555255ffbbc118617c4bc1dd
+collection = db||20150512143527,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143527,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143527,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143527,Mensaje,tokens_log,20150512143527,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512143527,Mensaje,tokens_log,,,555255ffbbc118617c4bc1de
+collection = db||20150512143527,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143527,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512143527,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512143527,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512143527,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512143527,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143728,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143728,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143728,Mensaje,tokens_log,20150512143728,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512143728,Mensaje,tokens_log,,,55525678bbc118677c4bc1ed
+collection = db||20150512143728,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143728,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143728,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143728,Mensaje,tokens_log,20150512143728,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512143728,Mensaje,tokens_log,,,55525678bbc118677c4bc1ee
+collection = db||20150512143728,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143728,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512143728,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512143728,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512143728,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512143728,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143736,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143736,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143736,Mensaje,tokens_log,20150512143736,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512143736,Mensaje,tokens_log,,,55525680bbc118dc104bc1e1
+collection = db||20150512143736,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143736,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143736,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143736,Mensaje,tokens_log,20150512143736,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512143736,Mensaje,tokens_log,,,55525680bbc118dc104bc1e2
+collection = db||20150512143736,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143736,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512143736,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512143736,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512143736,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512143736,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143813,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143813,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143813,Mensaje,tokens_log,20150512143813,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512143813,Mensaje,tokens_log,,,555256a5bbc118617c4bc1e1
+collection = db||20150512143813,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143813,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143813,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143813,Mensaje,tokens_log,20150512143813,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512143813,Mensaje,tokens_log,,,555256a5bbc118617c4bc1e2
+collection = db||20150512143813,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143813,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512143813,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512143813,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512143813,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512143813,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143846,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143846,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143846,Mensaje,tokens_log,20150512143846,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512143846,Mensaje,tokens_log,,,555256c6bbc118667c4bc1d5
+collection = db||20150512143846,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143846,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143846,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143846,Mensaje,tokens_log,20150512143846,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512143846,Mensaje,tokens_log,,,555256c6bbc118667c4bc1d6
+collection = db||20150512143846,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143846,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512143846,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512143846,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512143846,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512143846,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143910,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143910,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143910,Mensaje,tokens_log,20150512143910,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512143910,Mensaje,tokens_log,,,555256debbc11878454bc1d8
+collection = db||20150512143910,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143910,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143910,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143910,Mensaje,tokens_log,20150512143910,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512143910,Mensaje,tokens_log,,,555256debbc11878454bc1d9
+collection = db||20150512143910,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143910,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512143910,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512143910,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512143910,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512143910,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143944,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143944,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143944,Mensaje,tokens_log,20150512143944,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512143944,Mensaje,tokens_log,,,55525700bbc118657c4bc1e4
+collection = db||20150512143944,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143944,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512143944,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512143944,Mensaje,tokens_log,20150512143944,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512143944,Mensaje,tokens_log,,,55525700bbc118657c4bc1e5
+collection = db||20150512143944,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512143944,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512143944,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512143944,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512143944,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512143944,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144019,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512144019,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512144019,Mensaje,tokens_log,20150512144019,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512144019,Mensaje,tokens_log,,,55525723bbc1186a7c4bc1db
+collection = db||20150512144019,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144019,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512144019,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512144019,Mensaje,tokens_log,20150512144019,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512144019,Mensaje,tokens_log,,,55525723bbc1186a7c4bc1dc
+collection = db||20150512144019,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144019,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512144019,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512144019,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512144019,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512144019,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144054,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512144054,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512144054,Mensaje,tokens_log,20150512144054,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512144054,Mensaje,tokens_log,,,55525746bbc118697c4bc1f6
+collection = db||20150512144054,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144054,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512144054,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512144054,Mensaje,tokens_log,20150512144054,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512144054,Mensaje,tokens_log,,,55525746bbc118697c4bc1f7
+collection = db||20150512144054,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144054,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512144054,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512144054,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512144054,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512144054,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144229,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512144229,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512144229,Mensaje,tokens_log,20150512144229,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512144229,Mensaje,tokens_log,,,555257a5bbc1181a5b4bc1b6
+collection = db||20150512144229,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144229,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512144229,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512144229,Mensaje,tokens_log,20150512144229,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512144229,Mensaje,tokens_log,,,555257a5bbc1181a5b4bc1b7
+collection = db||20150512144229,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144229,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512144229,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512144229,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512144229,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512144229,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144302,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512144302,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512144302,Mensaje,tokens_log,20150512144302,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512144302,Mensaje,tokens_log,,,555257c6bbc1181a5b4bc1b8
+collection = db||20150512144302,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144302,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512144302,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512144302,Mensaje,tokens_log,20150512144302,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512144302,Mensaje,tokens_log,,,555257c6bbc1181a5b4bc1b9
+collection = db||20150512144302,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144302,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512144302,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512144302,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512144302,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512144302,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144342,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512144342,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512144342,Mensaje,tokens_log,20150512144342,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512144342,Mensaje,tokens_log,,,555257eebbc118647c4bc202
+collection = db||20150512144342,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144342,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512144342,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512144342,Mensaje,tokens_log,20150512144342,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512144342,Mensaje,tokens_log,,,555257eebbc118647c4bc203
+collection = db||20150512144342,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144342,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512144342,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512144342,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512144342,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512144342,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144407,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512144407,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512144407,Mensaje,tokens_log,20150512144407,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512144407,Mensaje,tokens_log,,,55525807bbc118637c4bc1e1
+collection = db||20150512144407,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144407,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512144407,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512144407,Mensaje,tokens_log,20150512144407,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512144407,Mensaje,tokens_log,,,55525807bbc118637c4bc1e2
+collection = db||20150512144407,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144407,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512144407,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512144407,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512144407,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512144407,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144456,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512144456,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512144456,Mensaje,tokens_log,20150512144456,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512144456,Mensaje,tokens_log,,,55525838bbc118637c4bc1e3
+collection = db||20150512144456,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144456,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512144456,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512144456,Mensaje,tokens_log,20150512144456,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512144456,Mensaje,tokens_log,,,55525838bbc118637c4bc1e4
+collection = db||20150512144456,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144456,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512144456,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512144456,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512144456,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512144456,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144542,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512144542,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512144542,Mensaje,tokens_log,20150512144542,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512144542,Mensaje,tokens_log,,,55525866bbc11878454bc1e0
+collection = db||20150512144542,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144542,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512144542,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512144542,Mensaje,tokens_log,20150512144542,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512144542,Mensaje,tokens_log,,,55525866bbc11878454bc1e1
+collection = db||20150512144542,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144542,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512144542,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512144542,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512144542,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512144542,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144555,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512144555,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512144555,Mensaje,tokens_log,20150512144555,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512144555,Mensaje,tokens_log,,,55525873bbc11823124bc1f4
+collection = db||20150512144555,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144555,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512144555,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512144555,Mensaje,tokens_log,20150512144555,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512144555,Mensaje,tokens_log,,,55525873bbc11823124bc1f5
+collection = db||20150512144555,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144555,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512144555,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512144555,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512144555,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512144555,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144652,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512144652,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512144652,Mensaje,tokens_log,20150512144652,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512144652,Mensaje,tokens_log,,,555258acbbc118617c4bc1eb
+collection = db||20150512144652,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144652,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512144652,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512144652,Mensaje,tokens_log,20150512144652,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512144652,Mensaje,tokens_log,,,555258acbbc118617c4bc1ec
+collection = db||20150512144652,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144652,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512144652,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512144652,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512144652,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512144652,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144814,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512144814,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512144814,Mensaje,tokens_log,20150512144814,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512144814,Mensaje,tokens_log,,,555258febbc1181a5b4bc1c4
+collection = db||20150512144814,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144814,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512144814,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512144814,Mensaje,tokens_log,20150512144814,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512144814,Mensaje,tokens_log,,,555258febbc1181a5b4bc1c5
+collection = db||20150512144814,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512144814,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512144814,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512144814,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512144814,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512144814,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512145449,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512145449,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512145449,Mensaje,tokens_log,20150512145449,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512145449,Mensaje,tokens_log,,,55525a89bbc11823124bc1fa
+collection = db||20150512145449,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512145449,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512145449,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512145449,Mensaje,tokens_log,20150512145449,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512145449,Mensaje,tokens_log,,,55525a89bbc11823124bc1fb
+collection = db||20150512145449,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512145449,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512145449,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512145449,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512145449,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512145449,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512145503,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512145503,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512145503,Mensaje,tokens_log,20150512145503,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512145503,Mensaje,tokens_log,,,55525a97bbc118637c4bc1e9
+collection = db||20150512145503,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512145503,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512145503,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512145503,Mensaje,tokens_log,20150512145503,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512145503,Mensaje,tokens_log,,,55525a97bbc118637c4bc1ea
+collection = db||20150512145503,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512145503,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512145503,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512145503,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512145503,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512145503,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512145614,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512145614,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512145614,Mensaje,tokens_log,20150512145614,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512145614,Mensaje,tokens_log,,,55525adebbc118697c4bc200
+collection = db||20150512145614,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512145614,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512145614,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512145614,Mensaje,tokens_log,20150512145614,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512145614,Mensaje,tokens_log,,,55525adebbc118697c4bc201
+collection = db||20150512145614,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512145614,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512145614,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512145614,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512145614,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512145614,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512145719,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512145719,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512145719,Mensaje,tokens_log,20150512145719,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512145719,Mensaje,tokens_log,,,55525b1fbbc118617c4bc1f1
+collection = db||20150512145719,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512145719,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512145719,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512145719,Mensaje,tokens_log,20150512145719,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512145719,Mensaje,tokens_log,,,55525b1fbbc118617c4bc1f2
+collection = db||20150512145719,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512145719,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512145719,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512145719,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512145719,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512145719,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512145825,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512145825,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512145825,Mensaje,tokens_log,20150512145825,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512145825,Mensaje,tokens_log,,,55525b61bbc118657c4bc1f2
+collection = db||20150512145825,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512145825,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512145825,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512145825,Mensaje,tokens_log,20150512145825,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512145825,Mensaje,tokens_log,,,55525b61bbc118657c4bc1f3
+collection = db||20150512145825,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512145825,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512145825,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512145825,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512145825,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512145825,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512145916,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512145916,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512145916,Mensaje,tokens_log,20150512145916,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512145916,Mensaje,tokens_log,,,55525b94bbc118667c4bc1df
+collection = db||20150512145916,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512145916,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512145916,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512145916,Mensaje,tokens_log,20150512145916,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512145916,Mensaje,tokens_log,,,55525b94bbc118667c4bc1e0
+collection = db||20150512145916,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512145916,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512145916,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512145916,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512145916,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512145916,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512145935,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512145935,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512145935,Mensaje,tokens_log,20150512145935,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512145935,Mensaje,tokens_log,,,55525ba7bbc1181a5b4bc1ce
+collection = db||20150512145935,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512145935,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512145935,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512145935,Mensaje,tokens_log,20150512145935,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512145935,Mensaje,tokens_log,,,55525ba7bbc1181a5b4bc1cf
+collection = db||20150512145935,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512145935,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512145935,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512145935,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512145935,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512145935,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512151742,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512151742,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512151742,Mensaje,tokens_log,20150512151742,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512151742,Mensaje,tokens_log,,,55525fe6bbc118657c4bc1fe
+collection = db||20150512151742,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512151742,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512151742,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512151742,Mensaje,tokens_log,20150512151742,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512151742,Mensaje,tokens_log,,,55525fe6bbc118657c4bc1ff
+collection = db||20150512151742,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512151742,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512151742,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512151742,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512151742,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512151742,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512151930,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512151930,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512151930,Mensaje,tokens_log,20150512151930,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512151930,Mensaje,tokens_log,,,55526052bbc118637c4bc1f1
+collection = db||20150512151930,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512151930,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512151930,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512151930,Mensaje,tokens_log,20150512151930,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512151930,Mensaje,tokens_log,,,55526052bbc118637c4bc1f2
+collection = db||20150512151930,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512151930,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512151930,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512151930,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512151930,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512151930,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152014,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512152014,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512152014,Mensaje,tokens_log,20150512152014,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512152014,Mensaje,tokens_log,,,5552607ebbc118697c4bc208
+collection = db||20150512152014,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152014,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512152014,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512152014,Mensaje,tokens_log,20150512152014,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512152014,Mensaje,tokens_log,,,5552607ebbc118697c4bc209
+collection = db||20150512152014,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152014,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512152014,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512152014,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512152014,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512152014,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152020,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512152020,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512152020,Mensaje,tokens_log,20150512152020,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512152020,Mensaje,tokens_log,,,55526084bbc118dc104bc1fc
+collection = db||20150512152020,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152020,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512152020,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512152020,Mensaje,tokens_log,20150512152020,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512152020,Mensaje,tokens_log,,,55526084bbc118dc104bc1fd
+collection = db||20150512152020,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152020,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512152020,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512152020,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512152020,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512152020,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152054,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512152054,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512152054,Mensaje,tokens_log,20150512152054,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512152054,Mensaje,tokens_log,,,555260a6bbc11823124bc206
+collection = db||20150512152054,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152054,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512152054,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512152054,Mensaje,tokens_log,20150512152054,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512152054,Mensaje,tokens_log,,,555260a6bbc11823124bc207
+collection = db||20150512152054,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512152054,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512152054,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512152054,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512152054,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512152054,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512154803,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512154803,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512154803,Mensaje,tokens_log,20150512154803,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512154803,Mensaje,tokens_log,,,55526703bbc11823124bc215
+collection = db||20150512154803,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512154803,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512154803,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512154803,Mensaje,tokens_log,20150512154803,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512154803,Mensaje,tokens_log,,,55526703bbc11823124bc216
+collection = db||20150512154803,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512154803,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512154803,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512154803,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512154803,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512154803,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512161629,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512161629,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512161629,Mensaje,tokens_log,20150512161629,Message,remote sender,Validacion de token,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,null,Insertar documento,
+collection = db||20150512161629,Mensaje,tokens_log,,,55526dadbbc118657c4bc20e
+collection = db||20150512161629,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512161629,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512161629,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512161629,Mensaje,tokens_log,20150512161629,Message,remote sender,Token validado con exito,SetToken3ICj261wQN8bBy6pepIo3pzuSYYTqC/+Vs1+3gqihXY=,True,Insertar documento,
+collection = db||20150512161629,Mensaje,tokens_log,,,55526dadbbc118657c4bc20f
+collection = db||20150512161629,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512161629,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512161629,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512161629,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512161629,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512161629,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512162739,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512162739,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512162739,Mensaje,tokens_log,20150512162739,Message,remote sender,Validacion de token,SetTokenquQ9QlnQbFtrNj5vEnQ8eK4iJk0iz3EiZ+Ya0kSQE+w=,null,Insertar documento,
+collection = db||20150512162739,Mensaje,tokens_log,,,5552704bbbc118677c4bc219
+collection = db||20150512162739,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512162739,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512162739,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512162739,Mensaje,tokens_log,20150512162739,Message,remote sender,Token validado con exito,SetTokenquQ9QlnQbFtrNj5vEnQ8eK4iJk0iz3EiZ+Ya0kSQE+w=,True,Insertar documento,
+collection = db||20150512162739,Mensaje,tokens_log,,,5552704bbbc118677c4bc21a
+collection = db||20150512162739,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512162739,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512162739,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512162739,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512162739,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,55425e32bbc1187826222f3b,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,170vp0cv81qjt3i8jslpjbunn6,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,512157,513411
+collection = db||20150512162739,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512163932,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512163932,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512163932,Mensaje,tokens_log,20150512163932,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512163932,Mensaje,tokens_log,,,55527314bbc118677c4bc21f
+collection = db||20150512163932,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512163932,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512163932,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512163932,Mensaje,tokens_log,20150512163932,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512163932,Mensaje,tokens_log,,,55527314bbc118677c4bc220
+collection = db||20150512163932,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512163932,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512163932,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512163932,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512163932,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,555271a6da0634dbeaf3cb41,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,6u39nqhq8ftd0hlvnjfs66eh8c,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,500238,500538
+collection = db||20150512163932,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512170352,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512170352,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512170352,Mensaje,tokens_log,20150512170352,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512170352,Mensaje,tokens_log,,,555278c8bbc118637c4bc21b
+collection = db||20150512170352,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512170352,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512170352,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512170352,Mensaje,tokens_log,20150512170352,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512170352,Mensaje,tokens_log,,,555278c8bbc118637c4bc21c
+collection = db||20150512170352,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512170352,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512170352,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512170352,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512170352,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,555271a6da0634dbeaf3cb41,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,6u39nqhq8ftd0hlvnjfs66eh8c,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,500238,500538
+collection = db||20150512170352,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512170949,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512170949,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512170949,Mensaje,tokens_log,20150512170949,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512170949,Mensaje,tokens_log,,,55527a2dbbc118647c4bc24a
+collection = db||20150512170949,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512170949,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512170949,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512170949,Mensaje,tokens_log,20150512170949,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512170949,Mensaje,tokens_log,,,55527a2dbbc118647c4bc24b
+collection = db||20150512170949,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512170949,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512170949,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512170949,Mensaje,pagosonline,5-12-2015  17:7:32,5511995bbbc118d03fbd2191,532,777,500238,6u39nqhq8ftd0hlvnjfs66eh8c,500538,129876,gvelasquez85@gmail.com,60379e7c6052af05085d204a53413dd7,Pago Administracion Mayo 2015,0,e1bd9d95746a1122cab32b41756a2f36,COP,1,es,https://app.copropiedad.co/pagos/100001/respuesta.php,CC989,https://app.copropiedad.co/api/payu/pagarpol/,Insertar documento,
+collection = db||20150512170949,Mensaje,pagosonline,,,55527a2dbbc118647c4bc24c
+collection = db||20150512170949,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512171442,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512171442,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512171442,Mensaje,tokens_log,20150512171442,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512171442,Mensaje,tokens_log,,,55527b52bbc118677c4bc22d
+collection = db||20150512171442,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512171442,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512171442,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512171442,Mensaje,tokens_log,20150512171442,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512171442,Mensaje,tokens_log,,,55527b52bbc118677c4bc22e
+collection = db||20150512171442,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512171442,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512171442,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512171442,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512171442,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,555271a6da0634dbeaf3cb41,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,6u39nqhq8ftd0hlvnjfs66eh8c,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,500238,500538
+collection = db||20150512171442,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512171711,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512171711,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512171711,Mensaje,tokens_log,20150512171711,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512171711,Mensaje,tokens_log,,,55527be7bbc1186a7c4bc21b
+collection = db||20150512171711,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512171711,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512171711,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512171711,Mensaje,tokens_log,20150512171711,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512171711,Mensaje,tokens_log,,,55527be7bbc1186a7c4bc21c
+collection = db||20150512171711,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512171711,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512171711,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512171711,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512171711,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,555271a6da0634dbeaf3cb41,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,6u39nqhq8ftd0hlvnjfs66eh8c,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,500238,500538
+collection = db||20150512171711,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512171743,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512171743,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512171743,Mensaje,tokens_log,20150512171743,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512171743,Mensaje,tokens_log,,,55527c07bbc118d5104bc227
+collection = db||20150512171743,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512171743,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512171743,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512171743,Mensaje,tokens_log,20150512171743,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512171743,Mensaje,tokens_log,,,55527c07bbc118d5104bc228
+collection = db||20150512171743,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512171743,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512171743,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512171743,Mensaje,pagosonline,5-12-2015  17:15:29,5511995bbbc118d03fbd2191,532,777,500238,6u39nqhq8ftd0hlvnjfs66eh8c,500538,129876,gvelasquez85@gmail.com,510233af7df99c718b9612965ab6ef92,Pago Administracion Mayo 2015,0,c41bf719cb474ab8209c64af9ca6ae0f,COP,1,es,https://app.copropiedad.co/pagos/100001/respuesta.php,CC989,https://app.copropiedad.co/api/payu/pagarpol/,Insertar documento,
+collection = db||20150512171743,Mensaje,pagosonline,,,55527c07bbc118d5104bc229
+collection = db||20150512171743,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512172614,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512172614,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512172614,Mensaje,tokens_log,20150512172614,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512172614,Mensaje,tokens_log,,,55527e06bbc11878454bc213
+collection = db||20150512172614,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512172614,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512172614,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512172614,Mensaje,tokens_log,20150512172614,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512172614,Mensaje,tokens_log,,,55527e06bbc11878454bc214
+collection = db||20150512172614,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512172614,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512172614,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512172614,Mensaje,pagosonline,5-12-2015  17:23:52,5511995bbbc118d03fbd2191,532,777,500238,6u39nqhq8ftd0hlvnjfs66eh8c,500538,129876,gvelasquez85@gmail.com,ac754275e3426a018a0291d2b1d686a6,Pago Administracion Mayo 2015,0,1258b05387458fa3d4fafbe5b2d0c16e,COP,1,es,https://app.copropiedad.co/pagos/100001/respuesta.php,CC989,https://app.copropiedad.co/api/payu/pagarpol/,Insertar documento,
+collection = db||20150512172614,Mensaje,pagosonline,,,55527e06bbc11878454bc215
+collection = db||20150512172614,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512190355,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512190355,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512190355,Mensaje,tokens_log,20150512190355,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512190355,Mensaje,tokens_log,,,555294ebbbc118617c4bc236
+collection = db||20150512190355,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512190355,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512190355,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512190355,Mensaje,tokens_log,20150512190355,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512190355,Mensaje,tokens_log,,,555294ebbbc118617c4bc237
+collection = db||20150512190355,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512190355,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512190355,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512190355,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512190355,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,555271a6da0634dbeaf3cb41,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,6u39nqhq8ftd0hlvnjfs66eh8c,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,500238,500538
+collection = db||20150512190355,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512190948,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512190948,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512190948,Mensaje,tokens_log,20150512190948,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512190948,Mensaje,tokens_log,,,5552964cbbc118dc104bc22f
+collection = db||20150512190948,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512190948,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512190948,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512190948,Mensaje,tokens_log,20150512190948,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512190948,Mensaje,tokens_log,,,5552964cbbc118dc104bc230
+collection = db||20150512190948,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512190948,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512190948,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512190948,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512190948,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,555271a6da0634dbeaf3cb41,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,6u39nqhq8ftd0hlvnjfs66eh8c,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,500238,500538
+collection = db||20150512190948,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512224920,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512224920,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512224920,Mensaje,tokens_log,20150512224920,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512224920,Mensaje,tokens_log,,,5552c9c0bbc118d5104bc235
+collection = db||20150512224920,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512224920,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512224920,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512224920,Mensaje,tokens_log,20150512224920,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512224920,Mensaje,tokens_log,,,5552c9c0bbc118d5104bc236
+collection = db||20150512224920,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512224920,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512224920,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512224920,Mensaje,pagosonline,5-12-2015  22:47:14,5511995bbbc118d03fbd2191,532,777,500238,6u39nqhq8ftd0hlvnjfs66eh8c,500538,129876,gvelasquez85@gmail.com,c015e85d2ecaa67b99ac65ea133ac29d,Pago Administracion Mayo 2015,0,fee6871f2ecc23ab98667c31a614eaa7,COP,1,es,https://app.copropiedad.co/pagos/100001/respuesta.php,CC989,https://app.copropiedad.co/api/payu/pagarpol/,Insertar documento,
+collection = db||20150512224920,Mensaje,pagosonline,,,5552c9c0bbc118d5104bc237
+collection = db||20150512224920,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512225044,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512225044,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512225044,Mensaje,pagosonline,1,,0.00,1,2015-05-12 22:48:24,************1111,APPROVED,,CO,,Pago Administracion Mayo 2015,0.00,129876.00,0.00,2,,gvelasquez85@gmail.com,APPROVED,,,1431119f-3920-4a82-a4d8-c7bb4b22f931,32ecbf52916e0d7c998314a941067b78,0.00,00000000,250,0011223344ABC,VISA,,4,2015.05.12 10:48:24,,7004930,COP,0.0,,250,A,,0.00,1,500238,1.00,,1,VISA,2,,,,,,,186.82.193.101,0.00,,B,,00000000,c015e85d2ecaa67b99ac65ea133ac29d,00000000,,,respuestapayu,2015-05-12T22:50:44-05:00,Insertar documento,
+collection = db||20150512225044,Mensaje,pagosonline,,,5552ca14bbc1181a5b4bc202
+collection = db||20150512225044,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512225045,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512225045,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512225045,Mensaje,pagosonline,1,,0.00,1,2015-05-12 22:48:24,************1111,APPROVED,,CO,,Pago Administracion Mayo 2015,0.00,129876.00,0.00,2,,gvelasquez85@gmail.com,APPROVED,,,1431119f-3920-4a82-a4d8-c7bb4b22f931,32ecbf52916e0d7c998314a941067b78,0.00,00000000,250,0011223344ABC,VISA,,4,2015.05.12 10:48:24,,7004930,COP,0.0,,250,A,,0.00,1,500238,1.00,,1,VISA,2,,,,,,,186.82.193.101,0.00,,B,,00000000,c015e85d2ecaa67b99ac65ea133ac29d,00000000,,,respuestapayu,2015-05-12T22:50:45-05:00,Insertar documento,
+collection = db||20150512225045,Mensaje,pagosonline,,,5552ca15bbc1186a7c4bc22d
+collection = db||20150512225045,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512225046,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512225046,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512225046,Mensaje,pagosonline,1,,0.00,1,2015-05-12 22:48:24,************1111,APPROVED,,CO,,Pago Administracion Mayo 2015,0.00,129876.00,0.00,2,,gvelasquez85@gmail.com,APPROVED,,,1431119f-3920-4a82-a4d8-c7bb4b22f931,32ecbf52916e0d7c998314a941067b78,0.00,00000000,250,0011223344ABC,VISA,,4,2015.05.12 10:48:24,,7004930,COP,0.0,,250,A,,0.00,1,500238,1.00,,1,VISA,2,,,,,,,186.82.193.101,0.00,,B,,00000000,c015e85d2ecaa67b99ac65ea133ac29d,00000000,,,respuestapayu,2015-05-12T22:50:46-05:00,Insertar documento,
+collection = db||20150512225046,Mensaje,pagosonline,,,5552ca16bbc118dc104bc231
+collection = db||20150512225046,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512225201,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512225201,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512225201,Mensaje,tokens_log,20150512225201,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512225201,Mensaje,tokens_log,,,5552ca61bbc118667c4bc20c
+collection = db||20150512225201,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512225201,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512225201,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512225201,Mensaje,tokens_log,20150512225201,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512225201,Mensaje,tokens_log,,,5552ca61bbc118667c4bc20d
+collection = db||20150512225201,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512225201,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512225201,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512225201,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512225201,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,555271a6da0634dbeaf3cb41,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,6u39nqhq8ftd0hlvnjfs66eh8c,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,500238,500538
+collection = db||20150512225201,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512225209,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512225209,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512225209,Mensaje,tokens_log,20150512225209,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512225209,Mensaje,tokens_log,,,5552ca69bbc118dc104bc232
+collection = db||20150512225209,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512225209,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512225209,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512225209,Mensaje,tokens_log,20150512225209,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512225209,Mensaje,tokens_log,,,5552ca69bbc118dc104bc233
+collection = db||20150512225209,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512225209,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512225209,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512225209,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512225209,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,555271a6da0634dbeaf3cb41,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,6u39nqhq8ftd0hlvnjfs66eh8c,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,500238,500538
+collection = db||20150512225209,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512225411,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512225411,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512225411,Mensaje,tokens_log,20150512225411,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512225411,Mensaje,tokens_log,,,5552cae3bbc11823124bc236
+collection = db||20150512225411,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512225411,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512225411,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512225411,Mensaje,tokens_log,20150512225411,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512225411,Mensaje,tokens_log,,,5552cae3bbc11823124bc237
+collection = db||20150512225411,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512225411,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512225411,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512225411,Mensaje,pagosonline,5-12-2015  22:52:5,5511995bbbc118d03fbd2191,532,777,500238,6u39nqhq8ftd0hlvnjfs66eh8c,500538,129876,gvelasquez85@gmail.com,e8e8f20cbd083c19ffe6e03742433f00,Pago Administracion Mayo 2015,0,e1441ea3d8ea2617364ac46d21abdc77,COP,1,es,https://app.copropiedad.co/pagos/100001/respuesta.php,CC989,https://app.copropiedad.co/api/payu/pagarpol/,Insertar documento,
+collection = db||20150512225411,Mensaje,pagosonline,,,5552cae3bbc11823124bc238
+collection = db||20150512225411,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512225545,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512225545,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512225545,Mensaje,pagosonline,1,,0.00,1,2015-05-12 22:53:23,************1111,APPROVED,,CO,,Pago Administracion Mayo 2015,0.00,129876.00,0.00,2,,gvelasquez85@gmail.com,APPROVED,,,6ee739b0-9813-47e3-9a93-3b5738fd9b62,aad930ad120d72fcf1dc25b65bd559bf,0.00,00000000,250,0011223344abc,VISA,,4,2015.05.12 10:53:23,,7004940,COP,0.0,,250,A,,0.00,1,500238,1.00,,1,VISA,2,,,,,,,186.82.193.101,0.00,,b,,00000000,e8e8f20cbd083c19ffe6e03742433f00,00000000,,,respuestapayu,2015-05-12T22:55:45-05:00,Insertar documento,
+collection = db||20150512225545,Mensaje,pagosonline,,,5552cb41bbc118647c4bc25d
+collection = db||20150512225545,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512225545,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512225545,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512225545,Mensaje,pagosonline,Listar Documentos,
+collection = db||20150512225545,Mensaje,pagosonline,e8e8f20cbd083c19ffe6e03742433f00,,5552cae3bbc11823124bc238,5-12-2015  22:52:5,5511995bbbc118d03fbd2191,532,777,500238,6u39nqhq8ftd0hlvnjfs66eh8c,500538,129876,gvelasquez85@gmail.com,e8e8f20cbd083c19ffe6e03742433f00,Pago Administracion Mayo 2015,0,e1441ea3d8ea2617364ac46d21abdc77,COP,1,es,https://app.copropiedad.co/pagos/100001/respuesta.php,CC989,https://app.copropiedad.co/api/payu/pagarpol/
+collection = db||20150512225545,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512225545,Mensaje,cont_5511995bbbc118d03fbd2191,Cargando Controlador,Consultas,
+collection = db||20150512225545,Mensaje,cont_5511995bbbc118d03fbd2191,conectando con el servidor MongoDB,Con,
+collection = db||20150512225545,Mensaje,cont_5511995bbbc118d03fbd2191,Listar Documentos,
+collection = db||20150512225545,Mensaje,cont_5511995bbbc118d03fbd2191,cartera,CC989,,554a2c2dda0634dbeaf3cb39,Pago Administracion Mayo 2015,2015,05,129876,129876,cargo,cartera,532,CC989
+collection = db||20150512225545,Mensaje,cont_5511995bbbc118d03fbd2191,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512225545,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512225545,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512225545,Mensaje - UPDATE,pagosonline,e8e8f20cbd083c19ffe6e03742433f00,,
+collection = db||20150512225545,Mensaje - UPDATE,pagosonline,1,,Okay
+collection = db||20150512225545,Mensaje,cont_5511995bbbc118d03fbd2191,Cargando Controlador,Consultas,
+collection = db||20150512225545,Mensaje,cont_5511995bbbc118d03fbd2191,conectando con el servidor MongoDB,Con,
+collection = db||20150512225545,Mensaje - UPDATE,cont_5511995bbbc118d03fbd2191,cartera,CC989,129876,,
+collection = db||20150512225545,Mensaje - UPDATE,cont_5511995bbbc118d03fbd2191,0,,Okay
+collection = db||20150512225545,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512225545,Mensaje,cont_5511995bbbc118d03fbd2191,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512225605,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512225605,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512225605,Mensaje,tokens_log,20150512225605,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512225605,Mensaje,tokens_log,,,5552cb55bbc118697c4bc242
+collection = db||20150512225605,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512225605,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512225605,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512225605,Mensaje,tokens_log,20150512225605,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512225605,Mensaje,tokens_log,,,5552cb55bbc118697c4bc243
+collection = db||20150512225605,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512225605,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512225605,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512225605,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512225605,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,555271a6da0634dbeaf3cb41,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,6u39nqhq8ftd0hlvnjfs66eh8c,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,500238,500538
+collection = db||20150512225605,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230111,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512230111,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512230111,Mensaje,tokens_log,20150512230111,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512230111,Mensaje,tokens_log,,,5552cc87bbc118617c4bc23a
+collection = db||20150512230111,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230111,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512230111,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512230111,Mensaje,tokens_log,20150512230111,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512230111,Mensaje,tokens_log,,,5552cc87bbc118617c4bc23b
+collection = db||20150512230111,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230111,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512230111,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512230111,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512230111,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,555271a6da0634dbeaf3cb41,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,6u39nqhq8ftd0hlvnjfs66eh8c,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,500238,500538
+collection = db||20150512230111,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230128,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512230128,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512230128,Mensaje,tokens_log,20150512230128,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512230128,Mensaje,tokens_log,,,5552cc98bbc118637c4bc233
+collection = db||20150512230128,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230128,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512230128,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512230128,Mensaje,tokens_log,20150512230128,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512230128,Mensaje,tokens_log,,,5552cc98bbc118637c4bc234
+collection = db||20150512230128,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230128,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512230128,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512230128,Mensaje,pagosonline,5-12-2015  22:59:22,5511995bbbc118d03fbd2191,532,777,500238,6u39nqhq8ftd0hlvnjfs66eh8c,500538,129876,gvelasquez85@gmail.com,5865e38e2374fd676d35d0da038d69f3,Pago Administracion Mayo 2015,0,4433b676fad52aed1fa1cc352cec6c2a,COP,1,es,https://app.copropiedad.co/pagos/100001/respuesta.php,CC989,https://app.copropiedad.co/api/payu/pagarpol/,Insertar documento,
+collection = db||20150512230128,Mensaje,pagosonline,,,5552cc98bbc118637c4bc235
+collection = db||20150512230128,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230246,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512230246,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512230246,Mensaje,pagosonline,1,,0.00,1,2015-05-12 23:00:31,************1111,APPROVED,,CO,,Pago Administracion Mayo 2015,0.00,129876.00,0.00,2,,gvelasquez85@gmail.com,APPROVED,,,d1f50f52-6085-450c-b4ba-8585d109d2c3,e0c9254568ef29d621cdd1b6b3ef6457,0.00,00000000,250,0011223344ABC,VISA,,4,2015.05.12 11:00:31,,7004950,COP,0.0,,250,A,,0.00,1,500238,1.00,,1,VISA,2,,,,,,,186.82.193.101,0.00,,b,,00000000,5865e38e2374fd676d35d0da038d69f3,00000000,,,respuestapayu,2015-05-12T23:02:46-05:00,Insertar documento,
+collection = db||20150512230246,Mensaje,pagosonline,,,5552cce6bbc118697c4bc244
+collection = db||20150512230246,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230246,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512230246,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512230246,Mensaje,pagosonline,Listar Documentos,
+collection = db||20150512230246,Mensaje,pagosonline,5865e38e2374fd676d35d0da038d69f3,,5552cc98bbc118637c4bc235,5-12-2015  22:59:22,5511995bbbc118d03fbd2191,532,777,500238,6u39nqhq8ftd0hlvnjfs66eh8c,500538,129876,gvelasquez85@gmail.com,5865e38e2374fd676d35d0da038d69f3,Pago Administracion Mayo 2015,0,4433b676fad52aed1fa1cc352cec6c2a,COP,1,es,https://app.copropiedad.co/pagos/100001/respuesta.php,CC989,https://app.copropiedad.co/api/payu/pagarpol/
+collection = db||20150512230246,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230246,Mensaje,cont_5511995bbbc118d03fbd2191,Cargando Controlador,Consultas,
+collection = db||20150512230246,Mensaje,cont_5511995bbbc118d03fbd2191,conectando con el servidor MongoDB,Con,
+collection = db||20150512230246,Mensaje,cont_5511995bbbc118d03fbd2191,Listar Documentos,
+collection = db||20150512230246,Mensaje,cont_5511995bbbc118d03fbd2191,cartera,CC989,,554a2c2dda0634dbeaf3cb39,Pago Administracion Mayo 2015,2015,05,129876,129876,cargo,cartera,532,CC989
+collection = db||20150512230246,Mensaje,cont_5511995bbbc118d03fbd2191,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230246,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512230246,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512230246,Mensaje - UPDATE,pagosonline,5865e38e2374fd676d35d0da038d69f3,,
+collection = db||20150512230246,Mensaje - UPDATE,pagosonline,1,,Okay
+collection = db||20150512230246,Mensaje,cont_5511995bbbc118d03fbd2191,Cargando Controlador,Consultas,
+collection = db||20150512230246,Mensaje,cont_5511995bbbc118d03fbd2191,conectando con el servidor MongoDB,Con,
+collection = db||20150512230246,Mensaje - UPDATE,cont_5511995bbbc118d03fbd2191,cartera,CC989,129876,,
+collection = db||20150512230246,Mensaje - UPDATE,cont_5511995bbbc118d03fbd2191,0,,Okay
+collection = db||20150512230246,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230246,Mensaje,cont_5511995bbbc118d03fbd2191,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230252,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512230252,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512230252,Mensaje,tokens_log,20150512230252,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512230252,Mensaje,tokens_log,,,5552ccecbbc118617c4bc23c
+collection = db||20150512230252,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230252,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512230252,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512230252,Mensaje,tokens_log,20150512230252,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512230252,Mensaje,tokens_log,,,5552ccecbbc118617c4bc23d
+collection = db||20150512230252,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230252,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512230252,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512230252,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512230252,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,555271a6da0634dbeaf3cb41,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,6u39nqhq8ftd0hlvnjfs66eh8c,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,500238,500538
+collection = db||20150512230252,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230320,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512230320,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512230320,Mensaje,tokens_log,20150512230320,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512230320,Mensaje,tokens_log,,,5552cd08bbc118657c4bc238
+collection = db||20150512230320,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230320,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512230320,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512230320,Mensaje,tokens_log,20150512230320,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512230320,Mensaje,tokens_log,,,5552cd08bbc118657c4bc239
+collection = db||20150512230320,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230320,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512230320,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512230320,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512230320,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,555271a6da0634dbeaf3cb41,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,6u39nqhq8ftd0hlvnjfs66eh8c,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,500238,500538
+collection = db||20150512230320,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230557,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512230557,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512230557,Mensaje,tokens_log,20150512230557,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512230557,Mensaje,tokens_log,,,5552cda5bbc118657c4bc23a
+collection = db||20150512230557,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230557,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512230557,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512230557,Mensaje,tokens_log,20150512230557,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512230557,Mensaje,tokens_log,,,5552cda5bbc118657c4bc23b
+collection = db||20150512230557,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230557,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512230557,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512230557,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512230557,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,555271a6da0634dbeaf3cb41,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,6u39nqhq8ftd0hlvnjfs66eh8c,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,500238,500538
+collection = db||20150512230557,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230605,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512230605,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512230605,Mensaje,tokens_log,20150512230605,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512230605,Mensaje,tokens_log,,,5552cdadbbc11823124bc23b
+collection = db||20150512230605,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230605,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512230605,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512230605,Mensaje,tokens_log,20150512230605,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512230605,Mensaje,tokens_log,,,5552cdadbbc11823124bc23c
+collection = db||20150512230605,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230605,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512230605,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512230605,Mensaje,pagosonline,5-12-2015  23:3:59,5511995bbbc118d03fbd2191,532,777,500238,6u39nqhq8ftd0hlvnjfs66eh8c,500538,129876,gvelasquez85@gmail.com,fae9a9d391e39f6efa6c6dc02a709f66,Pago Administracion Mayo 2015,0,e77fe882903deb51033fa2cb998f3395,COP,1,es,https://app.copropiedad.co/pagos/100001/respuesta.php,CC989,https://app.copropiedad.co/api/payu/pagarpol/,Insertar documento,
+collection = db||20150512230605,Mensaje,pagosonline,,,5552cdadbbc11823124bc23d
+collection = db||20150512230605,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230746,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512230746,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512230746,Mensaje,pagosonline,1,,0.00,1,2015-05-12 23:05:21,************1111,APPROVED,,CO,,Pago Administracion Mayo 2015,0.00,129876.00,0.00,2,,gvelasquez85@gmail.com,APPROVED,,,d1344ce8-023c-4bd8-b275-93f605b22eb0,4b6a4aef6959bf5440d74f7bb1c4f5fa,0.00,00000000,250,0011223344ABC,VISA,,4,2015.05.12 11:05:21,,7004960,COP,0.0,,250,A,,0.00,1,500238,1.00,,1,VISA,2,,,,,,,186.82.193.101,0.00,,Bogota,,00000000,fae9a9d391e39f6efa6c6dc02a709f66,00000000,,,respuestapayu,2015-05-12T23:07:46-05:00,Insertar documento,
+collection = db||20150512230746,Mensaje,pagosonline,,,5552ce12bbc118647c4bc260
+collection = db||20150512230746,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230746,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512230746,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512230746,Mensaje,pagosonline,Listar Documentos,
+collection = db||20150512230746,Mensaje,pagosonline,fae9a9d391e39f6efa6c6dc02a709f66,,5552cdadbbc11823124bc23d,5-12-2015  23:3:59,5511995bbbc118d03fbd2191,532,777,500238,6u39nqhq8ftd0hlvnjfs66eh8c,500538,129876,gvelasquez85@gmail.com,fae9a9d391e39f6efa6c6dc02a709f66,Pago Administracion Mayo 2015,0,e77fe882903deb51033fa2cb998f3395,COP,1,es,https://app.copropiedad.co/pagos/100001/respuesta.php,CC989,https://app.copropiedad.co/api/payu/pagarpol/
+collection = db||20150512230746,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230746,Mensaje,cont_5511995bbbc118d03fbd2191,Cargando Controlador,Consultas,
+collection = db||20150512230746,Mensaje,cont_5511995bbbc118d03fbd2191,conectando con el servidor MongoDB,Con,
+collection = db||20150512230746,Mensaje,cont_5511995bbbc118d03fbd2191,Listar Documentos,
+collection = db||20150512230746,Mensaje,cont_5511995bbbc118d03fbd2191,cartera,CC989,,554a2c2dda0634dbeaf3cb39,Pago Administracion Mayo 2015,2015,05,129876,129876,cargo,cartera,532,CC989
+collection = db||20150512230746,Mensaje,cont_5511995bbbc118d03fbd2191,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230746,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512230746,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512230746,Mensaje - UPDATE,pagosonline,fae9a9d391e39f6efa6c6dc02a709f66,,
+collection = db||20150512230746,Mensaje - UPDATE,pagosonline,1,,Okay
+collection = db||20150512230746,Mensaje,cont_5511995bbbc118d03fbd2191,Cargando Controlador,Consultas,
+collection = db||20150512230746,Mensaje,cont_5511995bbbc118d03fbd2191,conectando con el servidor MongoDB,Con,
+collection = db||20150512230746,Mensaje - UPDATE,cont_5511995bbbc118d03fbd2191,cartera,CC989,129876,,
+collection = db||20150512230746,Mensaje - UPDATE,cont_5511995bbbc118d03fbd2191,0,,Okay
+collection = db||20150512230746,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230746,Mensaje,cont_5511995bbbc118d03fbd2191,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230829,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512230829,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512230829,Mensaje,tokens_log,20150512230829,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512230829,Mensaje,tokens_log,,,5552ce3dbbc118667c4bc216
+collection = db||20150512230829,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230829,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512230829,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512230829,Mensaje,tokens_log,20150512230829,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512230829,Mensaje,tokens_log,,,5552ce3dbbc118667c4bc217
+collection = db||20150512230829,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230829,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512230829,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512230829,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512230829,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,555271a6da0634dbeaf3cb41,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,6u39nqhq8ftd0hlvnjfs66eh8c,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,500238,500538
+collection = db||20150512230829,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230837,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512230837,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512230837,Mensaje,tokens_log,20150512230837,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512230837,Mensaje,tokens_log,,,5552ce45bbc118637c4bc236
+collection = db||20150512230837,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230837,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512230837,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512230837,Mensaje,tokens_log,20150512230837,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512230837,Mensaje,tokens_log,,,5552ce45bbc118637c4bc237
+collection = db||20150512230837,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512230837,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512230837,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512230837,Mensaje,pagosonline,5-12-2015  23:6:31,5511995bbbc118d03fbd2191,532,777,500238,6u39nqhq8ftd0hlvnjfs66eh8c,500538,349870,gvelasquez85@gmail.com,a38ee1d1013dbfc6502e8466a149f0df,Pago Administracion Abril 2015,0,810a1744fe0eb7850b9e2d348bbcce1f,COP,1,es,https://app.copropiedad.co/pagos/100001/respuesta.php,CC990,https://app.copropiedad.co/api/payu/pagarpol/,Insertar documento,
+collection = db||20150512230837,Mensaje,pagosonline,,,5552ce45bbc118637c4bc238
+collection = db||20150512230837,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512231058,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512231058,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512231058,Mensaje,pagosonline,1,,0.00,1,2015-05-12 23:08:47,************1111,APPROVED,,CO,,Pago Administracion Abril 2015,0.00,349870.00,0.00,2,,gvelasquez85@gmail.com,APPROVED,,,cd162c42-9f77-43d4-8db2-c4096bcbabb5,7d10828b2242b601c76f218de2caba8e,0.00,00000000,250,0011223344ABC,VISA,,4,2015.05.12 11:08:47,,7004970,COP,0.0,,250,A,,0.00,1,500238,1.00,,1,VISA,2,,,,,,,186.82.193.101,0.00,,b,,00000000,a38ee1d1013dbfc6502e8466a149f0df,00000000,,,respuestapayu,2015-05-12T23:10:58-05:00,Insertar documento,
+collection = db||20150512231058,Mensaje,pagosonline,,,5552ced2bbc1181a5b4bc20b
+collection = db||20150512231058,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512231058,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512231058,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512231058,Mensaje,pagosonline,Listar Documentos,
+collection = db||20150512231058,Mensaje,pagosonline,a38ee1d1013dbfc6502e8466a149f0df,,5552ce45bbc118637c4bc238,5-12-2015  23:6:31,5511995bbbc118d03fbd2191,532,777,500238,6u39nqhq8ftd0hlvnjfs66eh8c,500538,349870,gvelasquez85@gmail.com,a38ee1d1013dbfc6502e8466a149f0df,Pago Administracion Abril 2015,0,810a1744fe0eb7850b9e2d348bbcce1f,COP,1,es,https://app.copropiedad.co/pagos/100001/respuesta.php,CC990,https://app.copropiedad.co/api/payu/pagarpol/
+collection = db||20150512231058,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512231058,Mensaje,cont_5511995bbbc118d03fbd2191,Cargando Controlador,Consultas,
+collection = db||20150512231058,Mensaje,cont_5511995bbbc118d03fbd2191,conectando con el servidor MongoDB,Con,
+collection = db||20150512231058,Mensaje,cont_5511995bbbc118d03fbd2191,Listar Documentos,
+collection = db||20150512231058,Mensaje,cont_5511995bbbc118d03fbd2191,cartera,CC990,,554a306dbbc118aa6e352638,2015-05-06T10:17:01-05:00,Pago Administracion Abril 2015,2015,05,349870,349870,cargo,cartera,532,CC990
+collection = db||20150512231058,Mensaje,cont_5511995bbbc118d03fbd2191,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512231058,Mensaje,pagosonline,Cargando Controlador,Consultas,
+collection = db||20150512231058,Mensaje,pagosonline,conectando con el servidor MongoDB,Con,
+collection = db||20150512231058,Mensaje - UPDATE,pagosonline,a38ee1d1013dbfc6502e8466a149f0df,,
+collection = db||20150512231058,Mensaje - UPDATE,pagosonline,1,,Okay
+collection = db||20150512231058,Mensaje,cont_5511995bbbc118d03fbd2191,Cargando Controlador,Consultas,
+collection = db||20150512231058,Mensaje,cont_5511995bbbc118d03fbd2191,conectando con el servidor MongoDB,Con,
+collection = db||20150512231058,Mensaje - UPDATE,cont_5511995bbbc118d03fbd2191,cartera,CC990,349870,,
+collection = db||20150512231058,Mensaje - UPDATE,cont_5511995bbbc118d03fbd2191,0,,Okay
+collection = db||20150512231058,Mensaje,pagosonline,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512231058,Mensaje,cont_5511995bbbc118d03fbd2191,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512234147,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512234147,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512234147,Mensaje,tokens_log,20150512234147,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512234147,Mensaje,tokens_log,,,5552d60bbbc118667c4bc21a
+collection = db||20150512234147,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512234147,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512234147,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512234147,Mensaje,tokens_log,20150512234147,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512234147,Mensaje,tokens_log,,,5552d60bbbc118667c4bc21b
+collection = db||20150512234147,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512234147,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512234147,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512234147,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512234147,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,555271a6da0634dbeaf3cb41,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,6u39nqhq8ftd0hlvnjfs66eh8c,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,500238,500538
+collection = db||20150512234147,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512234326,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512234326,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512234326,Mensaje,tokens_log,20150512234326,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512234326,Mensaje,tokens_log,,,5552d66ebbc118d5104bc240
+collection = db||20150512234326,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512234326,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512234326,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512234326,Mensaje,tokens_log,20150512234326,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512234326,Mensaje,tokens_log,,,5552d66ebbc118d5104bc241
+collection = db||20150512234326,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512234326,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512234326,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512234326,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512234326,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,555271a6da0634dbeaf3cb41,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,6u39nqhq8ftd0hlvnjfs66eh8c,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,500238,500538
+collection = db||20150512234326,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512234337,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512234337,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512234337,Mensaje,tokens_log,20150512234337,Message,remote sender,Validacion de token,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,null,Insertar documento,
+collection = db||20150512234337,Mensaje,tokens_log,,,5552d679bbc1186a7c4bc23c
+collection = db||20150512234337,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512234337,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512234337,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512234337,Mensaje,tokens_log,20150512234337,Message,remote sender,Token validado con exito,SetTokenEJcEEBoPNELY6ViFNeWWHz2gBdTxKK9WbgVrd/Rz+Q0=,True,Insertar documento,
+collection = db||20150512234337,Mensaje,tokens_log,,,5552d679bbc1186a7c4bc23d
+collection = db||20150512234337,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512234337,Mensaje,copropiedad_payu_admin,Cargando Controlador,Consultas,
+collection = db||20150512234337,Mensaje,copropiedad_payu_admin,conectando con el servidor MongoDB,Con,
+collection = db||20150512234337,Mensaje,copropiedad_payu_admin,Listar Documentos,
+collection = db||20150512234337,Mensaje,copropiedad_payu_admin,5511995bbbc118d03fbd2191,,555271a6da0634dbeaf3cb41,5511995bbbc118d03fbd2191,100024,24,2015-04-30T20:44:34.627Z,Jairo Ernesto Gil,6u39nqhq8ftd0hlvnjfs66eh8c,9d983546f8934af,PK6c48h784kdG28Y7U90569P0q,500238,500538
+collection = db||20150512234337,Mensaje,copropiedad_payu_admin,Cerrando coneccion,Terminando,Terminando

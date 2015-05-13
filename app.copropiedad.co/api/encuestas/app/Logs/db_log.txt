@@ -6479,3 +6479,333 @@ collection = db||20150507152652,Mensaje,encuestaCabecera,conectando con el servi
 collection = db||20150507152652,Mensaje,encuestaCabecera,5511995bbbc118d03fbd2191,1,encuesta,Listar Documentos,
 collection = db||20150507152652,Mensaje,encuestaCabecera,5511995bbbc118d03fbd2191,1,encuesta,,55312427bbc11839647e759e,5511995bbbc118d03fbd2191,24,2015-04-17T15:16:44.966Z,encuesta,2015-06-30,Primera encuesta de prueba ,este es el encabezado de la encuensta,1,,
 collection = db||20150507152652,Mensaje,encuestaCabecera,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512160950,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512160950,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512160950,Mensaje,tokens_log,20150512160950,Message,remote sender,Validacion de token,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,null,Insertar documento,
+collection = db||20150512160950,Mensaje,tokens_log,,,55526c1ebbc118617c4bc211
+collection = db||20150512160950,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512160950,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512160950,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512160950,Mensaje,tokens_log,20150512160950,Message,remote sender,Token validado con exito,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,True,Insertar documento,
+collection = db||20150512160950,Mensaje,tokens_log,,,55526c1ebbc118617c4bc212
+collection = db||20150512160950,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512160950,Mensaje,encuestaVotos,Cargando Controlador,Consultas,
+collection = db||20150512160950,Mensaje,encuestaVotos,conectando con el servidor MongoDB,Con,
+collection = db||20150512160950,Mensaje,encuestaVotos,555268dbe49163661fd0f59c,Listar Documentos,
+collection = db||20150512160950,Mensaje,encuestaVotos,555268dbe49163661fd0f59c,,
+collection = db||20150512160950,Mensaje,encuestaVotos,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512161143,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512161143,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512161143,Mensaje,tokens_log,20150512161143,Message,remote sender,Validacion de token,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,null,Insertar documento,
+collection = db||20150512161143,Mensaje,tokens_log,,,55526c8fbbc118677c4bc20f
+collection = db||20150512161143,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512161143,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512161143,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512161143,Mensaje,tokens_log,20150512161143,Message,remote sender,Token validado con exito,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,True,Insertar documento,
+collection = db||20150512161143,Mensaje,tokens_log,,,55526c8fbbc118677c4bc210
+collection = db||20150512161143,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512161143,Mensaje,encuestaVotos,Cargando Controlador,Consultas,
+collection = db||20150512161143,Mensaje,encuestaVotos,conectando con el servidor MongoDB,Con,
+collection = db||20150512161143,Mensaje,encuestaVotos,555268dbe49163661fd0f59c,Listar Documentos,
+collection = db||20150512161143,Mensaje,encuestaVotos,555268dbe49163661fd0f59c,,
+collection = db||20150512161143,Mensaje,encuestaVotos,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512161249,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512161249,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512161249,Mensaje,tokens_log,20150512161249,Message,remote sender,Validacion de token,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,null,Insertar documento,
+collection = db||20150512161249,Mensaje,tokens_log,,,55526cd1bbc118697c4bc218
+collection = db||20150512161249,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512161249,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512161249,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512161249,Mensaje,tokens_log,20150512161249,Message,remote sender,Token validado con exito,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,True,Insertar documento,
+collection = db||20150512161249,Mensaje,tokens_log,,,55526cd1bbc118697c4bc219
+collection = db||20150512161249,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512161249,Mensaje,encuestaVotos,Cargando Controlador,Consultas,
+collection = db||20150512161249,Mensaje,encuestaVotos,conectando con el servidor MongoDB,Con,
+collection = db||20150512161249,Mensaje,encuestaVotos,555268dbe49163661fd0f59c,Listar Documentos,
+collection = db||20150512161249,Mensaje,encuestaVotos,555268dbe49163661fd0f59c,,
+collection = db||20150512161249,Mensaje,encuestaVotos,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512161254,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512161254,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512161254,Mensaje,tokens_log,20150512161254,Message,remote sender,Validacion de token,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,null,Insertar documento,
+collection = db||20150512161254,Mensaje,tokens_log,,,55526cd6bbc1186a7c4bc1ff
+collection = db||20150512161254,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512161254,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512161254,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512161254,Mensaje,tokens_log,20150512161254,Message,remote sender,Token validado con exito,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,True,Insertar documento,
+collection = db||20150512161254,Mensaje,tokens_log,,,55526cd6bbc1186a7c4bc200
+collection = db||20150512161254,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512161254,Mensaje,encuestaVotos,Cargando Controlador,Consultas,
+collection = db||20150512161254,Mensaje,encuestaVotos,conectando con el servidor MongoDB,Con,
+collection = db||20150512161254,Mensaje,encuestaVotos,555268dbe49163661fd0f59c,Listar Documentos,
+collection = db||20150512161254,Mensaje,encuestaVotos,555268dbe49163661fd0f59c,,
+collection = db||20150512161254,Mensaje,encuestaVotos,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512163853,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512163853,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512163853,Mensaje,tokens_log,20150512163853,Message,remote sender,Validacion de token,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,null,Insertar documento,
+collection = db||20150512163853,Mensaje,tokens_log,,,555272edbbc11878454bc209
+collection = db||20150512163853,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512163853,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512163853,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512163853,Mensaje,tokens_log,20150512163853,Message,remote sender,Token validado con exito,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,True,Insertar documento,
+collection = db||20150512163853,Mensaje,tokens_log,,,555272edbbc11878454bc20a
+collection = db||20150512163853,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512163853,Mensaje,encuestaVotos,Cargando Controlador,Consultas,
+collection = db||20150512163853,Mensaje,encuestaVotos,conectando con el servidor MongoDB,Con,
+collection = db||20150512163853,Mensaje,encuestaVotos,555268dbe49163661fd0f59c,Listar Documentos,
+collection = db||20150512163853,Mensaje,encuestaVotos,555268dbe49163661fd0f59c,,
+collection = db||20150512163853,Mensaje,encuestaVotos,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512163901,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512163901,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512163901,Mensaje,tokens_log,20150512163901,Message,remote sender,Validacion de token,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,null,Insertar documento,
+collection = db||20150512163901,Mensaje,tokens_log,,,555272f5bbc118647c4bc23a
+collection = db||20150512163901,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512163901,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150512163901,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150512163901,Mensaje,tokens_log,20150512163901,Message,remote sender,Token validado con exito,SetTokenI1sJcvjJxUnoeHUF/w6mDuOYElbtmVq1fJxIGnqDkkCYOjRM4DlQ4xI2G6Z01ehK9K4V+QvArWCZqKFrZfW70w==,True,Insertar documento,
+collection = db||20150512163901,Mensaje,tokens_log,,,555272f5bbc118647c4bc23b
+collection = db||20150512163901,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150512163901,Mensaje,encuestaVotos,Cargando Controlador,Consultas,
+collection = db||20150512163901,Mensaje,encuestaVotos,conectando con el servidor MongoDB,Con,
+collection = db||20150512163901,Mensaje,encuestaVotos,55527217e49163661fd0f5cc,Listar Documentos,
+collection = db||20150512163901,Mensaje,encuestaVotos,55527217e49163661fd0f5cc,,
+collection = db||20150512163901,Mensaje,encuestaVotos,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513085957,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513085957,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513085957,Mensaje,tokens_log,20150513085957,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null,Insertar documento,
+collection = db||20150513085957,Mensaje,tokens_log,,,555358ddbbc1186a7c4bc242
+collection = db||20150513085957,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513085957,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513085957,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513085957,Mensaje,tokens_log,20150513085957,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True,Insertar documento,
+collection = db||20150513085957,Mensaje,tokens_log,,,555358ddbbc1186a7c4bc243
+collection = db||20150513085957,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513085957,Mensaje,encuestaCabecera,Cargando Controlador,Consultas,
+collection = db||20150513085957,Mensaje,encuestaCabecera,conectando con el servidor MongoDB,Con,
+collection = db||20150513085957,Mensaje,encuestaCabecera,5511995bbbc118d03fbd2191,1,encuesta,Listar Documentos,
+collection = db||20150513085957,Mensaje,encuestaCabecera,5511995bbbc118d03fbd2191,1,encuesta,,55312427bbc11839647e759e,5511995bbbc118d03fbd2191,24,2015-04-17T15:16:44.966Z,encuesta,2015-06-30,Primera encuesta de prueba ,este es el encabezado de la encuensta,1,,
+collection = db||20150513085957,Mensaje,encuestaCabecera,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090008,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090008,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090008,Mensaje,tokens_log,20150513090008,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null,Insertar documento,
+collection = db||20150513090008,Mensaje,tokens_log,,,555358e8bbc118d5104bc246
+collection = db||20150513090008,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090008,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090008,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090008,Mensaje,tokens_log,20150513090008,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True,Insertar documento,
+collection = db||20150513090008,Mensaje,tokens_log,,,555358e8bbc118d5104bc247
+collection = db||20150513090008,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090008,Mensaje,encuestaVotos,Cargando Controlador,Consultas,
+collection = db||20150513090008,Mensaje,encuestaVotos,conectando con el servidor MongoDB,Con,
+collection = db||20150513090008,Mensaje,encuestaVotos,55312427bbc11839647e759e,Listar Documentos,
+collection = db||20150513090008,Mensaje,encuestaVotos,55312427bbc11839647e759e,,55317b81bbc11898537e75f3,55312427bbc11839647e759e,55312428bbc118016c7e754e,esta es la abierta,ed35rs2617yg,A,esta es la cosa esta respuesta o como se llame,55317b81bbc11893537e75bb,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,quinta,mr,B,55317b81bbc1188d6c7e759b,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,sexta,mr,C,55317b81bbc1187e757e756d,55312427bbc11839647e759e,55312427bbc11896537e757d,ed35rs2617yg,pregunta numero uno,segunda,ur,B,55317bc4bbc11897537e75c4,55312427bbc11839647e759e,55312428bbc118016c7e754e,esta es la abierta,ed35rs2617yg,A,r serg serg serg ,55317bc5bbc1187c757e7599,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,cuarta,mr,A,55317bc5bbc1181f667e75ab,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,quinta,mr,B,55317bc5bbc1187e757e7574,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,sexta,mr,C,55317bc5bbc11839647e75fb,55312427bbc11839647e759e,55312427bbc11896537e757d,ed35rs2617yg,pregunta numero uno,segunda,ur,B
+collection = db||20150513090008,Mensaje,encuestaVotos,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090008,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090008,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090008,Mensaje,tokens_log,20150513090008,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null,Insertar documento,
+collection = db||20150513090008,Mensaje,tokens_log,,,555358e8bbc11823124bc248
+collection = db||20150513090008,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090008,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090008,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090008,Mensaje,tokens_log,20150513090008,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True,Insertar documento,
+collection = db||20150513090008,Mensaje,tokens_log,,,555358e8bbc11823124bc249
+collection = db||20150513090008,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090008,Mensaje,encuestaCabecera,Cargando Controlador,Consultas,
+collection = db||20150513090008,Mensaje,encuestaCabecera,conectando con el servidor MongoDB,Con,
+collection = db||20150513090008,Mensaje,encuestaCabecera,55312427bbc11839647e759e,Listar Documentos,
+collection = db||20150513090008,Mensaje,encuestaCabecera,55312427bbc11839647e759e,,55312427bbc11839647e759e,5511995bbbc118d03fbd2191,24,2015-04-17T15:16:44.966Z,encuesta,2015-06-30,Primera encuesta de prueba ,este es el encabezado de la encuensta,1,,
+collection = db||20150513090008,Mensaje,encuestaCabecera,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090008,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090008,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090008,Mensaje,tokens_log,20150513090008,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null,Insertar documento,
+collection = db||20150513090008,Mensaje,tokens_log,,,555358e8bbc118667c4bc226
+collection = db||20150513090008,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090008,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090008,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090008,Mensaje,tokens_log,20150513090008,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True,Insertar documento,
+collection = db||20150513090008,Mensaje,tokens_log,,,555358e8bbc118667c4bc227
+collection = db||20150513090008,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090008,Mensaje,encuestaVotos,Cargando Controlador,Consultas,
+collection = db||20150513090008,Mensaje,encuestaVotos,conectando con el servidor MongoDB,Con,
+collection = db||20150513090008,Mensaje,encuestaVotos,55312427bbc11839647e759e,Listar Documentos,
+collection = db||20150513090008,Mensaje,encuestaVotos,55312427bbc11839647e759e,,55317b81bbc11898537e75f3,55312427bbc11839647e759e,55312428bbc118016c7e754e,esta es la abierta,ed35rs2617yg,A,esta es la cosa esta respuesta o como se llame,55317b81bbc11893537e75bb,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,quinta,mr,B,55317b81bbc1188d6c7e759b,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,sexta,mr,C,55317b81bbc1187e757e756d,55312427bbc11839647e759e,55312427bbc11896537e757d,ed35rs2617yg,pregunta numero uno,segunda,ur,B,55317bc4bbc11897537e75c4,55312427bbc11839647e759e,55312428bbc118016c7e754e,esta es la abierta,ed35rs2617yg,A,r serg serg serg ,55317bc5bbc1187c757e7599,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,cuarta,mr,A,55317bc5bbc1181f667e75ab,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,quinta,mr,B,55317bc5bbc1187e757e7574,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,sexta,mr,C,55317bc5bbc11839647e75fb,55312427bbc11839647e759e,55312427bbc11896537e757d,ed35rs2617yg,pregunta numero uno,segunda,ur,B
+collection = db||20150513090008,Mensaje,encuestaVotos,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090008,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090008,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090008,Mensaje,tokens_log,20150513090008,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null,Insertar documento,
+collection = db||20150513090008,Mensaje,tokens_log,,,555358e8bbc1186a7c4bc244
+collection = db||20150513090008,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090008,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090008,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090008,Mensaje,tokens_log,20150513090008,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True,Insertar documento,
+collection = db||20150513090008,Mensaje,tokens_log,,,555358e8bbc1186a7c4bc245
+collection = db||20150513090008,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090008,Mensaje,encuestaPreguntas,Cargando Controlador,Consultas,
+collection = db||20150513090008,Mensaje,encuestaPreguntas,conectando con el servidor MongoDB,Con,
+collection = db||20150513090008,Mensaje,encuestaPreguntas,55312427bbc11839647e759e,Listar Documentos,
+collection = db||20150513090008,Mensaje,encuestaPreguntas,55312427bbc11839647e759e,,55312427bbc11896537e757d,55312427bbc11839647e759e,pregunta numero uno,seleccion_multiple_unica_respuesta,A|primera,B|segunda,C|tercera,,SI,55312427bbc1187c757e753b,55312427bbc11839647e759e,esta es pregunta dos,seleccion_multiple_multiple_respuesta,A|cuarta,B|quinta,C|sexta,D|,,SI,55312428bbc118016c7e754e,55312427bbc11839647e759e,esta es la abierta,abierta,A|,,SI
+collection = db||20150513090008,Mensaje,encuestaPreguntas,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090009,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090009,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090009,Mensaje,tokens_log,20150513090009,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null,Insertar documento,
+collection = db||20150513090009,Mensaje,tokens_log,,,555358e9bbc118657c4bc24c
+collection = db||20150513090009,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090009,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090009,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090009,Mensaje,tokens_log,20150513090009,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True,Insertar documento,
+collection = db||20150513090009,Mensaje,tokens_log,,,555358e9bbc118657c4bc24d
+collection = db||20150513090009,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090009,Mensaje,encuestaVotos,Cargando Controlador,Consultas,
+collection = db||20150513090009,Mensaje,encuestaVotos,conectando con el servidor MongoDB,Con,
+collection = db||20150513090009,Mensaje,encuestaVotos,55312427bbc11839647e759e,Listar Documentos,
+collection = db||20150513090009,Mensaje,encuestaVotos,55312427bbc11839647e759e,,55317b81bbc11898537e75f3,55312427bbc11839647e759e,55312428bbc118016c7e754e,esta es la abierta,ed35rs2617yg,A,esta es la cosa esta respuesta o como se llame,55317b81bbc11893537e75bb,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,quinta,mr,B,55317b81bbc1188d6c7e759b,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,sexta,mr,C,55317b81bbc1187e757e756d,55312427bbc11839647e759e,55312427bbc11896537e757d,ed35rs2617yg,pregunta numero uno,segunda,ur,B,55317bc4bbc11897537e75c4,55312427bbc11839647e759e,55312428bbc118016c7e754e,esta es la abierta,ed35rs2617yg,A,r serg serg serg ,55317bc5bbc1187c757e7599,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,cuarta,mr,A,55317bc5bbc1181f667e75ab,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,quinta,mr,B,55317bc5bbc1187e757e7574,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,sexta,mr,C,55317bc5bbc11839647e75fb,55312427bbc11839647e759e,55312427bbc11896537e757d,ed35rs2617yg,pregunta numero uno,segunda,ur,B
+collection = db||20150513090009,Mensaje,encuestaVotos,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090009,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090009,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090009,Mensaje,tokens_log,20150513090009,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null,Insertar documento,
+collection = db||20150513090009,Mensaje,tokens_log,,,555358e9bbc11878454bc232
+collection = db||20150513090009,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090009,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090009,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090009,Mensaje,tokens_log,20150513090009,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True,Insertar documento,
+collection = db||20150513090009,Mensaje,tokens_log,,,555358e9bbc11878454bc233
+collection = db||20150513090009,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090009,Mensaje,encuestaCabecera,Cargando Controlador,Consultas,
+collection = db||20150513090009,Mensaje,encuestaCabecera,conectando con el servidor MongoDB,Con,
+collection = db||20150513090009,Mensaje,encuestaCabecera,55312427bbc11839647e759e,Listar Documentos,
+collection = db||20150513090009,Mensaje,encuestaCabecera,55312427bbc11839647e759e,,55312427bbc11839647e759e,5511995bbbc118d03fbd2191,24,2015-04-17T15:16:44.966Z,encuesta,2015-06-30,Primera encuesta de prueba ,este es el encabezado de la encuensta,1,,
+collection = db||20150513090009,Mensaje,encuestaCabecera,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090009,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090009,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090009,Mensaje,tokens_log,20150513090009,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null,Insertar documento,
+collection = db||20150513090009,Mensaje,tokens_log,,,555358e9bbc118677c4bc251
+collection = db||20150513090009,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090009,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090009,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090009,Mensaje,tokens_log,20150513090009,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True,Insertar documento,
+collection = db||20150513090009,Mensaje,tokens_log,,,555358e9bbc118677c4bc252
+collection = db||20150513090009,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090009,Mensaje,encuestaVotos,Cargando Controlador,Consultas,
+collection = db||20150513090009,Mensaje,encuestaVotos,conectando con el servidor MongoDB,Con,
+collection = db||20150513090009,Mensaje,encuestaVotos,55312427bbc11839647e759e,Listar Documentos,
+collection = db||20150513090009,Mensaje,encuestaVotos,55312427bbc11839647e759e,,55317b81bbc11898537e75f3,55312427bbc11839647e759e,55312428bbc118016c7e754e,esta es la abierta,ed35rs2617yg,A,esta es la cosa esta respuesta o como se llame,55317b81bbc11893537e75bb,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,quinta,mr,B,55317b81bbc1188d6c7e759b,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,sexta,mr,C,55317b81bbc1187e757e756d,55312427bbc11839647e759e,55312427bbc11896537e757d,ed35rs2617yg,pregunta numero uno,segunda,ur,B,55317bc4bbc11897537e75c4,55312427bbc11839647e759e,55312428bbc118016c7e754e,esta es la abierta,ed35rs2617yg,A,r serg serg serg ,55317bc5bbc1187c757e7599,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,cuarta,mr,A,55317bc5bbc1181f667e75ab,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,quinta,mr,B,55317bc5bbc1187e757e7574,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,sexta,mr,C,55317bc5bbc11839647e75fb,55312427bbc11839647e759e,55312427bbc11896537e757d,ed35rs2617yg,pregunta numero uno,segunda,ur,B
+collection = db||20150513090009,Mensaje,encuestaVotos,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090009,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090009,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090009,Mensaje,tokens_log,20150513090009,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null,Insertar documento,
+collection = db||20150513090009,Mensaje,tokens_log,,,555358e9bbc118637c4bc241
+collection = db||20150513090009,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090009,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090009,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090009,Mensaje,tokens_log,20150513090009,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True,Insertar documento,
+collection = db||20150513090009,Mensaje,tokens_log,,,555358e9bbc118637c4bc242
+collection = db||20150513090009,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090009,Mensaje,encuestaPreguntas,Cargando Controlador,Consultas,
+collection = db||20150513090009,Mensaje,encuestaPreguntas,conectando con el servidor MongoDB,Con,
+collection = db||20150513090009,Mensaje,encuestaPreguntas,55312427bbc11839647e759e,Listar Documentos,
+collection = db||20150513090009,Mensaje,encuestaPreguntas,55312427bbc11839647e759e,,55312427bbc11896537e757d,55312427bbc11839647e759e,pregunta numero uno,seleccion_multiple_unica_respuesta,A|primera,B|segunda,C|tercera,,SI,55312427bbc1187c757e753b,55312427bbc11839647e759e,esta es pregunta dos,seleccion_multiple_multiple_respuesta,A|cuarta,B|quinta,C|sexta,D|,,SI,55312428bbc118016c7e754e,55312427bbc11839647e759e,esta es la abierta,abierta,A|,,SI
+collection = db||20150513090009,Mensaje,encuestaPreguntas,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090009,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090009,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090009,Mensaje,tokens_log,20150513090009,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null,Insertar documento,
+collection = db||20150513090009,Mensaje,tokens_log,,,555358e9bbc118c63a4bc145
+collection = db||20150513090009,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090009,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090009,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090009,Mensaje,tokens_log,20150513090009,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True,Insertar documento,
+collection = db||20150513090009,Mensaje,tokens_log,,,555358e9bbc118c63a4bc146
+collection = db||20150513090009,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090009,Mensaje,encuestaVotos,Cargando Controlador,Consultas,
+collection = db||20150513090009,Mensaje,encuestaVotos,conectando con el servidor MongoDB,Con,
+collection = db||20150513090009,Mensaje,encuestaVotos,55312427bbc11896537e757d,Listar Documentos,
+collection = db||20150513090009,Mensaje,encuestaVotos,55312427bbc11896537e757d,,55317b81bbc1187e757e756d,55312427bbc11839647e759e,55312427bbc11896537e757d,ed35rs2617yg,pregunta numero uno,segunda,ur,B,55317bc5bbc11839647e75fb,55312427bbc11839647e759e,55312427bbc11896537e757d,ed35rs2617yg,pregunta numero uno,segunda,ur,B
+collection = db||20150513090009,Mensaje,encuestaVotos,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090010,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090010,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090010,Mensaje,tokens_log,20150513090010,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null,Insertar documento,
+collection = db||20150513090010,Mensaje,tokens_log,,,555358eabbc118d5104bc248
+collection = db||20150513090010,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090010,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090010,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090010,Mensaje,tokens_log,20150513090010,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True,Insertar documento,
+collection = db||20150513090010,Mensaje,tokens_log,,,555358eabbc118d5104bc249
+collection = db||20150513090010,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090010,Mensaje,encuestaVotos,Cargando Controlador,Consultas,
+collection = db||20150513090010,Mensaje,encuestaVotos,conectando con el servidor MongoDB,Con,
+collection = db||20150513090010,Mensaje,encuestaVotos,55312427bbc1187c757e753b,Listar Documentos,
+collection = db||20150513090010,Mensaje,encuestaVotos,55312427bbc1187c757e753b,,55317b81bbc11893537e75bb,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,quinta,mr,B,55317b81bbc1188d6c7e759b,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,sexta,mr,C,55317bc5bbc1187c757e7599,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,cuarta,mr,A,55317bc5bbc1181f667e75ab,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,quinta,mr,B,55317bc5bbc1187e757e7574,55312427bbc11839647e759e,55312427bbc1187c757e753b,ed35rs2617yg,esta es pregunta dos,sexta,mr,C
+collection = db||20150513090010,Mensaje,encuestaVotos,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090010,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090010,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090010,Mensaje,tokens_log,20150513090010,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null,Insertar documento,
+collection = db||20150513090010,Mensaje,tokens_log,,,555358eabbc11823124bc24a
+collection = db||20150513090010,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090010,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090010,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090010,Mensaje,tokens_log,20150513090010,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True,Insertar documento,
+collection = db||20150513090010,Mensaje,tokens_log,,,555358eabbc11823124bc24b
+collection = db||20150513090010,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090010,Mensaje,encuestaVotos,Cargando Controlador,Consultas,
+collection = db||20150513090010,Mensaje,encuestaVotos,conectando con el servidor MongoDB,Con,
+collection = db||20150513090010,Mensaje,encuestaVotos,55312428bbc118016c7e754e,Listar Documentos,
+collection = db||20150513090010,Mensaje,encuestaVotos,55312428bbc118016c7e754e,,55317b81bbc11898537e75f3,55312427bbc11839647e759e,55312428bbc118016c7e754e,esta es la abierta,ed35rs2617yg,A,esta es la cosa esta respuesta o como se llame,55317bc4bbc11897537e75c4,55312427bbc11839647e759e,55312428bbc118016c7e754e,esta es la abierta,ed35rs2617yg,A,r serg serg serg 
+collection = db||20150513090010,Mensaje,encuestaVotos,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090023,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090023,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090023,Mensaje,tokens_log,20150513090023,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null,Insertar documento,
+collection = db||20150513090023,Mensaje,tokens_log,,,555358f7bbc118647c4bc273
+collection = db||20150513090023,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090023,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513090023,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513090023,Mensaje,tokens_log,20150513090023,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True,Insertar documento,
+collection = db||20150513090023,Mensaje,tokens_log,,,555358f7bbc118647c4bc274
+collection = db||20150513090023,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513090023,Mensaje,encuestaCabecera,Cargando Controlador,Consultas,
+collection = db||20150513090023,Mensaje,encuestaCabecera,conectando con el servidor MongoDB,Con,
+collection = db||20150513090023,Mensaje,encuestaCabecera,5511995bbbc118d03fbd2191,1,encuesta,Listar Documentos,
+collection = db||20150513090023,Mensaje,encuestaCabecera,5511995bbbc118d03fbd2191,1,encuesta,,55312427bbc11839647e759e,5511995bbbc118d03fbd2191,24,2015-04-17T15:16:44.966Z,encuesta,2015-06-30,Primera encuesta de prueba ,este es el encabezado de la encuensta,1,,
+collection = db||20150513090023,Mensaje,encuestaCabecera,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513102023,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513102023,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513102023,Mensaje,tokens_log,20150513102023,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null,Insertar documento,
+collection = db||20150513102023,Mensaje,tokens_log,,,55536bb7bbc118617c4bc258
+collection = db||20150513102023,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513102023,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513102023,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513102023,Mensaje,tokens_log,20150513102023,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True,Insertar documento,
+collection = db||20150513102023,Mensaje,tokens_log,,,55536bb7bbc118617c4bc259
+collection = db||20150513102023,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513102023,Mensaje,encuestaCabecera,Cargando Controlador,Consultas,
+collection = db||20150513102023,Mensaje,encuestaCabecera,conectando con el servidor MongoDB,Con,
+collection = db||20150513102023,Mensaje,encuestaCabecera,5511995bbbc118d03fbd2191,1,encuesta,Listar Documentos,
+collection = db||20150513102023,Mensaje,encuestaCabecera,5511995bbbc118d03fbd2191,1,encuesta,,55312427bbc11839647e759e,5511995bbbc118d03fbd2191,24,2015-04-17T15:16:44.966Z,encuesta,2015-06-30,Primera encuesta de prueba ,este es el encabezado de la encuensta,1,,
+collection = db||20150513102023,Mensaje,encuestaCabecera,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513102040,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513102040,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513102040,Mensaje,tokens_log,20150513102040,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null,Insertar documento,
+collection = db||20150513102040,Mensaje,tokens_log,,,55536bc8bbc118dc104bc24e
+collection = db||20150513102040,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513102040,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513102040,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513102040,Mensaje,tokens_log,20150513102040,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True,Insertar documento,
+collection = db||20150513102040,Mensaje,tokens_log,,,55536bc8bbc118dc104bc24f
+collection = db||20150513102040,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513102040,Mensaje,encuestaCabecera,Cargando Controlador,Consultas,
+collection = db||20150513102040,Mensaje,encuestaCabecera,conectando con el servidor MongoDB,Con,
+collection = db||20150513102040,Mensaje,encuestaCabecera,5511995bbbc118d03fbd2191,1,encuesta,Listar Documentos,
+collection = db||20150513102040,Mensaje,encuestaCabecera,5511995bbbc118d03fbd2191,1,encuesta,,55312427bbc11839647e759e,5511995bbbc118d03fbd2191,24,2015-04-17T15:16:44.966Z,encuesta,2015-06-30,Primera encuesta de prueba ,este es el encabezado de la encuensta,1,,
+collection = db||20150513102040,Mensaje,encuestaCabecera,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513102304,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513102304,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513102304,Mensaje,tokens_log,20150513102304,Message,remote sender,Validacion de token,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,null,Insertar documento,
+collection = db||20150513102304,Mensaje,tokens_log,,,55536c58bbc118d5104bc254
+collection = db||20150513102304,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513102304,Mensaje,tokens_log,Cargando Controlador,Consultas,
+collection = db||20150513102304,Mensaje,tokens_log,conectando con el servidor MongoDB,Con,
+collection = db||20150513102304,Mensaje,tokens_log,20150513102304,Message,remote sender,Token validado con exito,SetTokenSVsR1UvYzssM9EGOnjR2NxHTbPIb1q8sunyCUk89Lkk=,True,Insertar documento,
+collection = db||20150513102304,Mensaje,tokens_log,,,55536c58bbc118d5104bc255
+collection = db||20150513102304,Mensaje,tokens_log,Cerrando coneccion,Terminando,Terminando
+collection = db||20150513102304,Mensaje,encuestaCabecera,Cargando Controlador,Consultas,
+collection = db||20150513102304,Mensaje,encuestaCabecera,conectando con el servidor MongoDB,Con,
+collection = db||20150513102304,Mensaje,encuestaCabecera,5511995bbbc118d03fbd2191,1,encuesta,Listar Documentos,
+collection = db||20150513102304,Mensaje,encuestaCabecera,5511995bbbc118d03fbd2191,1,encuesta,,55312427bbc11839647e759e,5511995bbbc118d03fbd2191,24,2015-04-17T15:16:44.966Z,encuesta,2015-06-30,Primera encuesta de prueba ,este es el encabezado de la encuensta,1,,
+collection = db||20150513102304,Mensaje,encuestaCabecera,Cerrando coneccion,Terminando,Terminando

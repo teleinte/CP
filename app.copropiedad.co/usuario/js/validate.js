@@ -112,7 +112,7 @@ $(document).ready(function() {
                     };
 
                     var url = "rol";
-                    alert(JSON.stringify(arr))                    
+                    //alert(JSON.stringify(arr))                    
                     envioFormularioDos(arr,url,'POST')
                     //alert("retornado usuario"+retornado);
                     
@@ -166,7 +166,7 @@ $(document).ready(function() {
                         };
 
                         var url = "rol";
-                        alert(JSON.stringify(arr))                    
+                        //alert(JSON.stringify(arr))                    
                         envioFormularioDos(arr,url,'POST')
 
 
@@ -393,6 +393,7 @@ $(document).ready(function() {
                         id_crm_persona:id_crm,
                         nombre:$('#nombre1').val()+" "+$('#apellido1').val(),
                         telefono:$('#telefono1').val().replace(' ',''),
+                        celular:$('#celular').val().replace(' ',''),
                         email:$('#email1').val().replace(' ',''),
                         empresa:$('#empresa1').val(),
                         unidad:params['idt'],

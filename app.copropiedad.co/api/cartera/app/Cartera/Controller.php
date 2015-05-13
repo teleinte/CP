@@ -31,7 +31,6 @@ require_once('app/Model/DBNosql_model.php');
         enviarRespuesta($app, false, 'Error Creando el Token', $e->getMessage());
       }
     });
-
 //NUEVO GENERAR CUENTAS DE COBRO
   $app->options("/generar/cc/", function() use($app)
   {
@@ -124,7 +123,6 @@ require_once('app/Model/DBNosql_model.php');
       enviarRespuesta($app, false, 'Error de autenticación', $e->getMessage());
     }
   });
-
 //METODO ESTADO DE CUENTAS
   $app->options("/estado/cuenta/", function() use($app)
   {
@@ -174,7 +172,6 @@ require_once('app/Model/DBNosql_model.php');
       enviarRespuesta($app, false, 'Error de autenticación', $e->getMessage());
     }
   });
-
 //METODO OBTENER CONFIGURACION
   $app->options("/configuracion/", function() use($app)
   {
@@ -210,7 +207,6 @@ require_once('app/Model/DBNosql_model.php');
       enviarRespuesta($app, false, 'Error de autenticación', $e->getMessage());
     }
   });
-
 //METODO CARTERA 
   $app->options("/estado/cartera/", function() use($app)
   {
@@ -266,7 +262,6 @@ require_once('app/Model/DBNosql_model.php');
     enviarRespuesta($app, false, 'Error de autenticación', $e->getMessage());
     }
   });
-
 //METODO CARTERA POR CLIENTE
   $app->options("/estado/cuenta/cliente/", function() use($app)
   {
@@ -322,7 +317,6 @@ require_once('app/Model/DBNosql_model.php');
       enviarRespuesta($app, false, 'Error de autenticación', $e->getMessage());
     }
   });
-
 //METODO PAGAR FACTURA
   $app->options("/pagar/", function() use($app)
   {
@@ -915,7 +909,7 @@ require_once('app/Model/DBNosql_model.php');
     $year = explode('/',$corte)[0];
     $month = explode('/',$corte)[1];
     $day = explode('/',$corte)[2];
-    $cargosexistentes = consultaColeccionRespuesta($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"cartera", "doc" => (string)$doc_asoc);
+    $cargosexistentes = consultaColeccionRespuesta($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"cartera", "doc" => (string)$doc_asoc));
     if(count($cargosexistentes) > 0)
         $arr = array("fecha_creacion" => $today, "concepto" => $concepto, "year" => $year, "month" => $month, "monto" => $monto, "saldo" => $monto, "tipo_mov" => "cargo", "tipo_documento" => "cartera", "id_tercero" => $tercero, "doc" => $doc_asoc, "idcargo"=>count($cargosexistentes) + 1);
       else
