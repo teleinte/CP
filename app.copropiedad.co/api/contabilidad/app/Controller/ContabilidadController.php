@@ -161,677 +161,1063 @@ require_once("app/Model/DBNosql_Model.php");
     }
   });
 
-  //METODO CREAR REGISTRO - OK - OK
-  $app->options("/registro/", function() use($app)
-  {
-    enviarRespuesta($app, true, "ok", "ok");
-  });
-
-  $app->post("/registro/", function() use($app)
-  {
-   try
+  //METODO CREAR REGISTRO DE BANCOS- OK - OK
+    $app->options("/crearbancos/", function() use($app)
     {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;
-      if($token->SetToken($datos->token))
-      {
-        if (validarFechaActiva($datos->body->id_copropiedad, $app, $datos->body->year, $datos->body->month))
-          {
-            enviarInformacion('cont_'.$datos->body->id_copropiedad, $datos->body, $app);
-            $today = date("Y/m/d");
-            $tipo_doc = substr($datos->body->id_transaccion,0,2);
-            $tipomov = $datos->body->tipo;
-            if($tipomov == "D" && $tipo_doc=="CC")
-              creaCargo($today, $datos->body->monto, $datos->body->id_tercero, $datos->body->concepto, $datos->body->id_transaccion, $app, $datos->body->id_copropiedad);
-          }
+      enviarRespuesta($app, true, "ok", "ok");
+    });
+
+    $app->post("/crearbancos/", function() use($app)
+    {
+     // try
+     //  {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+          enviarInformacion('cont_'.$datos->body->id_copropiedad, $datos->body, $app);
+        }
         else
-          enviarRespuesta($app, false, "Periodo cerrado previamente", "null");
-      }
-      else
-      {
-        enviarRespuesta($app, false, "Token invalido", "null");
-      }
-    }
-    catch(Exception $e)
-    {
-      enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
-    }
-  });
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      // }
+      // catch(Exception $e)
+      // {
+      //   enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+      // }
+    });
 
-  //METODO CREAR REGISTRO DE SERVICIO PUBLICOS- OK - OK
-  $app->options("/serviciospublicos/", function() use($app)
-  {
-    enviarRespuesta($app, true, "ok", "ok");
-  });
+  //METODO OBTENER REGISTRO DE BANCOS - OK - OK
+    $app->options("/obtener/bancos/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
 
-  $app->post("/serviciospublicos/", function() use($app)
-  {
-   try
+    $app->post("/obtener/bancos/", function() use($app)
     {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;
-      if($token->SetToken($datos->token))
+     try
       {
-        enviarInformacion('cont_'.$datos->body->id_copropiedad, $datos->body, $app);
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+            consultaColeccion($app,'cont_'.$datos->body->id_copropiedad, array("tipo_documento" => "banco", "estado"=>1));
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
       }
-      else
+      catch(Exception $e)
       {
-        enviarRespuesta($app, false, "Token invalido", "null");
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
       }
-    }
-    catch(Exception $e)
-    {
-      enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
-    }
-  });
-  
-  //METODO OBTENER REGISTRO DE SERVICIO PUBLICOS - OK - OK
-  $app->options("/obtener/serviciospublicos/", function() use($app)
-  {
-    enviarRespuesta($app, true, "ok", "ok");
-  });
+    });
 
-  $app->post("/obtener/serviciospublicos/", function() use($app)
-  {
-   try
+  //METODO OBTENER BANCOS CON ID MONGO- OK - OK
+    $app->options("/obtener/bancosid/", function() use($app)
     {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;
-      if($token->SetToken($datos->token))
-      {
-          consultaColeccion($app,'cont_'.$datos->body->id_copropiedad, array("tipo_documento" => "serviciospublicos"));
-      }
-      else
-      {
-        enviarRespuesta($app, false, "Token invalido", "null");
-      }
-    }
-    catch(Exception $e)
-    {
-      enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
-    }
-  });
+      enviarRespuesta($app, true, "ok", "ok");
+    });
 
-  //METODO ELIMINAR REGISTRO - VALIDAR
-  $app->delete("/registro/", function() use($app)
-  {
-   try
-  	{
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;
-      if($token->SetToken($datos->token))
-      {
-          if (validarFechaActiva($datos->body->id_copropiedad, $app, $datos->body->year, $datos->body->mes))
-          {
-            $result = eliminaDocumento();
+    $app->post("/obtener/bancosid/", function() use($app)
+    {
+     // try
+     //  {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+            consultaColeccion($app,'cont_'.$datos->body->id_copropiedad, array("tipo_documento" => "banco","_id"=>new MongoId($datos->body->id)));
+            // $idGuardado=$datos->body->id;
+            // unset($datos->body->id);
+            // $muestreo=array("_id"=>new MongoId($idGuardado));
+            // $dbdata=new DBNosql('cont_'.$datos->body->id_copropiedad);
+            // $array = json_decode(json_encode($datos), true);
+            // $result=$dbdata->updateDocument($muestreo, $datos->body);
+            // if ($result){enviarRespuesta($app, true, $result, "null");}
+            // else {enviarRespuesta($app, true, null, null);}          
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      // }
+      // catch(Exception $e)
+      // {
+      //   enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+      // }
+    });
+
+  //METODO MODIFICAR BANCOS CON ID MONGO- OK - OK
+    $app->options("/modificarbancos/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
+
+    $app->post("/modificarbancos/", function() use($app)
+    {
+     // try
+     //  {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+            //consultaColeccion($app,'cont_'.$datos->body->id_copropiedad, array("tipo_documento" => "banco","_id"=>new MongoId($datos->body->id)));
+            $idGuardado=$datos->body->id;
+            unset($datos->body->id);
+            $muestreo=array("_id"=>new MongoId($idGuardado));
+            $dbdata=new DBNosql('cont_'.$datos->body->id_copropiedad);
+            $array = json_decode(json_encode($datos), true);
+            $result=$dbdata->updateDocument($muestreo, $datos->body);
             if ($result){enviarRespuesta($app, true, $result, "null");}
             else {enviarRespuesta($app, true, null, null);}
-          }
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      // }
+      // catch(Exception $e)
+      // {
+      //   enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+      // }
+    });
+
+  //METODO CREAR REGISTRO DE CARGOS EXTRA- OK - OK
+    $app->options("/crearcargos/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
+
+    $app->post("/crearcargos/", function() use($app)
+    {
+     // try
+     //  {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+          enviarInformacion('cont_'.$datos->body->id_copropiedad, $datos->body, $app);
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      // }
+      // catch(Exception $e)
+      // {
+      //   enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+      // }
+    });
+
+  //METODO OBTENER REGISTRO DE CARGOS ACTIVOS - OK - OK
+    $app->options("/obtener/cargos/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
+
+    $app->post("/obtener/cargos/", function() use($app)
+    {
+     try
+      {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+            consultaColeccion($app,'cont_'.$datos->body->id_copropiedad, array("tipo_documento" => "cargos_".$datos->body->id_copropiedad, "estado"=>1));
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      }
+      catch(Exception $e)
+      {
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+      }
+    });
+
+  //METODO OBTENER BANCOS CON ID MONGO- OK - OK
+    $app->options("/obtener/cargosid/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
+
+    $app->post("/obtener/cargosid/", function() use($app)
+    {
+     // try
+     //  {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+            consultaColeccion($app,'cont_'.$datos->body->id_copropiedad, array("tipo_documento" => "cargos_".$datos->body->id_copropiedad,"_id"=>new MongoId($datos->body->id)));
+                  
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      // }
+      // catch(Exception $e)
+      // {
+      //   enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+      // }
+    });
+
+
+
+
+
+
+
+
+
+
+    //METODO CREAR REGISTRO - OK - OK
+    $app->options("/registro/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
+
+    $app->post("/registro/", function() use($app)
+    {
+     try
+      {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+          if (validarFechaActiva($datos->body->id_copropiedad, $app, $datos->body->year, $datos->body->month))
+            {
+              enviarInformacion('cont_'.$datos->body->id_copropiedad, $datos->body, $app);
+              $today = date("Y/m/d");
+              $tipo_doc = substr($datos->body->id_transaccion,0,2);
+              $tipomov = $datos->body->tipo;
+              if($tipomov == "D" && $tipo_doc=="CC")
+                creaCargo($today, $datos->body->monto, $datos->body->id_tercero, $datos->body->concepto, $datos->body->id_transaccion, $app, $datos->body->id_copropiedad);
+            }
           else
             enviarRespuesta($app, false, "Periodo cerrado previamente", "null");
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
       }
-      else{enviarRespuesta($app, false, "Token invalido", "Token invalidos");}
-  	}
-  	catch(Exception $e)
-  	{
-  		//echo "Error: " . $e->getMessage();
-  		enviarRespuesta($app, false, "Error Los Datos de la lista no concuerdan", $e->getMessage());
-  	}
-  });
+      catch(Exception $e)
+      {
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+      }
+    });
 
-  //METODO CREAR TRANSACCIÓN - OK - OK
-  $app->options("/obtener/registros/", function() use($app)
-  {
-    enviarRespuesta($app, true, "ok", "ok");
-  });
+    //METODO CREAR REGISTRO DE SERVICIO PUBLICOS- OK - OK
+    $app->options("/serviciospublicos/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
 
-  $app->post("/obtener/registros/", function() use($app)
-  {
-   try
+    $app->post("/serviciospublicos/", function() use($app)
     {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;
-      if($token->SetToken($datos->token))
+     try
       {
-          consultaColeccion($app,'cont_'.$datos->body->id_copropiedad, array("tipo_documento" => "registrocontable", "id_transaccion" => $datos->body->idtransaccion));
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+          enviarInformacion('cont_'.$datos->body->id_copropiedad, $datos->body, $app);
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
       }
-      else
+      catch(Exception $e)
       {
-        enviarRespuesta($app, false, "Token invalido", "null");
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
       }
-    }
-    catch(Exception $e)
+    });
+    
+    //METODO OBTENER REGISTRO DE SERVICIO PUBLICOS - OK - OK
+    $app->options("/obtener/serviciospublicos/", function() use($app)
     {
-      enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
-    }
-  });
+      enviarRespuesta($app, true, "ok", "ok");
+    });
 
-  //METODO CREAR CONFIGURACION - OK - OK
-  $app->options("/configuracion/", function() use($app)
-  {
-    enviarRespuesta($app, true, "ok", "ok");
-  });
+    $app->post("/obtener/serviciospublicos/", function() use($app)
+    {
+     try
+      {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+            consultaColeccion($app,'cont_'.$datos->body->id_copropiedad, array("tipo_documento" => "serviciospublicos"));
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      }
+      catch(Exception $e)
+      {
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+      }
+    });
 
-  $app->post("/configuracion/", function() use($app)
-  {
-   try
+    //METODO ELIMINAR REGISTRO - VALIDAR
+    $app->delete("/registro/", function() use($app)
     {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;      
-      if($token->SetToken($datos->token))
-      {
-        enviarInformacion('cont_'.$datos->body->id_copropiedad, $datos->body, $app);
-      }
-      else
-      {
-        enviarRespuesta($app, false, "Token invalido", "null");
-      }
-    }
-    catch(Exception $e)
-    {
-      enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
-    }
-  });
-
-  //METODO OBTENER CONFIGURACION - OK - OK
-  $app->options("/obtener/configuracion/", function() use($app)
-  {
-    enviarRespuesta($app, true, "ok", "ok");
-  });
-
-  $app->post("/obtener/configuracion/", function() use($app)
-  {
-   try
-    {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;      
-      if($token->SetToken($datos->token))
-      {
-        consultaColeccion($app,'cont_'.$datos->body->id_copropiedad, array("tipo_documento" => "configuracion"));
-      }
-      else
-      {
-        enviarRespuesta($app, false, "Token invalido", "null");
-      }
-    }
-    catch(Exception $e)
-    {
-      enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
-    }
-  });
-
-   //METODO OBTENER CONFIGURACION - OK - OK
-  $app->options("/obtener/consecutivos/", function() use($app)
-  {
-    enviarRespuesta($app, true, "ok", "ok");
-  });
-
-  $app->post("/obtener/consecutivos/", function() use($app)
-  {
-   try
-    {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;      
-      if($token->SetToken($datos->token))
-      {
-        consultaColeccion($app,'cont_'.$datos->body->id_copropiedad, array("tipo_documento" => "consecutivos"));
-      }
-      else
-      {
-        enviarRespuesta($app, false, "Token invalido", "null");
-      }
-    }
-    catch(Exception $e)
-    {
-      enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
-    }
-  });
-
-  //METODO MODIFICAR CONFIGURACION - OK - OK
-  $app->put("/configuracion/", function() use($app)
-  {
-   try
-    {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;
-      if($token->SetToken($datos->token))
-      {
-        enviarInformacion('cont_'.$datos->body->id_copropiedad, $datos->body, $app);
-      }
-      else
-      {
-        enviarRespuesta($app, false, "Token invalido", "null");
-      }
-    }
-    catch(Exception $e)
-    {
-      enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
-    }
-  });
-
-  //METODO CREAR SALDOS INICIALES - OK - OK
-  $app->options("/saldosiniciales/", function() use($app)
-  {
-    enviarRespuesta($app, true, "ok", "ok");
-  });
-
-  $app->post("/saldosiniciales/", function() use($app)
-  {
-   try
-    {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;
-      if($token->SetToken($datos->token))
-      {
-          enviarInformacion('cont_'.$datos->body ->id_copropiedad, $datos->body, $app);
-      }
-      else
-      {
-        enviarRespuesta($app, false, "Token invalido", "null");
-      }
-    }
-    catch(Exception $e)
-    {
-      enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
-    }
-  });
-  //METODO CREAR INFORMACION DE EMPRESA - OK - OK
-  $app->options("/infoempresa/", function() use($app)
-  {
-    enviarRespuesta($app, true, "ok", "ok");
-  });
-
-  $app->post("/infoempresa/", function() use($app)
-  {
-   try
-    {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;
-      if($token->SetToken($datos->token))
-      {
-        enviarInformacion('cont_'.$datos->body ->id_copropiedad, $datos->body, $app);
-      }
-      else
-      {
-        enviarRespuesta($app, false, "Token invalido", "null");
-      }
-    }
-    catch(Exception $e)
-    {
-      enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
-    }
-  });
-  
-  //METODO MODIFICAR INFORMACION DE EMPRESA - VALIDAR
-  $app->put("/infoempresa/edit/", function() use($app)
-  {
-   try
-    {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;
-      if($token->SetToken($datos->token))
-      {
-              $idGuardado=$datos->body->id;
-              unset($datos->body->id);
-              $muestreo=array("_id"=>new MongoId($idGuardado));
-              $dbdata=new DBNosql('cont_'.$datos->body->idcopropiedad);
-              $array = json_decode(json_encode($datos), true);            
-              $result=$dbdata->updateDocument($muestreo, $datos->body);
+     try
+    	{
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+            if (validarFechaActiva($datos->body->id_copropiedad, $app, $datos->body->year, $datos->body->mes))
+            {
+              $result = eliminaDocumento();
               if ($result){enviarRespuesta($app, true, $result, "null");}
               else {enviarRespuesta($app, true, null, null);}
-      }
-      else{enviarRespuesta($app, false, "Token invalido", "Token invalidos");}
-    }
-    catch(Exception $e)
-    {
-      //echo "Error: " . $e->getMessage();
-      enviarRespuesta($app, false, "Error Los Datos de la lista no concuerdan", $e->getMessage());
-    }
-  });
+            }
+            else
+              enviarRespuesta($app, false, "Periodo cerrado previamente", "null");
+        }
+        else{enviarRespuesta($app, false, "Token invalido", "Token invalidos");}
+    	}
+    	catch(Exception $e)
+    	{
+    		//echo "Error: " . $e->getMessage();
+    		enviarRespuesta($app, false, "Error Los Datos de la lista no concuerdan", $e->getMessage());
+    	}
+    });
 
-  //METODO CREAR PUC - OK - OK
-  $app->options("/puc/", function() use($app)
-  {
-    enviarRespuesta($app, true, "ok", "ok");
-  });
+    //METODO CREAR TRANSACCIÓN - OK - OK
+    $app->options("/obtener/registros/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
 
-  $app->post("/puc/", function() use($app)
-  {
-   try
+    $app->post("/obtener/registros/", function() use($app)
     {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;      
-      if($token->SetToken($datos->token))
+     try
       {
-        enviarInformacion('cont_'.$datos->body->id_copropiedad, $datos->body, $app);
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+            consultaColeccion($app,'cont_'.$datos->body->id_copropiedad, array("tipo_documento" => "registrocontable", "id_transaccion" => $datos->body->idtransaccion));
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
       }
-      else
+      catch(Exception $e)
       {
-        enviarRespuesta($app, false, "Token invalido", "null");
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
       }
-    }
-    catch(Exception $e)
-    {
-      enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
-    }
-  });
+    });
 
-  //METODO OBTENER PUC - OK - OK
-  $app->options("/obtener/puc/", function() use($app)
-  {
-    enviarRespuesta($app, true, "ok", "ok");
-  });
+    //METODO CREAR CONFIGURACION - OK - OK
+    $app->options("/configuracion/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
 
-  $app->post("/obtener/puc/", function() use($app)
-  {
-   try
+    $app->post("/configuracion/", function() use($app)
     {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;      
-      if($token->SetToken($datos->token))
+     try
       {
-        consultaColeccion($app,'cont_'.$datos->body->id_copropiedad, array("tipo_documento" => "puc"));
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;      
+        if($token->SetToken($datos->token))
+        {
+          enviarInformacion('cont_'.$datos->body->id_copropiedad, $datos->body, $app);
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
       }
-      else
+      catch(Exception $e)
       {
-        enviarRespuesta($app, false, "Token invalido", "null");
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
       }
-    }
-    catch(Exception $e)
-    {
-      enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
-    }
-  });
+    });
 
-  //METODO ACTUALIZAR PUC  - OK
-  $app->put('/puc/', function() use($app)
-  {
-   try
+    //METODO OBTENER CONFIGURACION - OK - OK
+    $app->options("/obtener/configuracion/", function() use($app)
     {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;
-      if($token->SetToken($datos->token))
-      {
-        $idGuardado=$datos->body->mongoid;
-        $aidi = $idGuardado;
-        unset($datos->body->mongoid);
-        $muestreo=array("_id"=>new MongoId($idGuardado));
-        $dbdata=new DBNosql('cont_'.$datos->body->id_copropiedad);
-        $array = json_decode(json_encode($datos), true);
+      enviarRespuesta($app, true, "ok", "ok");
+    });
 
-        $modificador=array('$set'=>array("puc.".$datos->body->base.".nombre"=>$datos->body->nombre));
-        
-        $result=$dbdata->updateDocument($muestreo,$modificador);
-        if ($result){enviarRespuesta($app, true, $result, 'null');}
-        else {enviarRespuesta($app, true, null,"no result");}
-      }
-      else
-      {
-        enviarRespuesta($app, false, 'Token invalido', 'null');
-      }
-    }
-    catch(Exception $e)
+    $app->post("/obtener/configuracion/", function() use($app)
     {
-    enviarRespuesta($app, false, 'Error de autenticación', $e->getMessage());
-    }
-  });
+     try
+      {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;      
+        if($token->SetToken($datos->token))
+        {
+          consultaColeccion($app,'cont_'.$datos->body->id_copropiedad, array("tipo_documento" => "configuracion"));
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      }
+      catch(Exception $e)
+      {
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+      }
+    });
+
+     //METODO OBTENER CONFIGURACION - OK - OK
+    $app->options("/obtener/consecutivos/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
+
+    $app->post("/obtener/consecutivos/", function() use($app)
+    {
+     try
+      {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;      
+        if($token->SetToken($datos->token))
+        {
+          consultaColeccion($app,'cont_'.$datos->body->id_copropiedad, array("tipo_documento" => "consecutivos"));
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      }
+      catch(Exception $e)
+      {
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+      }
+    });
+
+    //METODO MODIFICAR CONFIGURACION - OK - OK
+    $app->put("/configuracion/", function() use($app)
+    {
+     try
+      {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+          $idGuardado=$datos->body->id;
+          unset($datos->body->id);
+          $muestreo=array("_id"=>new MongoId($idGuardado));
+          $dbdata=new DBNosql('cont_'.$datos->body->id_copropiedad);
+          $array = json_decode(json_encode($datos), true);        
+          $result=$dbdata->updateDocument($muestreo,$datos->body);
+          if ($result)
+          {
+              enviarRespuesta($app, true, $result, "null");
+          }
+          else {enviarRespuesta($app, true, null, null);}
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      }
+      catch(Exception $e)
+      {
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+      }
+    });
+
+    //METODO CREAR SALDOS INICIALES - OK - OK
+    $app->options("/saldosiniciales/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
+
+    $app->post("/saldosiniciales/", function() use($app)
+    {
+     try
+      {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+            enviarInformacion('cont_'.$datos->body ->id_copropiedad, $datos->body, $app);
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      }
+      catch(Exception $e)
+      {
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+      }
+    });
+
+    $app->put("/saldosiniciales/traer/", function() use($app)
+    {
+     try
+      {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+            consultaColeccion($app, 'cont_'.$datos->body->id_copropiedad, array("tipo_documento" => "saldosiniciales"));
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      }
+      catch(Exception $e)
+      {
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+      }
+    });
+
+    //METODO CREAR INFORMACION DE EMPRESA - OK - OK
+    $app->options("/infoempresa/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
+
+    $app->post("/infoempresa/", function() use($app)
+    {
+     try
+      {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+          enviarInformacion('cont_'.$datos->body ->id_copropiedad, $datos->body, $app);
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      }
+      catch(Exception $e)
+      {
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+      }
+    });
+    
+    //METODO MODIFICAR INFORMACION DE EMPRESA - VALIDAR
+    $app->put("/infoempresa/edit/", function() use($app)
+    {
+     try
+      {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+                $idGuardado=$datos->body->id;
+                unset($datos->body->id);
+                $muestreo=array("_id"=>new MongoId($idGuardado));
+                $dbdata=new DBNosql('cont_'.$datos->body->idcopropiedad);
+                $array = json_decode(json_encode($datos), true);            
+                $result=$dbdata->updateDocument($muestreo, $datos->body);
+                if ($result){enviarRespuesta($app, true, $result, "null");}
+                else {enviarRespuesta($app, true, null, null);}
+        }
+        else{enviarRespuesta($app, false, "Token invalido", "Token invalidos");}
+      }
+      catch(Exception $e)
+      {
+        //echo "Error: " . $e->getMessage();
+        enviarRespuesta($app, false, "Error Los Datos de la lista no concuerdan", $e->getMessage());
+      }
+    });
+
+    $app->options("/infoempresa/ver/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
+
+    $app->post("/infoempresa/ver/", function() use($app)
+    {
+     try
+      {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+          consultaColeccion($app, 'cont_'.$datos->body->id_copropiedad, array("tipo_documento" => "infoempresa"));
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      }
+      catch(Exception $e)
+      {
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+      }
+    });
+
+    //METODO CREAR PUC - OK - OK
+    $app->options("/puc/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
+
+    $app->post("/puc/", function() use($app)
+    {
+     try
+      {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;      
+        if($token->SetToken($datos->token))
+        {
+          enviarInformacion('cont_'.$datos->body->id_copropiedad, $datos->body, $app);
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      }
+      catch(Exception $e)
+      {
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+      }
+    });
+
+    //METODO OBTENER PUC - OK - OK
+    $app->options("/obtener/puc/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
+
+    $app->post("/obtener/puc/", function() use($app)
+    {
+     try
+      {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;      
+        if($token->SetToken($datos->token))
+        {
+          consultaColeccion($app,'cont_'.$datos->body->id_copropiedad, array("tipo_documento" => "puc"));
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      }
+      catch(Exception $e)
+      {
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+      }
+    });
+
+    //METODO ACTUALIZAR PUC  - OK
+    $app->put('/puc/', function() use($app)
+    {
+     try
+      {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+          $idGuardado=$datos->body->mongoid;
+          $aidi = $idGuardado;
+          unset($datos->body->mongoid);
+          $muestreo=array("_id"=>new MongoId($idGuardado));
+          $dbdata=new DBNosql('cont_'.$datos->body->id_copropiedad);
+          $array = json_decode(json_encode($datos), true);
+
+          $modificador=array('$set'=>array("puc.".$datos->body->base.".nombre"=>$datos->body->nombre));
+          
+          $result=$dbdata->updateDocument($muestreo,$modificador);
+          if ($result){enviarRespuesta($app, true, $result, 'null');}
+          else {enviarRespuesta($app, true, null,"no result");}
+        }
+        else
+        {
+          enviarRespuesta($app, false, 'Token invalido', 'null');
+        }
+      }
+      catch(Exception $e)
+      {
+      enviarRespuesta($app, false, 'Error de autenticación', $e->getMessage());
+      }
+    });
 
   //METODO CREAR CUENTA PUC  - OK
-  $app->put('/creaCuenta/', function() use($app)
-  {
-   try
-    {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;
-      if($token->SetToken($datos->token))
-      {
-        $idGuardado=$datos->body->mongoid;
-        $aidi = $idGuardado;
-        unset($datos->body->mongoid);
-        $muestreo=array("_id"=>new MongoId($idGuardado));
-        $dbdata=new DBNosql('cont_'.$datos->body->id_copropiedad);
-        unset($datos->body->id_copropiedad);
-        unset($datos->body->tipo_documento);
-        $array = json_decode(json_encode($datos), true);            
-        //$mierda=array('$set'=>array("puc.0.nombre"=>"Jairo"));
-        $daticos=$datos->body;
-        $modificador=array('$addToSet'=>array("puc"=>$daticos));
-        //var_dump($mierda);
-        $result=$dbdata->updateDocument($muestreo,$modificador);
-        if ($result){enviarRespuesta($app, true, $result, 'null');}
-        else {enviarRespuesta($app, true, null,"no result");}
-      }
-      else
-      {
-        enviarRespuesta($app, false, 'Token invalido', 'null');
-      }
-    }
-    catch(Exception $e)
-    {
-    enviarRespuesta($app, false, 'Error de autenticación', $e->getMessage());
-    }
-  });
+        $app->put('/creaCuenta/', function() use($app)
+        {
+         // try
+         //  {
+            $requerimiento = $app::getInstance()->request();
+            $datos = json_decode($requerimiento->getBody());
+            $token = new Token;        
+            if($token->SetToken($datos->token))
+            {
+              $alanterior="";
+              $array = json_decode(json_encode($datos), true);
+              $cuentanueva = $datos->body->cuenta;
+              // echo "<br>esta es la llave".$cuentanueva;
+              $alanterior = consultaColeccionRetorno($app,'cont_'.$datos->body->id_copropiedad, array('tipo_documento' =>'puc'));
+              foreach ($alanterior as $key => $value) 
+              { 
+                if(is_array($value))
+                {
+                  foreach ($value as $llave => $valor) {
+                    if($llave=="puc")
+                    {
+                      foreach ($valor as $llaves => $valores) 
+                       {
+                          if($cuentanueva==$valores["cuenta"])
+                          {
+                            enviarRespuesta($app, false, "la cuenta ya existe en el PUC", 'error');
+                            $error=true;                        
+                            break;
+                          }
+                          else
+                          {
+                            $error=false;
+                          }
+                       }
+                       if ($error) {break;}
+                    }
+                  }
+                }
+                if ($error) {break;}
+              }
+              if(!$error)
+              {
+                $idGuardado=$datos->body->mongoid;
+                $aidi = $idGuardado;
+                unset($datos->body->mongoid);
 
-  //METODO ACTUALIZAR CONSECUTIVOS  - OK
-  $app->put('/actualiza/consecutivo/', function() use($app)
-  {
-   try
+                $muestreo=array("_id"=>new MongoId($idGuardado));
+                $dbdata=new DBNosql('cont_'.$datos->body->id_copropiedad);
+
+                unset($datos->body->id_copropiedad);
+                unset($datos->body->tipo_documento);
+                $array = json_decode(json_encode($datos), true);            
+                //$mierda=array('$set'=>array("puc.0.nombre"=>"Jairo"));
+                $daticos=$datos->body;
+                $modificador=array('$addToSet'=>array("puc"=>$daticos));
+                //var_dump($mierda);
+                $result=$dbdata->updateDocument($muestreo,$modificador);
+                if ($result){enviarRespuesta($app, true, $result, 'null');}
+                else {enviarRespuesta($app, true, null,"no result");}
+                } 
+            }
+            else
+            {
+              enviarRespuesta($app, false, 'Token invalido', 'null');
+            }
+          // }
+          // catch(Exception $e)
+          // {
+          // enviarRespuesta($app, false, 'Error de autenticación', $e->getMessage());
+          // }
+        });
+
+    //METODO ACTUALIZAR CONSECUTIVOS  - OK
+    $app->put('/actualiza/consecutivo/', function() use($app)
     {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;
-      if($token->SetToken($datos->token))
+     try
       {
-        $consecutivos = objectToArray(json_decode(json_encode(consultaColeccionRetorno($app, 'cont_'.$datos->body->id_copropiedad, array("tipo_documento"=>"consecutivos"))))[0]);
-        $consecutivos[$datos->body->tipodoc] = $consecutivos[$datos->body->tipodoc] + 1;
-        $idGuardado=$consecutivos["_id"]['$id'];
-        unset($consecutivos["_id"]);
-        $muestreo=array("_id"=>new MongoId($idGuardado));
-        $dbdata=new DBNosql('cont_'.$datos->body->id_copropiedad);
-        $array = json_decode(json_encode($datos), true);
-        $result=$dbdata->updateDocument($muestreo,$consecutivos);
-        if ($result){enviarRespuesta($app, true, $result, 'null');}
-        else {enviarRespuesta($app, true, null,"no result");}
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+          $consecutivos = objectToArray(json_decode(json_encode(consultaColeccionRetorno($app, 'cont_'.$datos->body->id_copropiedad, array("tipo_documento"=>"consecutivos"))))[0]);
+          $consecutivos[$datos->body->tipodoc] = $consecutivos[$datos->body->tipodoc] + 1;
+          $idGuardado=$consecutivos["_id"]['$id'];
+          unset($consecutivos["_id"]);
+          $muestreo=array("_id"=>new MongoId($idGuardado));
+          $dbdata=new DBNosql('cont_'.$datos->body->id_copropiedad);
+          $array = json_decode(json_encode($datos), true);
+          $result=$dbdata->updateDocument($muestreo,$consecutivos);
+          if ($result){enviarRespuesta($app, true, $result, 'null');}
+          else {enviarRespuesta($app, true, null,"no result");}
+        }
+        else
+        {
+          enviarRespuesta($app, false, 'Token invalido', 'null');
+        }
       }
-      else
+      catch(Exception $e)
       {
-        enviarRespuesta($app, false, 'Token invalido', 'null');
+      enviarRespuesta($app, false, 'Error de autenticación', $e->getMessage());
       }
-    }
-    catch(Exception $e)
-    {
-    enviarRespuesta($app, false, 'Error de autenticación', $e->getMessage());
-    }
-  });
+    });
 
 //METODOS PARA GENERAR BALANCES
   
-//GENERAR EL BALANCE DE PRUEBA - OK - OK
-  $app->options("/balance/prueba/", function() use($app)
+  //GENERAR EL BALANCE DE PRUEBA - OK - OK
+    $app->options("/balance/prueba/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
+
+    $app->post("/balance/prueba/", function() use($app)
+    {
+     //try
+     //{
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+          $id_copropiedad = $datos->body->id_copropiedad;
+          if(isset($datos->body->tipo))
+          {
+            if($datos->body->tipo)
+            {
+              $month_inicio = $datos->body->mesinicio;
+              $year_inicio = $datos->body->anoinicio;
+              $month_fin = $datos->body->mesfin;
+              $year_fin = $datos->body->anofin;
+              $respuesta = balancePrueba($id_copropiedad, $app, $datos->body->tipo, $datos->body->mesinicio, $datos->body->anoinicio, $datos->body->mesfin, $datos->body->anofin);
+            }
+            else
+            {
+              $respuesta = balancePrueba($id_copropiedad, $app, false);
+            }
+          }
+          else
+          {
+            $respuesta = balancePrueba($id_copropiedad, $app, false);
+          }
+
+          enviarRespuesta($app, true, $respuesta, "null");
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      //}
+      //catch(Exception $e)
+      //{
+      //  enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+      //}
+    });
+
+  //GENERAR EL BALANCE DE PRUEBA - OK - OK (NUEVO BALANCE - DROPOUT METODO ANTERIOR
+  $app->options("/balance/pruebaintegrado/", function() use($app)
   {
     enviarRespuesta($app, true, "ok", "ok");
   });
 
-  $app->post("/balance/prueba/", function() use($app)
+  $app->post("/balance/pruebaintegrado/", function() use($app)
   {
-   try
-   {
+   //try
+   //{
       $requerimiento = $app::getInstance()->request();
       $datos = json_decode($requerimiento->getBody());
       $token = new Token;
       if($token->SetToken($datos->token))
       {
         $id_copropiedad = $datos->body->id_copropiedad;
-        $respuesta = balancePrueba($id_copropiedad, $app);
+        if(isset($datos->body->tipo))
+        {
+          if($datos->body->tipo)
+          {
+            $month_inicio = $datos->body->mesinicio;
+            $year_inicio = $datos->body->anoinicio;
+            $month_fin = $datos->body->mesfin;
+            $year_fin = $datos->body->anofin;
+            $respuesta = balancePruebaIntegrado($id_copropiedad, $app, $datos->body->tipo, $datos->body->mesinicio, $datos->body->anoinicio, $datos->body->mesfin, $datos->body->anofin);
+          }
+          else
+          {
+            $respuesta = balancePruebaIntegrado($id_copropiedad, $app, false);
+          }
+        }
+        else
+        {
+          $respuesta = balancePruebaIntegrado($id_copropiedad, $app, false);
+        }
+
         enviarRespuesta($app, true, $respuesta, "null");
       }
       else
       {
         enviarRespuesta($app, false, "Token invalido", "null");
       }
-    }
-    catch(Exception $e)
-    {
-      enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
-    }
+    //}
+    //catch(Exception $e)
+    //{
+    //  enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+    //}
   }); 
 
   //GENERAR EL BALANCE DE PRUEBA POR PERIODOS- OK - OK
-  $app->options("/balance/prueba/periodo/", function() use($app)
-  {
-    enviarRespuesta($app, true, "ok", "ok");
-  });
+    $app->options("/balance/prueba/periodo/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
 
-  $app->post("/balance/prueba/periodo/", function() use($app)
-  {
-    /*
+    $app->post("/balance/prueba/periodo/", function() use($app)
     {
-      "token":"J2QK6Szd8yfjNCtzXGTnrG0NMdBKNp9dP7XMHZyOUUs=",
-      "body":
-        {
-          "id_copropiedad":"54875d6e5255c8702f1d137d",
-          "year":"2014",
-          "month":"03"
-        }
-    }
-    */
-    try
-    {
-       $requerimiento = $app::getInstance()->request();
-       $datos = json_decode($requerimiento->getBody());
-       $token = new Token;
-       if($token->SetToken($datos->token))
-       {
-         $id_copropiedad = $datos->body->id_copropiedad;
-         $year = $datos->body->year;
-         $month = $datos->body->month;
-         //$respuesta = generaBalancePeriodo($id_copropiedad, $year, $month, $app);
-         $respuesta = balancePruebaPeriodo($id_copropiedad, $year, $month, $app);
-         enviarRespuesta($app, true, $respuesta, "null");
+      /*
+      {
+        "token":"J2QK6Szd8yfjNCtzXGTnrG0NMdBKNp9dP7XMHZyOUUs=",
+        "body":
+          {
+            "id_copropiedad":"54875d6e5255c8702f1d137d",
+            "year":"2014",
+            "month":"03"
+          }
+      }
+      */
+      try
+      {
+         $requerimiento = $app::getInstance()->request();
+         $datos = json_decode($requerimiento->getBody());
+         $token = new Token;
+         if($token->SetToken($datos->token))
+         {
+           $id_copropiedad = $datos->body->id_copropiedad;
+           $year = $datos->body->year;
+           $month = $datos->body->month;
+           //$respuesta = generaBalancePeriodo($id_copropiedad, $year, $month, $app);
+           $respuesta = balancePruebaPeriodo($id_copropiedad, $year, $month, $app);
+           enviarRespuesta($app, true, $respuesta, "null");
+         }
+         else
+         {
+           enviarRespuesta($app, false, "Token invalido", "null");
+         }
        }
-       else
+       catch(Exception $e)
        {
-         enviarRespuesta($app, false, "Token invalido", "null");
+         enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
        }
-     }
-     catch(Exception $e)
-     {
-       enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
-     }
-  });
+    });
 
   //GENERAR EL BALANCE DE PRUEBA CON TERCEROS - OK - OK
-  $app->options("/balance/prueba/terceros/", function() use($app)
-  {
-    enviarRespuesta($app, true, "ok", "ok");
-  });
-
-  $app->post("/balance/prueba/terceros/", function() use($app)
-  {
-    try
+    $app->options("/balance/prueba/terceros/", function() use($app)
     {
-       $requerimiento = $app::getInstance()->request();
-       $datos = json_decode($requerimiento->getBody());
-       $token = new Token;
-       if($token->SetToken($datos->token))
-       {
-         $id_copropiedad = $datos->body->id_copropiedad;
-         $bprueba = balancePrueba($id_copropiedad, $app);
-         $bpruebat = balancePruebaTerceros($id_copropiedad, $app);
-         //enviarRespuesta($app, false, $bpruebat, "null");
-         $respuesta = unirBalances($bprueba, $bpruebat, true);
-         enviarRespuesta($app, false, $respuesta, "null");
+      enviarRespuesta($app, true, "ok", "ok");
+    });
+
+    $app->post("/balance/prueba/terceros/", function() use($app)
+    {
+      try
+      {
+         $requerimiento = $app::getInstance()->request();
+         $datos = json_decode($requerimiento->getBody());
+         $token = new Token;
+         if($token->SetToken($datos->token))
+         {
+           $id_copropiedad = $datos->body->id_copropiedad;
+           $bprueba = balancePrueba($id_copropiedad, $app);
+           $bpruebat = balancePruebaTerceros($id_copropiedad, $app);
+           //enviarRespuesta($app, false, $bpruebat, "null");
+           $respuesta = unirBalances($bprueba, $bpruebat, true);
+           enviarRespuesta($app, false, $respuesta, "null");
+         }
+         else
+         {
+           enviarRespuesta($app, false, "Token invalido", "null");
+         }
        }
-       else
+       catch(Exception $e)
        {
-         enviarRespuesta($app, false, "Token invalido", "null");
+         enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
        }
-     }
-     catch(Exception $e)
-     {
-       enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
-     }
-  }); 
+    }); 
 
   //GENERAR EL BALANCE GENERAL - OK - OK
-  $app->options("/balance/general/", function() use($app)
-  {
-    enviarRespuesta($app, true, "ok", "ok");
-  });
-
-  $app->post("/balance/general/", function() use($app)
-  {
-   try
-   {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;
-      if($token->SetToken($datos->token))
-      {
-          $id_copropiedad = $datos->body->id_copropiedad;
-          $respuesta = balancePrueba($id_copropiedad, $app);
-          $respuesta = balanceGeneral($respuesta);
-          enviarRespuesta($app, false, $respuesta, "null");
-      }
-      else
-      {
-        enviarRespuesta($app, false, "Token invalido", "null");
-      }
-    }
-    catch(Exception $e)
+    $app->options("/balance/general/", function() use($app)
     {
-      enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
-    }
-  }); 
+      enviarRespuesta($app, true, "ok", "ok");
+    });
+
+    $app->post("/balance/general/", function() use($app)
+    {
+      //try
+      //{
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+            $id_copropiedad = $datos->body->id_copropiedad;
+            $respuesta = balancePrueba($id_copropiedad, $app);
+            //$respuesta = balanceGeneral($respuesta);
+            enviarRespuesta($app, true, $respuesta, "null");
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      /*}
+      catch(Exception $e)
+      {
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+      }*/
+    }); 
 
   //GENERAR EL ESTADO DE RESULTADOS - OK - OK
-  $app->options("/estado/resultados/", function() use($app)
-  {
-    enviarRespuesta($app, true, "ok", "ok");
-  });
-
-  $app->post("/estado/resultados/", function() use($app)
-  {
-   try
-   {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;
-      if($token->SetToken($datos->token))
-      {
-          $id_copropiedad = $datos->body->id_copropiedad;
-          $respuesta = balancePrueba($id_copropiedad, $app);
-          $respuesta = estadoResultados($respuesta);
-          enviarRespuesta($app, false, $respuesta, "null");
-      }
-      else
-      {
-        enviarRespuesta($app, false, "Token invalido", "null");
-      }
-    }
-    catch(Exception $e)
+    $app->options("/estado/resultados/", function() use($app)
     {
-      enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
-    }
-  }); 
+      enviarRespuesta($app, true, "ok", "ok");
+    });
 
-// METODOS PARA GENERAR CIERRES DE PERIODO
+    $app->post("/estado/resultados/", function() use($app)
+    {
+     try
+     {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+            $id_copropiedad = $datos->body->id_copropiedad;
+            $respuesta = balancePrueba($id_copropiedad, $app);
+            //$respuesta = estadoResultados($respuesta);
+            enviarRespuesta($app, false, $respuesta, "null");
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      }
+      catch(Exception $e)
+      {
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+      }
+    }); 
+
+//METODOS PARA GENERAR CIERRES DE PERIODO
 
   //GENERAR EL CIERRE DE PERIODO ANUAL - OK - OK - VALIDAR SI SERIA BUENO GENERAR BALANCES AL GUARDAR EL CIERRE
   $app->options("/cierre/periodo/anual/", function() use($app)
@@ -1188,28 +1574,69 @@ require_once("app/Model/DBNosql_Model.php");
   }
 
 //FUNCIONES PARA BALANCE DE PRUEBA
-  function balancePrueba($idcopropiedad, $appl)
+  function balancePrueba($idcopropiedad, $appl, $tipo, $month_inicio=null, $year_inicio=null, $month_fin=null, $year_fin=null)
   {
     $rta = array();
     $ultAno = obtieneUltimoCierreAnual($appl, $idcopropiedad);
     $cierreano = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"cierreanual", "periodo" => (string)$ultAno))));
     $saldoinicial = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"saldosiniciales"))));
+
     /*var_dump(count($cierreano));
     var_dump(count($saldoinicial));
     var_dump($ultAno);
     var_dump(array("tipo_documento"=>"cierreanual", "periodo" => (string)$ultAno));
     exit;*/
+    if(!$tipo)
+    {
+      $tipo1 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^1/")))));
+      $tipo2 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^2/")))));
+      $tipo3 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^3/")))));
+      $tipo4 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^4/")))));
+      $tipo5 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^5/")))));
+      $tipo6 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^6/")))));
+      $tipo7 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^7/")))));
+      $tipo8 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^8/")))));
+      $tipo9 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^9/")))));
+    }
+    else
+    {
+      //var_dump('a');
+      //$di = date_create('2015-06-20');
+      $di = date_create($year_inicio . '-' . $month_inicio . '-01');
+      $di = date_format($di, 'c');
+      if($month_fin == "12"){
+        $month_fin = "01";
+        $year_fin = (int)$year_fin + 1;
+      }
+      //var_dump($year_inicio . $month_inicio);
+      //var_dump($di);
 
-    $tipo1 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^1/")))));
-    $tipo2 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^2/")))));
-    $tipo3 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^3/")))));
-    $tipo4 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^4/")))));
-    $tipo5 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^5/")))));
-    $tipo6 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^6/")))));
-    $tipo7 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^7/")))));
-    $tipo8 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^8/")))));
-    $tipo9 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^9/")))));
-
+      //$de = date_create('2015-06-25');
+      $de = date_create($year_fin . '-' . ((int)$month_fin + 1) . '-01');
+      $de = date_format($de, 'c');
+      //var_dump($year_fin . $month_fin);
+      //var_dump($de);
+      //var_dump(json_encode(array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^1/"),"fecha_creacion" => array('$gte' => $di, '$lte' => $de))));
+      /*$tipo1 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^1/"),"fecha_movimiento" => array('$gte' => $di, '$lte' => $de)))));
+      $tipo2 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^2/"),"fecha_movimiento" => array('$gte' => $di, '$lte' => $de)))));
+      $tipo3 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^3/"),"fecha_movimiento" => array('$gte' => $di, '$lte' => $de)))));
+      $tipo4 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^4/"),"fecha_movimiento" => array('$gte' => $di, '$lte' => $de)))));
+      $tipo5 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^5/"),"fecha_movimiento" => array('$gte' => $di, '$lte' => $de)))));
+      $tipo6 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^6/"),"fecha_movimiento" => array('$gte' => $di, '$lte' => $de)))));
+      $tipo7 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^7/"),"fecha_movimiento" => array('$gte' => $di, '$lte' => $de)))));
+      $tipo8 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^8/"),"fecha_movimiento" => array('$gte' => $di, '$lte' => $de)))));
+      $tipo9 = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^9/"),"fecha_movimiento" => array('$gte' => $di, '$lte' => $de)))));*/
+      $tipo1 = filtrarDocumentosPeriodo(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^1/"))))),$di,$de);
+      $tipo2 = filtrarDocumentosPeriodo(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^2/"))))),$di,$de);
+      $tipo3 = filtrarDocumentosPeriodo(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^3/"))))),$di,$de);
+      $tipo4 = filtrarDocumentosPeriodo(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^4/"))))),$di,$de);
+      $tipo5 = filtrarDocumentosPeriodo(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^5/"))))),$di,$de);
+      $tipo6 = filtrarDocumentosPeriodo(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^6/"))))),$di,$de);
+      $tipo7 = filtrarDocumentosPeriodo(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^7/"))))),$di,$de);
+      $tipo8 = filtrarDocumentosPeriodo(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^8/"))))),$di,$de);
+      $tipo9 = filtrarDocumentosPeriodo(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"registrocontable","cuenta_puc"=> new MongoRegex("/^9/"))))),$di,$de);
+    }
+    
     for ($i=1; $i < 10; $i++) 
     { 
       $auxt="tipo".$i;
@@ -1217,14 +1644,15 @@ require_once("app/Model/DBNosql_Model.php");
       $auxsi="arrsi".$i;
       $auxd="arrd".$i;
       $auxc="arrc".$i;
+      
       $cierrecop = filtraCierreAnual($cierreano, $i);
       $saldoinicop = filtraSaldos($saldoinicial, $i);
-
 
       if(count($cierrecop) > 0)
         $$auxsi = calcular($cierrecop,"CA");
       else
         $$auxsi = calcular($saldoinicop,"SI");
+      
 
       //$$auxsi = calcular($$auxisi,"SI");
       $$auxd = calcular($$auxt,"D");
@@ -1244,6 +1672,17 @@ require_once("app/Model/DBNosql_Model.php");
     return $rta;
   }
 
+  function filtrarDocumentosPeriodo($docs, $start, $end)
+  {
+    if(count($docs) > 0)
+    {
+      foreach ($docs as $key => $value) {
+        var_dump($value);
+        exit;
+      }
+    }
+  }
+
   function calcular($nivel_actual,$tipocuenta)
   {
     $niveles = array("8"=>"14","7"=>"12","6"=>"10","5" =>"8","4"=>"6","3"=>"4","2"=>"2","1"=>"1");
@@ -1259,6 +1698,7 @@ require_once("app/Model/DBNosql_Model.php");
     foreach ($niveles as $nkey => $nvalue)
     {
         $arregloFinal = objectToArray($nivel_actual);
+
         if(count($arregloFinal) > 0)
           $cur_puc = array();
 
@@ -1291,6 +1731,7 @@ require_once("app/Model/DBNosql_Model.php");
     if(count($arregloFinal) > 0)
     for ($k=count($niveles); $k > 0 ; $k--) 
     { 
+      if(array_key_exists($k,$totaltipo))
       if(count($totaltipo[$k]) > 0 && count($totaltipo) > 1)
       foreach ($totaltipo[$k] as $key => $value) 
       {
@@ -1380,16 +1821,40 @@ require_once("app/Model/DBNosql_Model.php");
   function rellenaNivel($level, $offset, $initial)
   {
     $level_total = array();
-    foreach ($level[$initial] as $key => $value) 
-    {
-      if($offset == 3)
-        $next_level_account = substr($key,0,-2);
-      if($offset == 2)
-        $next_level_account = substr($key,0,-4);
-      if($offset == 1)
-        $next_level_account = substr($key,0,-5);
+    //if($initial < 4)
+    //var_dump($level[$initial]);
+    //var_dump($offset);
+    //var_dump($level);
 
-        $level_total[$next_level_account] = 0;
+    if(array_key_exists($initial, $level))
+    {
+      foreach ($level[$initial] as $key => $value) 
+      {
+        if($offset == 3)
+          $next_level_account = substr($key,0,-2);
+        if($offset == 2)
+          $next_level_account = substr($key,0,-4);
+        if($offset == 1)
+          $next_level_account = substr($key,0,-5);
+
+          $level_total[$next_level_account] = 0;
+      }
+    }
+    else
+    {
+       $level[$initial] = array();
+
+       foreach ($level[$initial] as $key => $value) 
+       {
+         if($offset == 3)
+           $next_level_account = substr($key,0,-2);
+         if($offset == 2)
+           $next_level_account = substr($key,0,-4);
+         if($offset == 1)
+           $next_level_account = substr($key,0,-5);
+
+           $level_total[$next_level_account] = 0;
+       }
     }
     return $level_total;
   }
@@ -1661,75 +2126,120 @@ require_once("app/Model/DBNosql_Model.php");
      return $salida_final;
   }
 
+//FUNCIONES PARA BALANCE DE PRUEBA INTEGRADO
+  function balancePruebaIntegrado($idcopropiedad, $appl, $tipo, $month_inicio=null, $year_inicio=null, $month_fin=null, $year_fin=null)
+  {
+    $rta = array();
+    $ultAno = obtieneUltimoCierreAnual($appl, $idcopropiedad);
+    $cierreano = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"cierreanual", "periodo" => (string)$ultAno))));
+    $saldoinicial = integradoObtenerSaldosIniciales(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"saldosiniciales")))));
+    //var_dump($saldoinicial);
+    $puc = integradoObtenerPuc(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"puc")))));
+
+    if(!$tipo)
+    {
+      $transacciones = integradoObtenerTransacciones(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"transaccion","anulado"=> "NO")))));
+      $registros = integradoObtenerRegistros(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array('tipo_documento'=>"registrocontable",'id_transaccion'=> array('$in'=> $transacciones))))));
+      $balanceMenores = integradoTotalizarCuentas($registros, $saldoinicial, $puc);
+      $balanceMayores = integradoTotalizar($balanceMenores);
+      $rta = integradoLimpiarBalance(integradoIntegrarTotales($balanceMayores, $balanceMenores, $puc));
+      ksort($rta, SORT_STRING);
+    }
+    else
+    {
+      $transacciones = integradoObtenerTransaccionesFecha(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"transaccion","anulado"=> "NO")))),$month_inicio, $month_fin, $year_inicio, $year_fin);
+      $transaccionesanteriores = integradoObtenerTransaccionesFechaAnterior(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"transaccion","anulado"=> "NO")))),$month_inicio, $month_fin, $year_inicio, $year_fin);
+      //var_dump($transaccionesanteriores);
+      $registros = integradoObtenerRegistros(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array('tipo_documento'=>"registrocontable",'id_transaccion'=> array('$in'=> $transacciones))))));
+      $registrosanteriores = integradoObtenerRegistros(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array('tipo_documento'=>"registrocontable",'id_transaccion'=> array('$in'=> $transaccionesanteriores))))));
+      //var_dump(json_encode(array('tipo_documento'=>"registrocontable",'id_transaccion'=> array('$in'=> $transacciones))));
+      //var_dump($registrosanteriores);
+      $balanceMenoresAnteriores = integradoTotalizarCuentas($registrosanteriores, $saldoinicial, $puc);
+      //var_dump($balanceMenoresAnteriores);
+      $balanceMenores = integradoTotalizarCuentas($registros, integradoObtenerInicial($balanceMenoresAnteriores), $puc);
+      $balanceMayores = integradoTotalizar($balanceMenores);
+      $rta = integradoLimpiarBalance(integradoIntegrarTotales($balanceMayores, $balanceMenores, $puc));
+      ksort($rta, SORT_STRING);
+    }
+    //exit;
+    return $rta;
+  }
+
 //FUNCIONES PARA GENERAR BALANCE GENERAL
   function balanceGeneral($balancePr)
   {
-    $rta = array();
-
+    /*$rta = array();
+    //var_dump(json_encode($balancePr));
     for($j=1;$j < 8; $j++)
-      if(array_key_exists($j, $balancePr))
-      for($k=1;$k < 10; $k++)
-        if(array_key_exists($j.$k, $balancePr[$j]["SI"][2]))
-        for ($i=1; $i < 100; $i++) 
-        { 
-          $this_account = $i;
-          if($this_account < 10)
-            $this_account = "0".$i;
-
-          if(array_key_exists($j.$k.$this_account, $balancePr[$j]["SI"][3]))
-            {
-              $si = $balancePr[$j]["SI"][3][$j.$k.$this_account];
-              $c = $balancePr[$j]["C"][3][$j.$k.$this_account];
-              $d = $balancePr[$j]["D"][3][$j.$k.$this_account];
-                
-              if($j == 2 || $j == 3 || $j == 4)
-                $res = $si + $c - $d;
-              else
-                $res = $si + $d - $c;
-
-              if($j.$k.$this_account == 3605)
+    {
+      var_dump("J:" . $j);
+      if(array_key_exists($j,$balancePr))
+      {
+        for ($k=1; $k < 5; $k++) 
+        {
+          var_dump("K:" . $k); 
+          if(array_key_exists($k,$balancePr[$j]["SI"]))
+          {
+            var_dump("switch K");
+            var_dump($balancePr[$j]["SI"][$k]);
+            switch ($k) {
+              case 5:
+                foreach ($balancePr[$j]["SI"][$k] as $key => $value) 
                 {
-                  $res4 = 0;
-                  $res5 = 0;
-                  $res6 = 0;
-                  $res7 = 0;
-
-                  if(array_key_exists(4, $balancePr))
-                    $res4 = ($balancePr[4]["SI"][1][4] + $balancePr[4]["C"][1][4] - $balancePr[4]["D"][1][4]);
-
-                  if(array_key_exists(5, $balancePr))
-                    $res5 = ($balancePr[5]["SI"][1][5] + $balancePr[5]["D"][1][5] - $balancePr[5]["C"][1][5]);
-
-                  if(array_key_exists(6, $balancePr))
-                    $res6 = ($balancePr[6]["SI"][1][6] + $balancePr[6]["D"][1][6] - $balancePr[6]["C"][1][6]);
-
-                  if(array_key_exists(7, $balancePr))
-                    $res7 = ($balancePr[7]["SI"][1][7] + $balancePr[7]["D"][1][7] - $balancePr[7]["C"][1][7]);
-
-                  $rest = $res4 - $res5 - $res6 - $res7;
-
-                  if($rest > 0)
-                  {
-                    $rta[$j][$j.$k]["3605"] = "4:" . $res4 . " - 5: " . $res5 . " - 6: " . $res6 . " - 7: " . $res7 . " = " . $rest;  
-                    $rta[$j][$j.$k]["3610"] = "0";  
-                  }
-                  else
-                  {
-                   $rta[$j][$j.$k]["3610"] = "4:" . $res4 . " - 5: " . $res5 . " - 6: " . $res6 . " - 7: " . $res7 . " = " . $rest * -1;  
-                   $rta[$j][$j.$k]["3605"] = "0";   
-                  }
-
-                  //$rta[$j][$j.$k][$j.$k.$this_account] = "4:" . $res4 . " - 5: " . $res5 . " - 6: " . $res6 . " - 7: " . $res7 . " = " . $rest;
+                  var_dump($key . ":" . $value);
                 }
-              else
-                {
-                  $rta[$j][$j.$k][$j.$k.$this_account] = "SI:" . $si . " + D: " . $balancePr[$j]["D"][3][$j.$k.$this_account] . " - C: " . $balancePr[$j]["C"][3][$j.$k.$this_account] . " = " . $res;
-                }
+                break;
+              /*case 4:
+                # code...
+                break;
+              case 3:
+                # code...
+                break;
+              case 2:
+                # code...
+                break;
+              case 1:
+                # code...
+                break;
             }
+          }
+          else
+          {
+            var_dump("switch K");
+            
+            if(!array_key_exists($k,$balancePr[$j]["C"]))
+              $balancePr[$j]["C"][$k] = 0;
+            
+            if(!array_key_exists($k,$balancePr[$j]["D"]))
+              $balancePr[$j]["D"][$k] = 0;
 
+            var_dump($balancePr[$j]["C"][$k]);
+            switch ($k) {
+              case 5:
+                foreach ($balancePr[$j]["C"][$k] as $key => $value) 
+                {
+                  var_dump($key . ":" . $value);
+                }
+                break;
+              /*case 4:
+                # code...
+                break;
+              case 3:
+                # code...
+                break;
+              case 2:
+                # code...
+                break;
+              case 1:
+                # code...
+                break;
+            }
+          }
         }
+      }
+    }*/
 
-    return $rta;
+    return $balancePr;
   }
 
 //FUNCIONES PARA GENERAR ESTADO DE RESULTADOS
@@ -1854,16 +2364,451 @@ require_once("app/Model/DBNosql_Model.php");
     return modificaDocumento($value, array(), 'cont_'.$idcopropiedad);
   }
 
+//FUNCIONES AUXILIARES DE CARGOS Y BALANCES
   function creaCargo($corte, $monto, $tercero, $concepto, $doc_asoc, $appl, $idcopropiedad)
   {
     $today = date('c');
-    $year = explode('/',$corte)[0];
-    $month = explode('/',$corte)[1];
-    $day = explode('/',$corte)[2];
-    $cargosexistentes = consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"cartera", "doc" => (string)$doc_asoc);
+    $corte = str_replace("/", "-", $corte);
+    $year = explode('-',$corte)[0];
+    $month = explode('-',$corte)[1];
+    $day = explode('-',$corte)[2];
+    $cargosexistentes = consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"cartera", "doc" => (string)$doc_asoc));
     if(count($cargosexistentes) > 0)
       $arr = array("fecha_creacion" => $today, "concepto" => $concepto, "year" => $year, "month" => $month, "monto" => $monto, "saldo" => $monto, "tipo_mov" => "cargo", "tipo_documento" => "cartera", "id_tercero" => $tercero, "doc" => $doc_asoc, "idcargo"=>count($cargosexistentes) + 1);
     else
       $arr = array("fecha_creacion" => $today, "concepto" => $concepto, "year" => $year, "month" => $month, "monto" => $monto, "saldo" => $monto, "tipo_mov" => "cargo", "tipo_documento" => "cartera", "id_tercero" => $tercero, "doc" => $doc_asoc, "idcargo"=>"1");
     return enviarInformacion('cont_'.$idcopropiedad, $arr, $appl);
+  }
+
+  function popularNivelVacio($bPrueba)
+  {
+    foreach ($bPrueba as $key => $value) 
+    {
+      if(array_key_exists(["SI"], $value))
+        if(count($value["SI"]) < 1)
+        {
+          for ($i=1; $i < 10; $i++) 
+          { 
+            $value["SI"][$i]= Array();
+            for ($j=1; $j < 100; $j++)
+            {
+              if($j < 10)
+                str_pad($value, $j, '0', STR_PAD_LEFT);
+
+              $value["SI"][$i][$j] = 0;
+            }
+          }
+        }
+
+      if(array_key_exists(["C"], $value))
+        if(count($value["C"]) < 1)
+        {
+          for ($i=1; $i < 10; $i++) 
+          { 
+            $value["C"][$i]= Array();
+            for ($j=1; $j < 100; $j++)
+            {
+              if($j < 10)
+                str_pad($value, $j, '0', STR_PAD_LEFT);
+
+              $value["C"][$i][$j] = 0;
+            }
+          }
+        }
+
+      if(array_key_exists(["D"], $value))
+        if(count($value["D"]) < 1)
+        {
+          $value["D"][$i]= Array();
+            for ($j=1; $j < 100; $j++)
+            {
+              if($j < 10)
+                str_pad($value, $j, '0', STR_PAD_LEFT);
+
+              $value["D"][$i][$j] = 0;
+            }
+        }
+    }
+  }
+
+//FUNCIONES PARA BALANCE DE PRUEBA INTEGRADO
+  function integradoObtenerPuc($docpuc)
+  {
+    $out = array();
+    $mova = array();
+    $mova['si'] = 0;
+    $mova['c'] = 0;
+    $mova['d'] = 0;
+    if(count($docpuc) > 0)
+    {
+      $doc = objectToArray($docpuc)[0];
+
+      foreach ($doc["puc"] as $key => $value) 
+      {
+        $value = objectToArray($value);
+        $elem = array();
+        $elem['nombre'] = $value['nombre'];
+        $elem['terceros'] = array();
+        $elem['mov'] = $mova;
+        $out[$value['cuenta']] = $elem;
+      }
+    }
+
+    return $out;
+  }
+
+  function integradoObtenerSaldosIniciales($docsi)
+  {
+    $out = array();
+    if(count($docsi)>0)
+    {
+      $doc = objectToArray($docsi)[0];
+
+      foreach ($doc["cuentas"] as $key => $value) 
+      {
+        $value = objectToArray($value);
+        $elem = array();
+        $elem['cuenta'] = $value['cuenta_puc'];
+        $elem['monto'] = (int)$value['monto'];
+        $elem['tipo'] = "SI";
+        $out[$value['cuenta_puc']] = $elem;
+      }
+    }
+    return $out;
+  }
+
+  function integradoObtenerTransacciones($tx)
+  {
+    $out = array();
+    if(count($tx)>0)
+    {
+      $doc = objectToArray($tx);
+
+      foreach ($doc as $key => $value) 
+      {
+        $out[] = $value['idtransaccion'];
+      }
+    }
+
+    return $out;
+  }
+
+  function integradoObtenerTransaccionesFecha($tx, $mes_inicio, $mes_fin, $year_inicio, $year_fin)
+  {
+    $out = array();
+    //var_dump($mes_inicio, $mes_fin, $year_inicio, $year_fin);
+    if($mes_fin == "12"){
+      $mes_fin = "01";
+      $year_fin = (int)$year_fin + 1;
+    }
+    $di = date_create($year_inicio . '-' . $mes_inicio . '-01');
+    $di = date_format($di, 'c');
+    //var_dump($di);
+    $de = date_create($year_fin . '-' . ((int)$mes_fin + 1) . '-01');
+    //var_dump($de);
+    $de = date_format($de, 'c');
+
+    if(count($tx)>0)
+    {
+      //var_dump($di);
+      //var_dump($de);
+      $doc = objectToArray($tx);
+
+      foreach ($doc as $key => $value) 
+      {
+        //var_dump($value);
+        if(array_key_exists("month",$value))
+          $d = date_create($value['year'] . '-' . $value['month'] . '-' . $value['day']);
+        else
+          $d = date_create($value['year'] . '-' . $value['mes'] . '-' . $value['day']);
+        $d = date_format($d, 'c');
+        //var_dump($d);
+        
+        if($d >= $di && $d <= $de)
+          $out[] = $value['idtransaccion'];
+      }
+    }
+    //var_dump($tx);
+    return $out;
+  }
+
+  function integradoObtenerTransaccionesFechaAnterior($tx, $mes_inicio, $mes_fin, $year_inicio, $year_fin)
+  {
+    $out = array();
+    $di = date_create('2015-01-01');
+    $di = date_format($di, 'c');
+    $de = date_create($year_fin . '-' . $mes_inicio . '-01');
+    $de = date_format($de, 'c');
+
+    if(count($tx)>0)
+    {
+      //var_dump($di);
+      //var_dump($de);
+      $doc = objectToArray($tx);
+
+      foreach ($doc as $key => $value) 
+      {
+        if(array_key_exists("month",$value))
+          $d = date_create($value['year'] . '-' . $value['month'] . '-' . $value['day']);
+        else
+          $d = date_create($value['year'] . '-' . $value['mes'] . '-' . $value['day']);
+        $d = date_format($d, 'c');
+        //var_dump($d);
+        
+        if($d >= $di && $d <= $de)
+          $out[] = $value['idtransaccion'];
+      }
+    }
+
+    return $out;
+  }
+
+  function integradoObtenerRegistros($regs)
+  {
+    $out = array();
+    if(count($regs)>0)
+    {
+      $doc = objectToArray($regs);
+      foreach ($doc as $key => $value) 
+      {
+        $value = objectToArray($value);
+        $elem = array();
+        $elem['cuenta'] = $value['cuenta_puc'];
+        $elem['monto'] = (int)$value['monto'];
+        $elem['tipo'] = $value['tipo'];
+        if(array_key_exists($value['cuenta_puc'],$out))
+        {
+          $out[$value['cuenta_puc']][] = $elem;
+        }
+        else
+        {
+          $out[$value['cuenta_puc']] = array();
+          $out[$value['cuenta_puc']][] = $elem;
+        }
+      }
+    }
+    //var_dump($out);
+    //exit;
+    return $out;
+  }
+
+  function integradoTotalizarCuentas($registros, $saldoinicial, $puc)
+  {
+    //var_dump($puc);
+    if(count($registros)>0)
+      foreach ($registros as $kr => $vr)
+        foreach ($vr as $key => $value) 
+        {
+          if(strlen($value['cuenta']) > 4)
+          {
+            if(array_key_exists($value['cuenta'], $puc))
+            {
+              if($value['tipo'] == "D")
+              {
+                $puc[$value['cuenta']]["mov"]["d"] = $puc[$value['cuenta']]["mov"]["d"] + $value['monto'];
+              }
+
+              if($value['tipo'] == "C")
+              {
+                $puc[$value['cuenta']]["mov"]["c"] = $puc[$value['cuenta']]["mov"]["c"] + $value['monto'];
+              }
+            }
+            else
+            {
+              $mova = array();
+              $mova['si'] = 0;
+              $mova['c'] = 0;
+              $mova['d'] = 0;
+
+              $elem = array();
+              $elem['nombre'] = 'No existe la cuenta';
+              $elem['terceros'] = array();
+              $elem['mov'] = $mova;
+              $puc[$value['cuenta']] = $elem;
+
+              if($value['tipo'] == "D")
+              {
+                //var_dump($puc[$value['cuenta']]["mov"]);
+                $puc[$value['cuenta']]["mov"]["d"] = $puc[$value['cuenta']]["mov"]["d"] + $value['monto'];
+              }
+
+              if($value['tipo'] == "C")
+              {
+                $puc[$value['cuenta']]["mov"]["c"] = $puc[$value['cuenta']]["mov"]["c"] + $value['monto'];
+              }
+            }
+          }
+        }
+
+    if(count($saldoinicial)>0)
+      foreach ($saldoinicial as $key => $value) 
+      {
+        if(strlen($value['cuenta']) > 4)
+        {
+          if(array_key_exists($value['cuenta'], $puc))
+          {
+            $puc[$value['cuenta']]["mov"]["si"] =  $value['monto'];
+          }
+          else
+          {
+            $mova = array();
+            $mova['si'] = 0;
+            $mova['c'] = 0;
+            $mova['d'] = 0;
+
+            $elem = array();
+            $elem['nombre'] = 'No existe la cuenta';
+            $elem['terceros'] = array();
+            $elem['mov'] = $mova;
+            $puc[$value['cuenta']] = $elem;
+
+            $puc[$value['cuenta']]["mov"]["si"] = $puc[$value['cuenta']]["mov"]["si"] + $value['monto'];
+          }
+        }
+      }
+
+    /*foreach ($puc as $key => $value) 
+    {
+      if(strlen($key) > 4)
+      {
+        $actualkey = substr($key,0,1);
+        if($actualkey == 3 || $actualkey == 4 || $actualkey == 5)
+          $puc[$key]["mov"]["t"] = $puc[$key]["mov"]["si"] + $puc[$key]["mov"]["c"] - $puc[$key]["mov"]["d"];
+        if($actualkey == 1 || $actualkey == 2)
+          $puc[$key]["mov"]["t"] = $puc[$key]["mov"]["si"] + $puc[$key]["mov"]["d"] - $puc[$key]["mov"]["c"];
+      }
+    }*/
+
+    return $puc;
+  }
+
+  function integradoTotalizar($puc)
+  {
+    $nivel3 = array();
+    $nivel2 = array();
+    $nivel1 = array();
+    $niveles = array();
+    $mova = array();
+    $mova['si'] = 0;
+    $mova['c'] = 0;
+    $mova['d'] = 0;
+
+    if(count($puc)>0)
+    {
+      foreach ($puc as $k => $v) 
+      {
+        if(strlen((string)$k) > 4)
+        {
+          $actualkey3 = substr($k,0,4);
+          if(!array_key_exists($actualkey3, $nivel3))
+            $nivel3[$actualkey3] = $mova;
+          
+          //var_dump($v);
+          $nivel3[$actualkey3]['si'] = $nivel3[$actualkey3]['si'] + $v['mov']['si'];
+          $nivel3[$actualkey3]['d'] = $nivel3[$actualkey3]['d'] + $v['mov']['d'];
+          $nivel3[$actualkey3]['c'] = $nivel3[$actualkey3]['c'] + $v['mov']['c'];
+        }
+      }
+
+      foreach ($nivel3 as $x => $y) 
+      {
+        $actualkey2 = substr($x,0,2);
+        if(!array_key_exists($actualkey2, $nivel2))
+          $nivel2[$actualkey2] = $mova;
+
+        $nivel2[$actualkey2]['si'] = $nivel2[$actualkey2]['si'] + $y['si'];
+        $nivel2[$actualkey2]['d'] = $nivel2[$actualkey2]['d'] + $y['d'];
+        $nivel2[$actualkey2]['c'] = $nivel2[$actualkey2]['c'] + $y['c'];
+      }
+
+      foreach ($nivel2 as $a => $b) 
+      {
+        $actualkey1 = substr($a,0,1);
+        if(!array_key_exists($actualkey1, $nivel1))
+          $nivel1[$actualkey1] = $mova;
+
+        $nivel1[$actualkey1]['si'] = $nivel1[$actualkey1]['si'] + $b['si'];
+        $nivel1[$actualkey1]['d'] = $nivel1[$actualkey1]['d'] + $b['d'];
+        $nivel1[$actualkey1]['c'] = $nivel1[$actualkey1]['c'] + $b['c'];
+      }
+
+      $niveles[1] = $nivel1;
+      $niveles[2] = $nivel2;
+      $niveles[3] = $nivel3;
+    }
+
+    return $niveles;
+  }
+
+  function integradoIntegrarTotales($balanceMayores, $balanceMenores, $puc)
+  {
+    $nombres = array();
+    //var_dump($puc);
+    foreach ($puc as $key => $value) 
+    {
+      $nombres[$key] = $value['nombre'];
+      //var_dump($value['nombre']);
+    }
+    //var_dump($nombres);
+    //exit;
+    if(count($balanceMayores)>0)
+    foreach ($balanceMayores as $key => $value) 
+    {
+      foreach ($value as $k => $v) 
+      {
+        if(array_key_exists($k,$nombres))
+          $balanceMenores[$k]["nombre"] = $nombres[$k];
+        else
+          $balanceMenores[$k]["nombre"] = 'No existe la cuenta';
+
+        $balanceMenores[$k]["terceros"] = array();
+        $balanceMenores[$k]["mov"]["c"] = $v["c"];
+        $balanceMenores[$k]["mov"]["si"] = $v["si"];
+        $balanceMenores[$k]["mov"]["d"] = $v["d"];
+      }
+    }
+    return $balanceMenores;
+  }
+
+  function integradoObtenerInicial($balanceMenoresAnteriores)
+  {
+    $out = array();
+    if(count($balanceMenoresAnteriores)>0)
+      foreach ($balanceMenoresAnteriores as $key => $value) 
+      {
+        if(strlen($key) > 4)
+        {
+          $elem = array();
+          $elem['cuenta'] = $key;
+          $elem['monto'] = 0;
+          $elem['tipo'] = "SI";
+          $actualkey = substr((string)$key,0,1);
+
+          if($actualkey == "2" || $actualkey == "3" || $actualkey == "4")
+          {
+            $elem['monto'] = $value["mov"]["si"] + $value["mov"]["c"] - $value["mov"]["d"];
+          }
+
+          if($actualkey == "1" || $actualkey == "5" || $actualkey == "6" || $actualkey == "7")
+          {
+            $elem['monto'] = $value["mov"]["si"] + $value["mov"]["d"] - $value["mov"]["c"];
+          }
+          //var_dump($elem);
+          $out[$key] = $elem;
+        }
+      }
+      //var_dump($out);
+    return $out;
+  }
+
+  function integradoLimpiarBalance($balance)
+  {
+    $salida = array();
+    if(count($balance) > 0)
+      foreach ($balance as $key => $value) 
+      {
+        if($value['mov']['si'] != 0 || $value['mov']['d'] != 0  || $value['mov']['c'] != 0 )
+          $salida[$key] = $value;
+      }
+    return $salida;
   }

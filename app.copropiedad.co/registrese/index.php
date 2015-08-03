@@ -1,129 +1,112 @@
-<?php error_reporting(E_ALL);ini_set('display_errors', 1); ?>
+<?php //error_reporting(E_ALL);ini_set('display_errors', 1); 
+if(isset($_GET['tknp']) && strlen($_GET['tknp']) > 20)
+{
+  $thistknp = base64_decode($_GET['tknp']);
+  $thistk = explode("|",$thistknp);
+  $nombre = $thistk[0];
+  $apellido = $thistk[1];
+  $email = $thistk[2];
+  $telefono = $thistk[3];
+  $preregistro = true;
+}
+else
+{
+  $thistk = "";
+  $nombre = "";
+  $apellido = "";
+  $email = "";
+  $celular = "";
+  $preregistro = false;
+}
+?>
 <!DOCTYPE HTML>
 <html dir="ltr" lang="es-ES">
-<?php include("../template/head.inc") ?>
-<!-- The CSS! -->
-<?php include("../template/css.inc") ?>
-<link rel="stylesheet" type="text/css" href="css/jquery.realperson.css"> 
-<!-- The JS! -->
-<!--[if lte IE 9]>
-  <script src="js/html5.js"></script>
-<![endif]-->
-<script src="../js/jquery.min.js"></script>
-<script src="../js/jquery-ui.js"></script>
-<script src="../js/jquery.validate.js"></script>
-<script src="js/jquery.plugin.min.js"></script> 
-<script src="js/jquery.realperson.min.js"></script>
-<script src="js/copropiedad-registrese-enviocorreo.js"></script>
-<script src="js/copropiedad-registrese-enviodatos.js"></script>
-<script src="js/copropiedad-registrese-validate.js"></script>
+<link rel="stylesheet" type="text/css" href="../template/css/copropiedad.min.css">
+<link rel="stylesheet" href="../template/css/jquery-ui.min.css">
+<title>Registro de usuario - Copropiedad</title>
+<script type="text/javascript" src="../template/js/jquery.min.js"></script>
+<script type="text/javascript" src="../template/js/jquery-ui.js"></script>
+<script src="../template/js/copropiedad-functions.js"></script>
+<script src="sjs/registrese-functions.js"></script>
+<script src="sjs/registrese.js"></script>
+<!-- TRACKING -->
 <script>
-  CreaToken("Registrese","123465789");
-  $(function() {
-    $('#verif').realperson();
-  });
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64401921-1', 'auto');
+  ga('send', 'pageview');
+
 </script>
+<!-- FIN TRACKING -->
 </head>
 <body class="home registrar">
-<header>
-    <div class="contenedor">
+<!--
+Start of DoubleClick Floodlight Tag: Please do not remove
+Activity name of this tag: CO_CoPropiedad_Registro
+URL of the webpage where the tag is expected to be placed: https://appdes.copropiedad.co/registrese/
+This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+Creation Date: 07/24/2015
+-->
+<script type="text/javascript">
+var axel = Math.random() + "";
+var a = axel * 10000000000000;
+document.write('<iframe src="https://4862415.fls.doubleclick.net/activityi;src=4862415;type=conta0;cat=co_co0;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+<iframe src="https://4862415.fls.doubleclick.net/activityi;src=4862415;type=conta0;cat=co_co0;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+<header style="width:500px;">
+    <div class="contenedor" >
       <div class="logo">
-         <a href="../">
+         <a href="http://www.copropiedad.co">
             <h1>Copropiedad</h1>
          </a>
-      </div>
-      <div class="menus">
-         <nav id="mainmenu">
-          <!--<ul id="principal">
-			<li><a .target="_blank" href="../">Inicio</a></li>
-			<li><a .target="_blank" href="../registrese/cambiar-password.php">Olvidó contraseña?</a></li>
-          </ul>-->
-         </nav>
       </div>
     </div>
   </header>
   <div id="contenido-principal">
-      <section id="central">
+      <section id="central" style="width:500px;">
         <div class="contenedor">
             <div class="titulo-principal">
               <h1>Registro de usuario</h1>
             </div>
             <div class="login">
-            <div id="alertas"></div>
-              <form id="registro_form" method="POST">                    
-                  <div class="coluno">
-                      <p><label for="nombre">Nombre: *</label><input type="text" id="nombre" name="nombre"></p>
-                      <p><label for="apellido">Apellido: *</label><input type="text" id="apellido" name="apellido"></p>
-                      <p><label for="email">Email: *</label><input type="text" id="email" name="email"></p>
-                      <p><label for="telefono">Telefono: *</label><input type="text" id="telefono" name="telefono"></p>
-                      <p><label for="nombreedificio">Nombre de la copropiedad: </label><input type="text" id="nombreedificio" name="nombreedificio"></p>
+              <div id="alertas"></div>
+              <div id="formcont">
+                <form id="registro_form" method="POST" action="validate.php">                    
+                  <p><label for="nombre">Nombre:</label>
+					         <input type="text" id="nombre" name="nombre" required value="<?php echo $nombre; ?>"></p>
+                  <p><label for="apellido">Apellido:</label>
+					         <input type="text" id="apellido" name="apellido" required value="<?php echo $apellido; ?>"></p>
+                  <p><label for="email">Dirección de correo electrónico:</label>
+                  <?php if(!$preregistro){ ?>
+                    <input type="email" id="email" name="email" required></p>
+                  <?php } else { ?>
+                    <input type="email" id="email" name="email" required value="<?php echo $email; ?>" disabled></p>
+                  <?php }?>
+                  <p><label for="telefono">Teléfono para contacto:</label>
+					         <input type="tel" id="telefono" name="telefono" required value="<?php echo $telefono; ?>"></p>
+                  <p><label for="captcha">Letras generadas aleatoriamente:</label>
+					         <h1 id="captchatext" style="font-size:35px; text-align:center;"></h1>
+					         <input  type="text" id="captcha" name="captcha" placeholder="Ingrese las cinco letras que ve arriba" required/></p>
+                  <div class="login-botones">
+                  	<p style="text-align: center; margin-bottom: 15px;"><input type="checkbox" id="verificar" name="verificar" required/> Si acepto las <a id="condiciones">condiciones de uso, políticas de privacidad.</a></p>
+                    <p><input type="submit" class="btn big" value="Enviar Registro" id="enviarregistro"/></p>
+                    <p style="text-align: center; margin-top: 15px;" class="olvido">¿Ya tiene una cuenta registrada? , <a id="ingreseaqui" href="https://appdes.copropiedad.co"> ingrese aquí.</a></p>
                   </div>
-                  <div class="coldos">
-                      <p><label for="direccion">Dirección de la copropiedad: *</label><input type="text" id="direccion" name="direccion"></p>                  
-                      <p>
-                        <label for="tipo">¿Usted es? *</label>
-                        <select name="tipo" id="tipo" style="width:100%">
-                          <option value="">-- Seleccione --</option>
-                          <option value="administrador">Administrador</option>
-                          <option value="copropietario">Copropietario o residente</option>
-                        </select>
-                      </p>
-                      <p>
-                        <label for="pais">Pais de ubicación: *</label>
-                        <select name="pais" id="pais" style="width:100%">
-                          <option value="CO" selected>Colombia</option>
-                        </select>
-                      </p>
-                      <p>
-                        <label for="ciudad">Ciudad de ubicación: *</label>
-                        <select name="ciudad" id="ciudad" style="width:100%">
-                          <option value="">-- Seleccione --</option>
-                          <option value ="Leticia">Leticia<option>
-                          <option value ="Medellín">Medellín<option>
-                          <option value ="Arauca">Arauca<option>
-                          <option value ="Barranquilla">Barranquilla<option>
-                          <option value ="Cartagena">Cartagena<option>
-                          <option value ="Tunja">Tunja<option>
-                          <option value ="Manizales">Manizales<option>
-                          <option value ="Florencia">Florencia<option>
-                          <option value ="Yopal">Yopal<option>
-                          <option value ="Popayán">Popayán<option>
-                          <option value ="Valledupar">Valledupar<option>
-                          <option value ="Quibdó">Quibdó<option>
-                          <option value ="Montería">Montería<option>
-                          <option value ="Bogotá" selected>Bogotá<option>
-                          <option value ="Puerto Inírida">Puerto Inírida<option>
-                          <option value ="San José del Guaviare">San José del Guaviare<option>
-                          <option value ="Neiva">Neiva<option>
-                          <option value ="Riohacha">Riohacha<option>
-                          <option value ="Santa Marta">Santa Marta<option>
-                          <option value ="Villavicencio">Villavicencio<option>
-                          <option value ="Pasto">Pasto<option>
-                          <option value ="Cúcuta">Cúcuta<option>
-                          <option value ="Mocoa">Mocoa<option>
-                          <option value ="Armenia">Armenia<option>
-                          <option value ="Pereira">Pereira<option>
-                          <option value ="San Andres">San Andres<option>
-                          <option value ="Bucaramanga">Bucaramanga<option>
-                          <option value ="Sincelejo">Sincelejo<option>
-                          <option value ="Ibagué">Ibagué<option>
-                          <option value ="Cali">Cali<option>
-                          <option value ="Mitú">Mitú<option>
-                          <option value ="Puerto Carreño">Puerto Carreño<option>
-                        </select>
-                      </p>                 
-                      <p><label for="verif">Verifique que es un ser humano: </label><input type="text" id="verif" name="verif"></p>
-                  </div>
-                <div class="login-botones">
-                	<p style="text-align: center; margin-bottom: 15px;"><input type="checkbox" /> Aceptar <a href="#" target="_blank">condiciones de uso, políticas de privacidad y anti spam</a></p>
-                  <p><input type="submit" class="btn big" value="Registrarme"/></p><br>
-                  <p class="olvido"><a href="https://app.copropiedad.co">¿Ya está registrado? Ingrese aquí</a></p>
-                  <!--<p><a href="index.php">Borrar todos los campos</a></p>-->
-                </div>
-              </form>
+                </form>
+              </div>              
             </div>
+            <div id="gracias" style="padding: 0px 15px; text-align: right;"></div>
         </div>
       </section>
+  </div>
+  <div id="condmodal" style="display:none">
+	<iframe width="100%" height="400px" src="terminos-condiciones.html"></iframe>
   </div>
 </body>
 </html>

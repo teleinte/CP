@@ -64,8 +64,48 @@ if(!defined("SPECIALCONSTANT")) die("Acceso denegado");
 			{
 				$validateUsuario=validateRole();
 				if ($validateUsuario)
-				{
-					enviarInformacion('copropiedad_payu_admin', $datos->body, $app);
+				{	
+					$validar = false;
+					//var_dump("acc");
+					$filtro = array('nombre' => $datos->body->nombre);
+					$verificar = objectToArray(consultaColeccionRespuesta($app, 'copropiedad_payu_admin', $filtro));
+					if(count($verificar)>0)
+						$validar = true;
+
+					$filtro = array('apikey' => $datos->body->apikey);
+					$verificar = objectToArray(consultaColeccionRespuesta($app, 'copropiedad_payu_admin', $filtro));
+					if(count($verificar)>0)
+						$validar = true;
+
+					$filtro = array('apikey_login' => $datos->body->apikey_login);
+					$verificar = objectToArray(consultaColeccionRespuesta($app, 'copropiedad_payu_admin', $filtro));
+					if(count($verificar)>0)
+						$validar = true;
+
+					$filtro = array('llave_publica' => $datos->body->llave_publica);
+					$verificar = objectToArray(consultaColeccionRespuesta($app, 'copropiedad_payu_admin', $filtro));
+					if(count($verificar)>0)
+						$validar = true;
+
+					$filtro = array('merchantId' => $datos->body->merchantId);
+					$verificar = objectToArray(consultaColeccionRespuesta($app, 'copropiedad_payu_admin', $filtro));
+					if(count($verificar)>0)
+						$validar = true;
+
+					$filtro = array('accountId' => $datos->body->accountId);
+					$verificar = objectToArray(consultaColeccionRespuesta($app, 'copropiedad_payu_admin', $filtro));
+					if(count($verificar)>0)
+						$validar = true;
+
+					if($validar)
+					{
+						enviarRespuesta($app, false, "ingresadas", null);
+					}
+					else
+					{
+						enviarInformacion('copropiedad_payu_admin', $datos->body, $app);
+					}
+
 				}
 				else{enviarRespuesta($app, false, "Usuario sin privilegios", "Usuario sin privilegios");}
 			}
@@ -346,6 +386,42 @@ if(!defined("SPECIALCONSTANT")) die("Acceso denegado");
 // Fin de la ruta '/pagar/' para el método 'POST'
 /////////////////////////////////////////////////////////////////////////////////////
 
+//METODO LISTAR TODOS LOS OBJETOS PAGO - OK - OK
+  $app->options("/pagosonline/getlist/", function() use($app)
+  {
+    enviarRespuesta($app, true, "ok", "ok");
+  });
+
+  $app->post("/pagosonline/getlist/", function() use($app)
+  {
+   try
+    {
+      $requerimiento = $app::getInstance()->request();
+      $datos = json_decode($requerimiento->getBody());
+      $token = new Token;
+      if($token->SetToken($datos->token))
+      {
+        $validateUsuario=validateRole();
+        if ($validateUsuario)
+        {	//var_dump($datos->body->id_copropiedad);
+          consultaColeccion($app, 'pagosonline', array('id_copropiedad' => $datos->body->id_copropiedad));
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Usuario sin privilegios", "Usuario sin privilegios");
+        }
+      }
+      else
+      {
+        enviarRespuesta($app, false, "Token invalido", "null");
+      }
+    }
+    catch(Exception $e)
+    {
+    enviarRespuesta($app, false, "Error de autenticación", $e->getMessage());
+    }
+  });
+
 /*********************** METODO PARA PAGAR PAGOS ONLINE (GERMAN)***************************/
 	//PAGAR POL
   $app->options("/pagarpol/", function() use($app)
@@ -355,8 +431,8 @@ if(!defined("SPECIALCONSTANT")) die("Acceso denegado");
   
   $app->post('/pagarpol/', function() use($app)
   {
-    try
-    {
+    /*try
+    {*/
       //$tst = file_get_contents("/datos/app.copropiedad.co/api/payu/log.txt");
       $requerimiento = $app::getInstance()->request();
       $rtapayu = $requerimiento->params();
@@ -364,6 +440,7 @@ if(!defined("SPECIALCONSTANT")) die("Acceso denegado");
       $rtapayu["tipo_documento"] = "respuestapayu";
       $rtapayu["timestamprecibido"] = $today;
       $rta = guardarDato("pagosonline",$rtapayu,$app);
+      var_dump($rta);
       //$tst = file_get_contents("/datos/app.copropiedad.co/api/payu/log.txt");
       //$log = "-----------RTAPAYU----------------\n" . json_encode($rtapayu). "-----------\n";
       //file_put_contents("/datos/app.copropiedad.co/api/payu/log.txt", $tst . $log);
@@ -374,17 +451,18 @@ if(!defined("SPECIALCONSTANT")) die("Acceso denegado");
 
       $muestreo = array("referenceCode"=>$rtapayu["reference_sale"]);
       $pago = objectToArray(consultaColeccionRespuesta($app, "pagosonline", $muestreo))[0];
+      
       //$log = "-----------PAGO----------------\n" . json_encode($pago). "-----------\n";
       //file_put_contents("/datos/app.copropiedad.co/api/payu/log.txt", $tst . $log);
       //$tst = file_get_contents("/datos/app.copropiedad.co/api/payu/log.txt");
 
-      $muestreocont = array("tipo_documento"=>"cartera", "doc"=>$pago['doc']);
-      $cartera = objectToArray(consultaColeccionRespuesta($app, 'cont_'.$pago['id_copropiedad'], $muestreocont))[0];
+      /*--->$muestreocont = array("tipo_documento"=>"cartera", "doc"=>$pago['doc']);
+      $cartera = objectToArray(consultaColeccionRespuesta($app, 'cont_'.$pago['id_copropiedad'], $muestreocont))[0];*/
       //$log = "-----------CARTERA----------------\n" . json_encode($cartera). "-----------\n";
       //file_put_contents("/datos/app.copropiedad.co/api/payu/log.txt", $tst . $log);
       //$tst = file_get_contents("/datos/app.copropiedad.co/api/payu/log.txt");
 
-      $modificador=array('$set'=>array("estado"=>$rtapayu['response_code_pol']));
+      $modificador=array('$set'=>array("estado"=>$rtapayu['response_message_pol']));
       $dbdata = new DBNosql('pagosonline');
       $resultpagos = $dbdata->updateDocument($muestreo,$modificador);
       //$log = "-----------MODIFICADOR----------------\n" . json_encode($modificador). "-----------\n";
@@ -394,7 +472,7 @@ if(!defined("SPECIALCONSTANT")) die("Acceso denegado");
       //file_put_contents("/datos/app.copropiedad.co/api/payu/log.txt", $tst . $log);
       //$tst = file_get_contents("/datos/app.copropiedad.co/api/payu/log.txt");
 
-      if($rtapayu["response_code_pol"] == 1 || $rtapayu["response_code_pol"] == "1" )
+      /*if($rtapayu["response_code_pol"] == 1 || $rtapayu["response_code_pol"] == "1" )
       {
         $muestreocont = array("tipo_documento"=>"cartera", "doc"=>$pago["doc"], "saldo"=>explode(".",$rtapayu['value'])[0]);
         $dbdatacont = new DBNosql('cont_'.$pago['id_copropiedad']);
@@ -405,17 +483,18 @@ if(!defined("SPECIALCONSTANT")) die("Acceso denegado");
         //$log = $log . "-----------muestrecont----------------\n" . json_encode($muestreocont). "-----------\n";
         //$log = $log . "-----------modificador----------------\n" . json_encode($modificador). "-----------\n";
         //$log = $log . "-----------resultcartera----------------\n" . json_encode($resultcartera). "-----------\n";
-      }
+      }*/
       //file_put_contents("/datos/app.copropiedad.co/api/payu/log.txt", $tst . $log);
 
       enviarRespuesta($app, true, null, null);
-    }
+    /*}
     catch(Exception $e)
     {
-      $tst = file_get_contents("/datos/app.copropiedad.co/api/payu/log.txt");
-      file_put_contents("/datos/app.copropiedad.co/api/payu/log.txt", $tst . "ERR: \n" . $e->getMessage() . "-----------\n\n");
+      //$tst = file_get_contents("/datos/app.copropiedad.co/api/payu/log.txt");
+      //file_put_contents("/datos/app.copropiedad.co/api/payu/log.txt", $tst . "ERR: \n" . $e->getMessage() . "-----------\n\n");
+    	var_dump($e)
     	enviarRespuesta($app, false, null, null);
-    }
+    }*/
   });
 
 /*********************** METODO PARA PAGAR PAGOS ONLINE TELEINTE (GERMAN)***************************/
@@ -435,7 +514,7 @@ if(!defined("SPECIALCONSTANT")) die("Acceso denegado");
       $today = date("c");
       $rtapayu["tipo_documento"] = "respuestapayu";
       $rtapayu["timestamprecibido"] = $today;
-      $rta = guardarDato("pagosteleinte",$rtapayu,$app);
+      $rta = guardarDato("pagosteleinte_manager",$rtapayu,$app);
       //$tst = file_get_contents("/datos/app.copropiedad.co/api/cartera/log.txt");
       //$log = "-----------RTAPAYU----------------\n" . json_encode($rtapayu). "-----------\n";
       //file_put_contents("/datos/app.copropiedad.co/api/cartera/log.txt", $tst . $log);
@@ -445,20 +524,62 @@ if(!defined("SPECIALCONSTANT")) die("Acceso denegado");
       //$tst = file_get_contents("/datos/app.copropiedad.co/api/cartera/log.txt");
 
       $muestreo = array("referenceCode"=>$rtapayu["reference_sale"]);
-      $pago = objectToArray(consultaColeccionRespuesta($app, "pagosteleinte", $muestreo))[0];
+      $pago = objectToArray(consultaColeccionRespuesta($app, "pagosteleinte_manager", $muestreo));
+      foreach ($pago as $key => $value) 
+      {
+      	$modificador=array('$set'=>array("estado"=>$rtapayu['response_message_pol'], "fecha_confirmacion" => $rtapayu["timestamprecibido"]));
+      	$dbdata = new DBNosql('pagosteleinte_manager');
+      	$resultpagos = $dbdata->updateMDocument($muestreo,$modificador);
+      }
+      
       //$log = "-----------PAGO----------------\n" . json_encode($pago). "-----------\n";
       //file_put_contents("/datos/app.copropiedad.co/api/cartera/log.txt", $tst . $log);
       //$tst = file_get_contents("/datos/app.copropiedad.co/api/cartera/log.txt");
 
-      enviarRespuesta($app, true, null, null);
     }
     catch(Exception $e)
     {
-      $tst = file_get_contents("/datos/app.copropiedad.co/api/cartera/log.txt");
-      file_put_contents("/datos/app.copropiedad.co/api/cartera/log.txt", $tst . "ERR: \n" . $e->getMessage() . "-----------\n\n");
+      //$tst = file_get_contents("/datos/app.copropiedad.co/api/cartera/log.txt");
+      //file_put_contents("/datos/app.copropiedad.co/api/cartera/log.txt", $tst . "ERR: \n" . $e->getMessage() . "-----------\n\n");
       enviarRespuesta($app, false, null, null);
     }
   });
+//CREAR PAGO EN BD PARA TELEINTE (ANGIE)
+// Función para crear una transaccion que queda pendiente en BD cuando sale para PayU
+// Metodo Options para validacion de navegadores
+	$app->options("/pagar/teleinte", function() use($app)
+	{
+		enviarRespuesta($app, true, "ok", "ok");
+	});
+// Fin del metódo Options
+// METODO POST PARA crear una transacción antes de pasar a la pasarela PayU, 
+// Recibe como parametros:
+// token = Token creado para ser validado
+// body = cuerpo del objeto, ver documentación de arquitectura para definir los campos	
+$app->post("/pagar/teleinte", function() use($app)
+	{
+		try
+		{
+			$requerimiento = $app::getInstance()->request();
+			$datos = json_decode($requerimiento->getBody());
+			$token = new Token;
+			if($token->SetToken($datos->token))
+			{
+				$validateUsuario=validateRole();
+				if ($validateUsuario)
+				{
+					enviarInformacion('pagosteleinte_manager', $datos->body, $app);
+				}
+				else{enviarRespuesta($app, false, "Usuario sin privilegios", "Usuario sin privilegios");}
+			}
+			else{enviarRespuesta($app, false, "Token invalido", "Token invalido");}
+		}
+		catch(Exception $e)
+		{
+			//echo "Error: " . $e->getMessage();
+			enviarRespuesta($app, false, "Error Los Datos de la lista no concuerdan", $e->getMessage());
+		}
+	});
 
 /************** FUNCIONES AUXILIARES *****************/
 	function consultaColeccionFiltro($app, $coleccion, $arreglo)

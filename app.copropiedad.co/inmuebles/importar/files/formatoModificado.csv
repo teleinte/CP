@@ -1,0 +1,8 @@
+nombre_inmueble;nombre;apellido;telefono;email;grupo;esprincipal
+101;prueba uno;uno;1234567890;jgil@copropiedad.co;concejo;SI
+101;Prueba Extra;Extra uno;1234567890;jgil@copropiedad1.co;residente;no
+102;prueba dos;dos;1234567890;jgil@copropiedad2.co;concejo;SI
+103;prueba tres;tres;1234567890;jgil@copropiedad3.co;asamblea;SI
+201;prueba cuatro;cuatro;1234567890;jgil@copropiedad4.co;asamblea;SI
+202;prueba cinco;prueba cinco;1234567890;jgil@copropiedad5.co;asamblea;NO
+203;preuba seis;seis;1234567890;jgil@copropiedad6.co;asamblea;NO

@@ -1,7 +1,0 @@
-identificador;tipo_unidad;detalle;canon;coeficiente;proveedor;nombre;apellido;telefono;email;empresa;unidad;tipo;celular;grupo;esprincipal
-101;apartamento;nada;123000;8.41;NO;prueba uno;uno;1234567890;uno@teleinte.com;teleinte;XXXXXXXXXXXXX;residente;123456789;concejo;SI
-102;apartamento;nada;143000;6.15;NO;prueba dos;dos;1234567890;dos@teleinte.com;teleinte;XXXXXXXXXXXXX;residente;123456789;concejo;SI
-103;apartamento;nada;176000;11.1;NO;prueba tres;tres;1234567890;tres@pixelpro.com;pixelpro;XXXXXXXXXXXXX;residente;123456789;asamblea;SI
-201;apartamento;nada;83000;12.54;NO;prueba cuatro;cuatro;1234567890;cuatro@teleinte.com;teleinte;XXXXXXXXXXXXX;residente;123456789;asamblea;SI
-202;apartamento;nada;93000;5.41;NO;prueba cinco;prueba cinco;1234567890;cinco@teleinte.com;teleinte;XXXXXXXXXXXXX;residente;123456789;asamblea;NO
-203;apartamento;nada;223000;3.42;NO;preuba seis;seis;1234567890;seis@teleinte.com;pixelpro;XXXXXXXXXXXXX;residente;123456789;asamblea;NO

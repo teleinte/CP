@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Manager Copropiedad"
+AuthUserFile /datos/users
+Require user managercp 

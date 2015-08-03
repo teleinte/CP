@@ -1,0 +1,1 @@
+<?php require_once('../js/session.js'); ?>

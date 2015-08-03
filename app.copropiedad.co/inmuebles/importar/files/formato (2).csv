@@ -1,0 +1,16 @@
+nombre_inmueble;nombre;apellido;telefono;email;grupo;esprincipal
+Ap 101;Juan;Perez;123456789;gvelasquez85@gmail.com;asamblea;si
+Ap 102;Camilo;Rodriguez;123456789;gvelasquez85@gmail.com;residente;si
+Ap 103;Pedro;Cruz;123456789;gvelasquez851@gmail.com;asamblea;si
+Ap 201;Manuel;Perez;123456789;gvelasquez851@gmail.com;residente;si
+Ap 202;Rosana;Rodriguez;123456789;gvelasquez851@gmail.com;asamblea;si
+Ap 203;Fabiola;Cruz;123456789;gvelasquez851@gmail.com;residente;si
+Ap 301;Manuela;Perez;123456789;gvelasquez851@gmail.com;asamblea;si
+Ap 302;Camila;Rodriguez;123456789;gvelasquez851@gmail.com;residente;si
+Ap 303;Rosa;Cruz;123456789;gvelasquez851@gmail.com;asamblea;si
+Ap 401;Ana Maria;Perez;123456789;gvelasquez851@gmail.com;residente;si
+Ap 402;Sandra;Rodriguez;123456789;gvelasquez851@gmail.com;asamblea;si
+Ap 403;Lucia;Cruz;123456789;gvelasquez851@gmail.com;residente;si
+Ap 501;Martin;Perez;123456789;gvelasquez851@gmail.com;asamblea;si
+Ap 502;Victor;Rodriguez;123456789;gvelasquez851@gmail.com;residente;si
+Ap 503;Gloria;Cruz;123456789;gvelasquez851@gmail.com;asamblea;si
