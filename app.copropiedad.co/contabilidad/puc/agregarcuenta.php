@@ -4,7 +4,7 @@
 <?php require_once("../../template/include/meta.inc"); ?>
 <title "ds:html:29"></title>
 <?php require_once("../../template/include/head-2.inc"); ?>
-<script type="text/javascript" src="sjs/pucagregar.js"></script>
+<script type="text/javascript" src="sjs/pucagregar.js?v=1.0"></script>
 <!-- <script type="text/javascript" src="sjs/contabilidad-functions.js"></script> -->
 </head>
 <body>

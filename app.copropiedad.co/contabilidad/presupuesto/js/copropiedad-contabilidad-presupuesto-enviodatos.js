@@ -34,7 +34,7 @@ function ajustarBalance(balance)
 
 function traerBalance()
 {
-	var rutaAplicativo = "https://appdes.copropiedad.co/api/contabilidad/balance/prueba/";      
+	var rutaAplicativo = "https://app.copropiedad.co/api/contabilidad/balance/prueba/";      
 	var metodo = "POST";
 	var res = "";
 	var arr = 

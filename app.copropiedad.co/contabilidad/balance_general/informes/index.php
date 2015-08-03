@@ -14,7 +14,7 @@
     //echo "<pre>";
 
     $data=array("token"=>$datos[0],"body"=>array("id_copropiedad"=>$copropiedades,"tipo"=>true, "mesinicio"=>$mesi, "anoinicio"=>$anoi, "mesfin"=>$mesf, "anofin"=>$anof));
-    $datos[3] = 'https://appdes.copropiedad.co/';
+    $datos[3] = 'https://app.copropiedad.co/';
     $tipoarc = $datos[5];
     $data_string = json_encode($data);
     $urlbalance = $datos[3] . 'api/contabilidad/balance/pruebaintegrado/';
@@ -160,7 +160,7 @@
         //echo "<br>".strlen($muestra[0])."--->".$muestra[0];
         if(strlen($muestra[0])<=1)
         {
-           
+            $cabeceraArchivo->Ln();
             $cabeceraArchivo->SetFont("Arial", "B", 8);
             //numero de la cuenta
             $cabeceraArchivo->Cell(15,4, $muestra[0]);
@@ -170,6 +170,8 @@
             // saldos iniciales
             if($muestra[2]<0){$cabeceraArchivo->SetFont("Arial", "B", 8);$cabeceraArchivo->SetTextColor(135,14,14);$cabeceraArchivo->Cell(109,4,money_format('%(#1n',$muestra[2]),0,0,'R');$cabeceraArchivo->SetTextColor(0,0,0);}
             else{$cabeceraArchivo->SetFont("Arial", "B", 8);$cabeceraArchivo->Cell(109,4,money_format('%(#1n',$muestra[2]),0,0,'R');}             
+            $cabeceraArchivo->Ln();
+            $cabeceraArchivo->Line(10,$cabeceraArchivo->GetY(),203,$cabeceraArchivo->GetY());
         }
         else
         {
@@ -181,17 +183,33 @@
             else {$cabeceraArchivo->SetFont("Arial", "", 8);$cabeceraArchivo->Cell(70,4,$muestra[1]);}
             // saldos iniciales
             if($muestra[2]<0){$cabeceraArchivo->SetFont("Arial", "", 8);$cabeceraArchivo->SetTextColor(135,14,14);$cabeceraArchivo->Cell(109,4,money_format('%(#1n',$muestra[2]),0,0,'R');$cabeceraArchivo->SetTextColor(0,0,0);}
-            else{$cabeceraArchivo->SetFont("Arial", "", 8);$cabeceraArchivo->Cell(109,4,money_format('%(#1n',$muestra[2]),0,0,'R');}             
+            else{$cabeceraArchivo->SetFont("Arial", "", 8);$cabeceraArchivo->Cell(109,4,money_format('%(#1n',$muestra[2]),0,0,'R');}
+            $cabeceraArchivo->Ln();
         }        
-        $cabeceraArchivo->Ln();
+        
      }
      $cabeceraArchivo->SetFont("Arial", "B", 8);
      $cabeceraArchivo->Cell(15,4,"");
-     $cabeceraArchivo->Cell(70,4,"TOTAL GENERAL");        
+     $cabeceraArchivo->Ln();
+     $cabeceraArchivo->Line(10,$cabeceraArchivo->GetY(),203,$cabeceraArchivo->GetY());
+     $cabeceraArchivo->Cell(70,4,"TOTAL PASIVO Y PATRIMONIO");        
      // $cabeceraArchivo->Cell(31,4,money_format('%(#1n',$Sit),0,0,'R');        
      // $cabeceraArchivo->Cell(26,4,money_format('%(#1n',$Dt),0,0,'R');
      // $cabeceraArchivo->Cell(26,4,money_format('%(#1n',$Ct),0,0,'R');
-     $cabeceraArchivo->Cell(109,4,money_format('%(#1n',$res2+$res3),0,0,'R');
+     if($res2+$res3<0)
+     {
+        
+        $cabeceraArchivo->SetTextColor(135,14,14);$cabeceraArchivo->Cell(109,4,money_format('%(#1n',$res2+$res3),0,0,'R');
+        $cabeceraArchivo->Ln();
+        $cabeceraArchivo->Line(10,$cabeceraArchivo->GetY(),203,$cabeceraArchivo->GetY());   
+     }
+     else
+     {
+        $cabeceraArchivo->Cell(109,4,money_format('%(#1n',$res2+$res3),0,0,'R');
+        $cabeceraArchivo->Ln();
+        $cabeceraArchivo->Line(10,$cabeceraArchivo->GetY(),203,$cabeceraArchivo->GetY());
+     }
+     
      $cabeceraArchivo->Output();
     exit;
 

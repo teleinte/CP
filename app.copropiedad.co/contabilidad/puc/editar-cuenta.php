@@ -4,7 +4,7 @@
 <?php require_once("../../template/include/meta.inc"); ?>
 <title teid="co:html:1"></title>
 <?php require_once("../../template/include/head-2.inc"); ?>
-<script type="text/javascript" src="sjs/puc-editar.js"></script>
+<script type="text/javascript" src="sjs/puc-editar.js?v=1.0"></script>
 <!-- <script type="text/javascript" src="sjs/contabilidad-functions.js"></script> -->
 </head>
 <body>

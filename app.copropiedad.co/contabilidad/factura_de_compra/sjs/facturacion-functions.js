@@ -55,7 +55,7 @@ function obtenerContactos(datos)
           //tengo que traer el nombre de la unidad
           var arr={token:sessionStorage.getItem('token'),body:{_id : y['unidad']}}
           var datosUnidad = traerDatosSync("unidad/unidad/copropiedadid",arr);
-          alert(datosUnidad);
+          //alert(datosUnidad);
           var nombreInmueble="";
           $.each(datosUnidad,function(alfa,beta){nombreInmueble=beta["nombre_inmueble"];return nombreInmueble;});          
           personas.push('<option value="' + y['id_crm_persona'] + '" cpemail="' + y['email'] + '" cpidcrm="' + y['id_crm_persona'] + '"cpnombre="' + y['nombre'] + '" cptelefono="' + y['telefono'] + '">'+ y['nombre'] +' - '+nombreInmueble +'</option>');

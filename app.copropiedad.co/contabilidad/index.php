@@ -4,8 +4,8 @@
 <?php require_once("../template/include/meta.inc"); ?>
 <title teid="co:html:1"></title>
 <?php require_once("../template/include/head-1.inc"); ?>
-<script type="text/javascript" src="sjs/contabilidad.js"></script>
-<script type="text/javascript" src="sjs/contabilidad-functions.js"></script>
+<script type="text/javascript" src="sjs/contabilidad.js?v=1.0"></script>
+<script type="text/javascript" src="sjs/contabilidad-functions.js?v=1.0"></script>
 </head>
 <body>
 <header>

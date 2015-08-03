@@ -7,8 +7,8 @@
 <script type="text/javascript" src="../../template/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="../../template/js/dataTables.colVis.min.js"></script>
 <script type="text/javascript" src="../../template/js/dataTables.responsive.min.js"></script>
-<script type="text/javascript" src="sjs/saldos-functions.js"></script>
-<script type="text/javascript" src="sjs/saldos.js"></script>
+<script type="text/javascript" src="sjs/saldos-functions.js?v=1.0"></script>
+<script type="text/javascript" src="sjs/saldos.js?v=1.0"></script>
 </head>
 <body>
 <header>

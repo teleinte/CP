@@ -12,8 +12,8 @@
   <script type="text/javascript" src="../../template/js/jquery.dataTables.min.js"></script>
   <script type="text/javascript" src="../../template/js/dataTables.colVis.min.js"></script>
   <script type="text/javascript" src="../../template/js/dataTables.responsive.min.js"></script>
-  <script type="text/javascript" src="sjs/puc.js"></script>
-  <script type="text/javascript" src="sjs/puc-functions.js"></script>
+  <script type="text/javascript" src="sjs/puc.js?v=1.0"></script>
+  <script type="text/javascript" src="sjs/puc-functions.js?v=1.0"></script>
 </header>
     <div id="contenido-principal">
         <section id="central">

@@ -12,7 +12,7 @@
     $anof = $datos[10];    
     //echo "<pre>";
     $data=array("token"=>$datos[0],"body"=>array("id_copropiedad"=>$copropiedades,"tipo"=>true, "mesinicio"=>$mesi, "anoinicio"=>$anoi, "mesfin"=>$mesf, "anofin"=>$anof));
-    $datos[3] = 'https://appdes.copropiedad.co/';
+    $datos[3] = 'https://app.copropiedad.co/';
     $tipoarc = $datos[5];
     $data_string = json_encode($data);
     $urlbalance = $datos[3] . 'api/contabilidad/balance/pruebaintegrado/';

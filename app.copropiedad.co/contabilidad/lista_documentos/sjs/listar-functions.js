@@ -6,7 +6,7 @@ function traerTransacciones(datos)
         var idMongoFinal = JSON.parse(idmongo);
         var tipos = {CE:"Comprobante de egreso", RC:"Recibo de caja", CN:"Comprobante de Nomina", NC:"Nota de contabilidad", CC:"Cuenta de Cobro", FV:"Factura de venta", FC:"Factura de compra"};
         var tabla = $('#listaTabla').DataTable();
-        var acciones ='<button type="button" title="Ir a detalles" class="btn ver solo inline btneditar ttip" id="borrar' + idMongoFinal + '" mongoid="' + idMongoFinal + '" anulado="' + y['anulado'] + '" concepto_documento="' + y['concepto_documento'] + '" conciliado="' + y['conciliado'] + '" fecha="' + y['day'] + '/' + elmes(y) + '/' + y['year'] + '" docrel="' + y['docrelacionado'] + '" email="' + y['email_tercero'] + '" fechacreacion="' + y['fecha_creacion'] + '" consecutivo="' + y['idtransaccion'] + '" nombre_tercero="' + y['nombre_tercero'] + '" tipo_documento="' + tipos[y['tipo']] + '"></button>';
+        var acciones ='<button type="button" title="Ir a detalles" class="btn ver solo inline btneditar ttip" id="ver' + idMongoFinal + '" mongoid="' + idMongoFinal + '" anulado="' + y['anulado'] + '" concepto_documento="' + y['concepto_documento'] + '" conciliado="' + y['conciliado'] + '" fecha="' + y['day'] + '/' + elmes(y) + '/' + y['year'] + '" docrel="' + y['docrelacionado'] + '" email="' + y['email_tercero'] + '" fechacreacion="' + y['fecha_creacion'] + '" consecutivo="' + y['idtransaccion'] + '" nombre_tercero="' + y['nombre_tercero'] + '" tipo_documento="' + tipos[y['tipo']] + '"></button>';
         tabla.row.add( [
         '',
         tipos[y['tipo']],
@@ -22,7 +22,7 @@ function traerTransacciones(datos)
 
 function obtenerCuentasPorTransaccion(idtx, tercero)
 {
-    console.warn(idtx);
+    //console.warn(idtx);
     var rutaAplicatico = traerDireccion()+"api/";    
     var arr = { token:sessionStorage.getItem('token'),body:{id_copropiedad:sessionStorage.getItem('cp'), idtransaccion:idtx}};
     datos = traerDatosSync("contabilidad/obtener/registros/",arr);

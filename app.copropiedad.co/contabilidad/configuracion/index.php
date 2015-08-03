@@ -61,6 +61,6 @@
     </div>
 </body>
 </html>*/  
-header("Location: https://appdes.copropiedad.co/contabilidad/");
+header("Location: https://app.copropiedad.co/contabilidad/");
 die()
 ?>

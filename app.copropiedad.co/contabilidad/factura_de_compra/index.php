@@ -12,8 +12,8 @@
   <script type="text/javascript" src="../../template/js/jquery.dataTables.min.js"></script>
   <script type="text/javascript" src="../../template/js/dataTables.colVis.min.js"></script>
   <script type="text/javascript" src="../../template/js/dataTables.responsive.min.js"></script>
-  <script type="text/javascript" src="sjs/facturacion.js"></script>
-  <script type="text/javascript" src="sjs/facturacion-functions.js"></script>
+  <script type="text/javascript" src="sjs/facturacion.js?v=1.0"></script>
+  <script type="text/javascript" src="sjs/facturacion-functions.js?v=1.0"></script>
 </header>
     <div id="contenido-principal">
         <section id="central">
@@ -54,6 +54,10 @@
                                         <option value="none"></option>
                                     </select>
                                   </td>
+                                  <!--<td>
+                                    <label>NIT/ Inmueble:</label>
+                                    <h3  class="nomcon"></h3>
+                                  </td>-->
                               </tr>
                               <tr>
                                   <td colspan="2">
