@@ -60,7 +60,7 @@ function CrearUsuario(actualurl) //--OK
           if(mensaje.status)
           {
               $("#enviarregistro").attr('disabled',true);
-              var ldaparr = {token:sessionStorage.getItem("regtoken"), body: {nombre:$('#nombre').val(), estado:"1", apellido:$('#apellido').val(), email:"cp-" + $('#email').val().toLowerCase(), genero:"NA", nacionalidad:"NA", lugarNacimiento:"NA", paisNacimiento:"CO", fechaNacimiento:"01/01/1901", idioma:"es-CO", id_crm:crm, password:btoa("19283uj9qwnoa98ndfnsdasdfawer23421DASDasdaf" + crm), tipoDocumento:"CC", numeroDocumento:"123465789"} }; 
+              var ldaparr = {body:{id_crm:crm}}; 
               enviocorreobienvenida(actualurl, $("#email").val(), JSON.stringify(ldaparr));
               enviocorreoNotificacion(actualurl);
               $(".titulo-principal").html('<h1>¡Gracias!</h1>');

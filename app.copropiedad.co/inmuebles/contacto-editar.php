@@ -33,7 +33,7 @@
 
             <div class="contenedor mitad">
               <!-- Codigo de la aplicacion -->
-              <div class="titulo-principal"><h1 teid="ct:html:1"></h1></div>
+              <div class="titulo-principal"><h1><span teid="ct:html:1"></span><span id="inmueble_name"></span></h1></div>
               <?php require_once('../template/include/alerts.inc'); ?>
                 <form id="modificar-usuario">
                   <table style="width:100%;">

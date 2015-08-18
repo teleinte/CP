@@ -56,6 +56,7 @@
                           <th teid="re:html:115"></th>
                           <th teid="re:html:116"></th>
                           <th teid="re:html:37"></th>
+                          <th>Inmueble de residente</th>
                           <th teid="re:html:38"></th>
                           <th teid="re:html:39"></th>
                       </tr>

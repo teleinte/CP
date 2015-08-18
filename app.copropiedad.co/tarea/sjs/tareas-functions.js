@@ -13,6 +13,11 @@ function popularTabla(datos)
     var idmongo= JSON.stringify(y['_id']);
     var idMongoFinal = JSON.parse(idmongo);
 		var t = $('#tareas').DataTable();
+    var accion = '<input type="button" id="elim' + cont + '" class="btn borrar solo inline btnr_eliminar_tarea ttip" id="btnr_eliminar_tarea" teid="tar:title:11" mongoid="' + y['_id']['$id'] + '" nombre="' + y['nombre'] + '" estado="' + y['estado'] + '" deadline="' + y['deadline'] + '" frecuencia="' + y['frecuencia'] + '" notas="' + y['notas'] + '" creacion="' + y['fecha_creacion'] + '" onClick="mimicclick()" />&nbsp;<input type="button" class="btn completar solo inline btnr_completar_tarea ttip" id="btnr_completar_tarea" teid="tar:title:10" mongoid="' + y['_id']['$id'] + '" nombre="' + y['nombre'] + '" estado="' + y['estado'] + '" deadline="' + y['deadline'] + '" frecuencia="' + y['frecuencia'] + '" notas="' + y['notas'] + '" creacion="' + y['fecha_creacion'] + '"/>&nbsp;<input type="button" id="btnr_editar_tarea" class="btn editar solo inline btnr_editar_tarea ttip"  teid="tar:title:9" mongoid="' + y['_id']['$id'] + '" nombre="' + y['nombre'] + '" estado="' + y['estado'] + '" deadline="' + y['deadline'] + '" frecuencia="' + y['frecuencia'] + '" notas="' + y['notas'] + '" creacion="' + y['fecha_creacion'] + '"/>';
+    if(y['estado']=='completada')
+    {
+      accion = '<input type="button" id="elim' + cont + '" class="btn borrar solo inline btnr_eliminar_tarea ttip" id="btnr_eliminar_tarea" teid="tar:title:11" mongoid="' + y['_id']['$id'] + '" nombre="' + y['nombre'] + '" estado="' + y['estado'] + '" deadline="' + y['deadline'] + '" frecuencia="' + y['frecuencia'] + '" notas="' + y['notas'] + '" creacion="' + y['fecha_creacion'] + '" onClick="mimicclick()" />';
+    }
         if(y['estado']!="cerrada")
         {
             t.row.add( [
@@ -20,11 +25,16 @@ function popularTabla(datos)
 	            y['nombre'],
 	            y['notas'],
 	            y['deadline'].split("COT")[0],
-	            '<input type="button" id="elim' + cont + '" class="btn borrar solo inline btnr_eliminar_tarea ttip" id="btnr_eliminar_tarea" teid="tar:title:11" mongoid="' + y['_id']['$id'] + '" nombre="' + y['nombre'] + '" estado="' + y['estado'] + '" deadline="' + y['deadline'] + '" frecuencia="' + y['frecuencia'] + '" notas="' + y['notas'] + '" creacion="' + y['fecha_creacion'] + '" onClick="mimicclick()" />&nbsp;<input type="button" class="btn completar solo inline btnr_completar_tarea ttip" id="btnr_completar_tarea" teid="tar:title:10" mongoid="' + y['_id']['$id'] + '" nombre="' + y['nombre'] + '" estado="' + y['estado'] + '" deadline="' + y['deadline'] + '" frecuencia="' + y['frecuencia'] + '" notas="' + y['notas'] + '" creacion="' + y['fecha_creacion'] + '"/>&nbsp;<input type="button" id="btnr_editar_tarea" class="btn editar solo inline btnr_editar_tarea ttip"  teid="tar:title:9" mongoid="' + y['_id']['$id'] + '" nombre="' + y['nombre'] + '" estado="' + y['estado'] + '" deadline="' + y['deadline'] + '" frecuencia="' + y['frecuencia'] + '" notas="' + y['notas'] + '" creacion="' + y['fecha_creacion'] + '"/>'
+              toTitleCase(y['estado']),
+              accion
 	        ]).draw();
         }
       cont ++;
 	});
+}
+function toTitleCase(str)
+{
+    return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 }
 
 function tareaDelete(mongoid,creacion,nombre,fin,frecuencia,notas)

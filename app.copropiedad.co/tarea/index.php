@@ -42,6 +42,7 @@
                                 <th teid="tar:html:3"></th>
                                 <th teid="tar:html:4"></th>
                                 <th teid="tar:html:5"></th>
+                                <th>Estado</th>
                                 <th teid="ta:html:1"></th>
                             </tr>
                         </thead>

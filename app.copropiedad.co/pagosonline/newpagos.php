@@ -42,12 +42,15 @@
               <!-- Codigo de la aplicacion -->
                   <div class="titulo-principal"><h1 class="title tareas" teid="pa:html:10"></h1></div>
                     <?php require_once('../template/include/alerts.inc'); ?>
-                      <div style="width:350px; margin: 0px auto;">
+                      <div id="contenido" style="width:350px; margin: 0px auto;">
                           <form id="pagos_form" method="post" action="https://stg.gateway.payulatam.com/ppp-web-gateway">
                               <?php
                               $ocultos=new Pago;
                               $ocultos->construirFormOculto();
                               ?>
+                              <input type="hidden" id="apikey" name="apikey">
+                              <input type="hidden" id="merchantId" name="merchantId">
+                              <input type="hidden" id="accountId" name="accountId">
                               <table>
                                   <tr>
                                       <td teid="pa:html:11"></td>

@@ -902,6 +902,65 @@ $app->post("/encuesta/VotantesTotales/", function() use($app)
 });
 
 
+$app->options("/encuesta/VotantesFaltantes/", function() use($app)
+{
+	enviarRespuesta($app, true, "ok", "ok");
+});
+
+$app->post("/encuesta/VotantesFaltantes/", function() use($app)
+{
+	 /*try
+	 {*/
+		$requerimiento = $app::getInstance()->request();
+		$datos = json_decode($requerimiento->getBody());
+		$token = new Token;		
+		$tokenValidado = $token->SetToken($datos->token);		
+		if($tokenValidado)
+		{
+			$validateUsuario=validateRole();
+			if ($validateUsuario)
+			{
+			    $votos = json_decode(json_encode(consultaColeccionRetorno($app, 'encuestaVotos', array('id_encuesta' => $datos->body->id_encuesta))));
+			    if($votos)
+			    {
+			    	$electores = array();
+			    	foreach ($votos as $doc) {
+				    	//echo $doc->id_crm_persona;
+				    	//echo "\n";
+			    		if (!in_array($doc->id_crm_persona, $electores)) 
+			    		{
+			    			array_push($electores,$doc->id_crm_persona);
+			    		}				
+					}
+					/////buscnado los votantes faltantes}
+					$votantes = consultaColeccionRetorno($app, 'encuestaEnvio', array('id_encuesta' => $datos->body->id_encuesta));
+					$votantes = objectToArray($votantes);
+					$invitadosAvotar= explode(",", $votantes[0]["correostotales"]);
+				 	$noenviados=array_diff($invitadosAvotar,$electores);
+					enviarRespuesta($app, true, $noenviados, null);
+			    }
+			    else
+			    {
+			    	$votantes = consultaColeccionRetorno($app, 'encuestaEnvio', array('id_encuesta' => $datos->body->id_encuesta));
+					$votantes = objectToArray($votantes);
+					$invitadosAvotar= explode(",", $votantes[0]["correostotales"]);
+			    	enviarRespuesta($app, true, $invitadosAvotar, null);
+			    }
+			    
+				
+			}
+			else{enviarRespuesta($app, false, "Usuario sin privilegios", "Usuario sin privilegios");}
+		}
+		else{enviarRespuesta($app, false, "Token invalido", "Token invalidos");}
+	 /*}
+	 catch(Exception $e)
+	 {
+	 	//echo "Error: " . $e->getMessage();
+	 	enviarRespuesta($app, false, "Error Los Datos de la lista no concuerdan", $e->getMessage());
+	 }*/
+});
+
+
 
 $app->options("/encuesta/resultadosPorPregunta/", function() use($app)
 {
@@ -1108,39 +1167,7 @@ $app->post("/encuesta/votar/", function() use($app)
 	}
 });
 
-//BORRAR ENCUESTA 
-/*$app->delete("/encuesta/", function() use($app)
-{
-	try
-	{
-		$requerimiento = $app::getInstance()->request();
-		$datos = json_decode($requerimiento->getBody());
-		$token = new Token;
-		$tokenValidado = $token->SetToken($datos->token);
-		if($tokenValidado)
-		{
-			$validateUsuario=validateRole();
-			if ($validateUsuario)
-			{
-				$idGuardado=$datos->body->id;
-				unset($datos->body->id);
-				$muestreo=array("_id"=>new MongoId($idGuardado));
-				$dbdata=new DBNosql('cola');
-				$array = json_decode(json_encode($datos), true);						
-				$result=$dbdata->updateDocument($muestreo, $datos->body);
-				if ($result){enviarRespuesta($app, true, $result, "null");}
-				else {enviarRespuesta($app, true, null, null);}
-			}
-			else{enviarRespuesta($app, false, "Usuario sin privilegios", "Usuario sin privilegios");}
-		}
-		else{enviarRespuesta($app, false, "Token invalido", "Token invalidos");}
-	 }
-	 catch(Exception $e)
-	 {
-	 	//echo "Error: " . $e->getMessage();
-	 	enviarRespuesta($app, false, "Error Los Datos de la lista no concuerdan", $e->getMessage());
-	 }
-});*/
+
 
 function consultaColeccion($app, $coleccion, $arreglo)
 {

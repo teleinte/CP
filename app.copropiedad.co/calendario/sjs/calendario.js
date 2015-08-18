@@ -23,6 +23,19 @@ $(function() {
                 {
 	                $('#TareaContent').show();
 	                $('#EventoContent').hide();
+	                $('#estadotit').hide();
+	                $('#estadotar').html('');
+	                //alert(event.estado);
+	                if(event.estado=="completada")
+	                {
+	                	$("#btnr_editar_tarea").hide();
+	                	$('#estadotit').show();
+	                	$('#estadotar').html('Tarea completada');
+	                }
+	                if(event.estado=="por iniciar")
+	                {
+	                	$("#btnr_editar_tarea").show();
+	                }
 	                $("#startTime").html(moment(event.start).format('MMMM D, h:mm A'));
 	            	$("#endTime").html(moment(event.end).format('MMMM D, h:mm A'));
 	                $("#eventInfo").html(event.title);
@@ -88,6 +101,16 @@ $(function() {
 	                $("#btnr_eliminar_evento").attr('invitados',event.invitados);
 	                $("#btnr_eliminar_evento").attr('otros',event.otros);
 	                $("#btnr_eliminar_evento").attr('creacion',event.creacion);
+	                if(event.clase == "compartido")
+	                {
+	                	$("#btnr_editar_evento").hide();
+	                	$("#btnr_eliminar_evento").hide();
+	                }
+	                else
+	                {
+	                	$("#btnr_editar_evento").show();
+	                	$("#btnr_eliminar_evento").show();
+	                }
                 }
 
 				$("#eventContent").dialog({ modal: true, width:400, title: obtenerTerminoLenguage('cl','16') });
@@ -269,6 +292,58 @@ $(function() {
 					            callback(eventosCalendarioCo);
 					        });
 					}
+			},
+			{
+				events: function(start, end, timezone, callback){
+					var rutaAplicativo = traerDireccion()+"api/eventos/geteventosuser/";  
+					var arr = { token:sessionStorage.getItem('token'),body:{id_crm_persona:sessionStorage.getItem('id_crm')}};
+					$.post(rutaAplicativo, JSON.stringify(arr))
+					        .done(function(msg){
+					        	var eventosCalendarioCo = [];
+					            var msgDividido = JSON.stringify(msg);
+					            var mensaje =  JSON.parse(msgDividido);
+					            var msgDivididoDos = JSON.stringify(mensaje.message);
+					            var datos4 = JSON.parse(msgDivididoDos);                
+					            if (datos4=="Token invalido")
+					            {
+					                $('#alertas').html('<div class="alert alert-dismissable alert-error"  teid="ale:html:12"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button><strong teid="ale:html:1"></strong></div>')
+					                $(document).renderme('cl');                  
+					                window.location = '../index.php';
+					            }
+					            else
+					            {	
+					            	if(!$.isEmptyObject(datos4))
+				            		$.each(datos4, function(x , y) 
+				            		{
+				            			var inicio = (y['fecha_inicio']).split("T")[0] + "T" + (y['fecha_inicio']).split("T")[1];
+				            			var fin = (y['fecha_fin']).split("T")[0] + "T" + (y['fecha_fin']).split("T")[1];
+				            			if(y['id_copropiedad'] != sessionStorage.getItem('cp'))
+				            			{
+					            		    eventosCalendarioCo.push({
+					            		        title: y['nombre'] + " - " + y['nombrecopropiedad'],
+					            		        creacion: y['fecha_creacion'],
+					            		        description: y['notas'],
+					            		        start: inicio,
+					            		        end: fin,
+					            		        finicio: inicio,
+					            		        ffin: fin,
+					            		        frecuencia: y['frecuencia'],
+					            		        cal_copropiedad: y['cal_copropiedad'],
+					            		        estado: y['estado'],
+					            		        id: y['_id']['$id'],
+					            		        tipo: "evento",
+					            		        invitados: y['compartir_invitados'],
+					            		        otros: y['compartir_otros'],
+					            		        clase:"compartido",
+					            		        className: "negro",
+					            		        editable:false
+					            		    });
+				            			}
+				            		})
+					            }
+					            callback(eventosCalendarioCo);
+					        });
+					}
 			}
 		],
 		editable: true,
@@ -341,7 +416,7 @@ $(function() {
 			},
 			"Crear tarea" : function(){
 				window.location="crear-tarea.php";
-				sessionStorage.setItem('referer','../calendario');
+				sessionStorage.setItem('referer',window.location.href);
 			},
 			"Cancelar" : function(){
 				$(this).dialog("close");
@@ -436,7 +511,7 @@ $(function() {
 			frecuencia:$(this).attr('frecuencia')
 		}
 		sessionStorage.setItem('acelem',JSON.stringify(elem));
-		sessionStorage.setItem('referer','../calendario');
+		sessionStorage.setItem('referer',window.location.href);
 		window.location = "editar-tarea.php";
 	});
 
@@ -460,14 +535,17 @@ $(function() {
 		window.location = "editar-evento.php";
 	});
 
-	$("#btnr_editar_tarea").click(function(){window.location="editar-tarea.php"});
+	$("#btnr_editar_tarea").click(function()
+		{
+			window.location="editar-tarea.php"
+		});
 	$("#btnr_eliminar_tarea").click(function(){
-		sessionStorage.setItem('referer','../calendario');
+		sessionStorage.setItem('referer',window.location.href);
 		tareaDelete($(this).attr('mongoid'),$(this).attr('creacion'),$(this).attr('nombre'),$(this).attr('deadline'),$(this).attr('frecuencia'),$(this).attr('notas'));
 	});
 
 	$("#btnr_completar_tarea").click(function(){
-		sessionStorage.setItem('referer','../calendario');
+		sessionStorage.setItem('referer',window.location.href);
 		tareaCompletar($(this).attr('mongoid'),$(this).attr('creacion'),$(this).attr('nombre'),$(this).attr('deadline'),$(this).attr('frecuencia'),$(this).attr('notas'));
 	});
 

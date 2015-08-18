@@ -82,7 +82,7 @@ $(document).ready(function(){
       else
       {
         $(document).renderme('vo');
-        enviocorreovotacion("app.copropiedad.co", correosTotales, $('#mensaje').val(), $('#fechaFin').val(),obtenerTerminoLenguage('ma','49') + $('#asunto').val(), traerDireccion()+"render-encuesta/",retornado)
+        enviocorreovotacion("app.copropiedad.co", correosTotales, $('#mensaje').val(), $('#fechaFin').val().split("T")[0],obtenerTerminoLenguage('ma','49') + $('#asunto').val(), traerDireccion()+"render-encuesta/",retornado)
         $(document).renderme('vo');
         sessionStorage.setItem("cenviosvotos",'<div class="alert alert-dismissable alert-info" style="height:10px;"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button> '+obtenerTerminoLenguage('ale','45')+ total +obtenerTerminoLenguage('ale','46')+$('#asunto').val()+'</div>');
         $(document).renderme('vo');

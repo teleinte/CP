@@ -36,7 +36,7 @@
 
            
             <div class="contenedor">
-              <div class="titulo-principal"><h1 class="title encuestas" teid="in:html:23"></h1></div>
+              <div class="titulo-principal"><h1 class="title encuestas"> <span teid="in:html:23"></span><span id="inmueble_name"></span></h1></div>
               <table id="contactos_tabla" class="stripe" cellspacing="0" width="100%">
                   <thead>
                     <tr>

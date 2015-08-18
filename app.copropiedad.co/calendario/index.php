@@ -47,6 +47,7 @@
                   <span class="verde" style="padding:5px 15px;" teid="cl:html:4"></span> 
                   <span class="naranja" style="padding:5px 15px;" teid="cl:html:5"></span> 
                   <span class="rojo" style="padding:5px 15px;" teid="cl:html:6"></span>
+                  <span class="negro" style="padding:5px 15px; color:white;" teid="cl:html:89"></span>
                 </div>
               </div>
           <div id="calEventDialog">
@@ -68,10 +69,10 @@
           <div id="eventContent" style="display: none;">
             <div id="TareaContent">
               <div class="seccion">
-                <!--<h4 teid="cl:html:16"></h4>-->
                 <p><strong teid="cl:html:17"></strong> <span id="eventInfo"></span></p>
                 <p><strong teid="cl:html:18"></strong> <span id="eventDeadline"> </span><br> </p>
                 <p><strong teid="cl:html:20"></strong> <span id="eventDesc"></span></p>
+                <p><strong id='estadotit'>Estado: </strong> <span id="estadotar"></span></p>
               </div>
               <div class="botones-form">
                 <!--<input type="button" teid="cl:val:22, cl:title:30" class="btn icono borrar inline"  id="btnr_eliminar_tarea"/>

@@ -5,8 +5,8 @@
 <title teid="co:html:1"></title>
 <?php require_once("../../template/include/head-2.inc"); ?>
 <script type="text/javascript" src="../sjs/consecutivos.js"></script>
-<script type="text/javascript" src="../sjs/consecutivos-functions.js"></script>
-<script type="text/javascript" src="../sjs/consecutivos-crear.js"></script>
+<script type="text/javascript" src="../sjs/consecutivos-functions.js?v=1.0"></script>
+<script type="text/javascript" src="../sjs/consecutivos-crear.js?v=1.0"></script>
 </head>
 <body>
 <header>

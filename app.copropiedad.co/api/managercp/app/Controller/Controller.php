@@ -638,97 +638,29 @@ require_once("/datos/app.copropiedad.co/api/managercp/app/Model/DBNosql_model.ph
     enviarRespuesta($app, false, "Error en el sistema de autenticación", $e->getMessage());
     }
   });
-/***************  METODOS DE ROLES  ***************************/
-  //METODO CREAR ROL PERSONA - OK - OK
-  $app->post("/rol/", function() use($app)
+/************************  METODOS DE FLUJO DE USUARIOS  ***************************/
+  $app->options("/copropiedad/setflow/", function() use($app)
   {
-    try
-    {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;
-      if($token->SetToken($datos->token))
-      {
-        $validateUsuario=validateRole();
-        if ($validateUsuario)
-        {
-          enviarInformacion('rolcp', $datos->body, $app);
-        }
-        else
-        {
-          enviarRespuesta($app, false, "Usuario sin privilegios", "Usuario sin privilegios");
-        }
-      }
-      else
-      {
-        enviarRespuesta($app, false, "Token invalido", "null");
-      }
-    }
-    catch(Exception $e)
-    {
-      enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
-    }
+    enviarRespuesta($app, true, "ok", "ok");
   });
-
-  //MÉTODO BORRAR ROL PERSONA - OK
-  /*$app->delete("/rol/", function() use($app)
+  //METODO CREAR PASO - OK - OK
+  $app->post("/copropiedad/setflow/", function() use($app)
   {
    try
     {
       $requerimiento = $app::getInstance()->request();
       $datos = json_decode($requerimiento->getBody());
       $token = new Token;
+      $today = date('c');
       if($token->SetToken($datos->token))
       {
         $validateUsuario=validateRole();
         if ($validateUsuario)
         {
-          $idGuardado=$datos->body->id;
-          unset($datos->body->id);
-          $muestreo=array("_id"=>new MongoId($idGuardado));
-          $dbdata=new DBNosql('rolcp');
-          $array = json_decode(json_encode($datos), true);            
-          $result=$dbdata->updateDocument($muestreo, $datos->body);
-          if ($result){enviarRespuesta($app, true, $result, "null");}
-          else {enviarRespuesta($app, true, null, null);}
-        }
-        else
-        {
-          enviarRespuesta($app, false, "Usuario sin privilegios", "Usuario sin privilegios");
-        }
-      }
-      else
-      {
-        enviarRespuesta($app, false, "Token invalido", "null");
-      }
-    }
-    catch(Exception $e)
-    {
-      enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
-    }
-  });*/
-
-  //MÉTODO MODIFICAR ROL PERSONA - OK
-  $app->put("/rol/", function() use($app)
-  {
-   try
-    {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;
-      if($token->SetToken($datos->token))
-      {
-        $validateUsuario=validateRole();
-        if ($validateUsuario)
-        {
-          $idGuardado=$datos->body->id;
-          unset($datos->body->id);
-          $muestreo=array("_id"=>new MongoId($idGuardado));
-          $dbdata=new DBNosql('rolcp');
-          $array = json_decode(json_encode($datos), true);            
-          $result=$dbdata->updateDocument($muestreo, $datos->body);
-          if ($result){enviarRespuesta($app, true, $result, "null");}
-          else {enviarRespuesta($app, true, null, null);}
+          $daticos = objectToArray($datos->body);
+          $daticos['timestamp']=$today;
+          //var_dump($daticos);
+          enviarInformacion('concurrencia_modulos', $datos->body, $app);
         }
         else
         {

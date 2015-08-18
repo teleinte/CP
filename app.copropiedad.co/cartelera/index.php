@@ -10,8 +10,8 @@
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="sjs/jquery.masonry.min.js"></script>
 <script type="text/javascript" src="sjs/imagesloaded.js"></script>
-<script type="text/javascript" src="sjs/cartelera-functions.js"></script>
-<script type="text/javascript" src="sjs/cartelera.js"></script>
+<script type="text/javascript" src="sjs/cartelera-functions.js?v=1.0"></script>
+<script type="text/javascript" src="sjs/cartelera.js?v=1.0"></script>
 </head>
 <body>
   <header>
@@ -70,6 +70,13 @@
                           <td colspan="2">
                             <label for="notas" teid="ca:html:8"></label>
                             <textarea id="notas" name="notas" required></textarea> 
+                          </td>
+                        </tr>
+                        <tr>
+                          <td colspan="2">
+                            <div id="fileuploadera" class="btn" teid="ca:html:15"></div>
+                            <div id="previewFileDiva" style="text-align: center;"><img id="previewFilea"/></div><br/>
+                            <input type="hidden" id="filepatha" name="filepatha" value=""/>
                           </td>
                         </tr>
                       </table>
@@ -179,6 +186,18 @@
                             <td colspan="2">
                               <label for="editnotas" teid="ca:html:8"></label>
                               <textarea id="editnotas" name="editnotas" value="" required></textarea> 
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div id="editimagea" style="height:100px; width:auto;"></div>
+                              <input type="hidden" id="filepathedita" name="filepathedita" value=""/>
+                            </td>
+                            <td>
+                              <div id="fileuploaderedita" class="btn" teid="ca:html:18">
+                              </div>
+                              <br/>
+                              <input type="button" id="filedeletera" teid="ca:val:19"class="btn" style="width:100%"/>
                             </td>
                           </tr>
                       </table>

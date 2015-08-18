@@ -1,18 +1,9 @@
 <?php
 set_error_handler('exceptions_error_handler');
-// function exceptions_error_handler($severity, $message, $filename, $lineno) {
-//   if (error_reporting() == 0) {
-//     return;
-//   }
-//   if (error_reporting() & $severity) {
-//     throw new ErrorException($message, 0, $severity, $filename, $lineno);
-//   }
-// }
 error_reporting(E_ALL);
 ini_set('display_errors', 1); 
 ini_set("auto_detect_line_endings", 1);
 date_default_timezone_set('America/Bogota');
-
 try
 {
   $csv = explode("|", $_POST['importados']);  
@@ -31,7 +22,6 @@ try
   $contadorUsuariosExistentes=0;
   $errores=array();
   DEFINE('this_url',"https://appdes.copropiedad.co/");
-  
   $tUnidades=0;
   $tContactos=0;
   if(count($csv) > 0)
@@ -39,8 +29,6 @@ try
     $elem = array();
     foreach ($csv as $key => $value) 
       {
-        // if($key == 0)
-        //   $nombres = $value;
         $value=explode(",", $value);        
         $elem['nombre_inmueble'] = $value[0];
         $elem['nombre_contacto'] = $value[1];
@@ -48,6 +36,7 @@ try
         $elem['telefono'] = $value[3];
         $elem['email'] = strtolower($value[4]);
         $elem['grupo'] = $value[5];        
+        $elem['nit'] = $value[6]; 
         $importacion[] = $elem;
       }
       $i = 0;
@@ -58,6 +47,7 @@ try
           //recorrido de unidades
           $und = array();
           $und['nombre_inmueble'] = $value['nombre_inmueble'];
+          $und['nit'] = $value['nit'];
           $unidades[$value['nombre_inmueble']] = $und;
           //recorrido de contactos
           $per = array();
@@ -137,23 +127,6 @@ try
           {
             guardaErrores($errores, "La persona " . $value['nombre'] . " " . $value['apellido'] . " perteneciente a la unidad " . $value['nombre_proveedor']. " no pudo ser creada. La respuesta del servidor es: " . json_encode($rta) . ". Excepcion: " . $ex->getMessage(), "warning");
           } 
-          // try
-          // {
-          //   $rtaldap = crearUsuarioLDAP($value, $idcrm, $restoken['message']['token']);
-          //   $rtaldap_arr[] = $rtaldap;
-          //   if(isset($rtaldap['message']))
-          //   {
-          //     if(strlen($rtaldap['message']) < 10){guardaErrores($errores, "La persona " . $value['nombre'] . " " . $value['apellido'] . " perteneciente a la unidad " . $value['nombre_inmueble']. " no pudo ser creada como principal. La respuesta del servidor es: " . json_encode($rtaldap) . ".","warning");}
-          //   }
-          //   else
-          //   {
-          //     if(strlen($rtaldap) < 10){guardaErrores($errores, "La persona " . $value['nombre'] . " " . $value['apellido'] . " perteneciente a la unidad " . $value['nombre_inmueble']. " no pudo ser creada como principal. La respuesta del servidor es: " . json_encode($rtaldap) . ".","warning");}
-          //   }
-          // }
-          // catch (Exception $ex)
-          // {
-          //   guardaErrores($errores, "La persona " . $value['nombre'] . " " . $value['apellido'] . " perteneciente a la unidad " . $value['nombre_inmueble']. " no pudo ser creada como principal. La respuesta del servidor es: " . json_encode($rtaldap) . ". Excepcion: " . $ex->getMessage(), "warning");
-          // }  
           try
           {
             $rtaemail = EnviarCorreoActivacion($value, $restoken['message']['token']);
@@ -251,6 +224,7 @@ function crearUnidad($unidad, $idcopropiedad, $idcrmpersona, $token)
   $arr["tipo_unidad"] = "privada";
   $arr["nombre_inmueble"] = $unidad['nombre_inmueble'];
   $arr["estado"] = 1;
+  $arr["nit"] = $unidad['nit'];
   $arr["fecha_creacion"] = date("c");
   $request = array("token" => $token, "body" => $arr);  
   return EnviarData($request, this_url . "api/unidad/unidad/"); 
@@ -297,29 +271,8 @@ function crearUsuarioLDAP($usuario, $id_crm_persona, $token)
   return EnviarData($request, "http://auth.teleinte.com/auth/"); 
 }
 
-// function crearPrincipal($usuario, $unidad, $idcopropiedad, $idcrmpersonacreador, $idcrmpersona, $idusuario, $token)
-// {
-//   $arr = array();
-//   $arr["id_copropiedad"] = $idcopropiedad;
-//   $arr["id_crm_persona"] = $idcrmpersona;
-//   $arr["creado_por"] = $idcrmpersonacreador;
-//   $arr["unidad"] = $usuario["unidad"];
-//   $arr["encargado"] = $usuario["nombre"] . " " . $usuario["apellido"];
-//   $arr["id_usuario"] = $idusuario;
-//   $arr["email"] = $usuario["email"];
-//   $arr["coeficiente"] = $unidad[$usuario["identificador"]]["coeficiente"];
-//   $arr["canon"] = $unidad[$usuario["identificador"]]["canon"];
-//   $arr["cargos"] = 0;
-//   $arr["proveedor"] = $usuario["proveedor"];
-
-//   $request = array("token" => $token, "body" => $arr);
-//   return EnviarData($request, this_url . "api/unidad/unidadEncargado/"); 
-// }
-
 function enviarCorreoActivacion($usuario, $token)
 {
-  // echo "<pre>";
-  // var_dump($usuario);
   $rutaAplicativo = this_url . "api/mailer/mail/registro/activacion/";
   $rutaActivacion = this_url . "registrese/activar.php?token=";
   $code = base64_encode(urlencode($usuario["nombre"])."^cp-".strtolower($usuario["email"]));
@@ -341,7 +294,7 @@ function enviarCorreoActivacion($usuario, $token)
         ],
       )
   );
-  //var_dump(json_encode($arr4));
+
   return EnviarData($arr4,$rutaAplicativo);
   //var_dump($CorreoEnviado);
 }
@@ -363,17 +316,13 @@ function despliegaErrores($critical, $status, $message, $errores)
 {
   if($critical)
   {
-    $resp = array("status" => false, "message" => "Error critico en la importacion", "error" => $errores);   
-   // echo json_encode($resp);    
-    //exit;
+    $resp = array("status" => false, "message" => "Error critico en la importacion", "error" => $errores);      
   }
   else
   {
     $resp = array("status" => $status, "message" => $message, "error" => $errores);
-    //echo json_encode($resp);    
   }
 }
-
 function generarIdCRM()
 {
   return mt_rand(100,999999999999999999999);

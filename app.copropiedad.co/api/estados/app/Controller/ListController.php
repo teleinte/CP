@@ -204,8 +204,92 @@ if(!defined("SPECIALCONSTANT")) die("Acceso denegado");
 		}
 	});
 
+	//METODO OPTION PARA VALIDACION DE NAVEGADORES
+	$app->options("/crm/", function() use($app)
+	{
+		enviarRespuesta($app, true, "ok", "ok");
+	});
 
+	// METODO PARA VALIDACION DE TOKEN DE ACTIVACION
+	// token de activacion
+	$app->post("/crm/", function() use($app)
+	{
+		try
+		{
+			$requerimiento = $app::getInstance()->request();
+			$datos = json_decode($requerimiento->getBody());
+			$filtro = array("id_crm_persona"=>(int)$datos->body->id_crm);
+			$info = consultaColeccionRespuesta($app, 'estadocp', $filtro);
+			enviarRespuesta($app,true,$info,null);
+		}
+		catch(Exception $e)
+		{
+			enviarRespuesta($app, false, "Error Los Datos de la lista no concuerdan", $e->getMessage());
+		}
+	});
 
+	//METODO OPTION PARA VALIDACION DE NAVEGADORES
+	$app->options("/superadmin/", function() use($app)
+	{
+		enviarRespuesta($app, true, "ok", "ok");
+	});
+
+	// METODO PARA VALIDACION DE TOKEN DE ACTIVACION
+	// token de activacion
+	$app->post("/superadmin/", function() use($app)
+	{
+		try
+		{
+			$requerimiento = $app::getInstance()->request();
+			$datos = json_decode($requerimiento->getBody());
+			$filtro = array("email"=>$datos->body->email);
+			$admins = consultaColeccionRespuesta($app, 'superadmin', $filtro);
+			$superadmin = Array();
+			if(count($admins) > 0)
+			{
+				$admindel = cleanArray(ObtenerDatosLDAP($admins[0]["ids"]));
+				//$admindel = $admins[0]["ids"];
+				$superadmin['isSA'] = true;
+				$superadmin['admins'] = $admindel;
+			}
+			else
+			{
+				$superadmin['isSA'] = false;
+				$superadmin['admins'] = Array();
+			}
+
+			enviarRespuesta($app,true,$superadmin,null);
+		}
+		catch(Exception $e)
+		{
+			enviarRespuesta($app, false, "Error Los Datos de la lista no concuerdan", $e->getMessage());
+		}
+	});
+
+	//METODO OPTION PARA VALIDACION DE NAVEGADORES
+	$app->options("/perfil/", function() use($app)
+	{
+		enviarRespuesta($app, true, "ok", "ok");
+	});
+
+	// METODO PARA VALIDACION DE TOKEN DE ACTIVACION
+	// token de activacion
+	$app->post("/perfil/", function() use($app)
+	{
+		try
+		{
+			$requerimiento = $app::getInstance()->request();
+			$datos = json_decode($requerimiento->getBody());
+			$filtro = array("id_crm_persona"=>(int)$datos->body->id_crm_persona,"id_copropiedad"=>$datos->body->id_copropiedad);
+			$usuario = objectToArray(consultaColeccionRespuesta($app, 'usuariocp', $filtro))[0];
+
+			enviarRespuesta($app,true,$usuario["grupo"],null);
+		}
+		catch(Exception $e)
+		{
+			enviarRespuesta($app, false, "Error Los Datos de la lista no concuerdan", $e->getMessage());
+		}
+	});
 //********** FUNCIONES AUXILIARES **************
 	function enviarInformacion($lista,$data,$app)
 	{
@@ -269,4 +353,36 @@ if(!defined("SPECIALCONSTANT")) die("Acceso denegado");
 		$resultado = $dbdata->selectDocument($arreglo);	
 		if ($resultado){enviarRespuesta($app, true, $resultado, "null");}
 		else {enviarRespuesta($app, true, null, null);}
+	}
+
+	function ObtenerDatosLDAP($crms)
+	{
+	  $url = "https://auth.sinfo.co/auth/verify/crm/";
+	  $fields = json_encode(array("token"=>"notoken", "body" => array("crms" => $crms)));
+	  //var_dump($fields);
+	  $ch = curl_init();
+	  curl_setopt($ch,CURLOPT_URL, $url);
+	  curl_setopt($ch,CURLOPT_POSTFIELDS, $fields);
+	  curl_setopt($ch,CURLOPT_CUSTOMREQUEST, "POST");
+	  curl_setopt($ch,CURLOPT_RETURNTRANSFER, true);
+	  curl_setopt($ch,CURLOPT_VERBOSE, true);
+	  $resultadito = curl_exec($ch);
+	  //print_r(curl_getinfo($ch));
+	  curl_close($ch);
+	  //var_dump($resultadito);
+	  $final = json_decode($resultadito,true);
+	  //var_dump($final);
+	  $result =$final["message"];
+	  return $result;
+	}
+
+	function cleanArray($arr)
+	{
+		$out = array();
+		foreach ($arr as $key => $value) 
+		{
+			if($value != 0)
+				$out[] = $value;
+		}
+		return $out;
 	}

@@ -1,7 +1,5 @@
 $(document).ready(function() {
     $(document).renderme('vo');
-
-
         $('#res-encuesta').DataTable( {
     responsive: {
       details: {

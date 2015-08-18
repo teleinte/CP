@@ -117,8 +117,8 @@ $app->options("/geteventocop/", function() use($app)
 
 $app->post("/geteventocop/", function() use($app)
 {
-	// try
-	// {
+	 try
+	 {
 		$requerimiento = $app::getInstance()->request();
 		$datos = json_decode($requerimiento->getBody());
 		$token = new Token;		
@@ -145,12 +145,12 @@ $app->post("/geteventocop/", function() use($app)
 			else{enviarRespuesta($app, false, "Usuario sin privilegios", "Usuario sin privilegios");}
 		}
 		else{enviarRespuesta($app, false, "Token invalido", "Token invalidos");}
-	// }
-	// catch(Exception $e)
-	// {
-	// 	//echo "Error: " . $e->getMessage();
-	// 	enviarRespuesta($app, false, "Error Los Datos de la lista no concuerdan", $e->getMessage());
-	// }
+	 }
+	 catch(Exception $e)
+	 {
+	 	//echo "Error: " . $e->getMessage();
+	 	enviarRespuesta($app, false, "Error Los Datos de la lista no concuerdan", $e->getMessage());
+	 }
 });
 
 $app->options("/geteventoFilter/", function() use($app)
@@ -294,34 +294,39 @@ $app->delete("/evento/", function() use($app)
         {
         //consejo, consejo+asamblea, consejo+asamblea+residentes
         	$grupos = array();
-        	if($datos->body->grupo == "consejo")
-        	{
-        		$grupos = array();
-        		$grupos[] = "consejo";
-        	}
-
-        	if($datos->body->grupo == "asamblea")
-        	{
-        		$grupos = array();
-        		$grupos[] = "consejo";
-        		$grupos[] = "asamblea";
-        	}
-
-        	if($datos->body->grupo == "residente")
-        	{
-        		$grupos = array();
-        		$grupos[] = "consejo";
-        		$grupos[] = "asamblea";
-        		$grupos[] = "residente";
-        	}
-
-         	$respuesta = objectToArray(consultaColeccionRespuesta($app, 'usuariocp', array('grupo' => array('$in' => $grupos), 'id_copropiedad' => $datos->body->idcopropiedad)));
          	$out = array();
-         	foreach ($respuesta as $key => $value) 
-         	{
-         		if(!array_key_exists($value['email'], $out))
-         			$out[$value['email']] = $value['email']; 
-         	}
+        	if($datos->body->grupo != "ninguno")
+        	{
+	        	if($datos->body->grupo == "consejo")
+	        	{
+	        		$grupos = array();
+	        		$grupos[] = "consejo";
+	        	}
+
+	        	if($datos->body->grupo == "asamblea")
+	        	{
+	        		$grupos = array();
+	        		$grupos[] = "consejo";
+	        		$grupos[] = "asamblea";
+	        	}
+
+	        	if($datos->body->grupo == "residente")
+	        	{
+	        		$grupos = array();
+	        		$grupos[] = "consejo";
+	        		$grupos[] = "asamblea";
+	        		$grupos[] = "residente";
+	        	}
+	         	$respuesta = objectToArray(consultaColeccionRespuesta($app, 'usuariocp', array('grupo' => array('$in' => $grupos), 'id_copropiedad' => $datos->body->idcopropiedad)));
+	         	
+	         	if(count($respuesta) > 0)
+	         	foreach ($respuesta as $key => $value) 
+	         	{
+	         		if(!array_key_exists($value['email'], $out))
+	         			$out[$value['email']] = $value['email']; 
+	         	}
+        	}
+
          	enviarRespuesta($app, true, $out, null);
         }
         else
@@ -339,6 +344,37 @@ $app->delete("/evento/", function() use($app)
       enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
     }
   });
+
+$app->options("/geteventosuser/", function() use($app)
+{
+	enviarRespuesta($app, true, "ok", "ok");
+});
+
+
+$app->post("/geteventosuser/", function() use($app)
+{
+	 try
+	 {
+		$requerimiento = $app::getInstance()->request();
+		$datos = json_decode($requerimiento->getBody());
+		$token = new Token;		
+		$tokenValidado = $token->SetToken($datos->token);
+		if($tokenValidado)
+		{											
+		    $eventos = objectToArray(consultaColeccionRespuesta($app,"evento",array('creador'=>$datos->body->id_crm_persona,'estado'=>array('$nin'=>array("Finalizado", "Cancelado")))));
+		    $copropiedades = objectToArray(consultaColeccionRespuesta($app, "copropiedad", array('id_crm_persona'=>$datos->body->id_crm_persona)));
+		    enviarRespuesta($app, true, formateaEventos($eventos, $copropiedades),null);
+		}
+		else
+		{
+			enviarRespuesta($app, false, "Token invalido", "Token invalidos");
+		}
+	 }
+	 catch(Exception $e)
+	 {
+	 	enviarRespuesta($app, false, "Error Los Datos de la lista no concuerdan", $e->getMessage());
+	 }
+});
 
 function consultaColeccionFiltro($app, $coleccion, $arreglo)
 {
@@ -413,4 +449,24 @@ function objectToArray($d)
       // Return array
       return $d;
   }
+}
+
+function formateaEventos($eventos, $cps)
+{
+	$out = array();
+	if(count($eventos) > 0)
+		if(count($cps) > 0)
+			foreach ($eventos as $key => $value) 
+			{
+				foreach ($cps as $k => $v) 
+				{
+					if($value['id_copropiedad'] == $v['_id']['$id'])
+					{
+						$elem = $value;
+						$elem["nombrecopropiedad"] = $v["nombre"];
+						$out[] = $elem;
+					}
+				}
+			}
+	return $out;
 }

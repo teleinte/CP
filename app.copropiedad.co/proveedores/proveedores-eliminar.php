@@ -4,8 +4,8 @@
 <?php require_once("../template/include/meta.inc"); ?>
 <title teid="pr:html:1"></title>
 <?php require_once("../template/include/head-1.inc"); ?>
-<script type="text/javascript" src="sjs/proveedores-functions.js"></script>
-<script type="text/javascript" src="sjs/proveedores-eliminar.js"></script>
+<script type="text/javascript" src="sjs/proveedores-functions.js?v=2.0"></script>
+<script type="text/javascript" src="sjs/proveedores-eliminar.js?v=2.0"></script>
 </head>
 <body>
 <header>
@@ -64,6 +64,7 @@
                         <input type = "hidden" id="nombre_inmueble" name="nombre_inmueble">                        
                         <input type = "hidden" id="estado" name="estado">
                         <input type = "hidden" id="fecha_creacion" name="fecha_creacion">
+                        <input type = "hidden" id="nit" name="nit">
                         <div class="botones-form">
                         <input type="submit" id="btn_enviar" teid="pr:val:34, pr:title:33" class="btn icono guardar ttip positivo">
                       </div>

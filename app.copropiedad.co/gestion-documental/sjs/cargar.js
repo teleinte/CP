@@ -53,7 +53,43 @@ $(document).ready(function(e) {
       var response = envioFormularioSync(url,arr,'POST');
       if(response)
       {
-        refreshWindow('index.php');
+        var arre = 
+        {
+          token:sessionStorage.getItem('token'),
+          body:
+          {
+            idcopropiedad : sessionStorage.getItem('cp'),
+            grupo: $('#invitados').val()
+          }
+        }; 
+        var invitmenoados = $('#invitados').val();
+        $(document).renderme('ma');
+      var body = '<h4 style="color:#666 !important;">'+ sessionStorage.getItem('nombreCompleto') + obtenerTerminoLenguage('ma','1') + sessionStorage.getItem('ncp')+ obtenerTerminoLenguage('ma','85') + '</h4>' + '<p><strong><i>' + $("#nombre").val() + '</i></strong></p><p>' + obtenerTerminoLenguage('ma','86') + obtenerTerminoLenguage('ma','5') + '</p><a href="' + traerDireccion() + '" style="background:#f51e7c; color:#fff!important; text-decoration: none; margin-top:10px; padding:5px 10px; border-radius: 3px; font-weight:bold;">' + obtenerTerminoLenguage('ma','6') + '</a></p>';
+      $(document).renderme('ma');
+        if($("#odestinatario").val().length > 10)       
+        {
+          $(document).renderme('ma');
+          enviocorreoSync($('#odestinatario').val(), obtenerTerminoLenguage('ma','87'), body, traerDireccion());
+          $(document).renderme('ma');
+        }
+        if(invitados != 'ninguno')
+        {
+          var correos = "";
+          var urle = "eventos/usuario/grupo/";
+          console.warn(arre);
+          var responsee = traerDatosSync(urle,arre,'POST');
+          if(responsee!=null)
+          {
+            $.each(responsee,function(k,v)
+            {
+              correos = correos + "," + v;
+            });
+            $(document).renderme('ma');
+            enviocorreoSync(correos.substring(1), obtenerTerminoLenguage('ma','87'), body, traerDireccion());
+            $(document).renderme('ma');
+          }
+        }
+        setTimeout(refreshWindow('index.php'),1000);
       }
       else
       {

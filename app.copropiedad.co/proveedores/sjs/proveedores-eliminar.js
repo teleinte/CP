@@ -29,6 +29,7 @@ $("#usuario_form_eliminar").submit(function(event){
       tipo_unidad:$('#tipo_unidad').val(),
       nombre_inmueble:$('#nombre_inmueble').val(),      
       estado:2,
+      nit:$('#nit').val(),
       fecha_creacion:$('#fecha_creacion').val()
     }
   };

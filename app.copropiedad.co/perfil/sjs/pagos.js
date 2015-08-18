@@ -1,6 +1,7 @@
 $(document).ready(function() {
     $(document).renderme('pe');
-    var payu = (sessionStorage.getItem('cp')).toString(16).toUpperCase();
+    if(sessionStorage.getItem('cp') != null || sessionStorage.getItem('cp') != undefined)
+        var payu = (sessionStorage.getItem('cp')).toString(16).toUpperCase();
     traerDatosPagos(traerReferencias());
 
     $("#referalcode").html(obtenerTerminoLenguage('pe','32') + sessionStorage.getItem('id_crm'));

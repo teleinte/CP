@@ -77,6 +77,7 @@ $(document).ready(function(){
         tipo_unidad:$('#tipo_unidad').val(),
         nombre_inmueble:$('#nombre_inmueble').val(),      
         estado:parseInt($('#estado').val()),
+        nit:parseInt($('#nit').val()),
         fecha_creacion:$('#fecha_creacion').val()
       }
     };

@@ -24,7 +24,7 @@ $(document).ready(function(){
   });
 
   $("#completar_tarea").click(function(){
-    sessionStorage.setItem('referer','../tarea');
+    //sessionStorage.setItem('referer','../tarea');
     $("#dialog_completar").dialog("open");
     // $("#comongoid").val($(this).attr('mongoid'));
     // $("#cocreacion").val($(this).attr('creacion'));
@@ -84,7 +84,7 @@ $(document).ready(function(){
               $("#eldeadline").val($(this).attr('deadline'));
               $("#elfrecuencia").val($(this).attr('frecuencia'));
               $("#elnotas").val($(this).attr('notas'));
-              sessionStorage.setItem('referer','../tarea');
+              sessionStorage.setItem('referer',window.location.href);
               //$("#eltext_tarea").val($(this).attr('nombre'));
               //tareaDelete($(this).attr('mongoid'),$(this).attr('creacion'),$(this).attr('nombre'),$(this).attr('deadline'),$(this).attr('frecuencia'),$(this).attr('notas'));
             });
@@ -114,7 +114,7 @@ $(document).ready(function(){
               frecuencia:$(this).attr('frecuencia')
             }
             sessionStorage.setItem('acelem',JSON.stringify(elem));
-            sessionStorage.setItem('referer','../tarea');
+            sessionStorage.setItem('referer',window.location.href);
             window.location = "../calendario/editar-tarea.php";
           });
         },

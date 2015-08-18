@@ -221,7 +221,18 @@ $app->options("/copropiedad/usuarioCopropiedad/", function() use($app)
         $validateUsuario=validateRole();
         if ($validateUsuario)
         {
-          consultaColeccion($app, 'copropiedad', array('id_crm_persona' => $datos->body->id_crm_persona,'estado' => 1));
+          $admins = objectToArray(consultaColeccionRespuesta($app, 'superadmin', array('id_crm_persona' => (int)$datos->body->id_crm_persona)))[0];
+          //var_dump($admins);
+          if(count($admins) == 4)
+          {
+            $adminscp = explode(",",$admins["ids"]);
+            //var_dump($adminscp);
+            consultaColeccion($app, 'copropiedad', array('id_crm_persona' => array('$in' => $adminscp),'estado' => 1));
+          }
+          else
+          {
+            consultaColeccion($app, 'copropiedad', array('id_crm_persona' => $datos->body->id_crm_persona,'estado' => 1));
+          }
         }
         else
         {
@@ -985,6 +996,99 @@ $app->options("/usuario/usuario/", function() use($app)
   });
   
   
+//MÉTODO LISTAR USUARIOS RESIDENTE EN COPROPIEDADES (DIRECTORIO)- OK - OK
+  $app->options("/usuario/residente/directorio/", function() use($app)
+  {
+    enviarRespuesta($app, true, "ok", "ok");
+  });
+
+
+  $app->post("/usuario/residente/directorio/", function() use($app)
+  {
+   try
+    {
+      $requerimiento = $app::getInstance()->request();
+      $datos = json_decode($requerimiento->getBody());
+      $token = new Token;
+      $respuesta = array();
+      if($token->SetToken($datos->token))
+      {
+        $validateUsuario=validateRole();
+        if ($validateUsuario)
+        {
+          $usuarios = consultaColeccionRetorno($app, 'usuariocp', array('id_copropiedad' => $datos->body->id_copropiedad,'estado' => 1, 'tipo'=>'residente'));
+          foreach ($usuarios as $key => $value) 
+          {
+            $idGuardado = $value['unidad'];
+            $muestreo = array("_id"=>new MongoId($idGuardado));
+            $unidad = objectToArray(consultaColeccionRetorno($app, 'unidad', $muestreo));
+            $value['unidad'] = $unidad[0]['nombre_inmueble'];
+            $respuesta[]= $value;
+          }
+          enviarRespuesta($app, true, $respuesta, null); 
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Usuario sin privilegios", "Usuario sin privilegios");
+        }
+      }
+      else
+      {
+        enviarRespuesta($app, false, "Token invalido", "null");
+      }
+    }
+    catch(Exception $e)
+    {
+    enviarRespuesta($app, false, "Error en el sistema de autenticación", $e->getMessage());
+    }
+  });
+  
+  //MÉTODO LISTAR PROVEEDORES EN COPROPIEDADES (DIRECTORIO)- OK - OK
+    $app->options("/usuario/proveedor/directorio/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
+
+
+    $app->post("/usuario/proveedor/directorio/", function() use($app)
+    {
+     try
+      {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        $respuesta = array();
+        if($token->SetToken($datos->token))
+        {
+          $validateUsuario=validateRole();
+          if ($validateUsuario)
+          {
+            $usuarios = consultaColeccionRetorno($app, 'usuariocp', array('id_copropiedad' => $datos->body->id_copropiedad,'estado' => 1, 'tipo'=>'proveedor'));
+            foreach ($usuarios as $key => $value) 
+            {
+              $idGuardado = $value['unidad'];
+              $muestreo = array("_id"=>new MongoId($idGuardado));
+              $unidad = objectToArray(consultaColeccionRetorno($app, 'unidad', $muestreo));
+              $value['unidad'] = $unidad[0]['nombre_inmueble'];
+              $respuesta[]= $value;
+            }
+            enviarRespuesta($app, true, $respuesta, null); 
+          }
+          else
+          {
+            enviarRespuesta($app, false, "Usuario sin privilegios", "Usuario sin privilegios");
+          }
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      }
+      catch(Exception $e)
+      {
+      enviarRespuesta($app, false, "Error en el sistema de autenticacion", $e->getMessage());
+      }
+    });
 
   //MÉTODO LISTAR PROVEEDORES RELACIONADOS A COPROPIEDAD
 
@@ -1332,7 +1436,7 @@ function filtrarVigencia($cps)
     }
     else
     {
-      $out['vencidas'][] = $value['nombre'];
+      $out['vencidas'][] = $value;
     }
   }
 
@@ -1351,7 +1455,8 @@ function agregaRoles($cps,$roles)
     foreach ($y as $key => $value) 
     {
       $elem = $value;
-      $thisid = $value['_id']['$id'];
+      $elid = $value['_id']['$id'];
+      $thisid = $elid;
       foreach ($roles as $k => $v) 
       {
         if($v['id_copropiedad'] == $thisid)

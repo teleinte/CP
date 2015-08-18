@@ -4,7 +4,7 @@
 <?php require_once("../../template/include/meta.inc"); ?>
 <title teid="co:html:1"></title>
 <?php require_once("../../template/include/head-2.inc"); ?>
-<script type="text/javascript" src="sjs/puc-editar.js"></script>
+<script type="text/javascript" src="sjs/puc-editar.js?v=1.0"></script>
 <!-- <script type="text/javascript" src="sjs/contabilidad-functions.js"></script> -->
 </head>
 <body>
@@ -36,29 +36,29 @@
               </div>
               <div class="clearfix">
                 <form class="clearfix" id="editaCuenta">
-                          <table class="center" >
-                          <tbody>
-                            <tr>
-                              <td>
-                                <label for="cuentaAnterior">
-                                  <h3 teid="co:html:37"></h3>
-                                </label>
-                              </td>
-                              <td>
-                                <h3 id="cuentaAnterior"></h3>
-                              </td>
-                            </tr>                          
-                          <tr>
-                            <td><label for="nombreCuenta" teid="co:html:43"></label></td>
-                            <td><input type="text" id="nombreCuenta" name="nombreCuenta" style="width:200px;height:15px" required></td>
-                          </tr>                          
-                      </tbody>
-                      </table>  
-                            <div class="botones-form">
-                              <input type="submit" class="btn icono guardar" teid="co:val:44, co:title:45" id="guardarCuenta"/>
-                            </div>
-                            <div id="alertas"></div>
-                          </form>
+                <table class="center" >
+                <tbody>
+                    <tr>
+                      <td>
+                        <label for="cuentaAnterior">
+                          <h3 teid="co:html:37"></h3>
+                        </label>
+                      </td>
+                      <td>
+                        <h3 id="cuentaAnterior"></h3>
+                      </td>
+                    </tr>                          
+                  <tr>
+                    <td><label for="nombreCuenta" teid="co:html:43"></label></td>
+                    <td><input type="text" id="nombreCuenta" name="nombreCuenta" style="width:200px;height:15px" required></td>
+                  </tr>                          
+              </tbody>
+              </table>  
+                    <div class="botones-form">
+                      <input type="submit" class="btn icono guardar" teid="co:val:44, co:title:45" id="guardarCuenta"/>
+                    </div>
+                    <div id="alertas"></div>
+                  </form>
               </div>
             </div>
             <!-- Finaliza codigo de la aplicacion -->

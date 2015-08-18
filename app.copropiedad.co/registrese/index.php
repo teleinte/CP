@@ -15,7 +15,7 @@ else
   $nombre = "";
   $apellido = "";
   $email = "";
-  $celular = "";
+  $telefono = "";
   $preregistro = false;
 }
 ?>

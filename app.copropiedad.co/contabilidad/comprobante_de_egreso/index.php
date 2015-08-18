@@ -12,8 +12,8 @@
   <script type="text/javascript" src="../../template/js/jquery.dataTables.min.js"></script>
   <script type="text/javascript" src="../../template/js/dataTables.colVis.min.js"></script>
   <script type="text/javascript" src="../../template/js/dataTables.responsive.min.js"></script>
-  <script type="text/javascript" src="sjs/facturacion.js?v=1.0"></script>
-  <script type="text/javascript" src="sjs/facturacion-functions.js?v=1.0"></script>
+  <script type="text/javascript" src="sjs/facturacion.js?v=2.0"></script>
+  <script type="text/javascript" src="sjs/facturacion-functions.js?v=2.0"></script>
 </header>
     <div id="contenido-principal">
         <section id="central">
@@ -54,6 +54,11 @@
                                         <option value="" disabled></option>
                                     </select>
                                   </td>
+                                  <td>
+                                    <label teid="co:html:284"></label>
+                                    <h4 id="nomcon"></h4>
+                                    <input type="hidden" id="idnit" />
+                                  </td>
                               </tr>
                               <tr>
                                   <td colspan="2">
@@ -88,7 +93,7 @@
                               <tr>
                                 <td width="20%" class="titulo-campos" teid="co:html:48"></td>
                                 <td width="20%" class="titulo-campos" teid="co:html:49"></td>
-                                <td width="20%" class="titulo-campos" teid="co:html:129"></td>
+                                <!-- <td width="20%" class="titulo-campos" teid="co:html:129"></td> -->
                                 <td width="20%" class="titulo-campos" teid="co:html:50"></td>
                                 <td width="20%" class="titulo-campos" teid="co:html:51"></td>
                               </tr>

@@ -124,7 +124,7 @@ function traerDatosPerfil()
     $("#nombre").val(sessionStorage.getItem('nombre'));
     $("#apellido").val(sessionStorage.getItem('apellido'));
     $("#email").html(sessionStorage.getItem('email').replace('cp-',''));
-    $("#fechanac").val(sessionStorage.getItem('fechaNacimiento'));
+    $("#fechanac").val('01/01/1901');
     $("#idioma").val(sessionStorage.getItem('idioma'));
     $("#pais").val(sessionStorage.getItem('paisNacimiento'));
 }
@@ -240,7 +240,7 @@ function updateLogin()
 {
     var _nombre = $("#nombre").val();
     var _apellido = $("#apellido").val();
-    var _fechaNacimiento = sessionStorage.getItem('fechaNacimiento');
+    var _fechaNacimiento = '01/01/1901';
     var arr = { token:sessionStorage.getItem('token'),body:{email:sessionStorage.getItem('email'),nombre:_nombre,apellido:_apellido,fechaNacimiento:_fechaNacimiento}};       
     var rutaAplicativo = "https://auth.sinfo.co/auth/information";
     var result = false; 

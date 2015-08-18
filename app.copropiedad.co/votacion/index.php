@@ -7,8 +7,8 @@
 <script type="text/javascript" src="../template/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="../template/js/dataTables.colVis.min.js"></script>
 <script type="text/javascript" src="../template/js/dataTables.responsive.min.js"></script>
-<script type="text/javascript" src="sjs/votaciones-functions.js"></script>
-<script type="text/javascript" src="sjs/votaciones.js"></script>
+<script type="text/javascript" src="sjs/votaciones-functions.js?v=2.0"></script>
+<script type="text/javascript" src="sjs/votaciones.js?v=2.0"></script>
 </head>
 <body>
 <header>
@@ -45,6 +45,8 @@
                                 <th teid="vo:html:4"></th>
                                 <th teid="vo:html:5"></th>
                                 <th teid="vo:html:6"></th>
+                                <th teid="vo:html:76"></th>
+                                <th teid="vo:html:75"></th>
                                 <th teid="ta:html:1"></th>
                             </tr>
                         </thead>

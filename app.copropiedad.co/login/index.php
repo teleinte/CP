@@ -1,21 +1,45 @@
 <?php error_reporting(E_ALL);ini_set('display_errors', 1); ?>
 <!DOCTYPE HTML>
 <script>
-  var thisURL = "https://appdes.copropiedad.co";
+  var thisURL = "https://app.copropiedad.co";
   var _url = thisURL;
   var _url2 = thisURL + "/";
   var _log = thisURL + "/login";
   var _log2 = thisURL + "/login/";
   var _reg = thisURL + "/registrese";
   var _reg2 = thisURL + "/registrese/";
-  var _out = "https://appdes.copropiedad.co/login/index.php?logout=1";
-  var _outt = "https://appdes.copropiedad.co/login/index.php?logout=2";
+  var _out = "https://app.copropiedad.co/login/index.php?logout=1";
+  var _outt = "https://app.copropiedad.co/login/index.php?logout=2";
   
   if((window.location.href == _url) || (window.location.href == _log) || (window.location.href == _reg) || (window.location.href == _url2) || (window.location.href == _reg2) || (window.location.href == _log2) || (window.location.href == _out) || (window.location.href == _outt))
   {
     if(sessionStorage.getItem('token') != null || sessionStorage.getItem('token') != undefined)
     {
-        window.location = thisURL + "/inicio";
+      var payload = {token:sessionStorage.getItem('token'),body:{id_copropiedad:sessionStorage.getItem('cp')}};
+      $.ajax(
+      {
+        url: thisURL + "/api/hoy/verificar/",
+        type: "POST",
+        data: JSON.stringify(payload),
+        contentType: 'application/json; charset=utf-8',
+        dataType: 'json',
+        async: false,
+        success: function(msg) 
+        {
+          var msgDividido = JSON.stringify(msg);
+          var mensaje =  JSON.parse(msgDividido);
+          var msgDivididoDos = JSON.stringify(mensaje.message);
+          if(mensaje.message=="Token invalido")
+          {
+            sessionStorage.clear();
+            sessionStorage.setItem('message','Su sesion ha finalizado, ingrese de nuevo por favor');
+          }
+          else
+          {
+            window.location = thisURL + "/inicio";
+          }
+        }
+      });
     }
   }
 </script>

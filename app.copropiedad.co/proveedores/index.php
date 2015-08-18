@@ -7,8 +7,8 @@
 <script type="text/javascript" src="../template/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="../template/js/dataTables.colVis.min.js"></script>
 <script type="text/javascript" src="../template/js/dataTables.responsive.min.js"></script>
-<script type="text/javascript" src="sjs/proveedores-functions.js"></script>
-<script type="text/javascript" src="sjs/proveedores.js"></script>
+<script type="text/javascript" src="sjs/proveedores-functions.js?v=1.0"></script>
+<script type="text/javascript" src="sjs/proveedores.js?v=1.0"></script>
 </head>
 <body>
 <header>
@@ -42,7 +42,8 @@
                     <thead>
                         <tr>
                             <th></th>
-                            <th teid="pr:html:3"></th>                                
+                            <th teid="pr:html:3"></th>
+                            <th>Nit</th>
                             <th teid="ta:html:1"></th>
                         </tr>
                     </thead>

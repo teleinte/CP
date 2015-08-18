@@ -60,6 +60,7 @@
                       <tr>
                           <th></th>
                           <th teid="re:html:99"></th>
+                          <th>Inmueble de residente</th>
                           <th teid="re:html:100"></th>
                           <th teid="re:html:101"></th>
                       </tr>

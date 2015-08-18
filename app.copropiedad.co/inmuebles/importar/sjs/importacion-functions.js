@@ -3,6 +3,53 @@ function uploadFileSI(data)
   var reader = new FileReader();
   reader.onload = function(event) {
     data = event.target.result;
+
+
+
+    var cargador = new Array();
+    var contador = 0;
+    var arr = Array();
+    var separador = "";
+    var stringEnviado="";
+    var errores=0;
+    var valorFinal=0;
+    var filador=1;
+    var malos ="";
+    $.each(data.split(/\n?\r/),function(k,p){
+      var totalData= ((data.split(/\n?\r/)).length);
+      if(separador==","){valorFinal=totalData}else{valorFinal=totalData-1}
+      //alert(totalData);
+      
+      if(contador != 0 && contador != valorFinal)
+      {
+        var nombre_inmueble = p.split(separador)[0];
+        var encargado = p.split(separador)[6];
+        //alert(encargado);
+        if(encargado!=undefined)
+        {
+          if ((encargado.toLowerCase())=="si")
+          {
+            cargador+=[nombre_inmueble];
+          }  
+        }
+        
+      }
+      else
+      {
+        var check = p.split(";");
+        if(check[1] != null || check[1] != undefined)
+          separador = ";";
+        else
+          separador = ",";
+          //console.warn(separador);
+          check = p.split(separador);
+          //console.warn(check);
+          contador ++;        
+      } 
+
+    });
+
+    data = event.target.result;
     var contador = 0;
     var arr = Array();
     var separador = "";
@@ -28,31 +75,45 @@ function uploadFileSI(data)
         //verificando tamaños
         if(nombre_inmueble.length > 2 && nombre_contacto.length > 2 && apellido_contacto.length > 2 && telefono.length > 2 && email.length > 2 && grupo.length > 2 && encargado.length > 0)
         {
-          if(grupo.toLowerCase() != "residente" && grupo.toLowerCase() != "consejo" && grupo.toLowerCase() != "asamblea")
+
+          //verifico si tiene un encargado o no lo tiene         
+          if(cargador.indexOf(nombre_inmueble)!=-1)
           {
-            //$("#alertas").append('<div class="alert alert-error alert-dismissable"  ><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>  <strong teid="ale:html:1"><em></em></strong> <br> '+obtenerTerminoLenguage('ale','55') +contador+'</div>');
-            $("#agregar_campos > tbody:last-child").append('<tr><td>'+filador+'</td><td>'+nombre_inmueble+'</td><td>'+nombre_contacto+'</td><td>'+apellido_contacto+'</td><td>'+telefono+'</td><td>'+email+'</td><td>'+grupo+'</td><td>'+encargado+'</td></tr>');
-            malos+=filador+",";
-            filador++;
-            errores++;
-          }
-          else
-          {
-            if(encargado.toLowerCase()!="si" && encargado.toLowerCase()!="no")
+            if(grupo.toLowerCase() != "residente" && grupo.toLowerCase() != "consejo" && grupo.toLowerCase() != "asamblea")
             {
-              //$("#alertas").append('<div class="alert alert-error alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>  <strong teid="ale:html:1"><em></em></strong> <br>'+obtenerTerminoLenguage('ale','56')+contador+obtenerTerminoLenguage('ale','57')+'</div>');
-              $(document).renderme('co');
+              //$("#alertas").append('<div class="alert alert-error alert-dismissable"  ><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>  <strong teid="ale:html:1"><em></em></strong> <br> '+obtenerTerminoLenguage('ale','55') +contador+'</div>');
               $("#agregar_campos > tbody:last-child").append('<tr><td>'+filador+'</td><td>'+nombre_inmueble+'</td><td>'+nombre_contacto+'</td><td>'+apellido_contacto+'</td><td>'+telefono+'</td><td>'+email+'</td><td>'+grupo+'</td><td>'+encargado+'</td></tr>');
               malos+=filador+",";
-              errores++;
               filador++;
+              errores++;
             }
             else
             {
-              $("#agregar_campos > tbody:last-child").append('<tr><td>'+filador+'</td><td>'+nombre_inmueble+'</td><td>'+nombre_contacto+'</td><td>'+apellido_contacto+'</td><td>'+telefono+'</td><td>'+email+'</td><td>'+grupo+'</td><td>'+encargado+'</td></tr>');
-                stringEnviado+=nombre_inmueble+","+nombre_contacto+","+apellido_contacto+","+telefono+","+email+","+grupo+","+encargado+"|";
-              filador++;
-            }            
+              if(encargado.toLowerCase()!="si" && encargado.toLowerCase()!="no")
+              {
+                //$("#alertas").append('<div class="alert alert-error alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>  <strong teid="ale:html:1"><em></em></strong> <br>'+obtenerTerminoLenguage('ale','56')+contador+obtenerTerminoLenguage('ale','57')+'</div>');
+                $(document).renderme('co');
+                $("#agregar_campos > tbody:last-child").append('<tr><td>'+filador+'</td><td>'+nombre_inmueble+'</td><td>'+nombre_contacto+'</td><td>'+apellido_contacto+'</td><td>'+telefono+'</td><td>'+email+'</td><td>'+grupo+'</td><td>'+encargado+'</td></tr>');
+                malos+=filador+",";
+                errores++;
+                filador++;
+              }
+              else
+              {
+                $("#agregar_campos > tbody:last-child").append('<tr><td>'+filador+'</td><td>'+nombre_inmueble+'</td><td>'+nombre_contacto+'</td><td>'+apellido_contacto+'</td><td>'+telefono+'</td><td>'+email+'</td><td>'+grupo+'</td><td>'+encargado+'</td></tr>');
+                  stringEnviado+=nombre_inmueble+","+nombre_contacto+","+apellido_contacto+","+telefono+","+email+","+grupo+","+encargado+"|";
+                filador++;
+              }            
+            }
+          }
+          else
+          {
+            //$("#alertas").append('<div class="alert alert-error alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>  <strong teid="ale:html:1"><em></em></strong> <br>'+obtenerTerminoLenguage('ale','56')+contador+obtenerTerminoLenguage('ale','57')+'</div>');
+            $(document).renderme('co');
+            $("#agregar_campos > tbody:last-child").append('<tr><td>'+filador+'</td><td>'+nombre_inmueble+'</td><td>'+nombre_contacto+'</td><td>'+apellido_contacto+'</td><td>'+telefono+'</td><td>'+email+'</td><td>'+grupo+'</td><td>'+encargado+'</td></tr>');
+            malos+=filador+",";
+            errores++;
+            filador++;            
           }
         }
         else

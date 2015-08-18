@@ -6,23 +6,62 @@ function popularTablaEncuestas(datos)
 		    var idMongoFinal = JSON.parse(idmongo);
 		    var t = $('#encuestasTabla').DataTable();
             //tabla de estados 1. creada sin enviar, 2. creada enviada, 3. eliminada, 
-
+            var arr = {token:sessionStorage.getItem('token'),body:{id_encuesta:idMongoFinal.$id}};            
+            var response = traerDatosSync("encuestas/encuesta/VotantesTotales",arr);
+            var resultadoContestadas = traerElectoresTabla(response);
+            //alert(resultadoContestadas);
+           var arr = {token:sessionStorage.getItem('token'),body:{id_encuesta:idMongoFinal.$id}};
+           var url = "encuestas/encuesta/VotantesFaltantes/";
+           var llegada = envioFormularioMessageSync(url,arr,'POST');           
+           var numeroPendientes=0;           
+           if(llegada)
+           {
+               $.each(llegada, function(x , y)
+               {
+                 if(x=="message" && (y!= "" || y!=0))
+                 {
+                   $.each(y, function(alfa , beta)
+                   {   
+                       numeroPendientes++;
+                   });
+                 }
+               }); 
+           }
             if(y['estado']=="1")
             {
-                var enlace = '<a class="btn borrar solo inline ttip" teid="en:title:11" href="encuesta-borrar.php?idt='+idMongoFinal.$id+'"></a><a class="btn resultados solo inline ttip" teid="en:title:10" href="resultado-encuesta.php?idt='+idMongoFinal.$id+'"></a><a class="btn enviar solo inline ttip" teid="en:title:9" id="open-enviar-encuesta" href="enviar-encuesta.php?idt='+idMongoFinal.$id+'"></a><a class="btn editar solo inline ttip" teid="en:title:8" href="encuesta-editar.php?idt='+idMongoFinal.$id+'"></a>';
+                if(resultadoContestadas==0)
+                {
+                    var enlace = '<a class="btn borrar solo inline ttip" teid="en:title:11" href="encuesta-borrar.php?idt='+idMongoFinal.$id+'"></a><a class="btn enviar solo inline ttip" teid="en:title:9" id="open-enviar-encuesta" href="enviar-encuesta.php?idt='+idMongoFinal.$id+'"></a><a class="btn editar solo inline ttip" teid="en:title:8" href="encuesta-editar.php?idt='+idMongoFinal.$id+'"></a>';    
+                }
+                else
+                {
+                    var enlace = '<a class="btn borrar solo inline ttip" teid="en:title:11" href="encuesta-borrar.php?idt='+idMongoFinal.$id+'"></a><a class="btn resultados solo inline ttip" teid="en:title:10" href="resultado-encuesta.php?idt='+idMongoFinal.$id+'"></a><a class="btn enviar solo inline ttip" teid="en:title:9" id="open-enviar-encuesta" href="enviar-encuesta.php?idt='+idMongoFinal.$id+'"></a><a class="btn editar solo inline ttip" teid="en:title:8" href="encuesta-editar.php?idt='+idMongoFinal.$id+'"></a>';
+                }                
             }
             if(y['estado']=="2")
             {
-                var enlace = '<a class="btn resultados solo inline ttip" teid="en:title:10" href="resultado-encuesta.php?idt='+idMongoFinal.$id+'"></a><a class="btn enviar solo inline ttip" teid="en:title:9" id="open-enviar-encuesta" href="enviar-encuesta.php?idt='+idMongoFinal.$id+'"></a>';
+                if(numeroPendientes==0)
+                {
+                    var enlace = '<a class="btn resultados solo inline ttip" teid="en:title:10" href="resultado-encuesta.php?idt='+idMongoFinal.$id+'"></a><a class="btn enviar solo inline ttip" teid="en:title:9" id="open-enviar-encuesta" href="enviar-encuesta.php?idt='+idMongoFinal.$id+'"></a>';
+                }
+                else if(resultadoContestadas==0)
+                {
+                    var enlace = '<a class="btn enviar solo inline ttip" teid="en:title:9" id="open-enviar-encuesta" href="enviar-encuesta.php?idt='+idMongoFinal.$id+'"></a><a class="btn regresar solo inline ttip" id="open-enviar-encuesta" teid="en:title:9" href="enviar-encuesta-recordatorio.php?idt='+idMongoFinal.$id+'"></a>';    
+                }
+                else
+                {
+                    var enlace = '<a class="btn resultados solo inline ttip" teid="en:title:10" href="resultado-encuesta.php?idt='+idMongoFinal.$id+'"></a><a class="btn enviar solo inline ttip" teid="en:title:9" id="open-enviar-encuesta" href="enviar-encuesta.php?idt='+idMongoFinal.$id+'"></a><a class="btn regresar solo inline ttip" id="open-enviar-encuesta" teid="en:title:9" href="enviar-encuesta-recordatorio.php?idt='+idMongoFinal.$id+'"></a>';    
+                }
             }
 		        t.row.add([
 		        '',                            
 		        y['nombre'],
 		        y['descripcion'],
 		        y['fecha_fin'],
+                resultadoContestadas,
+                numeroPendientes,
                 enlace
-		    ] ).draw();
-		        
+		    ] ).draw();		        
             $(document).renderme('en');                  
 		});
 }
@@ -309,6 +348,12 @@ function traerElectores(datos){
     $('#totalEncuestados').html(obtenerTerminoLenguage('en','46')+JSON.stringify(datos));
 }
 
+function traerElectoresTabla(datos){
+    var msgDividido = JSON.stringify(datos);
+    var mensaje =  JSON.parse(msgDividido);
+    var msgDivididoDos = JSON.stringify(mensaje.message);
+    return JSON.stringify(datos);
+}
 
 function traerCabecerasRersultados(datos){
     //Consulta para cargar la Cabecera de la encuesta

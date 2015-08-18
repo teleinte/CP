@@ -14,8 +14,7 @@ $(document).ready(function(){
           // ADD TEXTBOX.
           $(container).append('<div id="pregunta' + iCnt + '" class="clearfix" style="padding: 20px 10px 0; border:3px solid #eee; margin-bottom:10px;"><table><tr><td><label for="nombre' + iCnt + '" teid="pr:html:9"></label><input type="text" id="nombre' + iCnt + '" name="nombre' + iCnt + '" required></td><td><label for="apellido' + iCnt + '" teid="pr:html:10"></label><input type="text" id="apellido' + iCnt + '" name="apellido' + iCnt + '" required></td><td><label for="telefono' + iCnt + '" teid="pr:html:11"></label><input type="tel" id="telefono' + iCnt + '" name="telefono' + iCnt + '" required></td></td><td><label for = "email' + iCnt + '" teid="pr:html:12"></label><input type = "email" id="email' + iCnt + '" name="email' + iCnt + '" required></td></tr></table></div>');
           $('#btAdd').attr('class', 'btn icono agregar ttip positivo'); 
-          $('#btRemove').attr('class', 'btn icono agregar ttip'); 
-
+          $('#btRemove').attr('class', 'btn icono agregar ttip');
           $('#pregunta0').after(container);   // ADD BOTH THE DIV ELEMENTS TO THE "main" CONTAINER.
             $(document).renderme('pr');
       }
@@ -69,6 +68,7 @@ $("#proveedor_form").submit(function(event){
         tipo_unidad:"privada",
         nombre_inmueble:$('#nombre_inmueble').val(),
         estado:1,
+        nit:$('#nit').val(),
         fecha_creacion:ParamFecha,
       }
     }; 
@@ -130,35 +130,6 @@ $("#proveedor_form").submit(function(event){
                 imagen:""
             }
         };
-
-        // Creando usuario en LDAP
-
-        /*var arrLDAP = 
-        {
-          token:sessionStorage.getItem("token"),
-          body:
-          {
-            nombre:$('#nombre0').val(),
-            estado:"1",
-            apellido:$('#apellido0').val(),
-            email:"cp-" + $('#email0').val().toLowerCase(),
-            genero:" ",
-            nacionalidad:" ",
-            lugarNacimiento:" ",
-            paisNacimiento:"CO",
-            fechaNacimiento:"01/01/1901",
-            idioma:"es-CO",
-            id_crm: sessionStorage.getItem('id_crmPro'),
-            password:"19283uj9qwnoa98ndfnsdf",
-            tipoDocumento:"CC",
-            numeroDocumento:"123465789"
-          }
-        };*/
-
-        //CrearUsuarioLDAP(arrLDAP)
-        //enviocorreo(0);
-        //alert(JSON.stringify(arr));
-
         var url = "admin/copropiedad/rol";        
         var personalrol = envioFormularioSync(url,arr,'POST');
         
@@ -212,33 +183,6 @@ $("#proveedor_form").submit(function(event){
               }
             };
             envioFormularioMessageSync(url,arr,'POST');
-
-            
-            // Creando usuario en LDAP
-
-            /*var arr = 
-            {
-              token:sessionStorage.getItem("token"),
-              body:
-              {
-                nombre:$('#nombre'+j).val(),
-                estado:"1",
-                apellido:$('#apellido'+j).val(),
-                email:"cp-" + $('#email'+j).val().toLowerCase(),
-                genero:" ",
-                nacionalidad:" ",
-                lugarNacimiento:" ",
-                paisNacimiento:"CO",
-                fechaNacimiento:"01/01/1901",
-                idioma:"es-CO",
-                id_crm: id_crm,
-                password:"19283uj9qwnoa98ndfnsdf",
-                tipoDocumento:"CC",
-                numeroDocumento:"123465789"
-              }
-            };    */        
-            //CrearUsuarioLDAP(arr);
-            //enviocorreo(j);            
         }
         var pagina="index.php";
         setTimeout(refreshWindow(pagina),1000);
@@ -268,7 +212,6 @@ $("#proveedor_form").submit(function(event){
             }
         }
     });
-
 });
 
 

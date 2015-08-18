@@ -6,8 +6,10 @@
   var params={};window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(str,key,value){params[key] = value;})
   var arr = {token:sessionStorage.getItem('token'),body:{_id:params['idt']}};
   var datos = traerDatosSync("admin/copropiedad/usuario/personaid", arr);
+  var arr = {token:sessionStorage.getItem('token'),body:{_id:params['rg']}};
+  var inmueble = traerDatosSync("unidad/unidad/copropiedadid/", arr);
   // Popula los datos en los campos del formulario para cambiarlos
-  popularDatosUsuario(datos);
+  popularDatosUsuario(datos, inmueble);
 
 // envia los datos a eliminaral WS
 $("#usuario_form_cambiar").submit(function(event){ 

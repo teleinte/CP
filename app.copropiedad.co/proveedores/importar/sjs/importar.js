@@ -1,22 +1,15 @@
 $(document).ready(function(){  
   $(document).renderme('in');
-
   $("#descargarwindows").click(function(){
       window.location = "plantillas/ProveedoresWindows.csv";
   });
-
   $("#descargarmac").click(function(){
       window.location = "plantillas/ProveedoresMac.csv";
   });
-
   $("#cargar").change(function() {
-      //console.warn(this.files[0])
       $("#agregar_campos").show();
-      $("#agregar_campos").html('<tr style="text-align:center;"> <td width="17%" class="titulo-campos">Linea</td><td width="17%" class="titulo-campos" teid="pr:html:48"></td> <td width="17%" class="titulo-campos" teid="pr:html:49"></td> <td width="17%" class="titulo-campos" teid="pr:html:50"></td> <td width="16%" class="titulo-campos" teid="pr:html:51"></td> <td width="17%" class="titulo-campos" teid="pr:html:52"></td></tr>'); uploadFileSI(this.files[0]);
-
+      $("#agregar_campos").html('<tr style="text-align:center;"> <td width="17%" class="titulo-campos">Linea</td><td width="17%" class="titulo-campos" teid="pr:html:48"></td> <td width="17%" class="titulo-campos" teid="pr:html:49"></td> <td width="17%" class="titulo-campos" teid="pr:html:50"></td> <td width="16%" class="titulo-campos" teid="pr:html:51"></td> <td width="17%" class="titulo-campos" teid="pr:html:52"></td><td width="17%" class="titulo-campos">Nit</td></tr>'); uploadFileSI(this.files[0]);
   });
-
-
   $("#id_copropiedad").val(sessionStorage.getItem('cp'));
   $("#id_crm").val(sessionStorage.getItem('id_crm'));
   $("#ncp").val(sessionStorage.getItem('ncp'));

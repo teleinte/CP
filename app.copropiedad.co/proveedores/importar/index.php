@@ -4,8 +4,8 @@
 <?php require_once("../../template/include/meta.inc"); ?>
 <title teid="pr:html:1">Importar proveedores y contactos</title>
 <?php require_once("../../template/include/head-2.inc"); ?>
-<script type="text/javascript" src="sjs/importar.js"></script>
-<script type="text/javascript" src="sjs/importacion-functions.js"></script>
+<script type="text/javascript" src="sjs/importar.js?v=2.0"></script>
+<script type="text/javascript" src="sjs/importacion-functions.js?v=2.0"></script>
 </head>
 <body>
 <header>
@@ -65,10 +65,11 @@
                   <table id="agregar_campos" style="display:none; width:600px !important; margin:0 auto;">
                     <tr style="text-align:center;">
                       <td width="17%" class="titulo-campos" teid="pr:html:48"></td>
-                      <td width="17%" class="titulo-campos" teid="pr:html:49"></td>
-                      <td width="17%" class="titulo-campos" teid="pr:html:50"></td>
+                      <td width="16%" class="titulo-campos" teid="pr:html:49"></td>
+                      <td width="16%" class="titulo-campos" teid="pr:html:50"></td>
                       <td width="16%" class="titulo-campos" teid="pr:html:51"></td>
-                      <td width="17%" class="titulo-campos" teid="pr:html:52"></td><!-- 
+                      <td width="16%" class="titulo-campos" teid="pr:html:52"></td>
+                      <td width="16%" class="titulo-campos" teid="pr:html:62"></td><!-- 
                       <td width="16%" class="titulo-campos" teid="pr:html:53"></td> -->                      
                     </tr>
                   </table>

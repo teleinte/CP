@@ -30,6 +30,7 @@
     <script src="js/html5.js"></script>
   <![endif]-->
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!--<link rel="stylesheet" type="text/css" href="template/css/font-awesome.min.css">-->
   <link rel="stylesheet" type="text/css" href="template/css/jquery.dataTables.min.css">
   <link rel="stylesheet" type="text/css" href="template/css/dataTables.responsive.min.css">
   <link rel="stylesheet" type="text/css" href="template/css/dataTables.colVis.min.css">

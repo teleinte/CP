@@ -1,11 +1,11 @@
 $(document).ready(function(){
 	setTimeout(function(){$("#indicador").fadeOut(2000)},3000);
-	if(sessionStorage.getItem('hello') != null || sessionStorage.getItem('hello') != undefined)
-		sessionStorage.removeItem('hello');
 
 	var update = actualizarLenguage();
 	var dateupdate = new Date(update);
 	var today = new Date();
+	console.log(dateupdate);
+	console.log(today);
 
 	if(localStorage.getItem('lastupdate') != null || localStorage.getItem('lastupdate') != undefined)
 	{
@@ -62,8 +62,17 @@ $(document).ready(function(){
 	switch (Number(sessionStorage.getItem('userflow')))
 	{
 		case 0:
-			$("#alertas").html('<div class="alert alert-dismissable alert-info"  teid="ale:html:77"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button></div>'); 
-			$(document).renderme('sl');
+			//$("#alertas").html('<div class="alert alert-dismissable alert-info"  teid="ale:html:77"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button></div>'); 
+			//console.warn(sessionStorage.getItem('cp_admin').split(',').length, sessionStorage.getItem('cp_vencidas').split(',').length, sessionStorage.getItem('cp_otros').split(',').length );
+			if((sessionStorage.getItem('cp_admin').split(',').length == 1) && (sessionStorage.getItem('cp_vencidas').split(',').length == 1) && (sessionStorage.getItem('cp_otros').split(',').length == 1))
+			{
+				$("#alertas").html('<div class="alert alert-dismissable alert-info"  teid="ale:html:77"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button></div>'); 
+				$(document).renderme('sl');
+			}
+			else
+			{
+				$("#alertas").html('<div class="alert alert-dismissable alert-info"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button><h4>Advertencia: </h4><p>Ninguna de sus copropiedades se encuentra activa, por favor renueve su servicio para activarlas.</p></div> ');
+			}
 		break;
 		case 1:			
 			$("#alertas").html('<div class="alert alert-dismissable alert-info" teid="ale:html:80"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button></div>'); 

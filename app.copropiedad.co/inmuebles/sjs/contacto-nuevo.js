@@ -1,7 +1,10 @@
 $(document).ready(function(){
 
   $(document).renderme('in');
-
+  var params={};window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(str,key,value){params[key] = value;})
+  var arr = {token:sessionStorage.getItem('token'),body:{_id:params['idt']}};
+  var inmueble = traerDatosSync("unidad/unidad/copropiedadid/", arr);
+  popularNuevoUsuario(inmueble);
   // en via el formulario para crear un nuevo contacto
   $("#nuevo-usuario").submit(function(event)
   {

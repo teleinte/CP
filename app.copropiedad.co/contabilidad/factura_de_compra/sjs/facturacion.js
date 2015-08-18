@@ -22,7 +22,9 @@ $(document).ready(function() {
       $("#cpcel").html(option.attr("cpcelular"));
       $("#cpema").html(option.attr("cpemail"));
       $("#idtercero").val(option.attr("cpidcrm"));
-      $(".nomcon").html(option.attr("cpnombre"));
+      $("#nomcon").html(option.attr("nit"));
+      $("#idnit").val(option.attr("nit"));
+      
     });
     var config = {
           '.chosen-select'           : {},
@@ -44,7 +46,7 @@ $(document).ready(function() {
           if (iCnt <= 9) {
               iCnt = iCnt + 1;
               // ADD TEXTBOX.
-              $(container).append('<div id=fila' + iCnt + ' class="opciones" style="padding: 20px 1.5% 0; border:1px solid #eee; margin-bottom:0;"><table><tr><td width="20%"><select id=dc_fila' + iCnt + ' name=dc_fila' + iCnt + ' style="width:100%;" tabindex="4" class="chosen-select-no-single" cpid="' + iCnt + '" required><option value="">Movimiento</option><option value="debito">Debito</option><option value="credito">Crédito</option></select></td><td width="20%"><select data-placeholder="Cuentas contables" class="chosen-select" id=categoria_fila' + iCnt + ' style="width:100%;" tabindex="4" required><option value=""></option></select></td><td width="20%" class="center"><p id="cpnomc' + iCnt + '" class="nomcon"></p></td><td  width="20%"><input type="number" class="input" style="text-align: right;" id=debitos' + iCnt + ' cpid="' + iCnt + '" disabled required/></td><td width="20%"><input type="number" class="input" style="text-align: right;" id=creditos' + iCnt + ' cpid="' + iCnt + '" disabled required/></td></tr></table></div>');
+              $(container).append('<div id=fila' + iCnt + ' class="opciones" style="padding: 20px 1.5% 0; border:1px solid #eee; margin-bottom:0;"><table><tr><td width="20%"><select id=dc_fila' + iCnt + ' name=dc_fila' + iCnt + ' style="width:100%;" tabindex="4" class="chosen-select-no-single" cpid="' + iCnt + '" required><option value="">Movimiento</option><option value="debito">Debito</option><option value="credito">Crédito</option></select></td><td width="20%"><select data-placeholder="Cuentas contables" class="chosen-select" id=categoria_fila' + iCnt + ' style="width:100%;" tabindex="4" required><option value=""></option></select></td><td  width="20%"><input type="number" class="input" style="text-align: right;" id=debitos' + iCnt + ' cpid="' + iCnt + '" disabled required/></td><td width="20%"><input type="number" class="input" style="text-align: right;" id=creditos' + iCnt + ' cpid="' + iCnt + '" disabled required/></td></tr></table></div>');
               $(document).renderme('co');
               $('#agregar-campos').after(container); 
 
@@ -134,16 +136,12 @@ $(document).ready(function() {
           { 
             var this_credito = $('#creditos' + iCnt).val();
             var totalactualc = $("#totalcredito").html();
-            
-
             var this_debito = $('#debitos' + iCnt).val();
             var totalactuald = $("#totaldebito").html();
-
             $('#fila' + iCnt).remove(); 
             iCnt = iCnt - 1; 
             $('.limite-fila').remove();
             $('#btAddC').attr('class', 'btn icono agregar ttip positivo');
-
             $("#totalcredito").html(totalizarCreditos(iCnt));
             $("#totaldebito").html(totalizarDebitos(iCnt));
             
@@ -197,6 +195,7 @@ $(document).ready(function() {
       });
 
       $('#btnguardardocumento').click(function(){
+        //alert($("#idnit").val());
         var option = $("option:selected",$('#proveedoresselect'));
         var cta = $("option:selected",$('#categoria_fila1'));
         var mov = $("option:selected",$('#dc_fila1_chosen'));
@@ -210,7 +209,7 @@ $(document).ready(function() {
             {
               if(iCnt > 0)
               {
-                result = crearDocumento(iCnt, $("#consecutivo").html(), $("#cpnomf").html(), $("#cpema").html(), $("#conceptodoc").val(), "", $("#docext").val(), "FC", $("#idtercero").val());
+                result = crearDocumento(iCnt, $("#consecutivo").html(), $("#cpnomf").html(), $("#cpema").html(), $("#conceptodoc").val(), "", $("#docext").val(), "FC", $("#idtercero").val(),$("#idnit").val());
                 //alert(result);
                 if(result)
                 {

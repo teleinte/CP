@@ -1,8 +1,6 @@
 $(document).ready(function(){
 	var thisURL = "https://appdes.copropiedad.co";
 
-  sessionStorage.setItem('hello','1');
-
   if(sessionStorage.getItem('message') != null || sessionStorage.getItem('message') != undefined)
   {
     var tipo = "";
@@ -19,161 +17,222 @@ $(document).ready(function(){
       $('input[type=submit]').val('Iniciando Sesión...');
       $('input[type=submit]').attr('disabled',true);
       event.preventDefault();
+      var usuario = $("#usr").val();
       var loginr = doLogin(thisURL);
-      if(Boolean(loginr))
+      var superadmin = isSA(thisURL + "/api/estados/superadmin/", usuario);
+      //console.warn(superadmin);
+      if(!superadmin)
       {
-      	var tk = getLoginToken(thisURL + "/api/userflow/");
-      	if(tk)
-      	{
-          var estadoCP = verificarEstadoCP($("#usr").val(),tk);
-          sessionStorage.setItem('estadoCP',parseInt(estadoCP));
-          var cps = checkPerfiles(thisURL + "/");
-
-          if(cps != null)
-          {
-            if(setupIngreso(estadoCP,cps))
+        if(Boolean(loginr))
+        {
+          var tk = getLoginToken(thisURL + "/api/userflow/", usuario);
+          //var superadmin = isSA(thisURL + "/api/estados/superadmin/",sessionStorage.getItem('id_crm'));
+        	if(tk)
+        	{
+            var estadoCP = verificarEstadoCP(usuario,tk);
+            sessionStorage.setItem('estadoCP',parseInt(estadoCP));
+            var cps = checkPerfiles(thisURL + "/");
+            
+            if(cps != null)
             {
-              var admin = cleanArray(sessionStorage.getItem('cp_admin').split(','));
-              var otros = cleanArray(sessionStorage.getItem('cp_otros').split(','));
-              //console.warn(admin, otros);
-              //console.warn(admin.length, otros.length);
-              if(estadoCP == 1 || estadoCP == 2)
+              if(setupIngreso(estadoCP,cps))
               {
-                if(estadoCP == 2)
+                var admin = cleanArray(sessionStorage.getItem('cp_admin').split(','));
+                var otros = cleanArray(sessionStorage.getItem('cp_otros').split(','));
+                var vencidas = cleanArray(sessionStorage.getItem('cp_vencidas').split(','));
+                //console.warn(admin, otros);
+                //console.warn(admin.length, otros.length);
+                if(estadoCP == 1 || estadoCP == 2)
                 {
-                  if(admin.length == 0)
+                  if(estadoCP == 2)
                   {
-                    idcp = otros[0].split("@@@")[0];
-                    loginr = loginr + "cp=" + idcp + "&cp_otros=" + otros + "&token=" + tk;
-                    //console.warn(loginr);
-                    location.href = "review.php?token=" + btoa(loginr);
-                  }
-                  else
-                  {
-                    idcp = admin[0].split("@@@")[0];
-                    sessionStorage.setItem('cp',idcp);
-                    loginr = loginr + "cp=" + idcp + "&cp_otros=" + otros + "&token=" + tk;
-                    location.href = "review.php?token=" + btoa(loginr);
-                  }
-                }
-                else
-                {
-                  if(admin.length > 0)
-                  {
-                    idcp = admin[0].split("@@@")[0];
-                    sessionStorage.setItem('cp',idcp);
-                    location.href = thisURL + "/inicio";
-                  }
-                  else
-                  {
-                    location.href = thisURL + "/inicio";
-                  }
-                }
-              }
-              else if(estadoCP == 3)
-              {
-                if((sessionStorage.getItem('userdata') != null || sessionStorage.getItem('userdata') != undefined) && (sessionStorage.getItem('isAdmin') != null || sessionStorage.getItem('isAdmin') != undefined) && (sessionStorage.getItem('newSt') != null || sessionStorage.getItem('newSt') != undefined))
-                {
-                  var userData = JSON.parse(atob(sessionStorage.getItem('userdata')));
-                  var isAdmin= sessionStorage.getItem('isAdmin');   
-                  var newSt= JSON.parse(atob(sessionStorage.getItem('newSt')));
-                  newSt["body"]["id_crm_persona"] = parseInt(sessionStorage.getItem('id_crm'));
-                  sessionStorage.removeItem('userdata');
-                  sessionStorage.removeItem('isAdmin');
-                  sessionStorage.removeItem('newSt');
-
-                  var rutaAplicativoCP= "https://appdes.copropiedad.co/api/estados/estados/";
-                  $.ajax({
-                      url: rutaAplicativoCP,
-                      type: "PUT",
-                      data: JSON.stringify(newSt),
-                      contentType: 'application/json; charset=utf-8',
-                      dataType: 'json',
-                      async: false,
-                      success: function(data) 
+                    if(admin.length == 0)
+                    {
+                      if(vencidas.length > 0)
                       {
-                        var msgDividido2 = JSON.stringify(data);
-                        var mensaje2 =  JSON.parse(msgDividido2);
-                        var msgDivididoDos2 = JSON.stringify(mensaje2.message);
-                        if(mensaje2.status)
+                        if(otros.length == 0)
                         {
-                          var _nombre = userData["nombre"];
-                          var _apellido = userData["apellido"];
-                          var _email = userData['email'];
-                          var _fecha = userData['telefono'];
-                          var arr = {token:sessionStorage.getItem('token'),body:{email:"cp-" + _email,nombre:_nombre,apellido:_apellido,fechaNacimiento:_fecha}};
-                          var rutaAplicativo = "https://auth.sinfo.co/auth/information";
-                          var result = false; 
-                          $.ajax({
-                              url: rutaAplicativo,
-                              type: 'PUT',
-                              data: JSON.stringify(arr),
-                              contentType: 'application/json; charset=utf-8',
-                              dataType: 'json',
-                              async: false,
-                              success:function(data)
-                              {
-                                sessionStorage.setItem('nombre',_nombre);
-                                sessionStorage.setItem('apellido',_apellido);
-                                sessionStorage.setItem('nombreCompleto',_nombre + " " + _apellido);
-                                location.href = thisURL + '/inicio';
-                              }
-                          });
+                          //location.reload();
+                          location.href = thisURL + "/inicio"
+                          //sessionStorage.clear();
+                          //sessionStorage.setItem('message','Su usuario no tiene copropiedades vigentes o perfiles activos en el sistema. Para cualquier consulta comuníquese con su Administrador de Propiedad Horizontal.');
+                          //sessionStorage.setItem('tipo','error');
                         }
                         else
                         {
-                          $('#alertas').html('<div class="alert alert-error" style="height:auto; margin:5px auto;">Ha ocurrido un error actualizando su usuario, por favor <a class="btn alertaserror" href="../contacto">contacte con nuestro departamento de servicio al cliente</a></div>');
+                          idcp = otros[0].split("@@@")[0];
+                          loginr = loginr + "cp=" + idcp + "&cp_otros=" + otros + "&token=" + tk;
+                          location.href = "review.php?token=" + btoa(loginr);  
                         }
                       }
-                  });
-                }
-                else
-                {
-                  if(otros.length > 0)
-                  {
-                    idcp = otros[0].split("@@@")[0];
-                    loginr = loginr + "cp=" + idcp + "&cp_otros=" + otros + "&token=" + tk;
-                    sessionStorage.clear();
-                    location.href = "https://mi.copropiedad.co/inicio/index.php?token=" + btoa(loginr);
+                      else
+                      {
+                        idcp = otros[0].split("@@@")[0];
+                        loginr = loginr + "cp=" + idcp + "&cp_otros=" + otros + "&token=" + tk;
+                        location.href = "review.php?token=" + btoa(loginr);
+                      }
+                    }
+                    else
+                    {
+                      idcp = admin[0].split("@@@")[0];
+                      sessionStorage.setItem('cp',idcp);
+                      loginr = loginr + "cp=" + idcp + "&cp_otros=" + otros + "&token=" + tk;
+                      location.href = "review.php?token=" + btoa(loginr);
+                    }
                   }
                   else
                   {
-                    location.reload();
-                    sessionStorage.clear();
-                    sessionStorage.setItem('message','Su usuario no tiene copropiedades vigentes o perfiles activos en el sistema. Para cualquier consulta comuníquese con su Administrador de Propiedad Horizontal.');
-                    sessionStorage.setItem('tipo','error');
+                    if(admin.length > 0)
+                    {
+                      if(vencidas.length > 0)
+                      {
+                        idcp = admin[0].split("@@@")[0];
+                        loginr = loginr + "cp=" + idcp + "&cp_otros=" + otros + "&token=" + tk;
+                        //console.warn(loginr);
+                        location.href = "review.php?token=" + btoa(loginr);  
+                      }
+                      else
+                      {
+                        idcp = admin[0].split("@@@")[0];
+                        sessionStorage.setItem('cp',idcp);
+                        location.href = thisURL + "/inicio";
+                      }
+                    }
+                    else
+                    {
+                      if(vencidas.length > 0)
+                      {
+                        idcp = vencidas[0].split("@@@")[0];
+                        loginr = loginr + "cp=" + idcp + "&cp_otros=" + otros + "&token=" + tk;
+                        location.href = "review.php?token=" + btoa(loginr);
+                      }
+                      else
+                      {
+                        location.href = thisURL + "/inicio";
+                      }
+                    }
                   }
                 }
+                else if(estadoCP == 3)
+                {
+                  if((sessionStorage.getItem('userdata') != null || sessionStorage.getItem('userdata') != undefined) && (sessionStorage.getItem('isAdmin') != null || sessionStorage.getItem('isAdmin') != undefined) && (sessionStorage.getItem('newSt') != null || sessionStorage.getItem('newSt') != undefined))
+                  {
+                    var userData = JSON.parse(atob(sessionStorage.getItem('userdata')));
+                    var isAdmin= sessionStorage.getItem('isAdmin');   
+                    var newSt= JSON.parse(atob(sessionStorage.getItem('newSt')));
+                    newSt["body"]["id_crm_persona"] = parseInt(sessionStorage.getItem('id_crm'));
+                    sessionStorage.removeItem('userdata');
+                    sessionStorage.removeItem('isAdmin');
+                    sessionStorage.removeItem('newSt');
+
+                    var rutaAplicativoCP= "https://appdes.copropiedad.co/api/estados/estados/";
+                    $.ajax({
+                        url: rutaAplicativoCP,
+                        type: "PUT",
+                        data: JSON.stringify(newSt),
+                        contentType: 'application/json; charset=utf-8',
+                        dataType: 'json',
+                        async: false,
+                        success: function(data) 
+                        {
+                          var msgDividido2 = JSON.stringify(data);
+                          var mensaje2 =  JSON.parse(msgDividido2);
+                          var msgDivididoDos2 = JSON.stringify(mensaje2.message);
+                          if(mensaje2.status)
+                          {
+                            var _nombre = userData["nombre"];
+                            var _apellido = userData["apellido"];
+                            var _email = userData['email'];
+                            var _fecha = userData['telefono'];
+                            var arr = {token:sessionStorage.getItem('token'),body:{email:"cp-" + _email,nombre:_nombre,apellido:_apellido,fechaNacimiento:_fecha}};
+                            var rutaAplicativo = "https://auth.sinfo.co/auth/information";
+                            var result = false; 
+                            $.ajax({
+                                url: rutaAplicativo,
+                                type: 'PUT',
+                                data: JSON.stringify(arr),
+                                contentType: 'application/json; charset=utf-8',
+                                dataType: 'json',
+                                async: false,
+                                success:function(data)
+                                {
+                                  sessionStorage.setItem('nombre',_nombre);
+                                  sessionStorage.setItem('apellido',_apellido);
+                                  sessionStorage.setItem('nombreCompleto',_nombre + " " + _apellido);
+                                  location.href = thisURL + '/inicio';
+                                }
+                            });
+                          }
+                          else
+                          {
+                            $('#alertas').html('<div class="alert alert-error" style="height:auto; margin:5px auto;">Ha ocurrido un error actualizando su usuario, por favor <a class="btn alertaserror" href="../contacto">contacte con nuestro departamento de servicio al cliente</a></div>');
+                          }
+                        }
+                    });
+                  }
+                  else
+                  {
+                    if(otros.length > 0)
+                    {
+                      idcp = otros[0].split("@@@")[0];
+                      loginr = loginr + "cp=" + idcp + "&cp_otros=" + otros + "&token=" + tk;
+                      sessionStorage.clear();
+                      //console.warn("https://mides.copropiedad.co/inicio/index.php?token=" + btoa(loginr));
+                      location.href = "https://mides.copropiedad.co/inicio/index.php?token=" + btoa(loginr);
+                    }
+                    else
+                    {
+                      location.reload();
+                      sessionStorage.clear();
+                      sessionStorage.setItem('message','Su usuario no tiene copropiedades vigentes o perfiles activos en el sistema. Para cualquier consulta comuníquese con su Administrador de Propiedad Horizontal.');
+                      sessionStorage.setItem('tipo','error');
+                    }
+                  }
+                }
+              }
+              else
+              {
+                location.reload();
+                sessionStorage.clear();
+                sessionStorage.setItem('message','Su usuario no tiene copropiedades vigentes o perfiles activos en el sistema. Para cualquier consulta comuníquese con su Administrador de Propiedad Horizontal.');
+                sessionStorage.setItem('tipo','error');
               }
             }
             else
             {
-              location.reload();
-              sessionStorage.clear();
-              sessionStorage.setItem('message','Su usuario no tiene copropiedades vigentes o perfiles activos en el sistema. Para cualquier consulta comuníquese con su Administrador de Propiedad Horizontal.');
-              sessionStorage.setItem('tipo','error');
+              if(estadoCP == 1)
+              {
+                location.href = thisURL + '/inicio';
+              }
+              else
+              {
+                location.reload();
+                sessionStorage.clear();
+                sessionStorage.setItem('message','Su usuario no tiene copropiedades vigentes o perfiles activos en el sistema. Para cualquier consulta comuníquese con su Administrador de Propiedad Horizontal.');
+                sessionStorage.setItem('tipo','error');
+              }
             }
-          }
-          else
-          {
-            if(estadoCP == 1)
-            {
-              location.href = thisURL + '/inicio';
-            }
-            else
-            {
-              location.reload();
-              sessionStorage.clear();
-              sessionStorage.setItem('message','Su usuario no tiene copropiedades vigentes o perfiles activos en el sistema. Para cualquier consulta comuníquese con su Administrador de Propiedad Horizontal.');
-              sessionStorage.setItem('tipo','error');
-            }
-          }
-      	}
+        	}
+        }
+        else
+        {
+        	$('input[type=submit]').attr('disabled',false);
+        	$('input[type=submit]').val('Iniciar Sesión');
+        }
       }
       else
       {
-      	$('input[type=submit]').attr('disabled',false);
-      	$('input[type=submit]').val('Iniciar Sesión');
+        if(Boolean(loginr))
+        {
+          var tksa = btoa(doLoginSA());
+          var satk = btoa(JSON.stringify(superadmin));
+          location.href = "check.php?token=" + tksa + "&satk=" + satk;
+        }
+        else
+        {
+          $('input[type=submit]').attr('disabled',false);
+          $('input[type=submit]').val('Iniciar Sesión');
+        }
       }
     });
 

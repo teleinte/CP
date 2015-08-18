@@ -2,30 +2,31 @@
 function popularTabla(datos)
 {
   if(datos!= null || datos!= undefined)
-    $.each(datos, function(x , y) 
-    {
-      if(y['id_crm_persona'])
-      { 
-        var idmongo= JSON.stringify(y['id_copropiedad']);
-        var id_pago= y['referenceCode'];
-        //alert(idmongo);
-        var id_copropiedadFinal = JSON.parse(idmongo);
-        //alert(id_copropiedadFinal);
-        var t = $('#pagostable').DataTable();
-                       
-        t.row.add( 
-          [
-          '',                            
-          y['referenceCode'],
-          y['buyerEmail'],
-          y['description'],
-          y['estado'],
-          y['amount'],
-          y['fecha_creacion']
-          //' <a class="btn" href="del_client.php?idt='+idMongoFinal.$id+'">Eliminar</a>'//'<a id="open-editarcopripiedad" class="btn" href="nueva_ref.php?idt='+idMongoFinal.$id+'"></a>',//<a class="btn borrar solo inline" href="tarea-eliminar.php?idt='+idMongoFinal.$id+'"></a>'
-          ] ).draw();
-      }
-    })
+    if(datos.length > 0)
+      $.each(datos, function(x , y) 
+      {
+        if(y['id_crm_persona'])
+        { 
+          var idmongo= JSON.stringify(y['id_copropiedad']);
+          var id_pago= y['referenceCode'];
+          //alert(idmongo);
+          var id_copropiedadFinal = JSON.parse(idmongo);
+          //alert(id_copropiedadFinal);
+          var t = $('#pagostable').DataTable();
+                         
+          t.row.add( 
+            [
+            '',                            
+            y['referenceCode'],
+            y['buyerEmail'],
+            y['description'],
+            y['estado'],
+            y['amount'],
+            y['fecha_creacion']
+            //' <a class="btn" href="del_client.php?idt='+idMongoFinal.$id+'">Eliminar</a>'//'<a id="open-editarcopripiedad" class="btn" href="nueva_ref.php?idt='+idMongoFinal.$id+'"></a>',//<a class="btn borrar solo inline" href="tarea-eliminar.php?idt='+idMongoFinal.$id+'"></a>'
+            ] ).draw();
+        }
+      })
 }
 
 //funcion para popular las credenciales de pago
@@ -33,7 +34,9 @@ function popularCredenciales(datos)
 {
   if(datos!= null || datos!= undefined)
   {
-    $.each(datos, function(x , y) 
+    if(datos.length > 0)
+    {
+      $.each(datos, function(x , y) 
       {
         $('#nombre').val(y['nombre']);
         $('#apikey').val(y['apikey']);
@@ -42,15 +45,8 @@ function popularCredenciales(datos)
         $('#merchantId').val(y['merchantId']);
         $('#accountId').val(y['accountId']);
         $('#tipo').val('1');
-        /*if($('#tipo').val()=="0")
-          {
-            $('#btn_submit').attr("teid", "pa:val:42, pa:title:44");
-          }
-          else
-          {
-            $('#btn_submit').attr("teid", "pa:val:43, pa:title:44");
-          }*/
       });
+    }
     $("#btn_submit").hide();
   }
 }

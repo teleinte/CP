@@ -46,12 +46,24 @@ $(document).ready(function(){
 		{
 			if(vencidas.length > 0)
 			{
-				$('#tVencidas').append('<tr><td colspan = "2">Las siguientes copropiedades se encuentran desactivadas por fin de vigencia:</td></tr>')
-				$('#tVencidas').append('<tr><td>COPROPIEDAD</td><td>FECHA FIN VIGENCIA</td></tr>')
+				$('#message_cp').html('<h4>No hemos recibido el pago de renovación del servicio para la(s) siguiente(s) copropiedad(es).</h4>');
 				$.each(vencidas,function(k,v){
 					var partirVencidos=v.split("@@@");
-					$('#tVencidas').append('<tr><td>'+partirVencidos[1]+'</td><td>'+partirVencidos[2]+'</td></tr>')
+					$('#tVencidas').append('<tr><td><h4>'+partirVencidos[1]+'</h4></td><td><h4>'+partirVencidos[0]+'</h4></td></tr>');
 				});
+				$('#advice_cp').html('<i><h4>Para renovar el servicio y activar la(s) copropiedades, ingrese como administrador, de clic sobre su nombre (esquina superior derecha) y seleccione la opción "Mis pagos".</h4></i>');
+				if(admin.length == 0)
+				{
+					checkRemoteUserFlow(actualURL);
+				}
+				else
+				{
+					idcp = admin[0].split("@@@")[0];
+					nocp = admin[0].split("@@@")[1];
+					checkRemoteUserFlow(actualURL);
+	                sessionStorage.setItem('cp',idcp);
+					sessionStorage.setItem('ncp',nocp);
+				}
 			}
 			else
 			{
@@ -62,13 +74,76 @@ $(document).ready(function(){
 			{
 				var params={};window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(str,key,value){params[key] = value;});
 				var tk = params['token'];
-				$('#tIngreso').append('<tr><td><a class="btn" href="../inicio/">Ingresar como Administrador</a><br/></td><tr><td><br/><a class="btn" id="residente" tk="' + tk +'">Ingresar como Residente</a></td><tr></tr>');
+				$('#tIngreso').append('<a class="btn" href="../inicio/">Ingresar como Administrador</a><br/><br/><br/><a class="btn" id="residente" tk="' + tk +'">Ingresar como Residente</a>');
 			}
 			else
 			{
-				idcp = admin[0].split("@@@")[0];
-				sessionStorage.setItem('cp',idcp);
-				location.href = "../inicio/";
+				if(admin.length == 0)
+				{
+					checkRemoteUserFlow(actualURL);
+					$('#tIngreso').append('<a class="btn" href="../inicio/">Ingresar como Administrador</a><br/><br/><br/>');
+				}
+				else
+				{
+					idcp = admin[0].split("@@@")[0];
+					sessionStorage.setItem('cp',idcp);
+					location.href = "../inicio/";
+				}
+			}
+		}
+		else if(otros.length > 0)
+		{
+			$('#vencidas').hide();
+			if(admin.length > 0)
+			{
+				var idcp = admin[0].split("@@@")[0];
+			}
+			else
+			{
+				var idcp = otros[0].split("@@@")[0];
+			}
+			sessionStorage.clear();
+			var params={};window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(str,key,value){params[key] = value;});
+			location.href = "https://mides.copropiedad.co/inicio/index.php?token=" + params['token'];
+		}
+		else
+		{
+			checkUserFlow(actualURL);
+			location.href = "../inicio/";	
+		}
+
+		$("#residente").click(function(){
+			sessionStorage.clear();
+			location.href = 'https://mides.copropiedad.co/inicio/index.php?token=' + $(this).attr('tk');
+		});
+	}
+
+	if(parseInt(sessionStorage.getItem('estadoCP')) == 1)
+	{
+		if(admin.length >= 0)
+		{
+			if(vencidas.length > 0)
+			{
+				$('#message_cp').html('<h4>No hemos recibido el pago de renovación del servicio para la(s) siguiente(s) copropiedad(es).</h4>');
+				$.each(vencidas,function(k,v){
+					var partirVencidos=v.split("@@@");
+					$('#tVencidas').append('<tr><td><h4>'+partirVencidos[1]+'</h4></td><td><h4>'+partirVencidos[0]+'</h4></td></tr>');
+				});
+				$('#advice_cp').html('<i><h4>Para renovar el servicio y activar la(s) copropiedades, ingrese como administrador, de clic sobre su nombre (esquina superior derecha) y seleccione la opción "Mis pagos".</h4></i>');
+				$('#tIngreso').append('<a class="btn" href="../inicio/">Continuar</a>');
+				$("#titulo-perfil").html('');
+				if(admin.length > 0)
+				{
+					idcp = admin[0].split("@@@")[0];
+					nocp = admin[0].split("@@@")[1];
+					checkRemoteUserFlow(actualURL);
+	                sessionStorage.setItem('cp',idcp);
+					sessionStorage.setItem('ncp',nocp);
+				}
+			}
+			else
+			{
+				$('#vencidas').hide();
 			}
 		}
 		else if(otros.length > 0)
@@ -86,18 +161,18 @@ $(document).ready(function(){
 			sessionStorage.clear();
 			var params={};window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(str,key,value){params[key] = value;});
 			//console.warn(atob(params['token']));
-			location.href = "https://mi.copropiedad.co/inicio/index.php?token=" + params['token'];
+			location.href = "https://mides.copropiedad.co/inicio/index.php?token=" + params['token'];
 		}
 		else
 		{
-			alert('z');
+			//alert('z');
 			checkUserFlow(actualURL);
 			location.href = "../inicio/";	
 		}
 
 		$("#residente").click(function(){
 			sessionStorage.clear();
-			location.href = 'https://mi.copropiedad.co/inicio/index.php?token=' + $(this).attr('tk');
+			location.href = 'https://mides.copropiedad.co/inicio/index.php?token=' + $(this).attr('tk');
 		});
 	}
 }); 

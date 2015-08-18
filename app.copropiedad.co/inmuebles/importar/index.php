@@ -4,8 +4,8 @@
 <?php require_once("../../template/include/meta.inc"); ?>
 <title teid="in:html:1"></title>
 <?php require_once("../../template/include/head-2.inc"); ?>
-<script type="text/javascript" src="sjs/importar.js"></script>
-<script type="text/javascript" src="sjs/importacion-functions.js"></script>
+<script type="text/javascript" src="sjs/importar.js?v=1.0"></script>
+<script type="text/javascript" src="sjs/importacion-functions.js?v=1.0"></script>
 </head>
 <body>
 <header>
@@ -19,7 +19,10 @@
               </div>
               <div class="trescolumnas centro">
                   <?php require_once('../../template/include/today.inc'); ?>
-              </div>              
+              </div> 
+              <div class="trescolumnas ultima">
+                <?php require_once('../../template/include/copropiedades.inc'); ?>
+              </div>             
             </aside>
             <div class="breadcrumb">
               <?php require_once('../../template/include/breadcrumbs.inc'); ?>

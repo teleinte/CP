@@ -65,6 +65,16 @@
                   </div>
                 </div>
                 <div class="app">
+                  <div id="square" class="ttip">
+                    <a href="../directorio/" id="directorio" class="niveldos">
+                      <div class="absoluto">
+                        <i class="fa fa-phone glyphicon"></i>
+                        <h6> Directorio</h6>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="app">
                   <div id="square" class="ttip" teid="ds:title:6">
                     <a href="../calendario/" id="calendario" class="niveldos">
                       <div class="absoluto">

@@ -5,8 +5,10 @@ $abierta = isset($_POST['abierta']) ? $_POST['abierta'] : null;
 
 
 //echo "pilas este es el multiple".$multiple;
-//echo "<pre>";
-//var_dump($multiple);
+// echo "<pre>";
+// var_dump();
+// var_dump();
+
 
 
 if (validaPreguntas($multiple, "multiple"))
@@ -27,128 +29,138 @@ if ($errors==1)
 }
 else
 {
-    $i=0;    
-    while($i<count($abierta))
-    {
-        $usuario=$_POST['usuario'];
-        //$usuario="ed35rs2617yg";
-        $partido=  explode("|", $abierta[$i]);
-        $pregunta=$partido[2];
-        $encuesta=$partido[3];
-        $respuesta=$abierta[$i+1];
-        $data = array(
-        "token" =>$_POST['token'], 
-        "body" => array(
-            "id_encuesta" => $encuesta,
-            "id_pregunta" => $pregunta,
-            "enunciado" => $partido[4],
-            "id_crm_persona" => $usuario,
-            "tipo"=>"A",
-            "respuesta" =>$respuesta
-            ));        
-        if($abierta[$i+1]!='' )
-        {            
-            enviodatos($data);
-        }
-        else
+
+    error_reporting(E_ALL);ini_set('display_errors', 1); 
+    $dataValida = array("id_encuesta"=>$_POST['idEncusta'],"id_crm_persona" =>$_POST['usuario']);
+    $data_string_valida = json_encode($dataValida);
+    $chValida = curl_init('https://appdes.copropiedad.co/api/encuestas/encuesta/ValidarEncuesta/');
+    curl_setopt($chValida, CURLOPT_CUSTOMREQUEST, "POST");
+    curl_setopt($chValida, CURLOPT_POSTFIELDS, $data_string_valida);
+    curl_setopt($chValida, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($chValida, CURLOPT_HTTPHEADER, array(
+        'Content-Type: application/json',                                                                                
+        'Content-Length: ' . strlen($data_string_valida))
+    );
+
+    $datosEnviadosValida=curl_exec($chValida);    
+    $resultValida = json_decode($datosEnviadosValida,true);
+
+    if ($resultValida['message']==NULL)
+    {            
+        $i=0;    
+        while($i<count($abierta))
         {
-            $sumador+=1;
-            $y+=$sumador;
-        }
-        $partido="";
-        $pregunta="";
-        $encuesta="";
-        $usuario="";
-        $respuesta="";
-        $i+=2;   
-    } 
-    
-    $j=0;
-//    echo "<pre>";
-//    var_dump($multiple);
-//    echo "<br>";
-    while($j<count($multiple))
-    {
-        $usuario=$_POST['usuario'];
-        //$usuario="ed35rs2617yg";
-        $datoinicial=explode("|", $multiple[$j]);
-        if($datoinicial[0]=="multiple")
-        {
-            $enunciado=$datoinicial[4];
-            $id_encuestas=$datoinicial[3];
-            $id_pregunta=$datoinicial[2];            
-        }
-        else
-        {
+            $usuario=$_POST['usuario'];
+            //$usuario="ed35rs2617yg";
+            $partido=  explode("|", $abierta[$i]);
+            $pregunta=$partido[2];
+            $encuesta=$partido[3];
+            $respuesta=$abierta[$i+1];
             $data = array(
             "token" =>$_POST['token'], 
             "body" => array(
-                "id_encuesta" => $id_encuestas,
-                "id_pregunta" => $id_pregunta,
+                "id_encuesta" => $encuesta,
+                "id_pregunta" => $pregunta,
+                "enunciado" => $partido[4],
                 "id_crm_persona" => $usuario,
-                "enunciado" => $enunciado,
-                "renunciado"=> $datoinicial[3],
-                "tipo"=>"mr",
-                "respuesta" =>$datoinicial[0]
-                ));
-//            echo "<pre>";
-//            var_dump($data);
-            enviodatos($data);
-        }
-        $j++;
-    }
-    
-    $k=1;   
-    $x=0;
-    $sumador2=0;
-//    echo "<pre>";
-//    var_dump($unitario);
-//    echo "<br>";
-    while($k<count($unitario))
-    {
-        $usuario=$_POST['usuario'];
-        //$usuario="ed35rs2617yg";
-        $otrosdatos=explode("|", $unitario[$x]);        
-        $partido=  explode("|", $unitario[$k]);        
-        $pregunta=$partido[1];
-        $encuesta=$partido[2];
-        $respuesta=$partido[0];
-        $data = array(
-        "token" => $_POST['token'], 
-        "body" => array(
-            "id_encuesta" => $encuesta,
-            "id_pregunta" => $pregunta,
-            "id_crm_persona" => $usuario,
-            "enunciado" => $otrosdatos[4],
-            "renunciado"=> $partido[3],
-            "tipo"=>"ur",
-            "respuesta" =>$respuesta
-            ));
+                "tipo"=>"A",
+                "respuesta" =>$respuesta
+                ));        
+            if($abierta[$i+1]!='' )
+            {            
+                enviodatos($data);
+            }
+            else
+            {
+                $sumador+=1;
+                $y+=$sumador;
+            }
+            $partido="";
+            $pregunta="";
+            $encuesta="";
+            $usuario="";
+            $respuesta="";
+            $i+=2;   
+        } 
         
-//        echo "<pre>";
-//        var_dump($data);        
-        
-        if($partido[0]!='' && $partido[0]!='unitario' )
-        {            
-            //echo "entro al envio datos";
-            $x+=2;
-            enviodatos($data);
-            $sumador2+=1;
-        }
-        else
+        $j=0;
+        while($j<count($multiple))
         {
-            $sumador2+=1;
-            $y+=$sumador2;
-        }        
-        $partido="";
-        $pregunta="";
-        $encuesta="";
-        $usuario="";
-        $respuesta="";        
-        $k++;        
+            $usuario=$_POST['usuario'];
+            //$usuario="ed35rs2617yg";
+            $datoinicial=explode("|", $multiple[$j]);
+            if($datoinicial[0]=="multiple")
+            {
+                $enunciado=$datoinicial[4];
+                $id_encuestas=$datoinicial[3];
+                $id_pregunta=$datoinicial[2];            
+            }
+            else
+            {
+                $data = array(
+                "token" =>$_POST['token'], 
+                "body" => array(
+                    "id_encuesta" => $id_encuestas,
+                    "id_pregunta" => $id_pregunta,
+                    "id_crm_persona" => $usuario,
+                    "enunciado" => $enunciado,
+                    "renunciado"=> $datoinicial[3],
+                    "tipo"=>"mr",
+                    "respuesta" =>$datoinicial[0]
+                    ));
+                enviodatos($data);
+            }
+            $j++;
+        }
+
+        $k=1;   
+        $x=0;
+        $sumador2=0;
+        while($k<count($unitario))
+        {
+            $usuario=$_POST['usuario'];
+            //$usuario="ed35rs2617yg";
+            $otrosdatos=explode("|", $unitario[$x]);        
+            $partido=  explode("|", $unitario[$k]);        
+            $pregunta=$partido[1];
+            $encuesta=$partido[2];
+            $respuesta=$partido[0];
+            $data = array(
+            "token" => $_POST['token'], 
+            "body" => array(
+                "id_encuesta" => $encuesta,
+                "id_pregunta" => $pregunta,
+                "id_crm_persona" => $usuario,
+                "enunciado" => $otrosdatos[4],
+                "renunciado"=> $partido[3],
+                "tipo"=>"ur",
+                "respuesta" =>$respuesta
+                ));
+            if($partido[0]!='' && $partido[0]!='unitario' )
+            {            
+                //echo "entro al envio datos";
+                $x+=2;
+                enviodatos($data);
+                $sumador2+=1;
+            }
+            else
+            {
+                $sumador2+=1;
+                $y+=$sumador2;
+            }        
+            $partido="";
+            $pregunta="";
+            $encuesta="";
+            $usuario="";
+            $respuesta="";        
+            $k++;        
+        }
+         echo "cambio";          
     }
-    
-     echo "cambio";    
+    else
+    {
+        echo "<script>location = 'template/encuestaTerminada.php';</script>";
+    }
 }
 
 function validaPreguntas($datos,$tipo)

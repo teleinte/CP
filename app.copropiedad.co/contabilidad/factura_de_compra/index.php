@@ -12,8 +12,8 @@
   <script type="text/javascript" src="../../template/js/jquery.dataTables.min.js"></script>
   <script type="text/javascript" src="../../template/js/dataTables.colVis.min.js"></script>
   <script type="text/javascript" src="../../template/js/dataTables.responsive.min.js"></script>
-  <script type="text/javascript" src="sjs/facturacion.js?v=1.0"></script>
-  <script type="text/javascript" src="sjs/facturacion-functions.js?v=1.0"></script>
+  <script type="text/javascript" src="sjs/facturacion.js?v=2.0"></script>
+  <script type="text/javascript" src="sjs/facturacion-functions.js?v=2.0"></script>
 </header>
     <div id="contenido-principal">
         <section id="central">
@@ -54,10 +54,11 @@
                                         <option value="none"></option>
                                     </select>
                                   </td>
-                                  <!--<td>
-                                    <label>NIT/ Inmueble:</label>
-                                    <h3  class="nomcon"></h3>
-                                  </td>-->
+                                  <td>
+                                    <label teid="pr:html:63"></label>
+                                    <h4 id="nomcon"></h4>
+                                    <input type="hidden" id="idnit" />
+                                  </td>
                               </tr>
                               <tr>
                                   <td colspan="2">
@@ -93,7 +94,7 @@
                               <tr>
                                 <td width="20%" class="titulo-campos" teid="co:html:48"></td>
                                 <td width="20%" class="titulo-campos"teid="co:html:49"></td>
-                                <td width="20%" class="titulo-campos" teid="co:html:121"></td>
+                                <!-- <td width="20%" class="titulo-campos" teid="co:html:121"></td> -->
                                 <td width="20%" class="titulo-campos" teid="co:html:50"></td>
                                 <td width="20%" class="titulo-campos" teid="co:html:51"></td>
                               </tr>
@@ -115,7 +116,9 @@
                           </table>
                           <div class="botones-form">
                             <div id="alertasop" style="background-color:white;"></div>
-                            <a href="../" class="btn icono borrar ttip" id="btncancelardocumento" style="margin-right:5px;" teid="co:html:119, co:title:223"></a><input type="button" class="btn icono guardar ttip" teid="co:val:118, co:title:222" id="btnimprimirdocumento"/> <input type="button" class="btn icono guardar ttip positivo" teid="co:val:117, co:title:221" id="btnguardardocumento"/> <!--<input type="button" class="btn icono borrar" teid="co:val:120" id="btnanulardocumento"/>-->
+                            <a href="../" class="btn icono borrar ttip" id="btncancelardocumento" style="margin-right:5px;" teid="co:html:119, co:title:223"></a>
+                            <input type="button" class="btn icono guardar ttip" teid="co:val:118, co:title:222" id="btnimprimirdocumento"/> 
+                            <input type="button" class="btn icono guardar ttip positivo" teid="co:val:117, co:title:221" id="btnguardardocumento"/> <!--<input type="button" class="btn icono borrar" teid="co:val:120" id="btnanulardocumento"/>-->
                           </div>
                         </form>
                     </div>

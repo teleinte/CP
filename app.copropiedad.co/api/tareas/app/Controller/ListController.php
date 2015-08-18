@@ -135,7 +135,7 @@ $app->post("/getlist/", function() use($app)
 				switch ($datos->body->tipo)
 				{
 					case 'tarea':		
-						$ninarray = array("eliminada", "completada");															
+						$ninarray = array("eliminada");															
 					    consultaColeccion($app, "tarea", array('id_copropiedad'=>$datos->body->id_copropiedad,'estado'=> array('$nin'=> $ninarray), 'tipo'=>"tarea"));
 						break;	
 					case 'cartelera':
@@ -143,7 +143,15 @@ $app->post("/getlist/", function() use($app)
                         $fecha = date('c');
                         $nuevafecha = strtotime ( '-1 day' , strtotime ( $fecha ) ) ;
                         $today = date ( 'c' , $nuevafecha );
-					    consultaColeccion($app, "cartelera", array('id_copropiedad'=>$datos->body->id_copropiedad,"vigencia" => array('$gte' => $today)));
+                        if(isset($datos->body->id_crm))
+                        {
+					    	$posts = nombrarPosts(objectToArray(consultaColeccionRespuesta($app, 'cartelera', array('id_copropiedad'=>$datos->body->id_copropiedad,"vigencia" => array('$gte' => $today)))),obtenerPersonas(objectToArray(consultaColeccionRespuesta($app, 'usuariocp', array('id_copropiedad' => $datos->body->id_copropiedad))),$datos->body->id_crm));
+                        }
+                        else
+                        {
+                        	$posts = nombrarPosts(objectToArray(consultaColeccionRespuesta($app, 'cartelera', array('id_copropiedad'=>$datos->body->id_copropiedad,"vigencia" => array('$gte' => $today)))),obtenerPersonas(objectToArray(consultaColeccionRespuesta($app, 'usuariocp', array('id_copropiedad' => $datos->body->id_copropiedad))),0));
+                        }
+					    enviarRespuesta($app, false, $posts, null);
 						break;	
 					default:					
 						enviarRespuesta($app, false, "Lista Inexistente", "Lista Inexistente");
@@ -386,13 +394,21 @@ function consultaColeccionFiltro($app, $coleccion, $arreglo)
 	else {enviarRespuesta($app, true, null, null);}
 }
 
-
 function consultaColeccion($app, $coleccion, $arreglo)
 {
 	//var_dump($arreglo);
 	$dbdata = new DBNosql($coleccion);	
 	$resultado = $dbdata->selectDocument($arreglo);		
 	if ($resultado){enviarRespuesta($app, true, $resultado, $arreglo);}
+	else {enviarRespuesta($app, true, null, null);}
+}
+
+function consultaColeccionRespuesta($app, $coleccion, $arreglo)
+{
+	//var_dump($arreglo);
+	$dbdata = new DBNosql($coleccion);	
+	$resultado = $dbdata->selectDocument($arreglo);		
+	if ($resultado){return $resultado;}
 	else {enviarRespuesta($app, true, null, null);}
 }
 
@@ -421,4 +437,47 @@ function enviarRespuesta($recurso, $estado, $mensaje, $error)
 	$recurso->response->header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
 	$recurso->response->status(200);
 	$recurso->response->body(json_encode($envio));
+}
+
+function objectToArray($d) 
+{
+  if (is_object($d)) 
+  {    
+      $d = get_object_vars($d);
+  }
+  if (is_array($d)) 
+  {    
+      return array_map(__FUNCTION__, $d);
+  }
+  else 
+  {
+      // Return array
+      return $d;
+  }
+}
+
+function obtenerPersonas($crm, $admin)
+{
+	$out = array();
+	if(count($crm) > 0)
+		foreach ($crm as $key => $value) 
+		{
+			$out[$value['id_crm_persona']] = $value['nombre'];
+		}
+	$out[$admin] = 'Administrador';
+	//var_dump($out);
+	return $out;
+}
+
+function nombrarPosts($posts, $crm)
+{
+	$out = array();
+	if(count($posts) > 0)
+		foreach ($posts as $key => $value) 
+		{
+			$value['creador'] = $crm[$value['creador']];
+			$out[] = $value;
+		}
+	//var_dump($out);
+	return $out;
 }

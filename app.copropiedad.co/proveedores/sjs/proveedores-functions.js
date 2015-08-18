@@ -9,9 +9,11 @@ function popularTabla(datos)
         var enlacee ='<a class="btn editar solo inline ttip" teid="pr:title:5" href="proveedores-editar.php?idt='+idmongo+'"></a>';
         var enlaceb ='<a class="btn borrar solo inline ttip" teid="ctp:title:13" href="proveedores-eliminar.php?idt='+idmongo+'"></a>';
         //enlace='<a id="open-editarcopripiedad" class="btn editar solo inline" href="usuario-editar.php?idt='+idMongoFinal.$id+'"></a><a class="btn borrar solo inline" href="usuario-eliminar.php?idt='+idMongoFinal.$id+'"></a>'
+        if(y['nit']){var nit = y['nit']}else{nit="Sin Nit, Asignarlo en editar"};
         t.row.add( [
         '',
         y['nombre_inmueble'],
+        nit,
         enlaceb + enlacee
         ] ).draw();
         //$('#tableContainer > tbody:last').append('<tr><td>'+y['nombre_copropiedad']+'</td><td>'+y['tipo_unidad']+'</td><td>'+y['detalle']+'</td><td><a class="btn editar solo inline" href="inmueble-editar.html?idt='+idMongoFinal.$id+'"></a><a class="btn borrar solo inline" href="inmueble-eliminar.html?idt='+idMongoFinal.$id+'"></a></td></tr>')
@@ -75,6 +77,7 @@ function popularDatosModificables(datos)
 	        $('#nombre_inmueble').val(y['nombre_inmueble']);
 	        $('#nombremostrar').append(y['nombre_inmueble'])                            
 	        $('#estado').val(y['estado']);
+	        $('#nit').val(y['nit']);
 	        $('#fecha_creacion').val(y['fecha_creacion']);	        
 	    }                    
 	});

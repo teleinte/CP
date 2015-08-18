@@ -12,8 +12,8 @@
   <script type="text/javascript" src="../../template/js/jquery.dataTables.min.js"></script>
   <script type="text/javascript" src="../../template/js/dataTables.colVis.min.js"></script>
   <script type="text/javascript" src="../../template/js/dataTables.responsive.min.js"></script>
-  <script type="text/javascript" src="sjs/facturacion.js?v=1.0"></script>
-  <script type="text/javascript" src="sjs/facturacion-functions.js?v=1.0"></script>
+  <script type="text/javascript" src="sjs/facturacion.js?v=2.0"></script>
+  <script type="text/javascript" src="sjs/facturacion-functions.js?v=2.0"></script>
 </header>
     <div id="contenido-principal">
         <section id="central">
@@ -53,6 +53,11 @@
                                     <select id="proveedoresselect" name="proveedoresselect" data-placeholder="Búsqueda contactos" style="width:100%;" class="chosen-select-creation" tabindex="10" required>
                                         <option value="none"></option>
                                     </select>
+                                  </td>
+                                  <td>
+                                    <label teid="co:html:284"></label>
+                                    <h4 id="nomcon"></h4>
+                                    <input type="hidden" id="idnit" />
                                   </td>
                               </tr>
                               <tr>

@@ -4,8 +4,8 @@
 <?php require_once("../template/include/meta.inc"); ?>
 <title teid="pr:html:1"></title>
 <?php require_once("../template/include/head-1.inc"); ?>
-<script type="text/javascript" src="sjs/proveedores-functions.js"></script>
-<script type="text/javascript" src="sjs/proveedores-crear.js"></script>
+<script type="text/javascript" src="sjs/proveedores-functions.js?v=2.0"></script>
+<script type="text/javascript" src="sjs/proveedores-crear.js?v=2.0"></script>
 </head>
 <body>
 <header>
@@ -39,8 +39,12 @@
               <table id="form-encuesta-cl"> 
                 <tr>                               
                   <td>
-                    <label for="identificador" teid="pr:html:7"></label>
-                    <input type="text" id = "nombre_inmueble" name="nombre_inmueble" size="60" required></input>                               
+                    <label for="identificador" teid="pr:html:62"></label>
+                    <input type="text" id = "nombre_inmueble" name="nombre_inmueble" size="60" required></input>                    
+                  </td>
+                  <td>
+                    <label for="nit">NIT:</label>
+                    <input type="number" id = "nit" name="nit" size="60" required></input>                    
                   </td>                              
                 </tr>                            
                 <tr>

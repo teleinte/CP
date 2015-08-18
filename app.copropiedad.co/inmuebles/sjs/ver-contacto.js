@@ -6,6 +6,8 @@ $(document).ready(function(){
   var params={};window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(str,key,value){params[key] = value;})
   var arr = {token:sessionStorage.getItem('token'),body:{id_unidad:params['idt']}};
   var datos = traerDatosSync("admin/copropiedad/usuario/unidad", arr);
+  var arr = {token:sessionStorage.getItem('token'),body:{_id:params['idt']}};
+  var inmueble = traerDatosSync("unidad/unidad/copropiedadid/", arr);
   // parametros de las tablas de inmuebles
   $('#contactos_tabla').DataTable( {
     responsive: {
@@ -52,7 +54,7 @@ $(document).ready(function(){
   
     $(document).renderme('in');
   //llenando la tabla popular
-  popularTablaContactosVer(datos);  
+  popularTablaContactosVer(datos, inmueble);  
 
 
   $(document).renderme('in');

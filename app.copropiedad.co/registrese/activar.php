@@ -1,50 +1,30 @@
 <?php
 error_reporting(E_ALL);ini_set('display_errors', 1);
-date_default_timezone_set('America/Bogota');
-function ValidateToken($token)
-{
-    $date=date('YmdHis');            
-    $objs = array('date'=>$date,'type'=>'Message','sender'=>"remote sender", 'message'=>'Validacion de token', 'request'=>'SetToken'.$token, 'response'=>'null');
-    $result = Decrypt($token);
-    $part = explode("|",$result);
-    $dateToken = end($part);
-    $dateNow = date('YmdHis');
-    if (is_numeric($dateToken) and $dateToken > $dateNow){return true;}else{return false;}
-}
-
-function Decrypt($data){$output = rtrim(mcrypt_decrypt(MCRYPT_RIJNDAEL_256, md5('J4!r06¡l'), base64_decode($data), MCRYPT_MODE_CBC, md5(md5('J4!r06¡l'))), "\0");return $output;}
 
 if(isset($_GET['token']) && strlen($_GET['token']) > 10)
 {
-  $tokenR = htmlspecialchars_decode($_GET['token']);
-  $temp = base64_decode($_GET['code']);
-  $arr = json_decode(htmlspecialchars_decode(urldecode($temp)));
-  //var_dump($arr);
-  $nombre = htmlspecialchars_decode($arr->body->nombre, ENT_HTML5);
-  $email = htmlspecialchars_decode($arr->body->email);
-  $tkest = ValidateToken($tokenR);
+  $tokenR = htmlspecialchars_decode($_GET['code']);
+  $temp = base64_decode($tokenR);
+  //var_dump($tokenR);
+  //var_dump($temp);
+  $crm = obtenerDatos(objectToArray(json_decode(htmlspecialchars_decode(urldecode($temp))))['body']['id_crm'])[0];
+  //var_dump($crm);
+  $email = htmlspecialchars_decode($crm['email']);
   $ecp = $_GET['ecp'];
-
-  //set POST variables
-  $url = "https://appdes.copropiedad.co/api/activacion/";
-  $fields = json_encode(array("token"=>"notoken", "body" => array("token" => urlencode($tokenR), "email" => $email)));
-  //open connection
-  $ch = curl_init();
-  //set the url, number of POST vars, POST data
-  curl_setopt($ch,CURLOPT_URL, $url);
-  curl_setopt($ch,CURLOPT_POSTFIELDS, $fields);
-  curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
-  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-  $resultadito = curl_exec($ch);
-  //close connection
-  curl_close($ch);
-  $final = json_decode($resultadito,true);
-  $result =$final["message"];
-  //$result = "1";
+  $arr = array();
+  if($crm["estado"] != 0)
+  {
+    $tkest = false;
+  }
+  else
+  {
+    $arr = array("token" => obtenerToken($tokenR), "body" => array("nombre" => $crm["nombre"], "estado" => "1", "apellido" => $crm["apellido"], "email" => "cp-" . strtolower($crm["email"]), "genero" => "NA", "nacionalidad" => "NA", "lugarNacimiento" => "NA", "paisNacimiento" => "CO", "fechaNacimiento" => "01/01/1901", "idioma" => "es-CO", "id_crm" => $crm["id_crm_persona"], "password" => base64_encode("19283uj9qwnoa98ndfnsdasdfawer23421DASDasdaf" . $tokenR), "tipoDocumento" => "CC", "numeroDocumento" => "123465789")); 
+    $tkest = true;
+  }
+  //exit;
 }
 else
 {
-  $result = "1";
   $tkest = false;
 }
 
@@ -63,15 +43,57 @@ function objectToArray($d)
       return $d;
   }
 }
+
+function ObtenerDatos($crm)
+{
+  //set POST variables
+  $url = "https://appdes.copropiedad.co/api/estados/crm/";
+  $fields = json_encode(array("token"=>"notoken", "body" => array("id_crm" => $crm)));
+  //open connection
+  $ch = curl_init();
+  //set the url, number of POST vars, POST data
+  curl_setopt($ch,CURLOPT_URL, $url);
+  curl_setopt($ch,CURLOPT_POSTFIELDS, $fields);
+  curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+  $resultadito = curl_exec($ch);
+  //close connection
+  curl_close($ch);
+  $final = json_decode($resultadito,true);
+  $result =$final["message"];
+  //$result = "1";
+  return $result;
+}
+
+function obtenerToken($crm)
+{
+  //set POST variables
+  $url = "https://appdes.copropiedad.co/api/estados/token/";
+  $fields = json_encode(array("body" => array("autkey"=>base64_encode("19283uj9qwnoa98ndfnsdasdfawer23421DASDasdaf" . $crm), "user" => "Registro" . $crm)));
+  //open connection
+  $ch = curl_init();
+  //set the url, number of POST vars, POST data
+  curl_setopt($ch,CURLOPT_URL, $url);
+  curl_setopt($ch,CURLOPT_POSTFIELDS, $fields);
+  curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+  $resultadito = curl_exec($ch);
+  //close connection
+  curl_close($ch);
+  $final = json_decode($resultadito,true);
+  $result =$final['message']['token'];
+  //$result = "1";
+  return $result;
+}
 ?>
 <!DOCTYPE HTML>
 <html dir="ltr" lang="es-ES">
 <link rel="stylesheet" type="text/css" href="../template/css/copropiedad.min.css">
 <title>Activación de usuario - Copropiedad</title>
 <script type="text/javascript" src="../template/js/jquery.min.js"></script>
-<script src="../template/js/copropiedad-functions.js"></script>
-<script src="sjs/registrese-functions.js"></script>
-<script src="sjs/registrese.js"></script>
+<script src="../template/js/copropiedad-functions.js?v=1.0"></script>
+<script src="sjs/registrese-functions.js?v=1.0"></script>
+<script src="sjs/registrese.js?v=1.0"></script>
 <!-- TRACKING -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -117,8 +139,7 @@ document.write('<iframe src="https://4862415.fls.doubleclick.net/activityi;src=4
             <div class="titulo-principal">
               <h1>Activación de usuario</h1>
             </div>
-            <?php if($result == "1") { ?>
-                <?php if($tkest) { ?>
+                <?php if($tkest && (count($arr) > 1)) { ?>
                   <!--
                   Start of DoubleClick Floodlight Tag: Please do not remove
                   Activity name of this tag: CO_CoPropiedad_TYP
@@ -151,14 +172,9 @@ document.write('<iframe src="https://4862415.fls.doubleclick.net/activityi;src=4
                     </form>
                 <?php } else { ?>
                     <div class="login" style="height:auto; margin:5px auto;">
-                      <h2>¡Su correo de activacion ha expirado o no es valido!</h2><p>El correo de activación tiene una caducidad de 24 horas. ¿Desea reenviar el correo de activacion para continuar con el proceso?.</p><p style="margin-top: 15px;"><a class="btn big" style="color:#FFF!important" href="generar-link.php">Haga click aquí</a></p>
+                      <h2 style="text-align:center;">¡Su cuenta ya ha sido activada!</h2><p style="text-align:right;"><a href="cambiar-password.php"> ¿Olvidó su contraseña? </a></p><div class="login-botones"><p style="text-align:right;"><a class="btn big" href="https://appdes.copropiedad.co/"> Iniciar Sesion </a></p></div>
                     </div>
-                  <?php } } 
-              else {?>  
-              <div class="login" style="height:auto; margin:5px auto;">
-                <h2 style="text-align:center;">¡Su cuenta ya ha sido activada!</h2><p style="text-align:right;"><a href="cambiar-password.php"> ¿Olvidó su contraseña? </a></p><div class="login-botones"><p style="text-align:right;"><a class="btn big" href="https://appdes.copropiedad.co/"> Iniciar Sesion </a></p></div>
-              </div>
-            <?php } ?>
+                  <?php } ?>
             </div>
             <div id="gracias" class="login-botones" style="padding:0px 15px; text-align:center;"></div>
         </div>

@@ -113,7 +113,7 @@ $app->post("/", function() use($app)
 	{
 		$userflow = 0;
 		$filtro = array("id_crm_persona" => $id_crm);
-		$r1 = objectToArray(consultaColeccionRespuesta($app,'copropiedad',$filtro));
+		$r1 = filtrarCPVigencia(objectToArray(consultaColeccionRespuesta($app,'copropiedad',$filtro)));
 		if(count($r1))
 		{
 			$userflow = "1";
@@ -191,4 +191,24 @@ $app->post("/", function() use($app)
 	      // Return array
 	      return $d;
 	  }
+	}
+
+	function filtrarCPVigencia($cps)
+	{
+		date_default_timezone_set('America/Bogota');
+		$first_date = strtotime(date("c"));
+		$today = strtotime('-1 day', $first_date);
+		$today = date("c",$today);
+		$out = array();
+
+		if(count($cps) > 0)
+			foreach ($cps as $key => $value) 
+			{
+				if(date($value["vigencia"]) > $today)
+				{
+				  $out[] = $value;
+				}
+			}
+
+	  return $out;
 	}

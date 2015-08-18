@@ -7,8 +7,8 @@
 <script type="text/javascript" src="../template/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="../template/js/dataTables.colVis.min.js"></script>
 <script type="text/javascript" src="../template/js/dataTables.responsive.min.js"></script>
-<script type="text/javascript" src="sjs/proveedores-functions.js"></script>
-<script type="text/javascript" src="sjs/proveedores-editar.js"></script>
+<script type="text/javascript" src="sjs/proveedores-functions.js?v=2.0"></script>
+<script type="text/javascript" src="sjs/proveedores-editar.js?v=2.0"></script>
 </head>
 <body>
 <header>
@@ -46,8 +46,10 @@
                   </tr>
                   <tr>
                     <td>
-                      <label for="nombre_inmueble"teid="pr:html:7"></label>
-                      <input type="text" id = "nombre_inmueble" name="nombre_inmueble" required></input>
+                      <label for="nombre_inmueble"teid="pr:html:7"></label>                      
+                    </td>
+                    <td>                      
+                      <input type="text" id = "nombre_inmueble" name="nombre_inmueble" size="30" required></input>                      
                       <input type="hidden" id = "id_unidad" name="id_unidad"></input>
                       <input type="hidden" id = "id_copropiedad" name="id_copropiedad"></input>
                       <input type="hidden" id = "id_crm_persona" name="id_crm_persona"></input>
@@ -55,7 +57,15 @@
                       <input type="hidden" id = "tipo_unidad" name="tipo_unidad"></input>
                       <input type="hidden" id = "estado" name="estado"></input>                      
                       <input type="hidden" id = "fecha_creacion" name="fecha_creacion"></input>
-                    </td>                    
+                    </td>
+                    <tr>
+                    <td>
+                      <label for="nit" teid="pr:html:62"></label>                      
+                    </td>
+                    <td>
+                      <input type="number" id = "nit" name="nit" size="30" required></input>
+                    </td>
+                  </tr>
                     <td>
                       <div class="botones-form">
                         <input type="submit" class="btn icono guardar ttip positivo" teid="pr:val:15, pr:title:28"/>

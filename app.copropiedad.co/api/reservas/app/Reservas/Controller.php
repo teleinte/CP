@@ -405,11 +405,12 @@ require_once("/datos/app.copropiedad.co/api/reservas/app/Model/DBNosql_model.php
 
   $app->post("/reservas/listar/inmueble/fecha/", function() use($app)
   {
-   try
-    {
+   /*try
+    {*/
       $requerimiento = $app::getInstance()->request();
       $datos = json_decode($requerimiento->getBody());
       $token = new Token;
+      $reserva = array();
       if($token->SetToken($datos->token))
       {
         $validateUsuario=validateRole();
@@ -426,8 +427,20 @@ require_once("/datos/app.copropiedad.co/api/reservas/app/Model/DBNosql_model.php
 
           */
           $filtro = array("fecha_inicio" => array('$gte' => $datos->body->fecha_inicio."COT00:00:01+00:00", '$lte' => $datos->body->fecha_fin."COT23:59:59+00:00"), 'id_inmueble' => $id_inmueble);
-          $res = consultaColeccionRespuesta($app, 'reservas', $filtro);
-          enviarRespuesta($app, true, $res, $filtro);
+          $resu =consultaColeccionRespuesta($app, 'reservas', $filtro);
+          $res = objectToArray(consultaColeccionRespuesta($app, 'reservas', $filtro));
+          foreach ($res as $key => $value) 
+          {
+            $result_filtro = explode('|', $res[0]['usuario'])[0];
+            $filtro2 = array('email' => explode('cp-', $result_filtro)[1]);
+            $resulta2 = objectToArray(consultaColeccionRespuesta($app, 'estadocp', $filtro2));
+            $filtro3 = array('id_crm_persona' => (string)$resulta2[0]['id_crm_persona'] );
+            $resulta3 = consultaColeccionRespuesta($app, 'unidad', $filtro3);
+            $value['nombre_inmueble'] = $resulta3[0]['nombre_inmueble'];
+            $reserva[] = $value;
+          }
+          //var_dump($reserva);
+          enviarRespuesta($app, true, $reserva, $filtro);
         }
         else
         {
@@ -438,11 +451,11 @@ require_once("/datos/app.copropiedad.co/api/reservas/app/Model/DBNosql_model.php
       {
         enviarRespuesta($app, false, "Token invalido", "null");
       }
-    }
+    /*}
     catch(Exception $e)
     {
     enviarRespuesta($app, false, "Error de autenticación", $e->getMessage());
-    }
+    }*/
   });
 
 //METODO LISTAR RESERVAS POR GRUPO POR FECHA - OK - OK
@@ -717,3 +730,19 @@ function convertMongoIds(array &$array){
         }
     }
 }
+  function objectToArray($d) 
+  {
+    if (is_object($d)) 
+    {    
+        $d = get_object_vars($d);
+    }
+    if (is_array($d)) 
+    {    
+        return array_map(__FUNCTION__, $d);
+    }
+    else 
+    {
+        // Return array
+        return $d;
+    }
+  }

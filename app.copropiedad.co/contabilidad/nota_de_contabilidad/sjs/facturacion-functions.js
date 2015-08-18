@@ -46,17 +46,21 @@ function obtenerContactos(datos)
           var arr={token:sessionStorage.getItem('token'),body:{_id : y['unidad']}}
           var datosUnidad = traerDatosSync("unidad/unidad/copropiedadid",arr);
           var nombreInmueble="";
-          $.each(datosUnidad,function(alfa,beta){nombreInmueble=beta["nombre_inmueble"];return nombreInmueble;});          
-          personas.push('<option value="' + y['id_crm_persona'] + '" cpemail="' + y['email'] + '" cpidcrm="' + y['id_crm_persona'] + '"cpnombre="' + y['nombre'] + '" cptelefono="' + y['telefono'] + '">'+ y['nombre'] +' - '+nombreInmueble +'</option>');
+          var nit="";
+          $.each(datosUnidad,function(alfa,beta){nit=beta["nombre_inmueble"];nombreInmueble=beta["nombre_inmueble"];return nombreInmueble;});          
+          personas.push('<option value="' + y['id_crm_persona'] + '" cpemail="' + y['email'] + '" cpidcrm="' + y['id_crm_persona'] + '"cpnombre="' + y['nombre'] + '" cptelefono="' + y['telefono'] + '"nit="' + nit + '">'+ y['nombre'] +' - '+nombreInmueble +'</option>');
         };
         if (y['tipo']=="proveedor")
         {
           //tengo que traer el nombre de la unidad
           var arr={token:sessionStorage.getItem('token'),body:{_id : y['unidad']}}
           var datosUnidad = traerDatosSync("unidad/unidad/copropiedadid",arr);
+          //alert(datosUnidad);
           var nombreInmueble="";
-          $.each(datosUnidad,function(alfa,beta){nombreInmueble=beta["nombre_inmueble"];return nombreInmueble;});          
-          personas.push('<option value="' + y['id_crm_persona'] + '" cpemail="' + y['email'] + '" cpidcrm="' + y['id_crm_persona'] + '"cpnombre="' + y['nombre'] + '" cptelefono="' + y['telefono'] + '">'+ y['nombre'] +' - '+nombreInmueble +'</option>');
+          var nit="";
+          $.each(datosUnidad,function(alfa,beta){nit=beta["nit"];nombreInmueble=beta["nombre_inmueble"];return nombreInmueble;});
+
+          personas.push('<option value="' + y['id_crm_persona'] + '" cpemail="' + y['email'] + '" cpidcrm="' + y['id_crm_persona'] + '"cpnombre="' + y['nombre'] + '" cptelefono="' + y['telefono'] + '"nit="' + nit + '">'+ y['nombre'] +' - '+nombreInmueble +'</option>');
         };  
       });
   result = personas;
@@ -77,18 +81,14 @@ function popularBasicos()
 
 function obtenerConsecutivos(tipo, datos)
 {
-	// var msgDividido = JSON.stringify(msg);
-	// var mensaje =  JSON.parse(msgDividido);
-	// var msgDivididoDos = JSON.stringify(mensaje.message);
-	// var datos = JSON.parse(datos);                	            
 	result = datos[0][tipo];
 	return result;
 }
-function crearDocumento(contador, consecutivo, nombretercero, emailtercero, concepto_documento, notas_documento, documento_relacionado, tipo_transaccion, id_tercero)
+function crearDocumento(contador, consecutivo, nombretercero, emailtercero, concepto_documento, notas_documento, documento_relacionado, tipo_transaccion, id_tercero, nit)
 {
     try
     {
-        crearTransaccion(consecutivo, nombretercero, emailtercero, concepto_documento, notas_documento, documento_relacionado, tipo_transaccion, id_tercero);
+        crearTransaccion(consecutivo, nombretercero, emailtercero, concepto_documento, notas_documento, documento_relacionado, tipo_transaccion, id_tercero, nit);
         for (var i = 1; i <= contador; i++)
         {
             var option = $("option:selected",$('#dc_fila' + i));
@@ -150,7 +150,7 @@ function aumentaConsecutivos(tipodocumento)
         });
 }
 
-function crearTransaccion(consecutivo, nombretercero, emailtercero, concepto_documento, notas_documento, documento_relacionado, tipo_transaccion, idcrmtercero)
+function crearTransaccion(consecutivo, nombretercero, emailtercero, concepto_documento, notas_documento, documento_relacionado, tipo_transaccion, idcrmtercero, nit)
 {
   var d = new Date();
   var today = d.toISOString();
@@ -181,6 +181,7 @@ function crearTransaccion(consecutivo, nombretercero, emailtercero, concepto_doc
             nombre_tercero:nombretercero,
             email_tercero:emailtercero,
             id_crm_tercero:idcrmtercero,
+            nit:nit,
             concepto_documento:concepto_documento,
             moneda:"COP",
             vendedor_fv:"",

@@ -1239,8 +1239,8 @@ if(!defined("SPECIALCONSTANT")) die("Acceso denegado");
 
 	$app->post("/mail/send2/", function() use($app)
 	{
-		//try
-		//{
+		try
+		{
 			$requerimiento = $app::getInstance()->request();
 			$datos = json_decode($requerimiento->getBody());
 			$token = new Token;
@@ -1268,12 +1268,57 @@ if(!defined("SPECIALCONSTANT")) die("Acceso denegado");
 				enviarRespuesta($app, true, $resultado, null);
 			}
 			else{enviarRespuesta($app, false, "Token invalido", "Token invalidos");}
-		/*}
+		}
 		catch(Exception $e)
 		{
 			//echo "Error: " . $e->getMessage();
 			enviarRespuesta($app, false, "Error Los Datos de la lista no concuerdan", $e->getMessage());
-		}*/
+		}
+	});
+
+//----- METODO DE MAILING GENERICO ATTACHMENT ----- OK
+	$app->options("/mail/attachment/", function() use($app)
+	{
+	  enviarRespuesta($app, true, "ok", "ok");
+	});
+
+	$app->post("/mail/attachment/", function() use($app)
+	{
+		try
+		{
+			$requerimiento = $app::getInstance()->request();
+			$datos = json_decode($requerimiento->getBody());
+			$token = new Token;
+			$tokenValidado = $token->SetToken($datos->token);
+			if($tokenValidado)
+			{
+				$template = file_get_contents("/datos/shared_resources/mail_templates/blank2.html");
+				$template = str_replace("@@DATOS@@", $datos->body->message, $template);
+				$resultado = array();
+				$subject = $datos->body->subject;
+				$topeople = $datos->body->to;
+				$toarray = explode(",",$topeople);
+				$headers = array();
+				$headers[] = "MIME-Version: 1.0";
+				$headers[] = "Content-type: text/html; charset=utf-8";
+				$headers[] = "Subject: " . $subject;
+				$headers[] = "From: Copropiedad.co  <no_responder@copropiedad.co>";
+
+				foreach ($toarray as $idx => $destination) 
+				{
+					$resultado[] = array("email"=>trim($destination), "response" => json_encode(ses_mail(trim($destination), $subject, $template, implode("\r\n", $headers))));
+				}
+
+				enviarInformacion('mailerlog', $resultado, $app);
+				enviarRespuesta($app, true, $resultado, null);
+			}
+			else{enviarRespuesta($app, false, "Token invalido", "Token invalidos");}
+		}
+		catch(Exception $e)
+		{
+			//echo "Error: " . $e->getMessage();
+			enviarRespuesta($app, false, "Error Los Datos de la lista no concuerdan", $e->getMessage());
+		}
 	});
 
 /*------------- METODOS BACKEND --------------*/

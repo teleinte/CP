@@ -11,6 +11,14 @@ $(window).load(function(){
 $(document).ready(function(){
   	//var tokenval = checkTokenValidity();
 
+  	if(localStorage.getItem(sessionStorage.getItem('idioma')) == null || localStorage.getItem(sessionStorage.getItem('idioma')) == undefined)
+  	{
+  		var update = actualizarLenguage();
+  		var dateupdate = new Date(update);
+  		var lang = obtenerLenguaje();
+  		localStorage.setItem('lastupdate',dateupdate);
+  	}
+
   	var initDatepicker = function() {
   	    $('input[type=date]').each(function() {
   	        var $input = $(this);
@@ -160,6 +168,7 @@ $(document).ready(function(){
 			$("#pendientes").hide();
 			if(sessionStorage.getItem('ncp') == undefined || sessionStorage.getItem('ncp') == null || sessionStorage.getItem('ncp') == "undefined")
 				$('.trescolumas, .ultima').html('<h4 style="display:inline; font-size:16px; font-weigth:700;" class="ttip" title="'+ obtenerTerminoLenguage('ms','6') +'"><span>'+obtenerTerminoLenguage('ms','5')+'</span><span style="color:#f51e7c; font-weight:bold;">Sin copropiedades</span></h4>').css('margin-top','15px').css('text-align','center');
+
 		break;
 		case 1:			
 			$(".niveldos, .niveltres").removeAttr('href');
@@ -242,4 +251,11 @@ $(document).ready(function(){
 			listarCopropiedades();
 		break;
 	}
+
+	/*var params={};window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(str,key,value){params[key] = value;})                            
+	
+	var arr = {token:sessionStorage.getItem('token'),body:{id_copropiedad:sessionStorage.getItem('cp'), id_crm_persona:sessionStorage.getItem('id_crm'), url:document.URL}};
+	//alert(JSON.stringify(arr));
+	var response = envioFormularioAsync("managercp/copropiedad/setflow/", arr, 'POST');*/
+	
 });

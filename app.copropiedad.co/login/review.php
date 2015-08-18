@@ -20,23 +20,26 @@
   <div id="contenido-principal">
       <section id="central" style="width:500px;">
         	<div class="contenedor">                
-        		<div  id="vencidas">
-                  <div class="titulo-principal"><h1 class="title tareas">Copropiedades Vencidas</h1>
-                  	<br><br><br>
-                  	<table id="tVencidas" class="stripe" cellspacing="0" width="100%"> 
-                  	</table>
-                  </div>                    
-                </div>
-                <div id="ingreso">
-                  <div class="titulo-principal"><h1 class="title tareas">Elija el perfil de ingreso</h1>
-                  	<br><br><br>
-                  	<table id="tIngreso" class="stripe" cellspacing="0" width="100%"> 
-                  	</table>
-                  </div>                    
-                </div>                
-                    <form class="clearfix" id="tarea_form">
-
-                    </form>
+        		<div id="vencidas">
+              <div class="titulo-principal"><h1>Aviso de pago</h1>
+                <div id="message_cp" style="margin:15px 5px;"></div>
+              	<table id="tVencidas" class="stripe" cellspacing="0" width="100%" border="1">
+                  <tr>
+                    <td>
+                      <h4><strong>COPROPIEDAD</strong></h4>
+                    </td>
+                    <td>
+                      <h4><strong>FECHA FIN VIGENCIA</h4></strong>
+                    </td>
+                  </tr>
+              	</table>
+                <div id="advice_cp"></div>                 
+              </div>
+            </div>
+            <div id="ingreso">
+              <div class="titulo-principal"><h1 id="titulo-perfil">Elija el perfil de ingreso</h1>
+              <div id="tIngreso" style="margin:15px 5px;"></div>
+            </div>
                 <div data-alerts="alerts" id ="alertas"></div>
         	</div>
         </section>

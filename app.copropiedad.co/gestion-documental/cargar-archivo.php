@@ -69,6 +69,21 @@
                             <input type="hidden" id="filepath" name="filepath" value="none"/>
                           </td>
                         </tr>
+                        <tr>
+                          <td>
+                           <label for="invitados" teid="gd:html:38"></label>
+                            <select id="invitados" name="invitados">
+                              <option value="ninguno" teid="cl:html:51"></option>
+                              <option value="asamblea" teid="cl:html:52"></option>
+                              <option value="consejo" teid="cl:html:53"></option>
+                              <option value="residente" teid="cl:html:54"></option>
+                            </select>
+                          </td>
+                          <td>
+                            <label value="odestinatario" teid="cl:html:55"></label>
+                            <input type="email" multiple id="odestinatario" name="odestinatario" pattern="^([\w+-.%]+@[\w-.]+\.[A-Za-z]{2,4},*[\W]*)+$"/>
+                          </td>
+                        </tr>
                     </table>
                     <div class="botones-form">
                       <input type="submit" class="btn icono guardar ttip positivo" id="btncrearanuncioventa" teid="gd:val:14, gd:title:26"/>

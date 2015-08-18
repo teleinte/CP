@@ -6,25 +6,64 @@ function popularTablaVoraciones(datos)
 		    var idMongoFinal = JSON.parse(idmongo);
 		    var t = $('#votacionesTabla').DataTable();
             //tabla de estados 1. creada sin enviar, 2. creada enviada, 3. eliminada, 
-
+            var arr = {token:sessionStorage.getItem('token'),body:{id_encuesta:idMongoFinal.$id}};            
+            var response = traerDatosSync("encuestas/encuesta/VotantesTotales",arr);
+            var resultadoContestadas = traerElectoresTabla(response);
+            //alert(resultadoContestadas);
+           var arr = {token:sessionStorage.getItem('token'),body:{id_encuesta:idMongoFinal.$id}};
+           var url = "encuestas/encuesta/VotantesFaltantes/";
+           var llegada = envioFormularioMessageSync(url,arr,'POST');           
+           var numeroPendientes=0;
+           if(llegada)
+           {
+               $.each(llegada, function(x , y)
+               {
+                 if(x=="message" && (y!= "" || y!=0))
+                 {
+                   $.each(y, function(alfa , beta)
+                   {   
+                       numeroPendientes++;
+                   });
+                 }
+               }); 
+           }
             if(y['estado']=="1")
             {
-                var enlace = '<a class="btn borrar solo inline ttip" teid="en:title:11" href="votacion-borrar.php?idt='+idMongoFinal.$id+'"></a><a class="btn resultados solo inline ttip" teid="en:title:10" href="resultado-votacion.php?idt='+idMongoFinal.$id+'"></a><a class="btn enviar solo inline ttip" teid="en:title:9" id="open-enviar-encuesta" href="enviar-votacion.php?idt='+idMongoFinal.$id+'"></a><a class="btn editar solo inline ttip" teid="en:title:8" href="votacion-editar.php?idt='+idMongoFinal.$id+'"></a>';
+                if(resultadoContestadas==0)
+                {
+                    var enlace = '<a class="btn borrar solo inline ttip" teid="en:title:11" href="votacion-borrar.php?idt='+idMongoFinal.$id+'"></a><a class="btn enviar solo inline ttip" teid="en:title:9" id="open-enviar-encuesta" href="enviar-votacion.php?idt='+idMongoFinal.$id+'"></a><a class="btn editar solo inline ttip" teid="en:title:8" href="votacion-editar.php?idt='+idMongoFinal.$id+'"></a>';    
+                }
+                else
+                {
+                    var enlace = '<a class="btn borrar solo inline ttip" teid="en:title:11" href="votacion-borrar.php?idt='+idMongoFinal.$id+'"></a><a class="btn resultados solo inline ttip" teid="en:title:10" href="resultado-votacion.php?idt='+idMongoFinal.$id+'"></a><a class="btn enviar solo inline ttip" teid="en:title:9" id="open-enviar-encuesta" href="enviar-votacion.php?idt='+idMongoFinal.$id+'"></a><a class="btn editar solo inline ttip" teid="en:title:8" href="votacion-editar.php?idt='+idMongoFinal.$id+'"></a>';
+                }                
             }
             if(y['estado']=="2")
             {
-                var enlace = '<a class="btn resultados solo inline ttip" teid="en:title:10" href="resultado-votacion.php?idt='+idMongoFinal.$id+'"></a><a class="btn enviar solo inline ttip" teid="en:title:9" id="open-enviar-encuesta" href="enviar-votacion.php?idt='+idMongoFinal.$id+'"></a>';
-            }            
-		        t.row.add([
+                if(numeroPendientes==0)
+                {
+                    var enlace = '<a class="btn resultados solo inline ttip" teid="en:title:10" href="resultado-votacion.php?idt='+idMongoFinal.$id+'"></a><a class="btn enviar solo inline ttip" teid="en:title:9" id="open-enviar-encuesta" href="enviar-votacion.php?idt='+idMongoFinal.$id+'"></a>';
+                }
+                else if(resultadoContestadas==0)
+                {
+                    var enlace = '<a class="btn enviar solo inline ttip" teid="en:title:9" id="open-enviar-encuesta" href="enviar-votacion.php?idt='+idMongoFinal.$id+'"></a><a class="btn regresar solo inline ttip" id="open-enviar-encuesta" teid="en:title:9" href="enviar-votacion-recordatorio.php?idt='+idMongoFinal.$id+'"></a>';    
+                }
+                else
+                {
+                    var enlace = '<a class="btn resultados solo inline ttip" teid="en:title:10" href="resultado-votacion.php?idt='+idMongoFinal.$id+'"></a><a class="btn enviar solo inline ttip" teid="en:title:9" id="open-enviar-encuesta" href="enviar-votacion.php?idt='+idMongoFinal.$id+'"></a><a class="btn regresar solo inline ttip" id="open-enviar-encuesta" teid="en:title:9" href="enviar-votacion-recordatorio.php?idt='+idMongoFinal.$id+'"></a>';    
+                }
+            }
+                t.row.add([
                 '',                            
                 y['nombre'],
                 y['descripcion'],
                 y['fecha_fin'],
+                resultadoContestadas,
+                numeroPendientes,
                 enlace
-            ] ).draw();
-
-            $(document).renderme('vo');                       
-		});
+            ] ).draw();             
+            $(document).renderme('en');                  
+        });
 }
 
 function crearEncuesta()
@@ -307,6 +346,12 @@ function traerElectores(datos){
     $('#totalEncuestados').html(obtenerTerminoLenguage('vo','45')+JSON.stringify(datos));
 }
 
+function traerElectoresTabla(datos){
+    var msgDividido = JSON.stringify(datos);
+    var mensaje =  JSON.parse(msgDividido);
+    var msgDivididoDos = JSON.stringify(mensaje.message);    
+    return JSON.stringify(datos);
+}
 
 function traerCabecerasRersultados(datos){
     //Consulta para cargar la Cabecera de la encuesta
@@ -376,7 +421,7 @@ function enviocorreovotacion(actualurl, email, mensaje, fechafin, titulo, direcc
   for (var i=0; i<mailpartido.length; i++) 
   {
       var urlfinal = direccionEncuesta+"index.php?tp=2&stk="+tokenencuesta+"&usr="+btoa(mailpartido[i]);
-      var body = '<p>'+ obtenerTerminoLenguage('ma','61') +'<strong>'+sessionStorage.getItem('nombreCompleto')+'</strong>'+ obtenerTerminoLenguage('ma','62') +'</p> <p> <strong> '+mensaje+'.</strong> <br/><br/><strong>'+ obtenerTerminoLenguage('ma','63') +fechafin+'.</strong><br/><br/>'+ obtenerTerminoLenguage('ma','64') +'<br/><a href="'+urlfinal+'" style="background:#f51e7c; color:#fff!important; text-decoration: none; padding:5px 10px; border-radius: 3px; font-weight:bold;">'+ obtenerTerminoLenguage('ma','65') +'</a><br/><br/> <!--Para ver los términos y condiciones aceptados, haga click en el siguiente boton: <br/><a href="http://www.copropiedad.co/terminos-y-condiciones" style="background:#f51e7c; color:#fff!important; text-decoration: none; padding:5px 10px; border-radius: 3px; font-weight:bold;"></a>-->'+ obtenerTerminoLenguage('ma','66') +' </p>';
+      var body = '<p>'+ obtenerTerminoLenguage('ma','61') +'<strong>'+sessionStorage.getItem('nombreCompleto')+" - "+sessionStorage.getItem('ncp')+'</strong>'+ obtenerTerminoLenguage('ma','62') +'</p> <p> <strong> '+mensaje+'.</strong> <br/><br/><strong>'+ obtenerTerminoLenguage('ma','63') +fechafin+'.</strong><br/><br/>'+ obtenerTerminoLenguage('ma','64') +'<br/><a href="'+urlfinal+'" style="background:#f51e7c; color:#fff!important; text-decoration: none; padding:5px 10px; border-radius: 3px; font-weight:bold;">'+ obtenerTerminoLenguage('ma','65') +'</a><br/><br/> <!--Para ver los términos y condiciones aceptados, haga click en el siguiente boton: <br/><a href="http://www.copropiedad.co/terminos-y-condiciones" style="background:#f51e7c; color:#fff!important; text-decoration: none; padding:5px 10px; border-radius: 3px; font-weight:bold;"></a>-->'+ obtenerTerminoLenguage('ma','66') +' </p>';
       $(document).renderme('ma');
       var to = mailpartido[i];
       enviocorreoSync(to, titulo, body);

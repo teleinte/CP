@@ -3,8 +3,8 @@ $(document).ready(function(){
 
   
   if(sessionStorage.getItem('message') != null || sessionStorage.getItem('message') != undefined){
-    $("#alertas").html('<div class="alert alert-dismissable alert-success"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>' + sessionStorage.getItem('message') + '</div>');
-    sessionStorage.removeitem('message');
+    //$("#alertas").html('<div class="alert alert-dismissable alert-success"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>' + sessionStorage.getItem('message') + '</div>');
+    sessionStorage.removeItem('message');
   }
 
   var params={};window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(str,key,value){params[key] = value;})      

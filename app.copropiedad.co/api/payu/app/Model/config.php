@@ -21,5 +21,5 @@ define('__DBPASSWORD', 't3l31nt32015');
 define('__REGISTERLIMIT', 1000);
 ////// definicion de rutas de logs
 define('__LOGSROUTE', 'app/Logs/');
-define('__DEBUG', true);
+define('__DEBUG', false);
 ?>

@@ -642,6 +642,7 @@ function traerDatosHoy()
       {
         if(contadorso == 0)
           solicitudes.push('<div class="title" style="margin-top:5px;">Solicitudes abiertas / Fecha Apertura</div>');
+
         var fechas = new Date(y['fecha_creacion'].replace("COT","T")).toISOString().split("T")[0].replace(":00+00:00","");
         var oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
         var firstDate = new Date(fechas);
@@ -655,10 +656,8 @@ function traerDatosHoy()
       }
     });
 
-  salida = tareashoy.concat(tareasvencidas).concat(solicitudes);//.concat(reservashoy);
+  salida = tareashoy.concat(tareasvencidas).concat(solicitudes);
   $("#pending-panel").html("<ul>" + salida.join("") + "</ul>");
-  //console.log(datos3.length);
-  //if(solicitudes.length > 0)
   if(datos.length > 0)
   {
     $("#pending-counter-text").text("Mis Pendientes...");
@@ -686,8 +685,14 @@ function traerDatosHoy()
     }
     //console.warn(elem);
     sessionStorage.setItem('acelem',JSON.stringify(elem));
-    sessionStorage.setItem('referer','../tarea');
+    sessionStorage.setItem('referer',window.location.href);
     window.location = "../calendario/editar-tarea.php";
+  });
+
+  $(".solhoylink").click(function(event){
+    event.preventDefault();
+    sessionStorage.setItem('mongoid',$(this).attr('mongoid'));
+    window.location = "../solicitudes/respuesta.php";
   });
 }
 
@@ -788,7 +793,19 @@ function checkUserFlow(url)
 function checkVigencia(url)
 {
   var actualUrl = "api/admin/copropiedad/copropiedad/usuarioCopropiedad/";
-  var arr = {token:sessionStorage.getItem('token'),body:{id_crm_persona:sessionStorage.getItem('id_crm')}};
+  var arr = {};
+  
+  if(sessionStorage.getItem('isSA') != null || sessionStorage.getItem('isSA') != undefined)
+  {
+    console.warn(1);
+    var arr = {token:sessionStorage.getItem('token'),body:{id_crm_persona:sessionStorage.getItem('isSA')}};
+  }
+  else
+  {
+    console.warn(2);
+    var arr = {token:sessionStorage.getItem('token'),body:{id_crm_persona:sessionStorage.getItem('id_crm')}};
+  }
+
   var datos = envioFormularioURLMessageSync(url + actualUrl,arr,'POST');
   var res = false;
   //console.warn(datos);
@@ -924,7 +941,7 @@ function setupIngreso(estadoCP,cps)
     $.each(cps['vencidas'],function(k,v){
       if(v['rol'] == 'administrador')
       {
-        vencidas.push(v['id_copropiedad'] + "@@@" + v['nombre']);
+        vencidas.push(v['vigencia'] + "@@@" + v['nombre']);
       }
     });
 

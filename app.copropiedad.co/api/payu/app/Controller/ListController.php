@@ -422,6 +422,45 @@ if(!defined("SPECIALCONSTANT")) die("Acceso denegado");
     }
   });
 
+  //METODO LISTAR TODOS LOS OBJETOS PAGO - OK - OK
+    $app->options("/pagosonline/listar/pago_nuevo/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
+
+    $app->post("/pagosonline/listar/pago_nuevo/", function() use($app)
+    {
+     try
+      {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+          $validateUsuario=validateRole();
+          if ($validateUsuario)
+          {	
+          	$idGuardado=$datos->body->id_copropiedad;
+			$muestreo=array("_id"=>new MongoId($idGuardado));
+            $consulta=objectToArray(consultaColeccionRetorno($app, 'copropiedad', $muestreo))[0]['pagosonline'];
+            enviarRespuesta($app, true, $consulta, null);
+          }
+          else
+          {
+            enviarRespuesta($app, false, "Usuario sin privilegios", "Usuario sin privilegios");
+          }
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      }
+      catch(Exception $e)
+      {
+      enviarRespuesta($app, false, "Error de autenticación", $e->getMessage());
+      }
+    });
+
 /*********************** METODO PARA PAGAR PAGOS ONLINE (GERMAN)***************************/
 	//PAGAR POL
   $app->options("/pagarpol/", function() use($app)

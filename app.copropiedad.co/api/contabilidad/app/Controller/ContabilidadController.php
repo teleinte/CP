@@ -617,6 +617,34 @@ require_once("app/Model/DBNosql_Model.php");
       }
     });
 
+     //METODO OBTENER CONFIGURACION - OK - OK
+    $app->options("/obtener/consecutivosFijos/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
+
+    $app->post("/obtener/consecutivosFijos/", function() use($app)
+    {
+     try
+      {
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;      
+        if($token->SetToken($datos->token))
+        {
+          consultaColeccion($app,'cont_'.$datos->body->id_copropiedad, array("tipo_documento" => "consecutivosFijos"));
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      }
+      catch(Exception $e)
+      {
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+      }
+    });
+
     //METODO MODIFICAR CONFIGURACION - OK - OK
     $app->put("/configuracion/", function() use($app)
     {

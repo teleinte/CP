@@ -59,9 +59,13 @@ function popularTablaContactos(datos)
 	    //$('#tableContainer > tbody:last').append('<tr><td>'+y['nombre_copropiedad']+'</td><td>'+y['tipo_unidad']+'</td><td>'+y['detalle']+'</td><td><a class="btn editar solo inline" href="inmueble-editar.html?idt='+idMongoFinal.$id+'"></a><a class="btn borrar solo inline" href="inmueble-eliminar.html?idt='+idMongoFinal.$id+'"></a></td></tr>')
     });
 }
-function popularTablaContactosVer(datos)
+function popularTablaContactosVer(datos, inmueble)
 {
 	var params={};window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(str,key,value){params[key] = value;})
+	$.each(inmueble, function(x , y) 
+    {
+    	$('#inmueble_name').html(' '+y['nombre_inmueble']);
+    });
 	$.each(datos, function(x , y) 
     {
     	console.warn(y);
@@ -122,10 +126,14 @@ function popularDatosModificables(datos)
 	});
 }
 //funcion para popular el formulario de contactos independiente
-function popularDatosUsuario(datos)
+function popularDatosUsuario(datos, inmueble)
 {
 	//alert("esta"+JSON.stringify(datos));
 	var params={};window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(str,key,value){params[key] = value;})
+	$.each(inmueble, function(x , y) 
+	{
+		$('#inmueble_name').html(' del inmueble '+ y['nombre_inmueble']);
+	});
 	$.each(datos, function(x , y) {               
 	    var idmongo= JSON.stringify(y['_id']);
 	    var idMongoFinal = JSON.parse(idmongo);               
@@ -229,4 +237,13 @@ function enviocorreobienvenidaDos(actualurl, email, nombre) //--OK
   var to = email;
   
   enviocorreoSync(to, "Bienvenido a Copropiedad.co", body, actualurl + "/");
+}
+function popularNuevoUsuario(inmueble)
+{
+	//alert("esta"+JSON.stringify(datos));
+	var params={};window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(str,key,value){params[key] = value;})
+	$.each(inmueble, function(x , y) 
+	{
+		$('#inmueble_name').html(' del inmueble '+ y['nombre_inmueble']);
+	});
 }

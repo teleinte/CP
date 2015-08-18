@@ -443,7 +443,13 @@ function popularReporte(inmueble, start, end)
 		    	console.warn('true');
 		    else
 		    	console.warn('buu');*/
-		    t.row.add(['',user,datestart.toISOString().split("T")[0] + " " + datestart.toISOString().split("T")[1].replace(":00.000Z",""),dateend.toISOString().split("T")[0] + " " + dateend.toISOString().split("T")[1].replace(":00.000Z","")]).draw();
+		    t.row.add([
+		    	'',
+		    	user,
+		    	y['nombre_inmueble'],
+		    	datestart.toISOString().split("T")[0] + " " + datestart.toISOString().split("T")[1].replace(":00.000Z",""),
+		    	dateend.toISOString().split("T")[0] + " " + dateend.toISOString().split("T")[1].replace(":00.000Z","")
+		    	]).draw();
 		    	contador++;
 		});
 	}
@@ -511,27 +517,38 @@ function popularReservas()
 		var datos = traerDatosSync(url,arr,'POST');
 
 		if(!$.isEmptyObject(datos))
-	    $.each(datos, function(x , y){
-	        var idmongo= JSON.stringify(y['_id']);
-	        var idMongoFinal = JSON.parse(idmongo);
-	        var t = $('#listareservas').DataTable();                                    
-	        var s = y['fecha_inicio'].replace("COT","T");
-	        var e = y['fecha_fin'].replace("COT","T");
-	        var datestart = new Date(s)
-	        //datestart.setHours(datestart.getHours() + 5);
-	        var dateend = new Date(e);
-	        //dateend.setHours(dateend.getHours() + 5)
-	        var ds = new Date(s);
-	        ds.setHours(ds.getHours() + 5);
-	        var de = new Date(e);
-	        de.setHours(de.getHours() + 5);
-	        /*var dst = ds.toISOString().split("T")[1].split(":")[0] + ":" + ds.toISOString().split("T")[1].split(":")[1];
-			var den = de.toISOString().split("T")[1].split(":")[0] + ":" + de.toISOString().split("T")[1].split(":")[1];*/
-	        var datecreacion = new Date(y['fecha_creacion']).toISOString();
-	        var user = y['usuario'].split("|")[1];
-	        var comment = "";
-	        t.row.add(['',datestart.toISOString().replace("T"," ").replace(":00.000Z",""),dateend.toISOString().replace("T"," ").replace(":00.000Z",""),user,y['comentario'],'<input type="submit" class="btn borrar solo inline btnborrareserva ttip" teid="re:title:114" mongoid="'+idMongoFinal.$id+'" usuario="' + y['usuario'] + '" value="" onClick="crearPopupBorrado(\'' + idMongoFinal.$id + '\',\'' + y['usuario'] + '\')"/><input type="submit" class="btn editar solo inline btneditareserva ttip"  teid="re:title:113" mongoid="'+idMongoFinal.$id+'" startdate="'+ds+'" creaciondate="'+datecreacion+'" enddate="'+de+'" user="'+y['usuario']+'" estado="'+ y['estado'] +'" comentario="'+y['comentario']+'" id_copropiedad="'+y['id_copropiedad']+'" id_inmueble="'+y['id_inmueble']+'" grupo="a" estado="'+y['estado']+'" value="" onClick="crearPopupEdicion(\'' + idMongoFinal.$id + '\',\'' + ds +'\',\'' + datecreacion + '\',\'' + de + '\',\'' + y['usuario'] + '\',\'' + y["comentario"] + '\',\'' + y["id_copropiedad"] + '\',\'' + y["id_inmueble"] + '\',\'a\',\'' + y['estado'] + '\')"/>']).draw();
-	    });
+	    {
+	    	if(datos !== null || datos !== undefined)
+	    	$.each(datos, function(x , y){
+	    	        var idmongo= JSON.stringify(y['_id']);
+	    	        var idMongoFinal = JSON.parse(idmongo);
+	    	        var t = $('#listareservas').DataTable();                                    
+	    	        var s = y['fecha_inicio'].replace("COT","T");
+	    	        var e = y['fecha_fin'].replace("COT","T");
+	    	        var datestart = new Date(s)
+	    	        //datestart.setHours(datestart.getHours() + 5);
+	    	        var dateend = new Date(e);
+	    	        //dateend.setHours(dateend.getHours() + 5)
+	    	        var ds = new Date(s);
+	    	        ds.setHours(ds.getHours() + 5);
+	    	        var de = new Date(e);
+	    	        de.setHours(de.getHours() + 5);
+	    	        /*var dst = ds.toISOString().split("T")[1].split(":")[0] + ":" + ds.toISOString().split("T")[1].split(":")[1];
+	    			var den = de.toISOString().split("T")[1].split(":")[0] + ":" + de.toISOString().split("T")[1].split(":")[1];*/
+	    	        var datecreacion = new Date(y['fecha_creacion']).toISOString();
+	    	        var user = y['usuario'].split("|")[1];
+	    	        var comment = "";
+	    	        t.row.add([
+	    	        	'',
+	    	        	datestart.toISOString().replace("T"," ").replace(":00.000Z",""),
+	    	        	dateend.toISOString().replace("T"," ").replace(":00.000Z",""),
+	    	        	user,
+	    	        	y['nombre_inmueble'],
+	    	        	y['comentario'],
+	    	        	'<input type="submit" class="btn borrar solo inline btnborrareserva ttip" teid="re:title:114" mongoid="'+idMongoFinal.$id+'" usuario="' + y['usuario'] + '" value="" onClick="crearPopupBorrado(\'' + idMongoFinal.$id + '\',\'' + y['usuario'] + '\')"/><input type="submit" class="btn editar solo inline btneditareserva ttip"  teid="re:title:113" mongoid="'+idMongoFinal.$id+'" startdate="'+ds+'" creaciondate="'+datecreacion+'" enddate="'+de+'" user="'+y['usuario']+'" estado="'+ y['estado'] +'" comentario="'+y['comentario']+'" id_copropiedad="'+y['id_copropiedad']+'" id_inmueble="'+y['id_inmueble']+'" grupo="a" estado="'+y['estado']+'" value="" onClick="crearPopupEdicion(\'' + idMongoFinal.$id + '\',\'' + ds +'\',\'' + datecreacion + '\',\'' + de + '\',\'' + y['usuario'] + '\',\'' + y["comentario"] + '\',\'' + y["id_copropiedad"] + '\',\'' + y["id_inmueble"] + '\',\'a\',\'' + y['estado'] + '\')"/>'
+	    	        	]).draw();
+	    	    });
+		}
 
 		$("#ddrecursos").val(sessionStorage.getItem("reservaInmueble_id"));
 
