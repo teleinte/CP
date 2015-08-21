@@ -43,7 +43,7 @@
                   <div class="titulo-principal"><h1 class="title tareas" teid="pa:html:10"></h1></div>
                     <?php require_once('../template/include/alerts.inc'); ?>
                       <div id="contenido" style="width:350px; margin: 0px auto;">
-                          <form id="pagos_form" method="post" action="https://stg.gateway.payulatam.com/ppp-web-gateway">
+                          <form id="pagos_form" method="post" action="https://gateway.payulatam.com/ppp-web-gateway">
                               <?php
                               $ocultos=new Pago;
                               $ocultos->construirFormOculto();

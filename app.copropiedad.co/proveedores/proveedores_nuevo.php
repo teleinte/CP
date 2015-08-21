@@ -39,11 +39,11 @@
               <table id="form-encuesta-cl"> 
                 <tr>                               
                   <td>
-                    <label for="identificador" teid="pr:html:62"></label>
+                    <label for="identificador" teid="pr:html:48"></label>
                     <input type="text" id = "nombre_inmueble" name="nombre_inmueble" size="60" required></input>                    
                   </td>
                   <td>
-                    <label for="nit">NIT:</label>
+                    <label for="nit" teid="pr:html:62"></label>
                     <input type="number" id = "nit" name="nit" size="60" required></input>                    
                   </td>                              
                 </tr>                            

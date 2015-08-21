@@ -46,11 +46,11 @@ function popularTablaVoraciones(datos)
                 }
                 else if(resultadoContestadas==0)
                 {
-                    var enlace = '<a class="btn enviar solo inline ttip" teid="en:title:9" id="open-enviar-encuesta" href="enviar-votacion.php?idt='+idMongoFinal.$id+'"></a><a class="btn regresar solo inline ttip" id="open-enviar-encuesta" teid="en:title:9" href="enviar-votacion-recordatorio.php?idt='+idMongoFinal.$id+'"></a>';    
+                    var enlace = '<a class="btn enviar solo inline ttip" teid="en:title:9" id="open-enviar-encuesta" href="enviar-votacion.php?idt='+idMongoFinal.$id+'"></a><a class="btn actualizar solo inline ttip" id="open-enviar-encuesta" teid="vo:title:78" href="enviar-votacion-recordatorio.php?idt='+idMongoFinal.$id+'"></a>';    
                 }
                 else
                 {
-                    var enlace = '<a class="btn resultados solo inline ttip" teid="en:title:10" href="resultado-votacion.php?idt='+idMongoFinal.$id+'"></a><a class="btn enviar solo inline ttip" teid="en:title:9" id="open-enviar-encuesta" href="enviar-votacion.php?idt='+idMongoFinal.$id+'"></a><a class="btn regresar solo inline ttip" id="open-enviar-encuesta" teid="en:title:9" href="enviar-votacion-recordatorio.php?idt='+idMongoFinal.$id+'"></a>';    
+                    var enlace = '<a class="btn resultados solo inline ttip" teid="en:title:10" href="resultado-votacion.php?idt='+idMongoFinal.$id+'"></a><a class="btn enviar solo inline ttip" teid="en:title:9" id="open-enviar-encuesta" href="enviar-votacion.php?idt='+idMongoFinal.$id+'"></a><a class="btn actualizar solo inline ttip" id="open-enviar-encuesta" teid="vo:title:78" href="enviar-votacion-recordatorio.php?idt='+idMongoFinal.$id+'"></a>';    
                 }
             }
                 t.row.add([

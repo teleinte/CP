@@ -33,133 +33,133 @@ require_once("app/Model/DBNosql_Model.php");
 //METODOS DE INSERCION
 
   //METODO CREAR TRANSACCIÓN - OK - OK
-  $app->options("/transaccion/", function() use($app)
-  {
-    enviarRespuesta($app, true, "ok", "ok");
-  });
+    $app->options("/transaccion/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
 
-  $app->post("/transaccion/", function() use($app)
-  {
-   try
+    $app->post("/transaccion/", function() use($app)
     {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;
-      if($token->SetToken($datos->token))
+     try
       {
-        if (validarFechaActiva($datos->body->id_copropiedad, $app, $datos->body->year, $datos->body->mes))
-          enviarInformacion('cont_'.$datos->body ->id_copropiedad, $datos->body, $app);
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+          if (validarFechaActiva($datos->body->id_copropiedad, $app, $datos->body->year, $datos->body->mes))
+            enviarInformacion('cont_'.$datos->body ->id_copropiedad, $datos->body, $app);
+          else
+            enviarRespuesta($app, false, "Periodo cerrado previamente", "null");
+        }
         else
-          enviarRespuesta($app, false, "Periodo cerrado previamente", "null");
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
       }
-      else
+      catch(Exception $e)
       {
-        enviarRespuesta($app, false, "Token invalido", "null");
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
       }
-    }
-    catch(Exception $e)
-    {
-      enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
-    }
-  });
+    });
 
   //METODO CREAR TRANSACCIÓN - OK - OK
-  $app->options("/obtener/transacciones/", function() use($app)
-  {
-    enviarRespuesta($app, true, "ok", "ok");
-  });
+    $app->options("/obtener/transacciones/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
 
-  $app->post("/obtener/transacciones/", function() use($app)
-  {
-   try
+    $app->post("/obtener/transacciones/", function() use($app)
     {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;
-      if($token->SetToken($datos->token))
+     try
       {
-          consultaColeccion($app,'cont_'.$datos->body->id_copropiedad, array("tipo_documento" => "transaccion"));
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+            consultaColeccion($app,'cont_'.$datos->body->id_copropiedad, array("tipo_documento" => "transaccion"));
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
       }
-      else
+      catch(Exception $e)
       {
-        enviarRespuesta($app, false, "Token invalido", "null");
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
       }
-    }
-    catch(Exception $e)
-    {
-      enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
-    }
-  });
+    });
   
   //METODO MODIFICAR TRANSACCIÓN - VALIDAR
-  $app->put("/transaccion/", function() use($app)
-  {
-   try
-  	{
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;
-      if($token->SetToken($datos->token))
-      {
-          if (validarFechaActiva($datos->body->id_copropiedad, $app, $datos->body->year, $datos->body->mes))
-          {
-              $idGuardado=$datos->body->id;
-              unset($datos->body->id);
-              $muestreo=array("_id"=>new MongoId($idGuardado));
-              $dbdata=new DBNosql('cont_'.$datos->body->idcopropiedad);
-              $array = json_decode(json_encode($datos), true);						
-              $result=$dbdata->updateDocument($muestreo, $datos->body);
-              if ($result){enviarRespuesta($app, true, $result, "null");}
-              else {enviarRespuesta($app, true, null, null);}
-          }
-          else
-            enviarRespuesta($app, false, "Periodo cerrado previamente", "null");
-      }
-      else{enviarRespuesta($app, false, "Token invalido", "Token invalidos");}
-  	}
-  	catch(Exception $e)
-  	{
-  		//echo "Error: " . $e->getMessage();
-  		enviarRespuesta($app, false, "Error Los Datos de la lista no concuerdan", $e->getMessage());
-  	}
-  });
+    $app->put("/transaccion/", function() use($app)
+    {
+     try
+    	{
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+            if (validarFechaActiva($datos->body->id_copropiedad, $app, $datos->body->year, $datos->body->mes))
+            {
+                $idGuardado=$datos->body->id;
+                unset($datos->body->id);
+                $muestreo=array("_id"=>new MongoId($idGuardado));
+                $dbdata=new DBNosql('cont_'.$datos->body->idcopropiedad);
+                $array = json_decode(json_encode($datos), true);						
+                $result=$dbdata->updateDocument($muestreo, $datos->body);
+                if ($result){enviarRespuesta($app, true, $result, "null");}
+                else {enviarRespuesta($app, true, null, null);}
+            }
+            else
+              enviarRespuesta($app, false, "Periodo cerrado previamente", "null");
+        }
+        else{enviarRespuesta($app, false, "Token invalido", "Token invalidos");}
+    	}
+    	catch(Exception $e)
+    	{
+    		//echo "Error: " . $e->getMessage();
+    		enviarRespuesta($app, false, "Error Los Datos de la lista no concuerdan", $e->getMessage());
+    	}
+    });
 
   //METODO MODIFICAR TRANSACCIÓN - VALIDAR
-  $app->put("/anular/transaccion/", function() use($app)
-  {
-   try
+    $app->put("/anular/transaccion/", function() use($app)
     {
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;
-      if($token->SetToken($datos->token))
+     try
       {
-          if (validarFechaActiva($datos->body->id_copropiedad, $app, $datos->body->year, $datos->body->mes))
-          {
-            $idGuardado=$datos->body->mongoid;
-            $aidi = $idGuardado;
-            unset($datos->body->mongoid);
-            $muestreo=array("_id"=>new MongoId($idGuardado));
-            $dbdata=new DBNosql('cont_'.$datos->body->id_copropiedad);
-            $array = json_decode(json_encode($datos), true);
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+            if (validarFechaActiva($datos->body->id_copropiedad, $app, $datos->body->year, $datos->body->mes))
+            {
+              $idGuardado=$datos->body->mongoid;
+              $aidi = $idGuardado;
+              unset($datos->body->mongoid);
+              $muestreo=array("_id"=>new MongoId($idGuardado));
+              $dbdata=new DBNosql('cont_'.$datos->body->id_copropiedad);
+              $array = json_decode(json_encode($datos), true);
 
-            $modificador=array('$set'=>array("anulado"=>"SI"));
-            
-            $result=$dbdata->updateDocument($muestreo,$modificador);
-            if ($result){enviarRespuesta($app, true, $result, 'null');}
-            else {enviarRespuesta($app, true, null,"no result");}
-          }
-          else
-            enviarRespuesta($app, false, "Periodo cerrado previamente", "null");
+              $modificador=array('$set'=>array("anulado"=>"SI"));
+              
+              $result=$dbdata->updateDocument($muestreo,$modificador);
+              if ($result){enviarRespuesta($app, true, $result, 'null');}
+              else {enviarRespuesta($app, true, null,"no result");}
+            }
+            else
+              enviarRespuesta($app, false, "Periodo cerrado previamente", "null");
+        }
+        else{enviarRespuesta($app, false, "Token invalido", "Token invalidos");}
       }
-      else{enviarRespuesta($app, false, "Token invalido", "Token invalidos");}
-    }
-    catch(Exception $e)
-    {
-      //echo "Error: " . $e->getMessage();
-      enviarRespuesta($app, false, "Error Los Datos de la lista no concuerdan", $e->getMessage());
-    }
-  });
+      catch(Exception $e)
+      {
+        //echo "Error: " . $e->getMessage();
+        enviarRespuesta($app, false, "Error Los Datos de la lista no concuerdan", $e->getMessage());
+      }
+    });
 
   //METODO CREAR REGISTRO DE BANCOS- OK - OK
     $app->options("/crearbancos/", function() use($app)
@@ -373,15 +373,6 @@ require_once("app/Model/DBNosql_Model.php");
       //   enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
       // }
     });
-
-
-
-
-
-
-
-
-
 
     //METODO CREAR REGISTRO - OK - OK
     $app->options("/registro/", function() use($app)
@@ -811,7 +802,7 @@ require_once("app/Model/DBNosql_Model.php");
       }
     });
 
-    //METODO CREAR PUC - OK - OK
+  //METODO CREAR PUC - OK - OK
     $app->options("/puc/", function() use($app)
     {
       enviarRespuesta($app, true, "ok", "ok");
@@ -839,7 +830,7 @@ require_once("app/Model/DBNosql_Model.php");
       }
     });
 
-    //METODO OBTENER PUC - OK - OK
+  //METODO OBTENER PUC - OK - OK
     $app->options("/obtener/puc/", function() use($app)
     {
       enviarRespuesta($app, true, "ok", "ok");
@@ -867,7 +858,7 @@ require_once("app/Model/DBNosql_Model.php");
       }
     });
 
-    //METODO ACTUALIZAR PUC  - OK
+  //METODO ACTUALIZAR PUC  - OK
     $app->put('/puc/', function() use($app)
     {
      try
@@ -974,7 +965,7 @@ require_once("app/Model/DBNosql_Model.php");
           // }
         });
 
-    //METODO ACTUALIZAR CONSECUTIVOS  - OK
+  //METODO ACTUALIZAR CONSECUTIVOS  - OK
     $app->put('/actualiza/consecutivo/', function() use($app)
     {
      try
@@ -1058,53 +1049,102 @@ require_once("app/Model/DBNosql_Model.php");
     });
 
   //GENERAR EL BALANCE DE PRUEBA - OK - OK (NUEVO BALANCE - DROPOUT METODO ANTERIOR
-  $app->options("/balance/pruebaintegrado/", function() use($app)
-  {
-    enviarRespuesta($app, true, "ok", "ok");
-  });
+    $app->options("/balance/pruebaintegrado/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
 
-  $app->post("/balance/pruebaintegrado/", function() use($app)
-  {
-   //try
-   //{
-      $requerimiento = $app::getInstance()->request();
-      $datos = json_decode($requerimiento->getBody());
-      $token = new Token;
-      if($token->SetToken($datos->token))
+    $app->post("/balance/pruebaintegrado/", function() use($app)
+    {
+      try
       {
-        $id_copropiedad = $datos->body->id_copropiedad;
-        if(isset($datos->body->tipo))
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
         {
-          if($datos->body->tipo)
+          $id_copropiedad = $datos->body->id_copropiedad;
+          if(isset($datos->body->tipo))
           {
-            $month_inicio = $datos->body->mesinicio;
-            $year_inicio = $datos->body->anoinicio;
-            $month_fin = $datos->body->mesfin;
-            $year_fin = $datos->body->anofin;
-            $respuesta = balancePruebaIntegrado($id_copropiedad, $app, $datos->body->tipo, $datos->body->mesinicio, $datos->body->anoinicio, $datos->body->mesfin, $datos->body->anofin);
+            if($datos->body->tipo)
+            {
+              $month_inicio = $datos->body->mesinicio;
+              $year_inicio = $datos->body->anoinicio;
+              $month_fin = $datos->body->mesfin;
+              $year_fin = $datos->body->anofin;
+              $respuesta = balancePruebaIntegrado($id_copropiedad, $app, $datos->body->tipo, $datos->body->mesinicio, $datos->body->anoinicio, $datos->body->mesfin, $datos->body->anofin);
+            }
+            else
+            {
+              $respuesta = balancePruebaIntegrado($id_copropiedad, $app, false);
+            }
           }
           else
           {
             $respuesta = balancePruebaIntegrado($id_copropiedad, $app, false);
           }
+
+          enviarRespuesta($app, true, $respuesta, "null");
         }
         else
         {
-          $respuesta = balancePruebaIntegrado($id_copropiedad, $app, false);
+          enviarRespuesta($app, false, "Token invalido", "null");
         }
-
-        enviarRespuesta($app, true, $respuesta, "null");
       }
-      else
+      catch(Exception $e)
       {
-        enviarRespuesta($app, false, "Token invalido", "null");
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
       }
-    //}
-    //catch(Exception $e)
-    //{
-    //  enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
-    //}
-  }); 
+    }); 
+
+  //GENERAR EL BALANCE DE PRUEBA - OK - OK
+    $app->options("/balance/auxiliar/", function() use($app)
+    {
+      enviarRespuesta($app, true, "ok", "ok");
+    });
+
+    $app->post("/balance/auxiliar/", function() use($app)
+    {
+      //try
+      //{
+        $requerimiento = $app::getInstance()->request();
+        $datos = json_decode($requerimiento->getBody());
+        $token = new Token;
+        if($token->SetToken($datos->token))
+        {
+          $id_copropiedad = $datos->body->id_copropiedad;
+          if(isset($datos->body->tipo))
+          {
+            if($datos->body->tipo)
+            {
+              $month_inicio = $datos->body->mesinicio;
+              $year_inicio = $datos->body->anoinicio;
+              $month_fin = $datos->body->mesfin;
+              $year_fin = $datos->body->anofin;
+              $respuesta = libroAuxiliar($id_copropiedad, $app, $datos->body->tipo, $datos->body->mesinicio, $datos->body->anoinicio, $datos->body->mesfin, $datos->body->anofin);
+            }
+            else
+            {
+              $respuesta = libroAuxiliar($id_copropiedad, $app, false);
+            }
+          }
+          else
+          {
+            $respuesta = libroAuxiliar($id_copropiedad, $app, false);
+          }
+
+          enviarRespuesta($app, true, $respuesta, "null");
+        }
+        else
+        {
+          enviarRespuesta($app, false, "Token invalido", "null");
+        }
+      /*}
+      catch(Exception $e)
+      {
+        enviarRespuesta($app, false, "Error al obtener la información", $e->getMessage());
+      }*/
+    }); 
 
   //GENERAR EL BALANCE DE PRUEBA POR PERIODOS- OK - OK
     $app->options("/balance/prueba/periodo/", function() use($app)
@@ -2187,6 +2227,11 @@ require_once("app/Model/DBNosql_Model.php");
       $balanceMenores = integradoTotalizarCuentas($registros, integradoObtenerInicial($balanceMenoresAnteriores), $puc);
       $balanceMayores = integradoTotalizar($balanceMenores);
       $rta = integradoLimpiarBalance(integradoIntegrarTotales($balanceMayores, $balanceMenores, $puc));
+      $terceros = integradoObtenerTerceros(objectToArray(consultaColeccionRetorno($appl, 'usuariocp', array('id_copropiedad'=>$idcopropiedad))));
+      //var_dump($terceros);
+      $cuentasterceros = integradoTotalizarTerceros($registros, $registrosanteriores, $terceros);
+      //var_dump($cuentasterceros);
+      $rta = integradoAgregarTerceros($rta, $cuentasterceros);
       ksort($rta, SORT_STRING);
     }
     //exit;
@@ -2499,6 +2544,9 @@ require_once("app/Model/DBNosql_Model.php");
         $elem['cuenta'] = $value['cuenta_puc'];
         $elem['monto'] = (int)$value['monto'];
         $elem['tipo'] = "SI";
+        $elem['tercero'] = "Saldo Inicial";
+        $elem['idtransaccion'] = "SI";
+        $elem['concepto'] = "Saldo Inicial";
         $out[$value['cuenta_puc']] = $elem;
       }
     }
@@ -2604,6 +2652,9 @@ require_once("app/Model/DBNosql_Model.php");
         $elem['cuenta'] = $value['cuenta_puc'];
         $elem['monto'] = (int)$value['monto'];
         $elem['tipo'] = $value['tipo'];
+        $elem['tercero'] = $value['id_tercero'];
+        $elem['idtransaccion'] = $value['id_transaccion'];
+        $elem['concepto'] = $value['concepto'];
         if(array_key_exists($value['cuenta_puc'],$out))
         {
           $out[$value['cuenta_puc']][] = $elem;
@@ -2839,4 +2890,317 @@ require_once("app/Model/DBNosql_Model.php");
           $salida[$key] = $value;
       }
     return $salida;
+  }
+
+  function integradoObtenerTerceros($personas)
+  {
+    $out = array();
+    if(count($personas) > 0)
+      foreach ($personas as $key => $value) 
+      {
+        $out[$value['id_crm_persona']] = $value['nombre'];
+      }
+    return $out;
+  }
+
+  function integradoTotalizarTerceros($registros, $registrosanteriores, $terceros)
+  {
+    $out = array();
+    //var_dump($registros);
+    //var_dump($registrosanteriores);
+    //if(array_key_exists($terceros[$value["tercero"]],$out[$value["cuenta"]]))
+    if(count($registros) > 0)
+      foreach ($registros as $k => $v)
+        foreach ($v as $key => $value)
+        {
+          //var_dump($value);
+          if(array_key_exists($value["cuenta"],$out))
+          {
+            if(array_key_exists($terceros[$value["tercero"]],$out[$value["cuenta"]]))
+            {
+              if(array_key_exists(strtolower ($value["tipo"]),$out[$value["cuenta"]][$terceros[$value["tercero"]]]))
+              {
+                $out[$value["cuenta"]][$terceros[$value["tercero"]]][strtolower($value["tipo"])] = $out[$value["cuenta"]][$terceros[$value["tercero"]]][strtolower ($value["tipo"])] + $value["monto"];
+              }
+              else
+              {
+                $out[$value["cuenta"]][$terceros[$value["tercero"]]][strtolower ($value["tipo"])] = $value["monto"];
+              }
+            }
+            else
+            {
+              $out[$value["cuenta"]][$terceros[$value["tercero"]]][strtolower ($value["tipo"])] = $value["monto"];
+            }
+          }
+          else
+          {
+            $out[$value["cuenta"]][$terceros[$value["tercero"]]][strtolower ($value["tipo"])] = $value["monto"];
+          }
+          /*if(array_key_exists($value["cuenta"],$out))
+          {
+            if(array_key_exists($value["tercero"],$out[$value["cuenta"]]))
+            {
+              if(array_key_exists($value["tipo"],$out[$value["cuenta"]][$value["tercero"]]))
+              {
+                $out[$value["cuenta"]][$value["tercero"]][$value["tipo"]] = $value["monto"];
+              }
+              else
+              {
+                $out[$value["cuenta"]][$value["tercero"]][$value["tipo"]] = $value["monto"];
+              }
+            }
+            else
+            {
+              $out[$value["cuenta"]][$value["tercero"]][$value["tipo"]] = $value["monto"];
+            }
+          }
+          else
+          {
+            $out[$value["cuenta"]][$value["tercero"]][$value["tipo"]] = $value["monto"];
+          }*/
+        }
+    return $out;
+  }
+
+  function integradoAgregarTerceros($balance, $terceros)
+  {
+    $out= array();
+    if(count($balance) > 0)
+      foreach ($balance as $key => $value) 
+      {
+        if(array_key_exists($key, $terceros))
+          $value["terceros"] = $terceros[$key];
+
+        $out[$key] = $value;
+      }
+    return $out;
+  }
+
+//FUNCIONES PARA LIBRO AUXILIAR
+  function libroAuxiliar($idcopropiedad, $appl, $tipo, $month_inicio=null, $year_inicio=null, $month_fin=null, $year_fin=null)
+  {
+    $rta = array();
+    $ultAno = obtieneUltimoCierreAnual($appl, $idcopropiedad);
+    $cierreano = json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"cierreanual", "periodo" => (string)$ultAno))));
+    $saldoinicial = integradoObtenerSaldosIniciales(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"saldosiniciales")))));
+    //var_dump($saldoinicial);
+    $puc = integradoObtenerPuc(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"puc")))));
+    $transacciones = auxiliarObtenerTransaccionesFecha(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"transaccion","anulado"=> "NO")))),$month_inicio, $month_fin, $year_inicio, $year_fin);
+    $transaccionesanteriores = auxiliarObtenerTransaccionesFechaAnterior(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array("tipo_documento"=>"transaccion","anulado"=> "NO")))),$month_inicio, $month_fin, $year_inicio, $year_fin);
+    $transacc = auxiliarObtenerTransacciones($transacciones);
+    $transaccAnt = auxiliarObtenerTransacciones($transaccionesanteriores);
+    //var_dump($transaccionesanteriores);
+    $registros = integradoObtenerRegistros(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array('tipo_documento'=>"registrocontable",'id_transaccion'=> array('$in'=> $transacc))))));
+    $registrosanteriores = integradoObtenerRegistros(json_decode(json_encode(consultaColeccionRetorno($appl, 'cont_'.$idcopropiedad, array('tipo_documento'=>"registrocontable",'id_transaccion'=> array('$in'=> $transaccAnt))))));
+    $transaccionescompletas = auxiliarTransaccionesCompletas($transacciones, $transaccionesanteriores, $registros, $registrosanteriores);
+    //var_dump($registros);
+    //var_dump($registrosanteriores);
+    //var_dump($transaccionescompletas);
+    $terceros = integradoObtenerTerceros(objectToArray(consultaColeccionRetorno($appl, 'usuariocp', array('id_copropiedad'=>$idcopropiedad))));
+    $informe = auxiliarOrganizarInforme($saldoinicial, $registros, $registrosanteriores, $transaccionescompletas, $terceros);
+    $informe = auxiliarTotalizarInforme($puc, $informe);
+    /*var_dump($transacciones);
+    var_dump($transaccionesanteriores);
+    var_dump($transacc);
+    var_dump($transaccAnt);*/
+
+    ksort($informe, SORT_STRING);
+
+    return $informe;
+  }
+
+  function auxiliarObtenerTransaccionesFecha($tx, $mes_inicio, $mes_fin, $year_inicio, $year_fin)
+  {
+    $out = array();
+    //var_dump($mes_inicio, $mes_fin, $year_inicio, $year_fin);
+    if($mes_fin == "12"){
+      $mes_fin = "01";
+      $year_fin = (int)$year_fin + 1;
+    }
+    $di = date_create($year_inicio . '-' . $mes_inicio . '-01');
+    $di = date_format($di, 'c');
+    //var_dump($di);
+    $de = date_create($year_fin . '-' . ((int)$mes_fin + 1) . '-01');
+    //var_dump($de);
+    $de = date_format($de, 'c');
+
+    if(count($tx)>0)
+    {
+      //var_dump($di);
+      //var_dump($de);
+      $doc = objectToArray($tx);
+
+      foreach ($doc as $key => $value) 
+      {
+        //var_dump($value);
+        if(array_key_exists("month",$value))
+          $d = date_create($value['year'] . '-' . $value['month'] . '-' . $value['day']);
+        else
+          $d = date_create($value['year'] . '-' . $value['mes'] . '-' . $value['day']);
+        $d = date_format($d, 'c');
+        //var_dump($d);
+        
+        if($d >= $di && $d <= $de)
+        {
+          $elem = array();
+          $elem["id_transaccion"] = $value['idtransaccion'];
+          $elem["fecha"] = explode("T",$d)[0];
+          $elem["tercero"] = $value['nombre_tercero'];
+          $elem["idtercero"] = $value['id_crm_tercero'];
+          $elem["concepto"] = $value['concepto_documento'];
+          $out[$value['idtransaccion']] = $elem;
+        }
+      }
+    }
+    //var_dump($tx);
+    return $out;
+  }
+
+  function auxiliarObtenerTransaccionesFechaAnterior($tx, $mes_inicio, $mes_fin, $year_inicio, $year_fin)
+  {
+    $out = array();
+    $di = date_create('2015-01-01');
+    $di = date_format($di, 'c');
+    $de = date_create($year_fin . '-' . $mes_inicio . '-01');
+    $de = date_format($de, 'c');
+
+    if(count($tx)>0)
+    {
+      //var_dump($di);
+      //var_dump($de);
+      $doc = objectToArray($tx);
+
+      foreach ($doc as $key => $value) 
+      {
+        if(array_key_exists("month",$value))
+          $d = date_create($value['year'] . '-' . $value['month'] . '-' . $value['day']);
+        else
+          $d = date_create($value['year'] . '-' . $value['mes'] . '-' . $value['day']);
+        $d = date_format($d, 'c');
+        //var_dump($d);
+        
+        if($d >= $di && $d <= $de)
+        {
+          $elem = array();
+          $elem["id_transaccion"] = $value['idtransaccion'];
+          $elem["fecha"] = $d;
+          $elem["tercero"] = $value['nombre_tercero'];
+          $elem["idtercero"] = $value['id_crm_tercero'];
+          $elem["concepto"] = $value['concepto_documento'];
+          $out[$value['idtransaccion']] = $elem;
+        }
+      }
+    }
+
+    return $out;
+  }
+
+  function auxiliarObtenerTransacciones($transacc)
+  {
+    $out = array();
+    if(count($transacc) > 0)
+      foreach ($transacc as $key => $value) {
+        $out[] = $value['id_transaccion'];
+      }
+    return $out;
+  }
+
+  function auxiliarTransaccionesCompletas($transacciones, $transaccionesanteriores, $registros, $registrosanteriores)
+  {
+    $out = array();
+    foreach ($transacciones as $key => $value) 
+    {
+      $elem = array();
+      $tran = $value;
+      foreach ($registros as $x => $y) 
+      foreach ($y as $k => $v) 
+      {
+        if($v["idtransaccion"] == $key)
+        {
+          $elem[] = $v;
+        }
+      }
+      $tran["registros"] = $elem;
+      $out[$key] = $tran;
+    }
+    return $out;
+  }
+
+  function auxiliarOrganizarInforme($saldosiniciales, $registros, $registrosanteriores, $transacciones, $terceros)
+  {
+    $out = array();
+    if(count($transacciones) > 0)
+    {
+      if(count($registros) > 0)
+      {
+        foreach ($registros as $x => $y) 
+        foreach ($y as $key => $value) 
+        {
+          //var_dump($value);
+          $elem = array();
+          $elem["idtransaccion"] = $value["idtransaccion"];
+          $elem["tercero"] = $terceros[$value["tercero"]];
+          $elem["monto"] = $value["monto"];
+          $elem["concepto"] = $value["concepto"];
+          $elem["tipo"] = $value["tipo"];
+          $elem["fecha"] = $transacciones[$value["idtransaccion"]]["fecha"];
+          $out[$value["cuenta"]]["registros"][] = $elem;
+        }
+      }
+
+      if(count($registrosanteriores) > 0)
+      {
+        foreach ($registros as $x => $y) 
+        foreach ($y as $key => $value) 
+        {
+          $elem = array();
+          $elem["idtransaccion"] = $value["idtransaccion"];
+          $elem["tercero"] = $terceros[$value["tercero"]];
+          $elem["monto"] = $value["monto"];
+          $elem["concepto"] = $value["concepto"];
+          $elem["tipo"] = $value["tipo"];
+          $elem["fecha"] = $transacciones[$value["idtransaccion"]]["fecha"];
+          $out[$value["cuenta"]]["registros"][] = $elem;
+        }
+      }
+
+      if(count($saldosiniciales) > 0)
+      {
+        foreach ($registros as $x => $y) 
+        foreach ($y as $key => $value) 
+        {
+          $elem = array();
+          $elem["idtransaccion"] = $value["idtransaccion"];
+          $elem["tercero"] = $terceros[$value["tercero"]];
+          $elem["monto"] = $value["monto"];
+          $elem["concepto"] = $value["concepto"];
+          $elem["tipo"] = $value["tipo"];
+          $elem["fecha"] = $transacciones[$value["idtransaccion"]]["fecha"];
+          $out[$value["cuenta"]]["registros"][] = $elem;
+        }
+      }
+    }
+    return $out;
+  }
+
+  function auxiliarTotalizarInforme($puc, $informe)
+  {
+    $out = array();
+    if(count($informe) > 0)
+    {
+      foreach ($informe as $key => $value) 
+      {
+      //var_dump($informe);
+        $elem = $value;
+        $elem["nombre"] = $puc[$key]["nombre"];
+        /*$total = 0;
+        foreach ($value["registros"] as $k => $v) 
+        {
+          $total = $total + $v['monto'];
+        }
+        $elem["total"] = $total;*/
+        $out[$key] = $elem;
+      }
+    }
+    return $out;
   }

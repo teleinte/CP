@@ -23,7 +23,9 @@ class Pago
 		private $merchantId="5002389";
 		public $apikey="6u39nqhq8ftd0hlvnjfs66eh8c9";
 		public $accountId="5005389";
-		public $test="1";
+		//public $test="1";
+		public $test="0";
+
 
 
 	public $referenceCode; 

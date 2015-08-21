@@ -12,11 +12,11 @@ function popularTabla(datos)
 						principal ='Si';
 					t.row.add([
 						'',
+						y['unidad'],
 						y['nombre'],
 						y['email'],
 						y['telefono'],
 						y['grupo'],
-						y['unidad'],
 						principal
 						]).draw();
 					
@@ -35,11 +35,11 @@ function popularTablaProveedores(datos)
 					var t = $('#directorio_table').DataTable(); 
 					t.row.add([
 						'',
+						y['unidad'],
 						y['nombre'],
 						y['email'],
 						y['telefono'],
-						y['grupo'],
-						y['unidad']
+						y['grupo']
 						]).draw();
 					
 					$(document).renderme('sp');

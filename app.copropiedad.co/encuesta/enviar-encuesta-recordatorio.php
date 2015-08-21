@@ -35,7 +35,7 @@
             <div class="contenedor mitad">
               <!-- Codigo de la aplicacion -->
             <div class="titulo-principal">
-              <h1 class="title encuestas" teid="en:html:68"></h1>
+              <h1 class="title encuestas" teid="en:html:91"></h1>
             </div>
             <?php require_once('../template/include/alerts.inc'); ?>
               <div class="clearfix">

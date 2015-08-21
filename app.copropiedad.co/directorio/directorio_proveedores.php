@@ -40,12 +40,12 @@
                     <thead>
                         <tr>
                             <th></th>
+                            <th>Empresa</th>
                             <th>Nombre</th>
                             <th>Email</th>
                             <th>Teléfono</th>
                             <!--<th>Tipo de Contacto</th>-->
                             <th>Grupo</th>
-                            <th>Empresa</th>
                         </tr>
                     </thead>
                     <tbody>

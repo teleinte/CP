@@ -246,7 +246,7 @@ $(document).ready(function()
               };
       }
       var url = "contabilidad/saldosiniciales";
-      alert(JSON.stringify(arr));
+      //alert(JSON.stringify(arr));
       var response = envioFormularioSync(url,arr,'POST');
       if(response)
       {

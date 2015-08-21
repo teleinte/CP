@@ -113,7 +113,7 @@ else
             $j++;
         }
 
-        $k=1;   
+        $y=1;   
         $x=0;
         $sumador2=0;
         while($k<count($unitario))

@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    $("#alertas").html('<div class="alert alert-dismissable alert-info"<h4 teid="en:html:90"></h4><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button></div>');  
-    $(document).renderme('enc');
+    $("#alertas").html('<div class="alert alert-dismissable alert-info"><h4 teid="en:html:90"></h4><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button></div>');  
+    $(document).renderme('en');
       $("#regreso").hide();
       var params={};window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(str,key,value){params[key] = value;})
       var arr = {token:sessionStorage.getItem('token'),body:{_id:params['idt']}};
